@@ -13,13 +13,18 @@ return require("packer").startup(function(use)
         -- Common utilities
         use("nvim-lua/plenary.nvim")
 
-        -- Icons
+        -- Icons 
         use("nvim-tree/nvim-web-devicons")
 
-        -- Colorscheme
+        -- Colorscheme 
         use("rebelot/kanagawa.nvim")
+	use("morhetz/gruvbox")
 
-        -- Statusline
+        -- Ale for betty linter
+        use("dense-analysis/ale")
+        use("bstevary/betty-in-vim")
+
+        -- Statusline 
         use({
                 "nvim-lualine/lualine.nvim",
                 event = "BufEnter",

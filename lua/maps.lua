@@ -31,6 +31,7 @@ map("n", "<leader>b", "<CMD>split<CR>")
 --NeoTree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
 map("n", "<leader>o", "<CMD>Neotree focus<CR>")
+map("n", "<leader>f", "<CMD>Neotree float<CR>")
 
 --Buffers
 map("n", "<TAB>", "<CMD>bnext<CR>")
@@ -39,6 +40,7 @@ map("n", "<S-TAB>", "<CMD>bprevious<CR>")
 --Terminal
 map("n", "<leader>th", "<CMD>ToggleTerm size=10 direction=horizontal<CR>")
 map("n", "<leader>tv", "<CMD>ToggleTerm size=80 direction=vertical<CR>")
+map("n", "<leader>tf", "<CMD>ToggleTerm<CR>")
 
 --Markdown Preiview
 map("n", "<leader>m", "<CMD>MarkdownPreview<CR>")
@@ -61,3 +63,11 @@ map("n", "<leader>s", "<CMD>%source<CR>")
 
 --Transparency
 map("n", "<leader>ts", "<CMD>TransparentToggle<CR>")
+
+--Spelling mstake
+map("n", "<leader>sp", "<CMD>setlocal spell! spelllang=en_gb<CR>", { noremap = true })
+
+-- Autocorrect the wholebuffer
+map("n", "<leader>,", 'gg=G', { noremap = true })
+map("i", "<C-f>", "<CMD>CustomSubstitute<CR>")
+

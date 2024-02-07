@@ -8,7 +8,6 @@ masonlsp.setup({
 	automatic_installation = true,
 	ensure_installed = {
 		"cssls",
-    "clangd",
 		"eslint",
 		"html",
 		"jsonls",
