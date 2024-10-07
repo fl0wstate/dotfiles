@@ -1,7 +1,0 @@
-[
-  {
-    "directory": ".",
-    "command": "gcc -Wall -Wextra -std=gnu89 -o a main.c function.c",
-    "file": "main.c"
-  }
-]
