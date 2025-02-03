@@ -1,0 +1,31 @@
+#
+#Set Colors
+#
+
+bold=$(tput bold)
+underline=$(tput sgr 0 1)
+reset=$(tput sgr0)
+
+purple=$(tput setaf 171)
+red=$(tput setaf 1)
+green=$(tput setaf 76)
+tan=$(tput setaf 3)
+blue=$(tput setaf 38)
+
+
+#
+# Functions
+#
+seek_confirmation() {
+  printf "\n${bold}$@${reset}"
+  read -p " (y/n) " -n 1
+  printf "\n"
+}
+
+# Test whether the result of an 'ask' is a confirmation
+is_confirmed() {
+if [[ "$REPLY" =~ ^[Yy]$ ]]; then
+  return 0
+fi
+return 1
+}
