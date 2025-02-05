@@ -1,9 +1,33 @@
-   ________                 __        ___      __  ____ __      
-  / _/ / _ \_    ________ _/ /____   / _ \___ / /_/ _(_/ ___ ___
- / _/ / // | |/|/ (_-/ _ `/ __/ -_) / // / _ / __/ _/ / / -_(_-<
-/_//_/\___/|__,__/___\_,_/\__/\__/ /____/\___\__/_//_/_/\__/___/
 
----
-- Still at the early stages of making it more useful
-- Mostly nvm configs are focused on web-dev tools i use mostly
-- Good luck having fun with the config files
+  ███████▓    ▒█████  █     █░ ██████▄▄▄█████▓ ██████ ▄▄▄    ▄▄▄█████▓█████    ▓█████▄ ▒█████ ▄▄▄█████▓ ███████▓██▓   ▓█████  ██████ 
+▓██   ▓██▒   ▒██▒  ██▓█░ █ ░█▒██    ▒▓  ██▒ ▓▒██    ▒▒████▄  ▓  ██▒ ▓▓█   ▀    ▒██▀ ██▒██▒  ██▓  ██▒ ▓▓██   ▓██▓██▒   ▓█   ▀▒██    ▒ 
+▒████ ▒██░   ▒██░  ██▒█░ █ ░█░ ▓██▄  ▒ ▓██░ ▒░ ▓██▄  ▒██  ▀█▄▒ ▓██░ ▒▒███      ░██   █▒██░  ██▒ ▓██░ ▒▒████ ▒██▒██░   ▒███  ░ ▓██▄   
+░▓█▒  ▒██░   ▒██   ██░█░ █ ░█  ▒   ██░ ▓██▓ ░  ▒   ██░██▄▄▄▄█░ ▓██▓ ░▒▓█  ▄    ░▓█▄   ▒██   ██░ ▓██▓ ░░▓█▒  ░██▒██░   ▒▓█  ▄  ▒   ██▒
+░▒█░  ░██████░ ████▓▒░░██▒██▓▒██████▒▒ ▒██▒ ░▒██████▒▒▓█   ▓██▒▒██▒ ░░▒████▒   ░▒████▓░ ████▓▒░ ▒██▒ ░░▒█░  ░██░██████░▒████▒██████▒▒
+ ▒ ░  ░ ▒░▓  ░ ▒░▒░▒░░ ▓░▒ ▒ ▒ ▒▓▒ ▒ ░ ▒ ░░  ▒ ▒▓▒ ▒ ░▒▒   ▓▒█░▒ ░░  ░░ ▒░ ░    ▒▒▓  ▒░ ▒░▒░▒░  ▒ ░░   ▒ ░  ░▓ ░ ▒░▓  ░░ ▒░ ▒ ▒▓▒ ▒ ░
+ ░    ░ ░ ▒  ░ ░ ▒ ▒░  ▒ ░ ░ ░ ░▒  ░ ░   ░   ░ ░▒  ░ ░ ▒   ▒▒ ░  ░    ░ ░  ░    ░ ▒  ▒  ░ ▒ ▒░    ░    ░     ▒ ░ ░ ▒  ░░ ░  ░ ░▒  ░ ░
+ ░ ░    ░ ░  ░ ░ ░ ▒   ░   ░ ░  ░  ░   ░     ░  ░  ░   ░   ▒   ░        ░       ░ ░  ░░ ░ ░ ▒   ░      ░ ░   ▒ ░ ░ ░     ░  ░  ░  ░  
+          ░  ░   ░ ░     ░         ░               ░       ░  ░         ░  ░      ░       ░ ░                ░     ░  ░  ░  ░     ░  
+                                                                                ░                                                    
+
+# Dotfiles
+
+My personal configuration files for various tools and applications i run on arch Linux.
+
+Include some images of your config files
+
+## 📦 Included Configurations
+
+- **Shell**: bash
+- **Terminal**: ghostty
+- **Editor**: neovim 
+- **Window Manager**: i3-wm
+- **Other**: picom, ranger, rofi 
+- **Wallpapers**: [Wallhaven](https://wallhaven.cc)
+
+## 🛠️ Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/repo.git ~/.dotfiles
+   ```

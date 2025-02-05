@@ -1,0 +1,61 @@
+configuration {
+ display-drun: "Apps";
+ display-window: "Windows";
+ drun-display-format: "{icon} {name}";
+ font: "SpaceMono Nerd Font Propo 16";
+ modi: "window,run,drun";
+ show-icons: true;
+ icon-theme: "Papirus";
+ icon-size: 12;
+}
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+
+window {
+    transparent: "real";
+    background-color: rgba (45, 48, 59, 70 %);  // Set the window background color
+    border: 0;                                   // Remove the border
+    padding: 30;                                 // Set padding
+    width: 30%;
+}
+
+listview {
+    lines: 10;                                   // Set the number of lines
+}
+
+mainbox {
+    border: 0;                                   // Remove the border
+    padding: 0;                                  // Remove padding
+}
+
+message {
+    border: 2px 0px 0px ;                        // Set the border for messages
+    border-color: rgba(45, 48, 50, 70 %);      // Set the border color
+    padding: 1px ;                               // Set padding
+}
+
+textbox {
+    text-color: white;    // Set the text color
+
+}
+
+listview {
+    fixed-height: 0;                             // Set fixed height
+    border: 8px 0px 0px ;                        // Set the border
+    border-color: rgba (45, 48, 59, 70 %);      // Set the border color
+    spacing: 8px ;                               // Set spacing
+    scrollbar: false;                            // Disable scrollbar
+    padding: 2px 0px 0px ;                       // Set padding
+}
+
+element {
+    border: 0;                                   // Remove the border
+    padding: 10px ;                               // Set padding
+    background-color: rgba(0, 0, 0, 70 %);
+}
+
+element-text {
+    background-color: rgba(45, 48, 50, 70 %);                   // Inherit background color
+    text-color: white;                         // Inherit text color
+}

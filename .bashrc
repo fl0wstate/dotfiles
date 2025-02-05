@@ -1,5 +1,5 @@
 #
-# ~/.bashrc
+# Flowstate Bash Config
 #
 
 # If not running interactively, don't do anything
@@ -8,53 +8,58 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 set -o vi
 # for xclip
-export DISPLAY=localhost:10.0
+export DISPLAY=:0
+export EDITOR='nvim'
+export TERMINAL=/usr/bin/ghostty
 export LIBGL_ALWAYS_INDIRECT=1
-source ~/.bash_utils
 
-#---------------------------------------
+# Utils ---------------------------------
+source ~/.bash_utils
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
+#----------------------------------------
 # Bash Aliases
 alias ls='ls --color=auto'
+alias cl='clear'
 alias tsrc='nvim ~/.config/tmux/tmux.conf'
 alias mb=access_database
-alias pep=penv
 alias conf='cd ~/.config/nvim/'
 alias env=environment_activator
-alias fix=fix
 alias grep='grep --color=auto'
 alias vi='nvim'
-alias conf='cd $HOME/.config/nvim/lua'
+alias iconf='nvim $HOME/.config/i3/config'
+alias gconf='nvim ~/.config/ghostty/config'
+alias pconf='nvim ~/.config/picom/picom.conf'
+alias rconf='nvim ~/.config/rofi/config.rasi'
+alias raconf='nvim ~/.config/ranger/ranger.conf'
+alias nconf='nvim ~/.config/neofetch/config.conf'
+alias vconf='nvim ~/.config/nvim/lua'
 alias ll='ls -la'
 alias l="ls -Gha"
 alias vb='nvim ~/.bashrc'
 alias nv='nvim'
 alias rd=readmefile
-alias vconf='nvim ~/.config/nvim/lua/maps.lua'
-alias pac='sudo pacman -Syy'
+alias pac='sudo pacman -Syuy'
+alias aur='yay -S $@'
 alias load='curl -LO $@'
-alias pkg=package_list
-alias install=param
-alias search=search_package
-alias pl=pycode_style_checker
-alias bl=betty_style_checker
+alias install='sudo pacman -S $@'
+alias search='sudo pacman -Ss --verbose'
 alias py='python3 -q'
 alias lv=level_deep
-alias sysup='sudo pacman -Syu -y'
 alias update='git pull'
 alias lgit='exa --long --header --inode --git'
 alias ls='exa --icons'
 alias gbc=git_checkout_braches
 alias vm=multipile_files
-alias ds=delete_swap_files
-alias gt='bash ~/.config/gt.sh'
+alias ds='rm -vr ~/.local/state/nvim/swap//%home%archmk%"$1".swp'
+alias gt='ghostty +list-themes'
 alias val=valgrind_checker
-alias ts=task
 alias fl=create_open_executable_file
 alias sh='nvim ~/.ssh/config'
 alias bug=fun
 alias tssh=ssh_file_transfer
 alias clean='rm -rf $PWD/__pycache__'
-alias es=easy_read
 alias src='source ~/.bashrc'
 alias remove=rmv
 alias tui='textual run --dev $@'
@@ -91,22 +96,6 @@ function level_deep {
   exa --long --tree --level="${1:-1}"
 }
 
-param() {
-  sudo pacman -S --verbose -y "$1"
-}
-
-search_package() {
-  sudo pacman -Ss --verbose "$1"
-}
-
-pycode_style_checker() {
-  pycodestlye "$1"
-}
-
-betty_style_checker() {
-  betty "$1"
-}
-
 git_checkout_braches() {
   git checkout "$1"
 }
@@ -125,37 +114,20 @@ valgrind_checker() {
   valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all -v "$@"
 }
 
-delete_swap_files() {
-  rm -vr ~/.local/state/nvim/swap//%home%archmk%"$1".swp
-}
-#--------------------------------------------#
-# Example of a Linux Nerd PSI
-
-# Function to get system load
-function parse_system_load {
-  LOAD=$(uptime | awk '{print $10}' | sed 's/,//')
-  echo " $LOAD"
-}
-
-# Combining all into a PSI
-# export PS1="\[\e[32m\]\$(parse_current_dir) \[\e[33m\]\$(parse_git_dirty) \[\e[34m\]\$(parse_system_load)\[\e[0m\] \$ "
-# ----------------------------------------------
+# Prompt Style ----------------------------------------------
 export PROMPTS=(
-  "∮"
-  "∯"
-  ""
-  ""
-  "λ"
+  " "
+  "λ "
+  "󰘧 "
+  "∑ "
+  " "
 )
 export RANDOM=$(date +%s)
 export ignition=${PROMPTS[$((RANDOM % ${#PROMPTS[@]}))]}
-# ----------------------------------------------
 
-# Profile
-export PS1="\[\e[0;32m\]${YELLOW}\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\]\n${blue}${ignition}${reset}${white} "
-# export PS1="${YELLOW}\w ${LIGHT_RED}(\t):\`nonzero_return\`\n${RED}${delta}\[\e[m\]\[\e[34m\]\`parse_git_branch\`\[\e[m\] "
+# Profile ---------------------------------------------------
+export PS1="\[\e[0;32m\]${YELLOW}\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\]\n${blue}${ignition}${reset}${white}"
 
-# get current branch in git repo
 function parse_git_branch() {
   BRANCH=$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
   if [ ! "${BRANCH}" == "" ]; then
@@ -166,7 +138,6 @@ function parse_git_branch() {
   fi
 }
 
-#----
 function parse_git_dirty {
   STATUS="$(git status --porcelain 2>/dev/null)"
   if [[ $? -ne 0 ]]; then
@@ -196,12 +167,13 @@ function parse_git_dirty {
     printf " 🧹"
   fi
 }
-#----
 
 function nonzero_return() {
   RETVAL=$?
   [ $RETVAL -ne 0 ] && echo "$RETVAL"
 }
+#--------------------------------------------------------------------------------
+
 function environment_activator {
   source "$1"/bin/activate
 }
@@ -214,40 +186,70 @@ function create_open_executable_file {
   fi
 }
 
-ssh_file_transfer() {
+# fzf -----------------------------------------------------------------------------------------
+selection=$(
+  find -type d 2>/dev/null | fzf --multi --reverse --height=80% \
+    --preview='exa --long --tree --level=3 --color=always --no-permissions --no-filesize --no-time --no-user  {}' --preview-window='45%,border-sharp' \
+    --prompt='  ' \
+    --bind='del:execute(rm -ri {+})' \
+    --bind='ctrl-p:toggle-preview' \
+    --bind='ctrl-d:change-prompt(Dirs > )' \
+    --bind='ctrl-d:+reload(find -type d)' \
+    --bind='ctrl-d:+change-preview(exa --long --tree --level=3 --color=always --no-permissions --no-filesize --no-time --no-user {})' \
+    --bind='ctrl-d:+refresh-preview' \
+    --bind='ctrl-f:change-prompt(Files > )' \
+    --bind='ctrl-f:+reload(find -type f)' \
+    --bind='ctrl-f:+change-preview(bat --color=always {})' \
+    --bind='ctrl-f:+refresh-preview' \
+    --bind='ctrl-a:select-all' \
+    --bind='ctrl-x:deselect-all' \
+    --header '
 
-  PATH_TO_FILE="$1"
-  IP1=54.197.44.154 # web-01
-  IP2=52.23.212.226 # web-02
-  IP3=54.236.45.118 # loadbalancer
 
-  USERNAME="ubuntu"
-  PATH_TO_SSH_KEY="$HOME/.ssh/id_rsa"
+  ███████▓    ▒█████  █     █░ █████▒███████▒
+▓██   ▓██▒   ▒██▒  ██▓█░ █ ░█▓██   ▒▒ ▒ ▒ ▄▀░
+▒████ ▒██░   ▒██░  ██▒█░ █ ░█▒████ ░░ ▒ ▄▀▒░ 
+░▓█▒  ▒██░   ▒██   ██░█░ █ ░█░▓█▒  ░  ▄▀▒   ░
+░▒█░  ░██████░ ████▓▒░░██▒██▓░▒█░   ▒███████▒
+ ▒ ░  ░ ▒░▓  ░ ▒░▒░▒░░ ▓░▒ ▒  ▒ ░   ░▒▒ ▓░▒░▒
+ ░    ░ ░ ▒  ░ ░ ▒ ▒░  ▒ ░ ░  ░     ░░▒ ▒ ░ ▒
+ ░ ░    ░ ░  ░ ░ ░ ▒   ░   ░  ░ ░   ░ ░ ░ ░ ░
+          ░  ░   ░ ░     ░            ░ ░    
+ CTRL-d to display directories
+ CTRL-f to display files
+ CTRL-a to select all
+ CTRL-x to deselect all
+ CTRL-p to toggle preview
+ ENTER to edit | DEL to delete
+ '
+)
 
-  # check for valid number of command line arguments
-  if [[ $# -le 1 ]]; then
-    echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+OPTS=(
+  "FZF_CTRL_T_OPTS"
+  "FZF_CTRL_R_OPTS"
+  "FZF_ALT_C_OPTS"
+)
+
+for opt in "${OPTS[@]}"; do
+  export "$opt"="--height 60% \
+  --layout reverse \
+  --prompt '∷ ' \
+  --pointer ▶ \
+  --marker ⇒"
+done
+
+# Determine what to do depending on the selection
+if [ -d "$selection" ]; then
+  cd "$selection" || exit
+else
+  if [ -z $selection ]; then
+    echo "No file selected!"
   else
-    if [[ $2 == 1 ]]; then
-      printf %s "Trasferring file to 307078-web-01 @$IP1"
-      echo ""
-      scp -o 'StrictHostKeyChecking=off' -o "IdentityFile=$PATH_TO_SSH_KEY" "$PATH_TO_FILE" "$USERNAME"@"$IP1":~/
-
-    elif [[ $2 == 2 ]]; then
-      printf %s "Trasferring file to 307078-web-02 @$IP2"
-      echo ""
-      scp -o 'StrictHostKeyChecking=off' -o "IdentityFile=$PATH_TO_SSH_KEY" "$PATH_TO_FILE" "$USERNAME"@"$IP2":~/
-
-    elif [[ $2 == 3 ]]; then
-      printf %s "Trasferring file to 307078-lb-01 @$IP3"
-      echo ""
-      scp -o 'StrictHostKeyChecking=off' -o "IdentityFile=$PATH_TO_SSH_KEY" "$PATH_TO_FILE" "$USERNAME"@"$IP3":~/
-    else
-      printf "%s\n" "No IP configured for that option"
-    fi
+    eval "$EDITOR $selection"
   fi
-}
+fi
 
 # uv
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 # export PATH="/home/archmkk/getCracked/cmd-pamodoro/asciigen/zig-out/bin/asciigen"
+export TERM=xterm-256color
