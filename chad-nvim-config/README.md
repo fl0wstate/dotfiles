@@ -4,6 +4,11 @@
 - So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
 - So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
 
-# Credits
-
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+# installation
+- `git clone https://github.com/fl0wstate/dotfiles/tree/main/chad-nvim-config`
+- once you're done cloning the repo, rename the folder to `nvim`.
+- `mv chad-nvim-config nvim`.
+- move the folder to this directory, which is in your home directory.
+- `cp -r nvim ~/.config/`
+- once you are done moving the folder, `cd ~` back home and run nvim.
+- and you are all set to go.
