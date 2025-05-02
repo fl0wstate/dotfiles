@@ -52,6 +52,6 @@ window-padding-y = 4
 window-colorspace = "display-p3" 
 mouse-hide-while-typing = true 
 mouse-scroll-multiplier = 2
-theme = GruvboxDarkHard 
+theme = Solarized Dark Higher Contrast
 background-opacity = 0.85
 font-thicken = true

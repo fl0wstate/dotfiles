@@ -11,7 +11,7 @@
 
 set $mod Mod4
 # FONT
-font pango:SpaceMono Nerd Font 14
+font pango:ibm plex mono 14
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -62,10 +62,10 @@ bindsym $mod+Tab exec --no-startup-id rofi -show window
 # bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+l focus left
+bindsym $mod+h focus left
 bindsym $mod+k focus down
 bindsym $mod+j focus up
-bindsym $mod+h focus right
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -74,10 +74,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -238,3 +238,17 @@ client.background        $base
 exec_always nitrogen --restore
 exec_always --no-startup-id picom
 
+
+# flameshot keybindings
+bindsym Print exec flameshot gui
+
+#set $app_picker App picker (f) flameshot
+
+#mode "$app_picker" {
+#    bindsym f exec --no-startup-id flameshot gui, mode "default"
+#
+#    bindsym Return mode "default"
+#    bindsym Escape mode "default"
+#  }
+
+#bindsym $mod+Shift+d mode "$app_picker"

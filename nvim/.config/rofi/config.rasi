@@ -1,0 +1,100 @@
+// GLOBAL
+* {
+    selected-normal-foreground:  rgba ( 2, 20, 63, 100 % );
+    foreground:                  rgba ( 219, 223, 188, 100 % );
+    normal-foreground:           @foreground;
+    alternate-normal-background: rgba ( 0, 0, 0, 0 % );
+    red:                         rgba ( 220, 50, 47, 100 % );
+    selected-urgent-foreground:  rgba ( 2, 20, 63, 100 % );
+    blue:                        rgba ( 38, 139, 210, 100 % );
+    urgent-foreground:           rgba ( 255, 129, 255, 100 % );
+    alternate-urgent-background: rgba ( 0, 0, 0, 0 % );
+    active-foreground:           rgba ( 138, 196, 255, 100 % );
+    lightbg:                     rgba ( 238, 232, 213, 100 % );
+    selected-active-foreground:  rgba ( 2, 20, 63, 100 % );
+    alternate-active-background: rgba ( 0, 0, 0, 0 % );
+    background:                  rgba ( 0, 0, 33, 87 % );
+    bordercolor:                 rgba ( 219, 223, 188, 100 % );
+    alternate-normal-foreground: @foreground;
+    normal-background:           rgba ( 0, 0, 208, 0 % );
+    lightfg:                     rgba ( 88, 104, 117, 100 % );
+    selected-normal-background:  rgba ( 219, 223, 188, 100 % );
+    border-color:                @foreground;
+    spacing:                     2;
+    separatorcolor:              rgba ( 219, 223, 188, 100 % );
+    urgent-background:           rgba ( 0, 0, 208, 0 % );
+    selected-urgent-background:  rgba ( 255, 129, 127, 100 % );
+    alternate-urgent-foreground: @urgent-foreground;
+    background-color:            rgba ( 0, 0, 0, 0 % );
+    alternate-active-foreground: @active-foreground;
+    active-background:           rgba ( 0, 0, 208, 0 % );
+    selected-active-background:  rgba ( 138, 196, 255, 100 % );
+}
+
+
+
+configuration {
+ display-drun: "Apps";
+ display-window: "Windows";
+ drun-display-format: "{icon} {name}";
+ font: "SpaceMono Nerd Font Propo 18";
+ modi: "window,run,drun";
+ show-icons: true;
+ icon-theme: "Papirus";
+ icon-size: 19;
+}
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
+
+
+window {
+    transparent: "real";
+    // background-color: rgba (45, 48, 59, 70 %);  // Set the window background color
+    background-color: #002b36;
+    border: 0;                                   // Remove the border
+    padding: 30;                                 // Set padding
+    width: 30%;
+}
+
+listview {
+    lines: 10;                                   // Set the number of lines
+}
+
+mainbox {
+    border: 0;                                   // Remove the border
+    padding: 0;                                  // Remove padding
+}
+
+message {
+    border: 2px 0px 0px ;                        // Set the border for messages
+    border-color: rgba(45, 48, 50, 70 %);      // Set the border color
+    padding: 1px ;                               // Set padding
+}
+
+textbox {
+    text-color: @foreground;    // Set the text color
+}
+
+listview {
+    fixed-height: 0;                             // Set fixed height
+    border: 8px 0px 0px ;                        // Set the border
+    border-color: rgba (45, 48, 59, 70 %);      // Set the border color
+    spacing: 8px ;                               // Set spacing
+    scrollbar: false;                            // Disable scrollbar
+    padding: 2px 0px 0px ;                       // Set padding
+}
+
+element {
+    border: 0;                                   // Remove the border
+    padding: 15px ;                               // Set padding
+    background-color: black;
+}
+
+element-text {
+    // background-color: rgba(45, 48, 50, 70 %);                   // Inherit background color
+    text-color: white;                         // Inherit text color
+}
+
+element.selected.normal {
+  background-color: #b58900;
+}
