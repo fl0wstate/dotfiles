@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "assets/icon128.png",
+         "32": "assets/icon32.png",
+         "64": "assets/icon64.png"
+      },
+      "default_popup": "popup/index.html",
+      "default_title": "Youtube-shorts block"
+   },
+   "content_scripts": [ {
+      "css": [ "main.css" ],
+      "js": [ "main.js" ],
+      "matches": [ "*://*.youtube.com/*", "*://m.youtube.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_ext_desc__",
+   "icons": {
+      "128": "assets/icon128.png",
+      "32": "assets/icon32.png",
+      "64": "assets/icon64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjGCp0hmp1LUCbZRBNO2fysoBNua0/nTo4S30pNEN8kY8WhOmD+1YUPpqP6ZvlYPKfkMBD90HBYhO9xbxcrBeAaPcHrph/rOZOGSaGLXZBjMDNnZpBtFVbtiDdWOm/V9AWf8DVhOVmav+N/iOgrWi+ENnXR9H8I1ayqdANRF0rdmg0cTs2eGUxKS3i8rpLbaH5fHHErGJHDKH26iziSiRpYk29H8+18t9vXZZjFd4HI+0iXibkvzVFeisR/F5AlYi8IJOKKpJQ3HL8MD3Zx2DX05WoCOVIVj/TQ6Gq6wBsO0Fz/bngpBTxPfRDnaRgAFc6F7Gk7mu+fA3N43yApqBnwIDAQAB",
+   "manifest_version": 3,
+   "name": "Youtube-shorts block",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.3",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "assets/to_normal.svg" ]
+   } ]
+}

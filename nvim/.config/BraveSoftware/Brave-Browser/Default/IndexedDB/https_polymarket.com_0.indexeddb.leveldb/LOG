@@ -1,0 +1,6 @@
+2025/02/18-05:25:52.766 3be Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_polymarket.com_0.indexeddb.leveldb since it was missing.
+2025/02/18-05:25:52.776 3be Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_polymarket.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/18-06:08:36.928 3c8 Level-0 table #5: started
+2025/02/18-06:08:36.931 3c8 Level-0 table #5: 1765 bytes OK
+2025/02/18-06:08:36.938 3c8 Delete type=0 #3
+2025/02/18-06:08:36.939 3c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

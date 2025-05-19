@@ -1,0 +1,33 @@
+{
+   "action": {
+      "default_icon": {
+         "19": "assets/icon19.png",
+         "38": "assets/icon38.png"
+      }
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "chromeos": "Alt+P",
+            "linux": "Alt+P",
+            "mac": "Alt+P",
+            "windows": "Alt+P"
+         }
+      }
+   },
+   "description": "Watch video using Picture-in-Picture",
+   "differential_fingerprint": "1.35a58d7c01fdcf22c856998ae7e71bef63d4677c2153937009bfbd040e396867",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "assets/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv8eLaJQ6wOCJcEAwbGwvMwYd5mriEwIGINwnkCS9wXMJjAV+z6MbVdrjWYH9z/wV21wqFH3Mh/Rs3Yu9X6IydWzjw1L/ZSGY36zW1oev9wkCo3p9IlWQkZrRzfwtEMA6hhzNTsReb5/zD9EfgqCZPvw37vyFCrXcpmmgP5fR7ge2yiDvA625yvdw0cQQwEkiTrFKhRrVzvHmTHGne8GFOv77pz2HYySElt/SYq1dYeiNliDR4k40BrupgtrNnUWOZlMKa5olXJD4zTPykfcnqORUcV7qIOwvygJJ2edDQDW1GyO7NiH9GYR8QCiHVnHA5ipjRm8ui+IdwZRRiYdQ9QIDAQAB",
+   "manifest_version": 3,
+   "name": "Picture-in-Picture Extension (by Google)",
+   "permissions": [ "contextMenus", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.14"
+}

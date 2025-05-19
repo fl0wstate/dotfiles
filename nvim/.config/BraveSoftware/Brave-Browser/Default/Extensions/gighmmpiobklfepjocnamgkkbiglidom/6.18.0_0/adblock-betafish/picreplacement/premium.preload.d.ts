@@ -1,0 +1,16 @@
+declare function isAuthRequestEvent(event: Event): boolean;
+declare function isTrustedEvent(event: Event): boolean;
+declare function getPayloadAndExtras(event: Event): Promise<Object>;
+declare function handleFlattrRequestPayloadEvent(event: Event): void;
+declare function processNextEvent(): Promise<void>;
+declare function startProcessingInterval(): void;
+declare function stopProcessingInterval(): void;
+declare function start(): void;
+declare function stop(): void;
+declare function stop(): void;
+declare const eventQueue: any[];
+declare const maxErrorThreshold: 30;
+declare const maxQueuedEvents: 20;
+declare const processingDelay: 100;
+declare let errorCount: number;
+declare let processingIntervalId: any;

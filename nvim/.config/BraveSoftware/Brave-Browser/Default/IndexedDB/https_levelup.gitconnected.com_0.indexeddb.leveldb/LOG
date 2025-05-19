@@ -1,0 +1,6 @@
+2025/02/24-07:30:49.817 361b Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_levelup.gitconnected.com_0.indexeddb.leveldb since it was missing.
+2025/02/24-07:30:49.827 361b Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_levelup.gitconnected.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/24-09:44:11.911 361c Level-0 table #5: started
+2025/02/24-09:44:11.915 361c Level-0 table #5: 9061 bytes OK
+2025/02/24-09:44:11.921 361c Delete type=0 #3
+2025/02/24-09:44:11.921 361c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

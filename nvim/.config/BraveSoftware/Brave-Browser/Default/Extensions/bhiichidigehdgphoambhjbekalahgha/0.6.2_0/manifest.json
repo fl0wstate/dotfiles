@@ -1,0 +1,39 @@
+{
+   "action": {
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "description": "Execute Action"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_app_description__",
+   "differential_fingerprint": "1.8644283246161928422657456f211e8d7ae2493e5961ea58bae34140a0f4e2c9",
+   "homepage_url": "https://webextension.org/listing/font-finder.html",
+   "icons": {
+      "128": "/data/icons/128.png",
+      "16": "/data/icons/16.png",
+      "256": "/data/icons/256.png",
+      "32": "/data/icons/32.png",
+      "48": "/data/icons/48.png",
+      "64": "/data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiO+sLzptM+9u7qzBLBWjF2Vu5+NJuRiPYCwMcJ1sofDAO2yPyE5DsswSveNfQZ9/vk5769RHZddx+6EcnxZCJl7odIZkEshjHNZ5nf4l4M0dyIFmal1GMJtr9us96trF+ku9ZbfVos8y3dKhta0pKwIVxzgX+M2HaqtNeO+NY3PvHbPinpfpN+Pk3Bp2PR0xOuxKCcbvEuyzDl9kGSFNXdCokqbBj80y4tIKzHB2nL5PO+AcGNCtz5dNzMaFe1fQ1OmgE3uFJA87mmpqZpcg/1clTheWMV18cN35kj6J4xvnenU2+HCHGTA7s3RuhfRP2kKyEAT4bInJmBMQU5Vz7QIDAQAB",
+   "manifest_version": 3,
+   "name": "Font Finder",
+   "optional_host_permissions": [ "\u003Call_urls>" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "/data/options/index.html"
+   },
+   "permissions": [ "storage", "contextMenus", "notifications", "scripting", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.6.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "data/inject/AND-Regular.otf", "data/window/index.html" ]
+   } ]
+}

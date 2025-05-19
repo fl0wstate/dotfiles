@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Dodaj stronę do listy"
+   },
+   "all_settings": {
+      "message": "Wszystkie ustawienia"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (dzień w lokalizacji)"
+   },
+   "auto_day_time": {
+      "message": "Auto (czas dzienny)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (noc w miejscu)"
+   },
+   "auto_night_time": {
+      "message": "Auto (w nocy)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (system jest ciemny)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (system jest lekki)"
+   },
+   "automation": {
+      "message": "Automatyzacja"
+   },
+   "brightness": {
+      "message": "Jasność"
+   },
+   "change_browser_theme": {
+      "message": "Zmieniaj motyw przeglądarki"
+   },
+   "click_to_set_shortcut": {
+      "message": "Kliknij, aby ustawić skrót"
+   },
+   "configure_automation": {
+      "message": "Skonfiguruj automatyzację"
+   },
+   "configure_site_toggle": {
+      "message": "Skonfiguruj przełączanie stron internetowych"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Domyślny"
+   },
+   "custom_browser_theme_on": {
+      "message": "Niestandardowy"
+   },
+   "dark": {
+      "message": "Ciemny"
+   },
+   "dark_theme_detected": {
+      "message": "Wykryto ciemny motyw"
+   },
+   "detect_dark_theme": {
+      "message": "Wykryj ciemny motyw"
+   },
+   "detect_website_dark_theme": {
+      "message": "Wykryj własny ciemny motyw witryny"
+   },
+   "donate": {
+      "message": "Wspomóż"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Domyślnie włączone dla wszystkich witryn"
+   },
+   "enabled_by_default": {
+      "message": "Włączone domyślnie"
+   },
+   "engine_dynamic": {
+      "message": "Dynamicz."
+   },
+   "engine_filter": {
+      "message": "Filtr"
+   },
+   "engine_filter_plus": {
+      "message": "Filtr+"
+   },
+   "engine_static": {
+      "message": "Statyczny"
+   },
+   "extension_description": {
+      "message": "Tryb ciemny dla wszystkich stron internetowych. Zadbaj o swój wzrok, używając ciemnego motywu do przeglądania w dzień i w nocy."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Skrót klawiaturowy włączania/wyłączania rozszerzenia"
+   },
+   "filter": {
+      "message": "Filtr"
+   },
+   "grayscale": {
+      "message": "Szarość"
+   },
+   "help": {
+      "message": "Pomoc"
+   },
+   "invert_listed_only": {
+      "message": "Odwróć tylko listę"
+   },
+   "latitude": {
+      "message": "Szerokość"
+   },
+   "learn_more": {
+      "message": "Dowiedz się więcej"
+   },
+   "light": {
+      "message": "Jasny"
+   },
+   "loading_please_wait": {
+      "message": "Ładowanie, proszę czekać"
+   },
+   "local_files_forbidden": {
+      "message": "Brak dostępu do\nplików lokalnych"
+   },
+   "longitude": {
+      "message": "Długość"
+   },
+   "mobile": {
+      "message": "Przenośny"
+   },
+   "mobile_link": {
+      "message": "Mobilny Dark Reader jest dostępny. Dowiedz się więcej"
+   },
+   "mobile_text": {
+      "message": "Zmniejsz zmęczenie oczu podczas czytania na telefonie lub tablecie.\nAby zainstalować, wystarczy zeskanować kod QR."
+   },
+   "mode": {
+      "message": "Tryb"
+   },
+   "more": {
+      "message": "Więcej"
+   },
+   "news": {
+      "message": "Aktualności"
+   },
+   "not_invert_listed": {
+      "message": "Nie odwracaj listy"
+   },
+   "off": {
+      "message": "Wyłącz."
+   },
+   "on": {
+      "message": "Włącz."
+   },
+   "only_for": {
+      "message": "Tylko dla"
+   },
+   "only_for_description": {
+      "message": "Zastosuj ustawienia tylko dla bieżącej strony"
+   },
+   "open_dev_tools": {
+      "message": "Narzędzia"
+   },
+   "page_in_dark_list": {
+      "message": "Ta strona jest w globalnej\nczarnej liście"
+   },
+   "page_protected": {
+      "message": "Ta strona jest chroniona\nprzez przeglądarkę"
+   },
+   "pay_for_using": {
+      "message": "Zapłać za korzystanie z Dark Reader"
+   },
+   "privacy": {
+      "message": "Prywatność"
+   },
+   "read_more": {
+      "message": "Więcej"
+   },
+   "select_font": {
+      "message": "Wybierz czcionkę"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Ustaw godziny aktywności"
+   },
+   "set_location": {
+      "message": "Aktywuj po zmierzchu w danej lokacji"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Ustaw skrót dodający stronę"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Ustaw rozszerzenie\nprzełącz przycisk"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Ustaw obecną stronę\nprzełącz przycisk"
+   },
+   "site_list": {
+      "message": "Lista stron"
+   },
+   "site_toggle": {
+      "message": "Przełączanie witryny"
+   },
+   "store_listing": {
+      "message": "To rozszerzenie dbające o zdrowie oczu aktywuje tryb nocny tworząc dynamiczne ciemne motywy dla stron internetowych. Dark Reader odwraca jasność kolorów, nadając im wysokiego kontrastu i ułatwiając czytanie w nocy.\n\nMożesz dopasować jasność, kontrast, filtr sepii, tryb ciemny, ustawienia czcionki i listę ignorowanych stron.\n\nMożemy poprosić Cię o wsparcie rozwoju aplikacji darowizną. Możesz zobaczyć wiadomości o Dark Reader w wyskakującym okienku ustawień. Istnieją narzędzia programistyczne dla doświadczonych użytkowników.\n\nDark reader nie wyświetla reklam ani nie wysyła nigdzie danych użytkowników. Jest oprogramowaniem o w pełni otwartym kodzie źródłowym https://github.com/darkreader/darkreader\n\nPrzed instalacją usuń podobne rozszerzenia. Miłego oglądania!"
+   },
+   "support_out_work": {
+      "message": "Wesprzyj naszą pracę"
+   },
+   "system_dark_mode": {
+      "message": "Użyj systemowego schematu kolorów"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktywuj gdy systemowy tryb ciemny jest włączony"
+   },
+   "text_stroke": {
+      "message": "Obrys tekstu"
+   },
+   "theme_generation_mode": {
+      "message": "Tryb generowania motywu"
+   },
+   "toggle_current_site": {
+      "message": "Przełącz dla bieżącej strony"
+   },
+   "toggle_extension": {
+      "message": "Przełącz rozszerzenie"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Wypróbuj **eksperymentalne** silniki motywów:\n**Filtr+** zachowuje nasycenie kolorów, wykorzystuje GPU\n**Statyczny motyw** generuje prosty, szybki motyw\n**Dynamiczny motyw** analizuje kolory i obrazy"
+   },
+   "version": {
+      "message": "Wersja"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader świętuje 10-lecie.\nProsimy o wsparcie naszej pracy."
+   },
+   "website_toggle_shortcut": {
+      "message": "Skrót klawiaturowy przełączania witryny"
+   }
+}

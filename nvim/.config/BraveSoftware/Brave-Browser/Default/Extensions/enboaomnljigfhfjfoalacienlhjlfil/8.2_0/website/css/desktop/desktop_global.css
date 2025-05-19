@@ -1,0 +1,117 @@
+/* ------------------ Hide All Shorts ------------------ */
+
+/*** Search and Trending ***/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_hide_all_shorts="true"]
+  ytd-video-renderer:has(a.yt-simple-endpoint[href*="shorts"]),
+
+/* ------------------ Hide All Shorts ------------------ */
+
+/* ------------------ Hide All Banners Ads ------------------ */
+
+/*** Hide Ads banner on video page ***/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_hide_all_ads="true"] yt-mealbar-promo-renderer,
+
+/* ------------------ Hide All Banners Ads ------------------ */
+
+/* ------------------ Show Native Video Player ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  div#movie_player
+  > div.html5-video-container
+  ~ div:not(.ytp-cued-thumbnail-overlay):not(.ytp-ad-module),
+
+/* ------------------ Show Native Video Player ------------------ */
+
+/* ------------------ Disable Video Autoplay ------------------ */
+
+/*** Fix border radius when user mouse on enter ***/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_disable_video_autoplay="true"] div#video-preview,
+
+/*** Fix autoplay in channel video ***/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_disable_video_autoplay="true"] ytd-grid-video-renderer a#thumbnail div#mouseover-overlay,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_disable_video_autoplay="true"] ytd-rich-item-renderer a#thumbnail div#mouseover-overlay
+
+/* ------------------ Disable Video Autoplay ------------------ */{
+  display: none !important;
+}
+
+/* ------------------ Show Native Video Player - Fix Layout ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] .html5-video-player div:not(:empty):not(.html5-video-container):not(.html5-video-player) {
+  z-index: auto !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] .html5-video-player div:empty, .html5-video-container div:empty {
+  transform: none !important;
+  z-index: -1 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] .html5-video-container div:not(:empty):not(.html5-video-container):not(.html5-video-player) {
+  transform: none !important;
+  z-index: -1 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] .html5-video-player {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2000 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] .html5-video-container {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2000 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] video {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2000 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] video::-webkit-media-controls,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] video::-webkit-media-controls-panel,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] video::-webkit-media-controls-panel-container,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] video::-webkit-media-controls-start-playback-button {
+    display: revert !important;
+    -webkit-appearance: revert !important;
+}
+
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] *,
+:host * {
+    -webkit-touch-callout: default !important;
+}
+
+
+/* ------------------ Show Native Video Player - presumably these styles are needed, but this is not certain ------------------ */
+
+/* html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  div#movie_player
+  > div.html5-video-container
+  ~ div#ytp-caption-window-container {
+  display: block !important;
+  z-index: 2147483647 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  div#movie_player
+  > div.html5-video-container
+  ~ div.ytp-ad-module {
+  z-index: 2147483647 !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  div#movie_player
+  > div.html5-video-container
+  ~ div.ytp-ad-module
+  > div {
+  z-index: 2147483647 !important;
+}
+
+

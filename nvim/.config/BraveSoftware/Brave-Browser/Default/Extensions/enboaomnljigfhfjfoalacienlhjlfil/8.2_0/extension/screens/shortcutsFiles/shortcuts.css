@@ -1,0 +1,129 @@
+#shortcutsScreen {
+  position: relative;
+}
+
+#shortcutsScreen label.label .modernFormBlockItem {
+  width: 100%;
+}
+
+#shortcutsScreen .modernFormBlockItemsWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#shortcutsScreen .modernFormBlockItemsWrapper:has(.switchLabel) {
+  cursor: pointer;
+}
+
+#shortcutsScreen
+  .modernFormBlockItemsWrapper:has(.switchLabel):hover
+  .labelSpan {
+  opacity: 0.8;
+}
+
+#shortcutsScreen .modernFormBlockItemsWrapper:has(.switchLabel):hover .slider {
+  opacity: 0.9;
+}
+
+#shortcutsScreen .modernFormBlockItemsWrapper:has(.switchLabel) {
+  width: 100%;
+}
+
+#shortcutsScreen .modernFormBlockItemsWrapper.nomb {
+  margin-bottom: 0;
+}
+
+#shortcutsScreen .modernFormBlockItem {
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+#shortcutsScreen .switchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#shortcutsScreen .switchWrapper .labelSpan {
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#shortcutsScreen .label {
+  font-size: 14px;
+  text-align: left;
+  transition: 0.15s;
+  display: flex;
+}
+
+#shortcutsScreen
+  .intervalRow
+  .intervalAction:has(.fa-circle-plus):hover
+  i.fa-circle-plus {
+  color: var(--good-button-background-hover);
+}
+
+#shortcutsScreen
+  .intervalRow
+  .intervalAction:has(.fa-circle-minus):hover
+  i.fa-circle-minus {
+  color: var(--destruct-button-background-hover);
+}
+
+#shortcutsScreen .setHotkeyWrapper {
+  background: var(--submit-button-background);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.15s;
+  cursor: pointer;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 7px;
+  text-align: center;
+}
+
+#shortcutsScreen .setHotkeyWrapper:hover {
+  background: var(--submit-button-background-hover);
+}
+
+#shortcutsScreen #shortcutsModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px #1d1d20;
+  font-size: 14px;
+  padding: 20px;
+  width: calc(100% - 60px);
+}
+
+#shortcutsScreen .hotKeyWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#shortcutsScreen .clearHotKey {
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primary-color-on-primary-background);
+  transition: 0.1s;
+  display: none;
+}
+
+#shortcutsScreen .clearHotKey:hover {
+  opacity: 0.8;
+}
+
+#shortcutsScreen .hotKeyWrapper.setted .clearHotKey {
+  display: block;
+}

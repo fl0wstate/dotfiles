@@ -1,0 +1,6 @@
+2025/03/11-12:29:37.079 373 Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uncommonstudio.com.au_0.indexeddb.leveldb since it was missing.
+2025/03/11-12:29:37.089 373 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_uncommonstudio.com.au_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/11-12:30:25.992 374 Level-0 table #5: started
+2025/03/11-12:30:25.997 374 Level-0 table #5: 47532 bytes OK
+2025/03/11-12:30:26.003 374 Delete type=0 #3
+2025/03/11-12:30:26.004 374 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

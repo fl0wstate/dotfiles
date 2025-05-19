@@ -1,0 +1,6 @@
+2025/04/11-13:49:09.137 440 Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bigforge.net_0.indexeddb.leveldb since it was missing.
+2025/04/11-13:49:09.147 440 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bigforge.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-13:49:09.172 442 Level-0 table #5: started
+2025/04/11-13:49:09.179 442 Level-0 table #5: 1368 bytes OK
+2025/04/11-13:49:09.188 442 Delete type=0 #3
+2025/04/11-13:49:09.188 440 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

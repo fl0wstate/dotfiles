@@ -1,0 +1,57 @@
+2025-03-19 06:23:32.840 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.840 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.841 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:23:32.882 [warning] Missing property "explicitEnableOrDisable" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:23:32.882 [warning] Missing property "lastBackgroundBugbotAt" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:23:32.882 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:23:33.159 [info] Started local extension host with pid 11330.
+2025-03-19 06:23:33.451 [info] Placing extension(s) vscodevim.vim on a separate extension host.
+2025-03-19 06:23:33.574 [info] Started local extension host with pid 11362.
+2025-03-19 06:23:35.756 [error] ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-03-19 06:23:36.481 [info] [perf] Render performance baseline is 22ms
+2025-03-19 06:23:38.217 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async Jki.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5044:11377)
+    at async Jki.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5059:1027) [unauthenticated] Error
+2025-03-19 06:23:51.983 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async KXe.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:129352) [unauthenticated] Error
+2025-03-19 06:23:52.254 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async Jki.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5044:11377) [unauthenticated] Error
+2025-03-19 06:23:52.267 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async KXe.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:129352) [unauthenticated] Error
+2025-03-19 06:23:54.908 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async KXe.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:129352) [unauthenticated] Error
+2025-03-19 06:23:58.797 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async Jki.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5044:11377) [unauthenticated] Error
+2025-03-19 06:24:07.297 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async KXe.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:129352) [unauthenticated] Error
+2025-03-19 06:24:12.315 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-19 06:24:12.316 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: crashReporting.enabled, aicontext.personalContext, testRunner.config
+2025-03-19 06:24:12.317 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-03-19 06:24:13.729 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-19 06:24:13.730 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-03-19 06:24:27.394 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-03-19 06:24:27.394 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-03-19 06:25:15.611 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.getEmail (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async KXe.getEmailAndSignUpType (vscode-file://vscode-app/tmp/.mount_cursorymN4nw/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:129352) [unauthenticated] Error

@@ -1,0 +1,47 @@
+"use strict";
+(self["webpackChunkadblock"] = self["webpackChunkadblock"] || []).push([[370],{
+
+/***/ 1370:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   OpenCircle: () => (/* binding */ OpenCircle),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2337);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4783);
+
+
+var OpenCircle = function OpenCircle(_ref) {
+  var _ref$label = _ref.label,
+    label = _ref$label === void 0 ? "" : _ref$label,
+    _ref$size = _ref.size,
+    size = _ref$size === void 0 ? "24px" : _ref$size;
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("svg", {
+    "data-testid": "svg-icon-open-circle",
+    className: "stroke-inherit",
+    width: size,
+    viewBox: "-2 -2 24 24",
+    xmlns: "http://www.w3.org/2000/svg",
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("circle", {
+      cx: "10",
+      cy: "10",
+      r: "10",
+      fill: "none",
+      strokeWidth: "2"
+    }), label && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("title", {
+      children: label
+    })]
+  });
+};
+OpenCircle.propTypes = {
+  label: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  size: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (OpenCircle);
+
+/***/ })
+
+}]);

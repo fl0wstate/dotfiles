@@ -1,0 +1,23 @@
+/* ------------------ Hide Entire Sidebar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_entire_sidebar="true"] ytm-pivot-bar-renderer:has(.pivot-bar-item-tab),
+
+/* ------------------ Hide Button - Home ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_button_home="true"] ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:has(.pivot-bar-item-tab.pivot-w2w),
+
+/* ------------------ Hide Button - Shorts ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_button_shorts="true"] ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:has(.pivot-bar-item-tab.pivot-shorts),
+
+/* ------------------ Hide Button - Subscriptions ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_button_subscriptions="true"] ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:has(.pivot-bar-item-tab.pivot-subs),
+
+/* ------------------ Hide Button - Library ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_button_library="true"] ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:has(.pivot-bar-item-tab.pivot-you),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_sidebar_hide_button_library="true"] ytm-pivot-bar-renderer ytm-pivot-bar-item-renderer:has(.pivot-bar-item-tab.pivot-library) {
+  display: none !important;
+}

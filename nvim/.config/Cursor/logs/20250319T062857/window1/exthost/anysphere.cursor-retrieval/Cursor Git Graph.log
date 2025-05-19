@@ -1,0 +1,3 @@
+2025-03-19 06:29:02.567 [info] Using repo backend url https://repo42.cursor.sh
+2025-03-19 06:29:04.420 [error] Failed to get git graph client
+2025-03-19 06:34:05.332 [info] Git graph is disabled. shouldIndex: true isEnabled: false

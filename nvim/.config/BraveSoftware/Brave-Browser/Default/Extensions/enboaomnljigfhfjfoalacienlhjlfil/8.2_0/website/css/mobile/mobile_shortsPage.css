@@ -1,0 +1,99 @@
+/* ------------------ Hide Description ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_exclude_description="true"]:has(shorts-page) .ReelPlayerHeaderRendererReelTitle,
+
+/* ------------------ Hide Likes Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_likes_exclude_count="true"]:has(shorts-page) ytm-like-button-renderer ytm-toggle-button-renderer:nth-child(1) .yt-spec-button-shape-with-label__label span,
+
+/* ------------------ Hide Dislike and Share Labels ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_share_exclude_labels="true"]:has(shorts-page) ytm-like-button-renderer ytm-toggle-button-renderer:nth-child(2) .yt-spec-button-shape-with-label__label span,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_share_exclude_labels="true"]:has(shorts-page) .icon-shorts_share .yt-spec-button-shape-with-label__label span,
+
+/* ------------------ Hide Channel Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_channel_exclude_avatar="true"]:has(shorts-page) .ReelPlayerHeaderRendererProfileIcon,
+
+/* ------------------ Hide Channel Username ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_channel_user_exclude_name="true"]:has(shorts-page) .ReelPlayerHeaderRendererReelChannelTitle,
+
+/* ------------------ Hide Button - Subscribe ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_subscribe_exclude_button="true"]:has(shorts-page) .modern-subscribe-button,
+
+/* ------------------ Hide Button - Like ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_like_exclude_button="true"]:has(shorts-page) ytm-like-button-renderer ytm-toggle-button-renderer:nth-child(1),
+
+/* ------------------ Hide Button - Dislike ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_exclude_button="true"]:has(shorts-page) ytm-like-button-renderer ytm-toggle-button-renderer:nth-child(2),
+
+/* ------------------ Hide Button - Comments ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_exclude_button="true"]:has(shorts-page) .reel-player-overlay-actions .icon-shorts_comment,
+
+/* ------------------ Hide Button - Share ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_share_exclude_button="true"]:has(shorts-page) .reel-player-overlay-actions .icon-shorts_share,
+
+/* ------------------ Hide Button - More ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_more_exclude_button="true"]:has(shorts-page) .reel-player-overlay-actions ytm-menu-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_more_exclude_button="true"]:has(shorts-page) .reel-player-overlay-actions ytm-bottom-sheet-renderer,
+
+/* ------------------ Hide Button - Sound ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_sound_exclude_button="true"]:has(shorts-page) .reel-player-overlay-actions ytm-pivot-button-renderer,
+
+/* ------------------ Hide Comments Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_exclude_count="true"]:has(shorts-page) .icon-shorts_comment .yt-spec-button-shape-with-label__label span,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_exclude_count="true"]:has(shorts-page) .engagement-panel-section-list-title-and-context-wrapper h2:nth-child(2),
+
+/* ------------------ Hide Add Comment Textfield ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_add_textfield="true"]:has(shorts-page) ytm-comments-header-renderer,
+
+/* ------------------ Hide Comment Published Time ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_published_time="true"]:has(shorts-page) ytm-comment-renderer .comment-published-time,
+
+/* ------------------ Hide Comment Action Buttons ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_action_buttons="true"]:has(shorts-page) ytm-comment-renderer .comment-details,
+
+/* ------------------ Hide Comment Likes Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_likes_count="true"]:has(shorts-page) ytm-comment-thread-renderer .comment-icons:has(path[d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"]) .comment-count,
+
+/* ------------------ Hide Comment Replies ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_replies="true"]:has(shorts-page) ytm-comment-replies-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_replies="true"]:has(shorts-page) ytm-comment-thread-renderer .comment-icons:has(path[d="M8 7h8v2H8V7zm0 6h5v-2H8v2zM5 3v13h10.41l.29.29 3.3 3.3V3H5M4 2h16v20l-5-5H4V2z"]),
+
+/* ------------------ Hide Comment Replies Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_replies_count="true"]:has(shorts-page) ytm-comment-thread-renderer .comment-icons:has(path[d*="7h8v2H8V7z"]) .comment-count,
+
+/* ------------------ Hide Comment Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_avatar="true"]:has(shorts-page) ytm-comment-renderer ytm-profile-icon {
+  display: none !important;
+}
+
+/* ------------------ Hide Comment Usernames ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comment_usernames="true"]:has(
+    shorts-page
+  )
+  .comment-header
+  .comment-title {
+  visibility: hidden !important;
+}

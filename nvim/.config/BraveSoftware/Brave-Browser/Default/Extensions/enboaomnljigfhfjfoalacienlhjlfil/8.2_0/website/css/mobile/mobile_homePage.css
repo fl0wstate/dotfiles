@@ -1,0 +1,35 @@
+/* ------------------ Hide Suggestions Categories ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_header_with_categories="true"]:has(div[tab-identifier="FEwhat_to_watch"]) .rich-grid-renderer-header.rich-grid-sticky-header,
+
+/* ------------------ Hide Suggestions ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_suggestions="true"]:has(div[tab-identifier="FEwhat_to_watch"]) .rich-grid-renderer-contents:has(ytm-video-with-context-renderer),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_suggestions="true"]:has(div[tab-identifier="FEwhat_to_watch"]) .rich-grid-renderer-header.rich-grid-sticky-header,
+
+/* ------------------ Hide Suggestion Mixes ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_suggestion_mixes="true"]:has(div[tab-identifier="FEwhat_to_watch"]) ytm-browse ytm-rich-item-renderer:has(a[href*="list"]),
+
+/* ------------------ Hide Watched Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_watched_videos="true"]:has(div[tab-identifier="FEwhat_to_watch"]) ytm-browse ytm-rich-item-renderer:has(.thumbnail-overlay-resume-playback-progress),
+
+/* ------------------ Hide Explore Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_mobile_hide_explore_button="true"]:has(div[tab-identifier="FEwhat_to_watch"]) ytm-chip-cloud-chip-renderer[chip-style="STYLE_EXPLORE_LAUNCHER_CHIP"],
+
+/* ------------------ Hide Extra Rows (Shorts, Trending, etc.) ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_shorts_trending_etc="true"]:has(div[tab-identifier="FEwhat_to_watch"]) ytm-browse:not(:has(.feed-nudge-wrapper)) ytm-rich-grid-renderer .rich-grid-renderer-contents ytm-rich-section-renderer,
+
+/* ------------------ Hide Banners - New to you, Premium ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_hide_banners_ads_with_close="true"]:has(div[tab-identifier="FEwhat_to_watch"]) ytm-browse ytm-rich-grid-renderer ytm-rich-item-renderer:has(ytm-feed-nudge-renderer),
+
+/* ------------------ Disable Infinitive Scrolling ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_home_disable_infinite_scrolling="true"]:has(div[tab-identifier="FEwhat_to_watch"]) .rich-grid-renderer-contents ytm-continuation-item-renderer {
+  display: none !important;
+}

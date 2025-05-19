@@ -1,0 +1,349 @@
+#youtubeBlockingScheduleScreen .segmentedPicker {
+  width: 100%;
+  background: var(--elements-underlay-background);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+#youtubeBlockingScheduleScreen .segmentedPicker .option {
+  width: 50%;
+  font-size: 14px;
+  padding: 5px 0;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#youtubeBlockingScheduleScreen .segmentedPicker .option:not([active]):hover {
+  opacity: 0.7;
+}
+
+#youtubeBlockingScheduleScreen .segmentedPicker .option[active] {
+  background: var(--submit-button-background);
+  color: #fff;
+}
+
+#youtubeBlockingScheduleScreen label.label .modernFormBlockItem {
+  width: 100%;
+}
+
+#youtubeBlockingScheduleScreen .scheduleDaysWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+#youtubeBlockingScheduleScreen .selectField {
+  -webkit-appearance: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 10px;
+  background: var(--primary-background);
+  border-radius: 7px;
+  cursor: pointer;
+  background: 0 0;
+  text-align-last: right;
+}
+
+#youtubeBlockingScheduleScreen .checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+#youtubeBlockingScheduleScreen .checkbox span {
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#youtubeBlockingScheduleScreen .modernFormBlockItemsWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#youtubeBlockingScheduleScreen .modernFormBlockItemsWrapper:has(.switchLabel) {
+  cursor: pointer;
+}
+
+#youtubeBlockingScheduleScreen
+  .modernFormBlockItemsWrapper:has(.switchLabel):hover
+  .labelSpan {
+  opacity: 0.8;
+}
+
+#youtubeBlockingScheduleScreen
+  .modernFormBlockItemsWrapper:has(.switchLabel):hover
+  .slider {
+  opacity: 0.9;
+}
+
+#youtubeBlockingScheduleScreen .modernFormBlockItemsWrapper:has(.switchLabel) {
+  width: 100%;
+}
+
+#youtubeBlockingScheduleScreen .modernFormBlockItemsWrapper.nomb {
+  margin-bottom: 0;
+}
+
+#youtubeBlockingScheduleScreen .modernFormBlockItem {
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+#youtubeBlockingScheduleScreen .switchLabel {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+#youtubeBlockingScheduleScreen .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#youtubeBlockingScheduleScreen .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--action-item-background);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#youtubeBlockingScheduleScreen .slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 1.5px;
+  bottom: 1.7px;
+  background-color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#youtubeBlockingScheduleScreen input:checked + .slider {
+  background-color: var(--submit-button-background);
+}
+
+#youtubeBlockingScheduleScreen input:focus + .slider {
+  box-shadow: 0 0 1px var(--submit-button-background);
+}
+
+#youtubeBlockingScheduleScreen input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+#youtubeBlockingScheduleScreen .slider.round {
+  border-radius: 34px;
+}
+
+#youtubeBlockingScheduleScreen .slider.round:before {
+  border-radius: 50%;
+}
+
+#youtubeBlockingScheduleScreen .switchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#youtubeBlockingScheduleScreen .switchWrapper .labelSpan {
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#youtubeBlockingScheduleScreen .label {
+  font-size: 14px;
+  text-align: left;
+  transition: 0.15s;
+  display: flex;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem .leadingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem .trailingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--primary-color-on-primary-background);
+}
+
+#youtubeBlockingScheduleScreen .intervalItem i {
+  font-size: 14px;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem .leadingPart span {
+  font-size: 14px;
+  text-align: left;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem .trailingPart span {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#youtubeBlockingScheduleScreen .intervalWrapper .intervalRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+#youtubeBlockingScheduleScreen .intervalWrapper .intervalRow:last-child {
+  margin-bottom: 0;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem {
+  box-sizing: border-box;
+  background: var(--elements-underlay-background);
+  padding: 13px 15px;
+  border-radius: 10px;
+  width: calc(50% - 20px);
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction {
+  width: 25px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction .action {
+  width: 25px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  transition: 0.15s;
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction .action i {
+  transition: 0.15s;
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction i.fa-circle-plus {
+  color: var(--good-button-background);
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction i.fa-circle-minus {
+  color: var(--destruct-button-background);
+}
+
+#youtubeBlockingScheduleScreen
+  .intervalRow
+  .intervalAction:has(.fa-circle-plus):hover
+  i.fa-circle-plus {
+  color: var(--good-button-background-hover);
+}
+
+#youtubeBlockingScheduleScreen
+  .intervalRow
+  .intervalAction:has(.fa-circle-minus):hover
+  i.fa-circle-minus {
+  color: var(--destruct-button-background-hover);
+}
+
+#youtubeBlockingScheduleScreen .intervalRow .intervalAction i {
+  font-size: 20px;
+}
+
+#youtubeBlockingScheduleScreen #additionalIntervalRow {
+  display: none;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem select,
+#youtubeBlockingScheduleScreen .intervalItem span {
+  transition: 0.15s;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem:hover select,
+#youtubeBlockingScheduleScreen .intervalItem:hover span {
+  opacity: 0.8;
+}
+
+#youtubeBlockingScheduleScreen .intervalWrapper {
+  margin-bottom: 15px;
+}
+
+#youtubeBlockingScheduleScreen .intervalItem select {
+  -webkit-appearance: none;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  padding: 0 10px;
+  box-shadow: none;
+  background: 0 0 !important;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#youtubeBlockingScheduleScreen .scheduleDay {
+  background: var(--action-item-background);
+  margin: 0 3px;
+  width: 39px;
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.15s;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#youtubeBlockingScheduleScreen .scheduleDaysWrapper .scheduleDay:first-child {
+  margin-left: 0px;
+}
+
+#youtubeBlockingScheduleScreen .scheduleDaysWrapper .scheduleDay:last-child {
+  margin-right: 0px;
+}
+
+#youtubeBlockingScheduleScreen .scheduleDay:hover {
+  background: var(--action-item-background-hover);
+}
+
+#youtubeBlockingScheduleScreen .scheduleDay.active {
+  background: var(--submit-button-background);
+}
+
+#youtubeBlockingScheduleScreen .scheduleDay.active:hover {
+  background: var(--submit-button-background-hover);
+}

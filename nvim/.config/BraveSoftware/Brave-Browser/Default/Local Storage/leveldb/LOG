@@ -1,0 +1,12 @@
+2025/04/12-06:25:21.156 4 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2025/04/12-06:25:21.163 4 Recovering log #7061
+2025/04/12-06:25:21.164 4 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/007061.log 
+2025/04/12-06:25:42.128 5 Level-0 table #7067: started
+2025/04/12-06:25:42.134 5 Level-0 table #7067: 141907 bytes OK
+2025/04/12-06:25:42.143 5 Delete type=0 #7061
+2025/04/12-06:26:02.905 5 Level-0 table #7069: started
+2025/04/12-06:26:02.910 5 Level-0 table #7069: 16676 bytes OK
+2025/04/12-06:26:02.917 5 Delete type=0 #7066
+2025/04/12-06:26:21.904 5 Level-0 table #7071: started
+2025/04/12-06:26:21.909 5 Level-0 table #7071: 16725 bytes OK
+2025/04/12-06:26:21.917 5 Delete type=0 #7068

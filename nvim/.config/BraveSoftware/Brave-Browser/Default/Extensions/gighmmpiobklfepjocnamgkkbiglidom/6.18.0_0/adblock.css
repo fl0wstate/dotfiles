@@ -1,0 +1,485 @@
+/*
+ * This file is part of AdBlock  <https://getadblock.com/>,
+ * Copyright (C) 2013-present  Adblock, Inc.
+ *
+ * AdBlock is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * AdBlock is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with AdBlock.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* Core AdBlock stylesheet. */
+
+@import "fonts/font-face.css";
+
+/*
+-----------------------------------------------------------------------------
+Global Styles
+-----------------------------------------------------------------------------
+*/
+
+:root {
+  --dark-gray1: #4c4c4c; /* remove */
+  --gray1: #333333;
+  --gray2: #666666;
+  --gray3: #999999;
+  --gray4: #c6c6c6;
+  --gray5: #e6e6e6;
+  --gray6: #f4f4f4;
+  --red1: #ce0707;
+  --red2: #e40d0d;
+  --red3: #ff363b;
+  /* is there a reason not to to turn all red4s to red3s? */
+  --red4: var(--red3);
+  --blue1: #0047ff;
+  --blue2: #03bcfc;
+  --blue3: #4ecdf9;
+  --yellow1: #ff9c00; /* only in sunshine theme? */
+  --yellow2: #ffae00;
+  --yellow3: #ffca00;
+  --green: #10b501;
+  --purple: #663399;
+
+  /* Added by me */
+  --white: #ffffff;
+  --black: #000000;
+  --red0: #a60000;
+  --blue1a: #2284f7;
+  --transparent-white: rgb(255 255 255 / 50%);
+  --transparent-black: rgb(0 0 0 / 50%);
+
+  /* These are only used in one place (--popup-dc-cta-close-background-color-on-hover), different enough to change? */
+  --blue4: #86e0ff;
+  --yellow4: #ffd949;
+
+  /* Theme colors */
+  /* dark theme */
+  --dark-gray1: #4c4c4c;
+
+  /* Solarized */
+  --solarized-gray0: #586e75;
+  --solarized-gray1: #90a2a2;
+  --solarized-gray2: #b1c7c7;
+  /* 1 & 2 very close */
+  --solarized-teal1: #002c38;
+  --solarized-teal2: #003643;
+  /* only used once originally, replace?, lighten or darken? could also replace with #3e656b, which which it was merged */
+  --solarized-teal3: #2f5b61;
+  --solarized-teal4: #00a498;
+  --solarized-teal5: #2be3d6;
+
+  /* Solarized Light */
+  --solarized-gray0l: #4c6369;
+  --solarized-gray1l: #607c84;
+  --solarized-gray2l: #76898d;
+  --solarized-yellow0: #a9b1ac;
+  --solarized-yellow0a: #babfb6;
+  --solarized-yellow1: #ddd5bd;
+  --solarized-yellow2: #eee8d5;
+  --solarized-yellow3: #fdf6e3;
+
+  /* rebecca_purple_theme */
+  --purple1: #48226e;
+  --purple2: #663399; /* same as generalized purple, combine? */
+  --purple3: #b399cc;
+
+  /* watermelon */
+  --watermelon: #f18686;
+
+  /* ocean */
+  --ocean: #81defe;
+
+  /* sunshine */
+  --sunshine: #ffd780;
+  --sunshine-dark: #7f5600;
+
+  /* Needed for Pop-up Menu */
+  --popup-main-text-color: var(--white);
+  --popup-secondary-text-color: var(--gray3);
+  --popup-accent-color: var(--gray3);
+  --popup-separator-color: var(--gray5);
+  --popup-accent-hovered-color: var(--gray2);
+  /* Eventually will be replaced with semantic variable, like theme-highlight-color or something */
+  --premium-badge-bg-color: var(--popup-background-color);
+  /* Could this be replaced with background-clip? Mybe that is silly and just setting it to bg is sufficient */
+  --premium-badge-text-color: var(--white);
+  --block-count-color: var(--red2);
+  --popup-background-color: var(--gray6);
+  --popup-card-background-color: var(--white);
+  --popup-url-text-color: var(--white);
+  --popup-help-button-bg-color: var(--yellow3);
+  --popup-button-text: var(--white);
+  --popup-button-secondary-text: var(--white);
+  --popup-button-disabled-text: var(--gray2);
+  --popup-link-text: var(--blue1);
+  --popup-link-text-decoration: none;
+  --popup-button-background-color: var(--gray6);
+  --popup-button-outline-color: var(--gray4);
+  --popup-button-reenable-bg-color: var(--white);
+  --popup-button-reenable-text-color: var(--gray1);
+  --popup-button-reenable-hovered-bg-color: var(--red1);
+  --popup-button-reenable-hovered-text-color: var(--white);
+  --popup-yt-icon-color: var(--red2);
+  --popup-twitch-icon-color: var(--purple);
+  --popup-vpn-cta-hover-bg-color: var(--white);
+  --popup-vpn-cta-hover-color: var(--white);
+  --popup-vpn-cta-hover-close-bg-color: var(--white);
+  --popup-vpn-cta-hover-close-color: var(--gray2);
+  --popup-vpn-cta-close-icon-color: var(--white);
+  --toggle-foreground: var(--white);
+  --toggle-inactive-bg: var(--gray4);
+  --toggle-active-bg: var(--blue1a);
+
+  /* Additional for Options Page */
+  --background-color: var(--white);
+  --link-color: var(--blue1a);
+  --main-text-color: var(--gray2);
+  --overlay-bg-color: var(--transparent-white);
+
+  /* Updated to defined gray color, slightly wide-reaching, see what happens, before was #f1f1f1 */
+  --sidebar-bg-color: var(--gray6);
+  --checkbox-bg-color: var(--blue2);
+  --not-selected-checkbox-bg-color: var(--gray5);
+  --bottom-line-color: var(--gray5);
+  --help-icon-color: var(--gray4);
+  --help-icon-color-hovered: var(--gray2);
+  /* Another possibly wide reaching change to similar defined red, was #f30d12 */
+  --link-hovered-color: var(--red2);
+  --sidebar-link-hovered-color: var(--gray1);
+  --customize-dropdown-menu-icon-color: var(--red2);
+  --standout-text-color: var(--red2);
+  --active-tab-color: var(--gray2);
+  /* this ⬇️ is making up for a box shadow that shows up on dark themes and should be removed and the box shadow fixed -- it does not appear to be working now either */
+  --select-language-border-top-width: 1px;
+  --unselected-toggle-border-color: var(--gray5);
+  --mab-feature-card-header-locked-bg: var(--gray5);
+  --mab-feature-card-header-unlocked-bg: var(--gray2);
+  --mab-feature-card-header-text-color: var(--white);
+  --mab-teaser-card-header-text-color: var(--gray2);
+  --mab-feature-card-text-color: var(--gray2);
+  --mab-feature-card-body-bg: var(--gray6);
+  --options-button-bg: var(--red3);
+  --options-button-complete-bg: var(--green);
+  --options-premium-badge: var(--gray2);
+  --popup-dc-cta-background-color: var(--yellow3);
+  --popup-dc-cta-color: var(--gray1);
+  --popup-dc-cta-close-background-color-on-hover: var(--yellow4);
+  /* Aliases of other properties:
+     These are currently all defined by other
+     custom properties, but might be further differentiated
+     in future themes */
+  /* TODO: At the least, these should bottom out into semantic color variables */
+  --options-page-accent-text: var(--main-text-color);
+  --speech-bubble-border-color: var(--bottom-line-color);
+  --mab-feedback-button-border: var(--help-icon-color);
+  --header-social-icons: var(--active-tab-color);
+  --pf-icon-color: var(--gray1);
+  --pf-list-title: var(--gray1);
+  --extension-name-bg-color-hovered: var(--gray6);
+  --delete-icon-color-hovered: var(--gray3);
+  --sync-delete-bg-color: var(--white);
+  --sync-delete-color: var(--black);
+  --sync-delete-title-color: var(--black);
+  /* Aliases for Themes CTA:
+     normally these are defined by other custom properties, but here they are set
+     with the solarized colors since it's the default Theme CTA to use */
+  --popup-themes-cta-icon: var(--solarized-teal4);
+  --popup-themes-cta-text: var(--solarized-gray);
+  --popup-themes-cta-background: var(--solarized-teal2);
+  --popup-themes-cta-background-on-hover: var(--solarized-teal4);
+  --popup-themes-cta-color-on-hover: var(--solarized-teal2);
+
+  /* stats-tab entries */
+  --primary-button-text-color: var(--white);
+  --primary-button-bg-color: var(--red2);
+  --ancillary-button-bg-color: var(--white);
+  --ancillary-button-text-color: var(--gray2);
+
+  /* email CTA */
+  --email-btn-color: var(--gray1);
+  --email-btn-bg-color: var(--yellow3);
+  --mail-dialog-header-text-color: var(--gray1);
+  --mail-dialog-header-border-color: var(--gray4);
+  --mail-dialog-content-text-color: var(--gray2);
+  --mail-dialog-textfield-text-color: var(--gray1);
+  --mail-dialog-textfield-border-color: var(--gray2);
+
+  --mail-dialog-checkbox-color: var(--gray1);
+  --mail-dialog-background-color: var(--white);
+
+  --mail-dialog-link-color: var(--blue1);
+  --mail-dialog-drop-shadow-color: rgba(51, 51, 51, 0.2);
+
+  /* Entries that are never 'themed' */
+  --sync-error-msg-background-color: var(--options-button-bg-hover);
+  --sync-msg-color: var(--options-button-text);
+  --icon-notes-main-text-color: var(--white);
+  --icon-notes-background-color: var(--red2);
+  --image-background-color: var(--white);
+  --email-error-message-color: var(--red1);
+  --mail-dialog-textfield-background-color: var(--white);
+  --mail-dialog-border-color: var(--gray4); /* no theme overrides, unused */
+  --primary-panel-bg-color: var(--white);
+  --primary-cta-bg-color: var(--yellow3);
+  --stats-menu-text-color: var(--black);
+  --ads-blocked-color: var(--red2);
+  --trackers-blocked-color: var(--blue2);
+  --ads-replaced-color: var(--yellow2);
+  --stats-main-text-color: var(--gray1);
+  --stats-overlay-text-color: var(--gray2);
+  --stats-border-color: var(--gray4);
+  --mab-button-bg: var(--yellow3);
+  --options-button-bg-hover: var(--red2);
+  --options-button-disabled-bg: var(--gray3);
+  --options-button-disabled-bg-hover: var(--gray2);
+  --mab-button-text: var(--gray1);
+  --sync-msg-background-color: var(--blue1a);
+  --options-button-text: var(--white);
+  --disabled-link-color: var(--gray4);
+  --popup-button-disabled-background-color: var(--gray5);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+  font-family: "Lato", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+textarea::-webkit-scrollbar {
+  width: 14px;
+}
+
+textarea::-webkit-scrollbar-track {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #e6e6e6;
+  background-clip: content-box;
+  border: 3px solid transparent;
+}
+
+.inactive {
+  display: none;
+}
+
+/*
+-----------------------------------------------------------------------------
+Icons global styling (needs to @import 'fonts/font-face.css')
+-----------------------------------------------------------------------------
+*/
+
+.adblock-icon,
+.adblock-icons {
+  font-family: "AdBlock Icons";
+}
+
+.material-icons {
+  font-family: "Material Icons";
+}
+
+.adblock-icon,
+.adblock-icons,
+.material-icons {
+  color: #999;
+  cursor: pointer;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+
+/* Stacking 2 icons */
+.md-stack {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  font-size: 24px;
+  line-height: 24px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* default circular background for 24px icons */
+.circle-icon-bg-24 {
+  background-color: white;
+  clip-path: circle(9.6px);
+  -webkit-clip-path: circle(9.6px);
+}
+
+/* Rules for sizing the icon. */
+.material-icons.md-14 {
+  font-size: 14px;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-20 {
+  font-size: 20px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.material-icons.md-64 {
+  font-size: 64px;
+}
+
+.adblock-icon.md-14 {
+  font-size: 18px;
+}
+
+.adblock-icon.md-18 {
+  font-size: 18px;
+}
+
+.adblock-icon.md-24 {
+  font-size: 24px;
+}
+
+.adblock-icon.md-36 {
+  font-size: 36px;
+}
+
+.adblock-icon.md-48 {
+  font-size: 48px;
+}
+
+.adblock-icon.md-64 {
+  font-size: 64px;
+}
+
+.adblock-icons.md-14 {
+  font-size: 18px;
+}
+
+.adblock-icons.md-18 {
+  font-size: 18px;
+}
+
+.adblock-icons.md-24 {
+  font-size: 24px;
+}
+
+.adblock-icons.md-36 {
+  font-size: 36px;
+}
+
+.adblock-icons.md-48 {
+  font-size: 48px;
+}
+
+.adblock-icons.md-64 {
+  font-size: 64px;
+}
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.material-icons.md-dark.md-inactive {
+  color: rgba(0, 0, 0, 0.26);
+}
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light {
+  color: rgba(255, 255, 255, 1);
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* Screen reader only content */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Rules for rotating an element */
+
+.spin-counter-clockwise {
+  -webkit-animation: spin-counter-clockwise 2s infinite linear;
+  animation: spin-counter-clockwise 2s infinite linear;
+}
+
+@-webkit-keyframes spin-counter-clockwise {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg);
+  }
+}
+
+@keyframes spin-counter-clockwise {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+
+  100% {
+    -webkit-transform: rotate(-359deg);
+    transform: rotate(-359deg);
+  }
+}

@@ -1,0 +1,15 @@
+2025/03/02-16:22:03.431 3db Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pro.x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/02-16:22:03.432 3db Recovering log #4
+2025/03/02-16:22:03.432 3db Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pro.x.com_0.indexeddb.leveldb/000004.log 
+2025/03/02-17:25:44.204 3dc Level-0 table #8: started
+2025/03/02-17:25:44.213 3dc Level-0 table #8: 624175 bytes OK
+2025/03/02-17:25:44.220 3dc Delete type=0 #4
+2025/03/02-17:25:44.221 3dc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/02-17:25:44.221 3dc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01,\x00u\x00s\x00e\x00r\x00:\x001\x007\x006\x000\x008\x007\x009\x004\x000\x000\x006\x003\x004\x000\x001\x001\x006\x004\x008\x00:\x00r\x00w\x00e\x00b\x00.\x00t\x00y\x00p\x00e\x00a\x00h\x00e\x00a\x00d\x00U\x00s\x00e\x00r\x00s' @ 1595 : 1
+2025/03/02-17:25:44.221 3dc Compacting 1@1 + 1@2 files
+2025/03/02-17:25:44.226 3dc Generated table #9@1: 69 keys, 58532 bytes
+2025/03/02-17:25:44.226 3dc Compacted 1@1 + 1@2 files => 58532 bytes
+2025/03/02-17:25:44.232 3dc compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/02-17:25:44.233 3dc Delete type=2 #5
+2025/03/02-17:25:44.233 3dc Delete type=2 #8
+2025/03/02-17:25:44.233 3dc Manual compaction at level-1 from '\x00\x01\x01\x02\x01,\x00u\x00s\x00e\x00r\x00:\x001\x007\x006\x000\x008\x007\x009\x004\x000\x000\x006\x003\x004\x000\x001\x001\x006\x004\x008\x00:\x00r\x00w\x00e\x00b\x00.\x00t\x00y\x00p\x00e\x00a\x00h\x00e\x00a\x00d\x00U\x00s\x00e\x00r\x00s' @ 1595 : 1 .. (end); will stop at (end)

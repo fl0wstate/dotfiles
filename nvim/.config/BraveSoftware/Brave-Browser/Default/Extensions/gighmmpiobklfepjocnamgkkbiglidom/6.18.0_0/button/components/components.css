@@ -1,0 +1,283 @@
+button {
+  cursor: pointer;
+}
+
+action-button > button {
+  border-radius: 3px;
+  border-width: 0;
+  background-color: var(--popup-help-button-bg-color);
+  color: var(--popup-button-reenable-text-color);
+  width: 100%;
+  height: 2.2rem;
+  font-size: 13px;
+}
+
+action-button .button-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+action-button .secondary-action {
+  width: 100%;
+  background-color: var(--popup-button-background-color);
+  color: var(--popup-button-secondary-text);
+}
+
+action-button .tertiary-action {
+  width: 100%;
+  background-color: unset;
+  color: var(--popup-button-secondary-text);
+  border: 1px solid;
+}
+
+action-button,
+cancel-action-button {
+  display: flex;
+  flex: 1 1 0.25rem;
+}
+
+action-button > button,
+cancel-action-button > button {
+  box-sizing: border-box;
+  padding: 0.25rem;
+}
+
+cancel-action-button > button {
+  border-radius: 3px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--popup-secondary-text-color);
+  background-color: var(--popup-card-background-color);
+  color: var(--popup-secondary-text-color);
+  width: 100%;
+  height: 2.2rem;
+  font-size: 13px;
+}
+
+confirm-text {
+  padding: 0 0.5rem 0 0;
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--popup-secondary-text-color);
+}
+
+inline-link-button > button {
+  background-color: unset;
+  border: none;
+  padding: 0;
+  color: var(--popup-link-text);
+  font-style: unset;
+  font-family: unset;
+  font-size: unset;
+  text-decoration: var(--popup-link-text-decoration);
+}
+
+menu-link-button > button,
+menu-link {
+  padding: 0.5rem 0 0 0;
+}
+
+menu-link-button:last-child > button,
+menu-link:last-child {
+  padding: 0.5rem 0 1rem;
+}
+
+subsection-navigation {
+  padding: 0.5rem 0;
+}
+
+menu-link-button > button,
+subsection-navigation > button {
+  background-color: var(--popup-card-background-color);
+}
+
+subsection-navigation > button i.material-icons {
+  color: var(--popup-secondary-text-color);
+}
+
+menu-link-button > button {
+  border-width: 0;
+  font-size: 15px;
+  color: var(--popup-link-text);
+  text-decoration: var(--popup-link-text-decoration);
+}
+
+popup-section {
+  display: block;
+  outline: var(--popup-separator-color) 1px solid;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+popup-section.inactive-block {
+  background-color: var(--popup-button-background-color);
+}
+
+popup-section button {
+  border-radius: 3px;
+  border-width: 0;
+  background-color: var(--popup-help-button-bg-color);
+  color: var(--popup-button-reenable-text-color);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.375rem;
+}
+
+popup-section .popup-icon {
+  display: flex;
+  align-items: center;
+}
+
+popup-section .inner-separator,
+#allowlisted_subsection .inner-separator {
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: var(--popup-separator-color);
+  margin: 0.5rem 0;
+}
+
+popup-section .title {
+  margin: 0 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+popup-section .title-wrapper {
+  display: flex;
+  align-content: center;
+  fill: var(--popup-main-text-color);
+}
+
+popup-section > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+popup-detail-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+popup-detail-stats .count-numbers {
+  display: inline-block;
+  margin-right: 0.25rem;
+  color: var(--block-count-color);
+}
+
+popup-detail-stats .counts {
+  display: flex;
+}
+
+html[dir="rtl"] popup-detail-stats .count-numbers {
+  margin-right: 0;
+  margin-left: 0.25rem;
+}
+
+popup-detail-text {
+  display: none;
+  font-size: 0.8125rem;
+  font-style: italic;
+}
+
+popup-section:not([data-name="blockedStats"]) .inner-separator {
+  display: none;
+}
+
+popup-detail-text > p {
+  margin: 0;
+  font-size: 0.8125rem;
+  font-style: italic;
+  color: var(--popup-secondary-text-color);
+}
+
+subsection-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+subsection-navigation > button {
+  flex: 1 0 0;
+  border-width: 0;
+  padding-left: 0;
+}
+
+subsection-navigation > span {
+  flex: 2 0 75%;
+  text-align: center;
+  font-weight: bold;
+}
+
+toggle-button > label {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+toggle-button > label:focus-within .slider {
+  /*
+    These styles apply the default browser highlight
+    styles to the visible toggle elements when focused
+  */
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+toggle-button > label input {
+  opacity: 0;
+}
+
+toggle-button > label span:last-child {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+toggle-button .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 1.25rem;
+  background-color: var(--toggle-inactive-bg);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+html[dir="rtl"] toggle-button .slider {
+  left: 0;
+  right: unset;
+}
+
+toggle-button .slider::before {
+  position: absolute;
+  content: "";
+  height: 0.75rem;
+  width: 0.75rem;
+  left: 0.25rem;
+  bottom: 0.1875rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border: solid 1px var(--toggle-foreground);
+  background-color: var(--toggle-foreground);
+}
+
+toggle-button input:checked + .slider::before {
+  -webkit-transform: translateX(1.125rem);
+  transform: translateX(1.125rem);
+}
+
+toggle-button input:checked ~ .slider {
+  background: var(--toggle-active-bg);
+}
+
+toggle-button .slider.round {
+  border-radius: 0.75rem;
+}
+
+toggle-button .slider.round::before {
+  border-radius: 50%;
+}

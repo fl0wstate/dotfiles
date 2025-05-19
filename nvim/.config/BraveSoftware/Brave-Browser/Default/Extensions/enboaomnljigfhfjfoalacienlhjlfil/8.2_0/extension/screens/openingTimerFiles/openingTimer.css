@@ -1,0 +1,111 @@
+#openingTimerScreen .textField {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: var(--elements-underlay-background);
+  border: 1px solid var(--elements-underlay-background);
+  border-radius: 7px;
+  color: var(--primary-text-color);
+}
+
+#openingTimerScreen .selectField {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: var(--primary-background);
+  position: relative;
+  text-align-last: right;
+}
+
+#openingTimerScreen .selectField:after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f002";
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+#openingTimerScreen .popUpMenuList {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+#openingTimerScreen .modernFormBlockItemsWrapper:has(select) {
+  cursor: pointer;
+}
+
+#openingTimerScreen
+  .modernFormBlockItemsWrapper:has(select):hover
+  .popUpMenuList {
+  opacity: 0.8;
+}
+
+#openingTimerScreen .popUpMenuList .leadingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#openingTimerScreen .popUpMenuList .trailingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--primary-color-on-primary-background);
+}
+
+#openingTimerScreen .popUpMenuList i {
+  font-size: 14px;
+}
+
+#openingTimerScreen .popUpMenuList .leadingPart span {
+  font-size: 14px;
+  text-align: left;
+}
+
+#openingTimerScreen .popUpMenuListWrapper {
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+#openingTimerScreen .popUpMenuList select {
+  -webkit-appearance: none;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  padding: 0 10px;
+  box-shadow: none;
+  background: 0 0 !important;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+#openingTimerScreen .modernFormBlockItemsWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#openingTimerScreen .modernFormBlockItemsWrapper.noHorizontalPadding {
+  padding: 5px 0px;
+}
+
+#openingTimerScreen .modernFormBlockItemsWrapper.noPadding {
+  padding: 0px;
+}

@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "サイトをリストに追加"
+   },
+   "all_settings": {
+      "message": "すべての設定"
+   },
+   "auto_day_at_location": {
+      "message": "自動 (指定場所は昼)"
+   },
+   "auto_day_time": {
+      "message": "自動 (昼)"
+   },
+   "auto_night_at_location": {
+      "message": "自動 (指定場所は夜)"
+   },
+   "auto_night_time": {
+      "message": "自動 (夜)"
+   },
+   "auto_system_is_dark": {
+      "message": "自動 (システムはダーク)"
+   },
+   "auto_system_is_light": {
+      "message": "自動 (システムはライト)"
+   },
+   "automation": {
+      "message": "自動化"
+   },
+   "brightness": {
+      "message": "輝度"
+   },
+   "change_browser_theme": {
+      "message": "ブラウザのテーマを変更"
+   },
+   "click_to_set_shortcut": {
+      "message": "クリックでショートカットを設定"
+   },
+   "configure_automation": {
+      "message": "自動化の設定"
+   },
+   "configure_site_toggle": {
+      "message": "サイト上の切替を設定"
+   },
+   "contrast": {
+      "message": "コントラスト"
+   },
+   "custom_browser_theme_off": {
+      "message": "デフォルト"
+   },
+   "custom_browser_theme_on": {
+      "message": "カスタム"
+   },
+   "dark": {
+      "message": "ダーク"
+   },
+   "dark_theme_detected": {
+      "message": "ダークテーマを検出"
+   },
+   "detect_dark_theme": {
+      "message": "ダークテーマの検出"
+   },
+   "detect_website_dark_theme": {
+      "message": "そのサイト自身のダークテーマを検出"
+   },
+   "donate": {
+      "message": "寄付する"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "すべてのサイトで最初は有効にします"
+   },
+   "enabled_by_default": {
+      "message": "初期値は有効"
+   },
+   "engine_dynamic": {
+      "message": "動的"
+   },
+   "engine_filter": {
+      "message": "フィルタ"
+   },
+   "engine_filter_plus": {
+      "message": "フィルタ+"
+   },
+   "engine_static": {
+      "message": "静的"
+   },
+   "extension_description": {
+      "message": "あらゆるサイトにダークテーマを。夜間や毎日のブラウジングにDark Readerで目を気遣います。"
+   },
+   "extension_toggle_shortcut": {
+      "message": "拡張機能のオン/オフのキーボード ショートカット"
+   },
+   "filter": {
+      "message": "フィルタ"
+   },
+   "grayscale": {
+      "message": "グレースケール"
+   },
+   "help": {
+      "message": "ヘルプ"
+   },
+   "invert_listed_only": {
+      "message": "反転リスト"
+   },
+   "latitude": {
+      "message": "緯度"
+   },
+   "learn_more": {
+      "message": "もっと詳しく知る"
+   },
+   "light": {
+      "message": "ライト"
+   },
+   "loading_please_wait": {
+      "message": "読み込み中…お待ちください"
+   },
+   "local_files_forbidden": {
+      "message": "端末内のファイルへのアクセスは\n許可されていません"
+   },
+   "longitude": {
+      "message": "経度"
+   },
+   "mobile": {
+      "message": "携帯"
+   },
+   "mobile_link": {
+      "message": "モバイル端末でもDark Readerが使えます。詳細"
+   },
+   "mobile_text": {
+      "message": "携帯電話やタブレットで読書中の目の疲れを軽減します。\nQRコードをスキャンするだけでインストールできます。"
+   },
+   "mode": {
+      "message": "モード"
+   },
+   "more": {
+      "message": "その他"
+   },
+   "news": {
+      "message": "ニュース"
+   },
+   "not_invert_listed": {
+      "message": "非反転リスト"
+   },
+   "off": {
+      "message": "オフ"
+   },
+   "on": {
+      "message": "オン"
+   },
+   "only_for": {
+      "message": "このサイトのみ適用"
+   },
+   "only_for_description": {
+      "message": "現在のサイトのみに設定を適用"
+   },
+   "open_dev_tools": {
+      "message": "開発ツール"
+   },
+   "page_in_dark_list": {
+      "message": "このサイトは全員適用の\nダークリストに含まれます"
+   },
+   "page_protected": {
+      "message": "このページはブラウザに\nよって保護されています"
+   },
+   "pay_for_using": {
+      "message": "Dark Reader の使用料を支払う"
+   },
+   "privacy": {
+      "message": "個人情報"
+   },
+   "read_more": {
+      "message": "続きを読む"
+   },
+   "select_font": {
+      "message": "フォントを選択"
+   },
+   "sepia": {
+      "message": "セピア"
+   },
+   "set_active_hours": {
+      "message": "アクティブ時間を設定"
+   },
+   "set_location": {
+      "message": "現地での日没で切替"
+   },
+   "setup_add_site_hotkey": {
+      "message": "サイト追加用のホットキーを設定"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "拡張機能の切替用の\nホットキーを設定"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "現在のサイト切替用の\nホットキーを設定"
+   },
+   "site_list": {
+      "message": "サイトリスト"
+   },
+   "site_toggle": {
+      "message": "サイト上の切り替え"
+   },
+   "store_listing": {
+      "message": "このアイ・ケアの拡張機能は、オンザフライでサイト用のダークテーマを作成しナイトモードを有効にします。 Dark Reader は明るい色を反転させてコントラストを高め、夜間でも読みやすくします。\n\n明るさ、コントラスト、セピアのフィルター、ダークモード、フォント設定、無視リストを調整することができます。\n\nアプリの開発を寄付によって支援してほしいとお願いする場合があります。設定のポップアップにて DarkReader に関するニュースが表示される場合があります。経験豊富なユーザー向けの開発ツールも備えます。\n\nDark Reader は広告を表示せず、ユーザーのデータをどこにも送信しません。また完全にオープンソースです https://github.com/darkreader/darkreader\n\nインストールする前に、同様の拡張機能を無効にしてください。サイト閲覧をお楽しみください！"
+   },
+   "support_out_work": {
+      "message": "私たちの開発を支援"
+   },
+   "system_dark_mode": {
+      "message": "システムの色のモードに従う"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "このオプションはこのブラウザのバグの\nため動作しない可能性があります"
+   },
+   "system_dark_mode_description": {
+      "message": "システムがダークモードなら有効に"
+   },
+   "text_stroke": {
+      "message": "文字の縁取り"
+   },
+   "theme_generation_mode": {
+      "message": "テーマ生成法の切替"
+   },
+   "toggle_current_site": {
+      "message": "現在のサイトの切替"
+   },
+   "toggle_extension": {
+      "message": "拡張機能の切替"
+   },
+   "try_experimental_theme_engines": {
+      "message": "**実験的な**テーマエンジンをお試しください:\n**フィルタ+**: 色の彩度を維持 (GPU 使用)\n**静的テーマ**: 簡単なテーマを高速で生成\n**動的テーマ**: 色と画像を分析"
+   },
+   "version": {
+      "message": "バージョン"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader は 10 周年を迎えます。\n私たちの活動をサポートしてください。"
+   },
+   "website_toggle_shortcut": {
+      "message": "サイト上で切り替えるキーボード ショートカット"
+   }
+}

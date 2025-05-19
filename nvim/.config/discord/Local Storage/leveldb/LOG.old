@@ -1,0 +1,12 @@
+2025/03/07-19:34:00.711 1224 Reusing MANIFEST /home/flowy/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/03/07-19:34:00.715 1224 Recovering log #50
+2025/03/07-19:34:00.715 1224 Reusing old log /home/flowy/.config/discord/Local Storage/leveldb/000050.log 
+2025/03/07-20:02:57.530 1220 Level-0 table #56: started
+2025/03/07-20:02:57.559 1220 Level-0 table #56: 3485936 bytes OK
+2025/03/07-20:02:57.566 1220 Delete type=0 #50
+2025/03/08-01:34:17.729 1220 Level-0 table #58: started
+2025/03/08-01:34:17.747 1220 Level-0 table #58: 2485318 bytes OK
+2025/03/08-01:34:17.753 1220 Delete type=0 #55
+2025/03/08-05:35:11.555 1220 Level-0 table #60: started
+2025/03/08-05:35:11.574 1220 Level-0 table #60: 2500366 bytes OK
+2025/03/08-05:35:11.581 1220 Delete type=0 #57

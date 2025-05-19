@@ -1,0 +1,17 @@
+{
+   "badgeAvailable": {
+      "message": "Click to activate the Smart Color Picker."
+   },
+   "badgeNotAvailable": {
+      "message": "Smart Color Picker doesn't run on internal browser pages."
+   },
+   "extName": {
+      "message": "Smart Color Picker"
+   },
+   "extShortDesc": {
+      "message": "Smartest color picker tool for your browser. HEX, RGB, HSL colors, eyedropper tool, web site palette."
+   },
+   "shortcutCommand": {
+      "message": "Pick color from web page (Smart Color Picker)"
+   }
+}

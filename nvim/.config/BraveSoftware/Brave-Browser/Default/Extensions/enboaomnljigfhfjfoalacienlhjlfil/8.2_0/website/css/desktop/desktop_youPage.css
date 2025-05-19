@@ -1,0 +1,25 @@
+/* ------------------ Hide Your Avatar  ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_your_avatar="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) yt-decorated-avatar-view-model,
+
+/* ------------------ Hide Section - History ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_section_history="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) ytd-item-section-renderer:has(#title-text > a[href*="feed/history"]),
+
+/* ------------------ Hide Section - Watch Later ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_section_watch_later="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) ytd-item-section-renderer:has(#title-text > a[href*="/playlist?list=WL"]),
+
+/* ------------------ Hide Section - Playlists ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_section_playlists="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) ytd-item-section-renderer:has(ytd-playlist-thumbnail > a#thumbnail[href*="&list=PL"]),
+
+/* ------------------ Hide Section - Liked Videos ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_section_liked_videos="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) ytd-item-section-renderer:has(#title-text > a[href*="/playlist?list=LL"]),
+
+/* ------------------ Hide Section - Your Clips ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_you_page_hide_section_your_clips="true"] ytd-browse:has(ytd-item-section-renderer[section-identifier="library-recent"]) ytd-item-section-renderer:has(#title-text > a[href*="feed/clips"]) {
+  display: none !important;
+}

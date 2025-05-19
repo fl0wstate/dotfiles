@@ -1,0 +1,1 @@
+(self.webpackChunkextension=self.webpackChunkextension||[]).push([[1895],{40529:n=>{n.exports=function(n){return{aliases:["pycon"],contains:[{className:"meta",starts:{end:/ |$/,starts:{end:"$",subLanguage:"python"}},variants:[{begin:/^>>>(?=[ ]|$)/},{begin:/^\.\.\.(?=[ ]|$)/}]}]}}}}]);

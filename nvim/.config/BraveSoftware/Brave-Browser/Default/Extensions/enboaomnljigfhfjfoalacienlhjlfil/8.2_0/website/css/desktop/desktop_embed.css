@@ -1,0 +1,88 @@
+/* ------------------ Hide Video End Screen Suggestions ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_end_screen_suggestions="true"] #player > #movie_player .html5-endscreen.videowall-endscreen,
+
+/* ------------------ Hide Video End Screen Cards ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_end_screen_infos="true"] #player > #movie_player .ytp-ce-element.ytp-ce-element,
+
+/* ------------------ Hide Player Bar Gradient Shadow ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_shadow_around_player_bar="true"] #player > #movie_player .ytp-gradient-bottom,
+
+/* ------------------ Hide Top Gradient Shadow ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_top_shadow="true"] #player > #movie_player .ytp-gradient-top,
+
+/* ------------------ Hide on Pause Recommendations ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_pause_recommenndations="true"] #player > #movie_player .ytp-pause-overlay-container,
+
+/* ------------------ Hide Video Title ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_video_title="true"] #player > #movie_player .ytp-chrome-top .ytp-title,
+
+/* ------------------ Hide Channel Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_channel_avatar="true"] #player > #movie_player .ytp-chrome-top .ytp-title-channel {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_channel_avatar="true"]
+  #player
+  > #movie_player
+  .ytp-chrome-top
+  .ytp-title
+  .ytp-title-text {
+  padding-left: 0px !important;
+}
+
+/* ------------------ Hide Video Watermark ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_video_watermark="true"] #player > #movie_player .iv-branding .branding-img-container,
+
+/* ------------------ Hide Button - Watch on YouTube ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_watch_on_youtube_button="true"] #player > #movie_player .ytp-impression-link,
+
+/* ------------------ Hide Button - YouTube ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_button_youtube="true"] #player > #movie_player .ytp-right-controls .ytp-youtube-button,
+
+/* ------------------ Hide Button - Play / Pause / Replay ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_play_pause_button="true"] #player > #movie_player .ytp-chrome-bottom .ytp-play-button,
+
+/* ------------------ Hide Button - Volume ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_volume_button="true"] #player > #movie_player .ytp-chrome-bottom .ytp-volume-area,
+
+/* ------------------ Hide Button - Subtitles ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_subtitles_button="true"] #player > #movie_player .ytp-chrome-bottom .ytp-subtitles-button,
+
+/* ------------------ Hide Button - Settings ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_settings_button="true"] #player > #movie_player .ytp-chrome-bottom .ytp-settings-button,
+
+/* ------------------ Hide Button - Full Screen ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_full_screen_button="true"] #player > #movie_player .ytp-chrome-bottom .ytp-fullscreen-button,
+
+/* ------------------ Hide Button - Share ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_button_share="true"] #player > #movie_player .ytp-chrome-top .ytp-share-button,
+
+/* ------------------ Hide Button - More from ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_button_more_from="true"] #player > #movie_player .ytp-chrome-top .ytp-cards-button,
+
+/* ------------------ Hide Button - Action Dots ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_hide_button_action_dots="true"] #player > #movie_player .ytp-chrome-top .ytp-overflow-button,
+
+/* ------------------ Hide Video Time ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_embed_player_hide_video_time="true"] #player > #movie_player .ytp-time-display {
+  display: none !important;
+}

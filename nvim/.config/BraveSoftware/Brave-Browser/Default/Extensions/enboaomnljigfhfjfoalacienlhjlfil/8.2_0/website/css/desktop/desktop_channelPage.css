@@ -1,0 +1,127 @@
+/* ------------------ Hide Banner ------------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_banner="true"]
+  ytd-browse[page-subtype="channels"]
+  #page-header-banner {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Banner ------------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_grayscale_channel_banner="true"]
+  ytd-browse[page-subtype="channels"]
+  #page-header-banner {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Buttons - 'Play All' ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_buttons_play_all="true"] ytd-browse[page-subtype="channels"] ytd-section-list-renderer #play-button,
+
+/* ------------------ Hide Channel Subscribers Counter ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_subscribers_counter="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__metadata-row:nth-child(3) > .yt-core-attributed-string:nth-child(1),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_subscribers_counter="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__delimiter,
+
+/* ------------------ Hide Channel Videos Counter ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_videos_counter="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__metadata-row:nth-child(3) > .yt-core-attributed-string:nth-child(3),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_videos_counter="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__metadata-row:nth-child(3) > .yt-content-metadata-view-model-wiz__delimiter,
+
+/* ------------------ Hide Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_page_hide_channel_avatar="true"] ytd-browse[page-subtype="channels"] yt-decorated-avatar-view-model {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_page_grayscale_channel_avatar="true"]
+  ytd-browse[page-subtype="channels"]
+  yt-decorated-avatar-view-model {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Channel ID ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_id="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__metadata-row:nth-child(1),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_id="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-content-metadata-view-model > .yt-content-metadata-view-model-wiz__delimiter,
+
+/* ------------------ Hide Channel Name ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_name="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-dynamic-text-view-model,
+
+/* ------------------ Hide Badge - Verified ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_name_badge="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-dynamic-text-view-model svg,
+
+/* ------------------ Hide Button - Subscribe ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_button_subscribe="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model div:has(> yt-subscribe-button-view-model),
+
+/* ------------------ Hide Button - Purchase ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_button_purchase="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model #inner-header-container #buttons #purchase-button,
+
+/* ------------------ Hide Button - Join ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_button_join="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-flexible-actions-view-model button-view-model,
+
+/* ------------------ Hide Channel Tagline ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_tagline="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-description-preview-view-model,
+
+/* ------------------ Hide Channel Links ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_links="true"] ytd-browse[page-subtype="channels"] yt-page-header-view-model yt-attribution-view-model,
+
+/* ------------------ Hide Menu Buttons Row ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_menu_buttons_row="true"] ytd-browse[page-subtype="channels"] #contentContainer tp-yt-app-toolbar,
+
+/* ------------------ Hide Menu Button - Search ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_channel_menu_button_search="true"] ytd-browse[page-subtype="channels"] #contentContainer tp-yt-app-toolbar ytd-expandable-tab-renderer:has(#interaction),
+
+/* ------------------ Hide Home Tab Section - For You ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_for_you="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(ytd-thumbnail[size="large"]),
+
+/* ------------------ Hide Home Tab Section - Videos ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_videos="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(#image-container > a[href*="/videos?view=0&sort=dd"]),
+
+/* ------------------ Hide Home Tab Section - Popular Videos ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_popular_videos="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(#image-container > a[href*="/videos?view=0&sort=p"]),
+
+/* ------------------ Hide Home Tab Section - Shorts ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_shorts="true"] ytd-browse[page-subtype="channels"] ytd-reel-shelf-renderer,
+
+/* ------------------ Hide Home Tab Section - Our Members ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_our_members="true"] ytd-browse[page-subtype="channels"] ytd-recognition-shelf-renderer,
+
+/* ------------------ Hide Home Tab Section - Releases ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_releases="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer[is-playlist-shelf],
+
+/* ------------------ Hide Home Tab Section - Live ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_live="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(#image-container > a[href*="live_view"]),
+
+/* ------------------ Hide Home Tab Section - Playlist ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_playlist="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(#image-container > a[href*="playlist?list="]),
+
+/* ------------------ Hide Home Tab Section - Featured Channels ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_featured_channels="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(ytd-grid-channel-renderer),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_channel_hide_home_tab_section_featured_channels="true"] ytd-browse[page-subtype="channels"] ytd-item-section-renderer:has(#channel-memberships-button) {
+  display: none !important;
+}

@@ -1,0 +1,12 @@
+2025/04/11-11:55:53.553 398 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-11:55:53.554 398 Recovering log #129
+2025/04/11-11:55:53.558 398 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000129.log 
+2025/04/11-11:55:56.932 398 Compacting 1@1 + 1@2 files
+2025/04/11-11:55:56.950 398 Generated table #132@1: 239 keys, 889964 bytes
+2025/04/11-11:55:56.950 398 Compacted 1@1 + 1@2 files => 889964 bytes
+2025/04/11-11:55:56.957 398 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-11:55:56.957 398 Delete type=2 #128
+2025/04/11-11:55:56.957 398 Delete type=2 #130
+2025/04/11-11:56:15.414 3a5 Level-0 table #134: started
+2025/04/11-11:56:15.450 3a5 Level-0 table #134: 3114928 bytes OK
+2025/04/11-11:56:15.463 3a5 Delete type=0 #129

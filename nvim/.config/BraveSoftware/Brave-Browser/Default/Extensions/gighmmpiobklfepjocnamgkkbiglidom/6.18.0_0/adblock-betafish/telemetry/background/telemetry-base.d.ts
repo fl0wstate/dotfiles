@@ -1,0 +1,42 @@
+export function getAAStatus(): Promise<string | undefined>;
+export default TelemetryBase;
+declare class TelemetryBase {
+    constructor(totalRequestsStorageKeyArg: any, nextRequestTimeStorageKeyArg: any, alarmNameArg: any, hostURLPrefArg: any);
+    totalRequestsStorageKey: any;
+    nextRequestTimeStorageKey: any;
+    alarmName: any;
+    hostURLPref: any;
+    dataCorrupt: boolean;
+    version: string;
+    os: string;
+    osVersion: string;
+    flavor: import("~/utilities/background/index").FlavorType;
+    browserVersion: string;
+    firstRun: boolean;
+    userId: string;
+    addAlarmListener: () => void;
+    loadUserID(): Promise<string>;
+    cleanUpLocalStorage(): void;
+    getTelemetryData(): Promise<{
+        b: any;
+        extid: string;
+        aa: string;
+        crctotal: number;
+        crcsnippet: number;
+        crcelemhideemulation: number;
+        crcelemhideexception: number;
+        crcelemhide: number;
+        crcallowing: number;
+        crcblocking: number;
+        crccomment: number;
+        crcinvalid: number;
+        dc: string;
+        isPinned: string;
+        dhp: string;
+    }>;
+    millisTillNextPing(): Promise<number>;
+    sleepThenPing(): Promise<void>;
+    start(): Promise<void>;
+    untilLoaded(): Promise<string>;
+    get browser(): string;
+}

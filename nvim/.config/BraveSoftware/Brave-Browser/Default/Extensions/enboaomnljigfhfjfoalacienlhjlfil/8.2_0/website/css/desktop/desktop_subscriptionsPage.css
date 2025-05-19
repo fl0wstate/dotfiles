@@ -1,0 +1,75 @@
+/* ------------------ Hide Watched Videos ------------------ */
+
+/** Grid **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_watched_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has(#progress),
+
+/** List **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_watched_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:not(:first-child):has(#progress):has(ytd-expanded-shelf-contents-renderer),
+
+/* Special for first row in list */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_watched_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(#progress):has(ytd-expanded-shelf-contents-renderer) ytd-expanded-shelf-contents-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_watched_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(#progress):has(ytd-expanded-shelf-contents-renderer) #title-container h2,
+
+/* ------------------ Hide Live & Premiere Videos ------------------ */
+
+/** Grid **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_live_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has(.badge-style-type-live-now-alternate),
+
+/** List **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_live_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:not(:first-child):has(.badge-style-type-live-now-alternate):has(ytd-expanded-shelf-contents-renderer),
+
+/* Special for first row in list */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_live_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(.badge-style-type-live-now-alternate):has(ytd-expanded-shelf-contents-renderer) ytd-expanded-shelf-contents-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_live_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(.badge-style-type-live-now-alternate):has(ytd-expanded-shelf-contents-renderer) #title-container h2,
+
+/* ------------------ Hide Upcoming Videos ------------------ */
+
+/** Grid **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_upcoming_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has(.ytd-thumbnail-overlay-time-status-renderer):has(ytd-toggle-button-renderer),
+
+/** List **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_upcoming_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:not(:first-child):has(.ytd-thumbnail-overlay-time-status-renderer):has(ytd-toggle-button-renderer):has(ytd-expanded-shelf-contents-renderer),
+
+/* Special for first row in list */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_upcoming_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(.ytd-thumbnail-overlay-time-status-renderer):has(ytd-toggle-button-renderer):has(ytd-expanded-shelf-contents-renderer) ytd-expanded-shelf-contents-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_upcoming_videos="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(.ytd-thumbnail-overlay-time-status-renderer):has(ytd-toggle-button-renderer):has(ytd-expanded-shelf-contents-renderer) #title-container h2,
+
+/* ------------------ Hide Shorts ------------------ */
+
+/** Overall **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] 
+ytd-browse[page-subtype="subscriptions"] 
+ytd-rich-section-renderer:has(div ytd-rich-shelf-renderer[is-shorts]) {
+  display: none !important;
+}
+
+/** Grid **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytd-browse[page-subtype="subscriptions"] ytd-rich-section-renderer:has(a.yt-simple-endpoint[href*="shorts"]),
+
+/** List **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:not(:first-child):has(a.yt-simple-endpoint[href*="shorts"]):has(ytd-expanded-shelf-contents-renderer),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytd-browse[page-subtype="subscriptions"] ytd-reel-shelf-renderer,
+
+/* Special for first row in list */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(a.yt-simple-endpoint[href*="shorts"]):has(ytd-expanded-shelf-contents-renderer) ytd-expanded-shelf-contents-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytd-browse[page-subtype="subscriptions"] ytd-item-section-renderer:has(a.yt-simple-endpoint[href*="shorts"]):has(ytd-expanded-shelf-contents-renderer) #title-container h2 {
+  display: none !important;
+}

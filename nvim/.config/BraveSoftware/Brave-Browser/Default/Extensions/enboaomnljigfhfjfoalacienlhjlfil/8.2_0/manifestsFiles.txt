@@ -1,0 +1,19 @@
+// Safari and Chromium
+
+"background": {
+    "service_worker": "extension/scripts/background.js"
+},
+
+// Firefox
+
+"background": {
+    "page": "background.html"
+},
+
+// Safari
+
+"permissions": ["storage", "nativeMessaging"]
+
+// Firefox and Chromium
+
+"permissions": ["storage", "activeTab"]

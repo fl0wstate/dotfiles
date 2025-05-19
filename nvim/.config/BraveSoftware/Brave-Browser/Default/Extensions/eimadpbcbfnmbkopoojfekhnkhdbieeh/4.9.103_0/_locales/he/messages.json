@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "הוסף אתר נוכחי לרשימה"
+   },
+   "all_settings": {
+      "message": "כל ההגדרות"
+   },
+   "auto_day_at_location": {
+      "message": "אוטומטי (יום במיקום)"
+   },
+   "auto_day_time": {
+      "message": "אוטומטי (שעון יום)"
+   },
+   "auto_night_at_location": {
+      "message": "אוטומטי (לילה במקום)"
+   },
+   "auto_night_time": {
+      "message": "אוטומטי (שעון לילה)"
+   },
+   "auto_system_is_dark": {
+      "message": "אוטומטי (המערכת חשוכה)"
+   },
+   "auto_system_is_light": {
+      "message": "אוטומטי (המערכת קלה)"
+   },
+   "automation": {
+      "message": "הפעלה אוטומטית:"
+   },
+   "brightness": {
+      "message": "בהירות"
+   },
+   "change_browser_theme": {
+      "message": "שנה את ערכת נושא הדפדפן"
+   },
+   "click_to_set_shortcut": {
+      "message": "לחץ כדי להגדיר את קיצור הדרך"
+   },
+   "configure_automation": {
+      "message": "הגדר אוטומציה"
+   },
+   "configure_site_toggle": {
+      "message": "הגדר את החלפת האתר"
+   },
+   "contrast": {
+      "message": "ניגודיות"
+   },
+   "custom_browser_theme_off": {
+      "message": "ברירת מחדל"
+   },
+   "custom_browser_theme_on": {
+      "message": "מותאם אישית"
+   },
+   "dark": {
+      "message": "כהה"
+   },
+   "dark_theme_detected": {
+      "message": "זוהה נושא כהה"
+   },
+   "detect_dark_theme": {
+      "message": "זיהוי נושא כהה"
+   },
+   "detect_website_dark_theme": {
+      "message": "גלה את הנושא האפל של האתר עצמו"
+   },
+   "donate": {
+      "message": "תרומה"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "מופעל עבור כל האתרים כברירת מחדל"
+   },
+   "enabled_by_default": {
+      "message": "מופעל כברירת מחדל"
+   },
+   "engine_dynamic": {
+      "message": "דינמי"
+   },
+   "engine_filter": {
+      "message": "מסנן"
+   },
+   "engine_filter_plus": {
+      "message": "מסנן+"
+   },
+   "engine_static": {
+      "message": "סטטי"
+   },
+   "extension_description": {
+      "message": "מצב אפל לכל אתר. תשמור על העיניים שלך, השתמש בעיצוב כהה לגלישה בלילה וגם ביום."
+   },
+   "extension_toggle_shortcut": {
+      "message": "קיצור מקלדת להפעלה/כיבוי של הרחבה"
+   },
+   "filter": {
+      "message": "מסנן"
+   },
+   "grayscale": {
+      "message": "גווני אפור"
+   },
+   "help": {
+      "message": "עזרה"
+   },
+   "invert_listed_only": {
+      "message": "רק מה שברשימה"
+   },
+   "latitude": {
+      "message": "קו רוחב"
+   },
+   "learn_more": {
+      "message": "למידע נוסף"
+   },
+   "light": {
+      "message": "בהיר"
+   },
+   "loading_please_wait": {
+      "message": "טוען... נא המתן"
+   },
+   "local_files_forbidden": {
+      "message": "אסור לגשת\nתיקים מקומיים"
+   },
+   "longitude": {
+      "message": "קו אורך"
+   },
+   "mobile": {
+      "message": "נייד"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader זמין. למד עוד"
+   },
+   "mobile_text": {
+      "message": "הפחת את עומס העיניים בזמן קריאה בטלפון או בטאבלט.\nפשוט סרוק את קוד ה-QR כדי להתקין."
+   },
+   "mode": {
+      "message": "מצב"
+   },
+   "more": {
+      "message": "עוד"
+   },
+   "news": {
+      "message": "חדשות"
+   },
+   "not_invert_listed": {
+      "message": "רק מה שלא ברשימה"
+   },
+   "off": {
+      "message": "כבוי"
+   },
+   "on": {
+      "message": "פעיל"
+   },
+   "only_for": {
+      "message": "רק עבור"
+   },
+   "only_for_description": {
+      "message": "החל הגדרות באתר הנוכחי בלבד"
+   },
+   "open_dev_tools": {
+      "message": "Dev tools"
+   },
+   "page_in_dark_list": {
+      "message": "אתר זה נמצא\nברשימת אתרים כהים"
+   },
+   "page_protected": {
+      "message": "דף זה מוגן\nעל ידי הדפדפן"
+   },
+   "pay_for_using": {
+      "message": "שלם עבור שימוש ב-Dark Reader"
+   },
+   "privacy": {
+      "message": "פרטיות"
+   },
+   "read_more": {
+      "message": "קרא עוד"
+   },
+   "select_font": {
+      "message": "בחר גופן"
+   },
+   "sepia": {
+      "message": "גווני חום-אדמדם"
+   },
+   "set_active_hours": {
+      "message": "הגדר שעות פעילות"
+   },
+   "set_location": {
+      "message": "הפעל לאחר השקיעה במיקום זה"
+   },
+   "setup_add_site_hotkey": {
+      "message": "הגדר מקש קיצור להוספת אתר"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "הפעל/כבה את התוסף\nהגדר מקש קיצור"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "הגדר מקש קיצור להוסיף/להסיר אתר נוכחי מהרשימה\nהגדר מקש קיצור"
+   },
+   "site_list": {
+      "message": "רשימת אתרים"
+   },
+   "site_toggle": {
+      "message": "החלפת אתר"
+   },
+   "store_listing": {
+      "message": "תוסף טיפוח לעיניים זה מאפשר למצב לילה ליצור ערכות נושא כהות לאתרי אינטרנט גלישה. Dark Reader ממיר צבעים בהירים מה שהופך אותם לניגודיות גבוהה וקל לקריאה בלילה.\n\nניתן להתאים את הבהירות, הניגודיות, מסנן חום-אדמדם, מצב כהה, הגדרות גופן ורשימת אתרים להתעלמות.\n\nאנו עשויים לבקש ממך לתמוך בפיתוח האפליקציה בתרומה. ייתכן שתראה חדשות על Dark Reader בחלון הקופץ של ההגדרות. ישנם כלים למפתחים למשתמשים מנוסים.\n\nDark Reader אינו מציג מודעות ואינו שולח את נתוני המשתמש לשום מקום. זהו פרוייקט קוד פתוח לחלוטין https://github.com/darkreader/darkreader\n\nלצורך פעולה תקינה, בטל תוספים דומים."
+   },
+   "support_out_work": {
+      "message": "תמכו בעבודה שלנו"
+   },
+   "system_dark_mode": {
+      "message": "השתמש בערכת הצבעים של המערכת"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "הפעל כאשר מצב החשכה של המערכת פועל"
+   },
+   "text_stroke": {
+      "message": "מריחת טקסט"
+   },
+   "theme_generation_mode": {
+      "message": "מצב יצירת ערכת נושא"
+   },
+   "toggle_current_site": {
+      "message": "הוסף/הסר את האתר נוכחי מהרשימה"
+   },
+   "toggle_extension": {
+      "message": "הפעל/כבה את התוסף"
+   },
+   "try_experimental_theme_engines": {
+      "message": "נסה מנועי ערכת נושא ניסיוניים:\nפילטר + שומר על רוויה בצבעים, משתמש ב- GPU\nנושא סטטי מייצר נושא מהיר פשוט\nנושא דינמי מנתח צבעים ותמונות"
+   },
+   "version": {
+      "message": "גִרְסָה"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader חוגג 10 שנים.\nאנא תמכו בעבודתנו."
+   },
+   "website_toggle_shortcut": {
+      "message": "החלפת מקשי קיצור באתר"
+   }
+}

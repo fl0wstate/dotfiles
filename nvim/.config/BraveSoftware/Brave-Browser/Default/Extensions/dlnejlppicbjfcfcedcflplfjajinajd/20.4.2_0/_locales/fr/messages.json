@@ -1,0 +1,10 @@
+{
+   "extensionDesc": {
+      "description": "description de l'extension",
+      "message": "Améliorez votre expérience web avec Bonjourr, une page d'accueil personnalisable pour votre navigateur."
+   },
+   "extensionName": {
+      "description": "nom de l'extension",
+      "message": "Bonjourr · Page d'accueil minimaliste"
+   }
+}

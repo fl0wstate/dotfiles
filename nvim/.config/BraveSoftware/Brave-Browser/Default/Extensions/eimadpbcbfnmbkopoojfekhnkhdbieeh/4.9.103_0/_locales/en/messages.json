@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Add site to list"
+   },
+   "all_settings": {
+      "message": "All settings"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (day at location)"
+   },
+   "auto_day_time": {
+      "message": "Auto (daytime)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (night at location)"
+   },
+   "auto_night_time": {
+      "message": "Auto (nighttime)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (the system is dark)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (the system is light)"
+   },
+   "automation": {
+      "message": "Automation"
+   },
+   "brightness": {
+      "message": "Brightness"
+   },
+   "change_browser_theme": {
+      "message": "Change the browser theme"
+   },
+   "click_to_set_shortcut": {
+      "message": "Click to set the shortcut"
+   },
+   "configure_automation": {
+      "message": "Configure automation"
+   },
+   "configure_site_toggle": {
+      "message": "Configure website toggling"
+   },
+   "contrast": {
+      "message": "Contrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Default"
+   },
+   "custom_browser_theme_on": {
+      "message": "Custom"
+   },
+   "dark": {
+      "message": "Dark"
+   },
+   "dark_theme_detected": {
+      "message": "Dark theme detected"
+   },
+   "detect_dark_theme": {
+      "message": "Detect dark theme"
+   },
+   "detect_website_dark_theme": {
+      "message": "Detect the website's dark theme"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Enabled for all websites by default"
+   },
+   "enabled_by_default": {
+      "message": "Enabled by Default"
+   },
+   "engine_dynamic": {
+      "message": "Dynamic"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Static"
+   },
+   "extension_description": {
+      "message": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Extension on/off keyboard shortcut"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Grayscale"
+   },
+   "help": {
+      "message": "Help"
+   },
+   "invert_listed_only": {
+      "message": "Invert listed only"
+   },
+   "latitude": {
+      "message": "Latitude"
+   },
+   "learn_more": {
+      "message": "Learn more"
+   },
+   "light": {
+      "message": "Light"
+   },
+   "loading_please_wait": {
+      "message": "Loading, please wait"
+   },
+   "local_files_forbidden": {
+      "message": "Not allowed to access\nlocal files"
+   },
+   "longitude": {
+      "message": "Longitude"
+   },
+   "mobile": {
+      "message": "Mobile"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader is available. Learn more"
+   },
+   "mobile_text": {
+      "message": "Reduce eye strain when reading on your phone or tablet.\nSimply scan the QR code to install."
+   },
+   "mode": {
+      "message": "Mode"
+   },
+   "more": {
+      "message": "More"
+   },
+   "news": {
+      "message": "News"
+   },
+   "not_invert_listed": {
+      "message": "Not invert listed"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "only_for": {
+      "message": "Only for"
+   },
+   "only_for_description": {
+      "message": "Apply settings to current website only"
+   },
+   "open_dev_tools": {
+      "message": "Dev tools"
+   },
+   "page_in_dark_list": {
+      "message": "This site is in global\nDark List"
+   },
+   "page_protected": {
+      "message": "This page is protected\nby browser"
+   },
+   "pay_for_using": {
+      "message": "Pay for using Dark Reader"
+   },
+   "privacy": {
+      "message": "Privacy"
+   },
+   "read_more": {
+      "message": "Read more"
+   },
+   "select_font": {
+      "message": "Select a font"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Set active hours"
+   },
+   "set_location": {
+      "message": "Activate after sunset at location"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Setup a hotkey for adding site"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Setup extension\ntoggle hotkey"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Setup current site\ntoggle hotkey"
+   },
+   "site_list": {
+      "message": "Site list"
+   },
+   "site_toggle": {
+      "message": "Site Toggling"
+   },
+   "store_listing": {
+      "message": "This eye-care extension enables night mode by creating dark themes for websites on the fly. Dark Reader inverts bright colors, making them high contrast and easy to read at night.\n\nYou can adjust the brightness, contrast, sepia filter, dark mode, font settings, and the ignore list.\n\nWe may ask you to support the app's development with a donation. You may see news about Dark Reader in the settings popup. There are Developer Tools for experienced users.\n\nDark Reader doesn't show ads or send users' data anywhere. It's fully open source: https://github.com/darkreader/darkreader\n\nBefore you install it, disable similar extensions. Enjoy watching!"
+   },
+   "support_out_work": {
+      "message": "Support our work"
+   },
+   "system_dark_mode": {
+      "message": "Use system color scheme"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Activate when system dark mode is on"
+   },
+   "text_stroke": {
+      "message": "Text stroke"
+   },
+   "theme_generation_mode": {
+      "message": "Theme generation mode"
+   },
+   "toggle_current_site": {
+      "message": "Toggle current site"
+   },
+   "toggle_extension": {
+      "message": "Toggle extension"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Try out **experimental** theme engines:\n**Filter+** preserves colors saturation, uses GPU\n**Static theme** generates a simple fast theme\n**Dynamic theme** analyzes colors and images"
+   },
+   "version": {
+      "message": "Version"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader celebrates 10 years.\nPlease support our work."
+   },
+   "website_toggle_shortcut": {
+      "message": "Website toggle keyboard shortcut"
+   }
+}

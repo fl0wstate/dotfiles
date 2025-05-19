@@ -1,0 +1,866 @@
+.screenWithOptions .activeCategory i {
+  transition: 0.15s;
+}
+
+.screenWithOptions[categoryPickerIsShowing="true"] .activeCategory i {
+  transform: rotate(-180deg);
+}
+
+.screenWithOptions #settingsContainer {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+html[disabled="true"] .screenWithOptions #settingsContainer {
+  display: none !important;
+}
+
+html[device="laptop"] .screenWithOptions #settingsContainer {
+  max-height: 435px;
+}
+
+.screenWithOptions .collapsibleSectionHeader {
+  padding: 5px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: left;
+  font-size: 12px;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 5px;
+  margin-top: 0;
+  padding-left: 15px;
+  position: relative;
+  transition: 0.15s;
+}
+
+.screenWithOptions .collapsibleSectionHeader:after {
+  width: 20px;
+  height: 20px;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  font-family: "Font Awesome 6 Free";
+  content: "\f078";
+  transform: rotate(0);
+  position: absolute;
+  right: 15px;
+  top: 5px;
+}
+
+.screenWithOptions .collapsibleSectionHeader:hover {
+  opacity: 0.8;
+}
+
+.screenWithOptions
+  .collapsibleSection[selected]
+  .collapsibleSectionHeader:after {
+  content: "\f077";
+}
+
+.screenWithOptions #activeCategoryButtonList .pickedCategory {
+  display: none;
+}
+
+.screenWithOptions .collapsibleSection {
+  display: none;
+}
+
+.screenWithOptions[search_mode] #settingsContainerSearch .collapsibleSection {
+  display: block;
+}
+
+.screenWithOptions[search_mode]
+  #settingsContainerSearch
+  .collapsibleSectionTitle {
+  width: 100%;
+  padding: 7px 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  background: var(--submit-button-background);
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 20;
+  transition: 0.15s;
+  margin-top: 45px;
+}
+
+.screenWithOptions[search_mode] #settingsContainerSearch {
+  padding-top: 15px;
+}
+
+.screenWithOptions[search_mode] #activeCategoryButton {
+  display: none;
+}
+
+.screenWithOptions[search_mode]
+  #settingsContainerSearch
+  .collapsibleSection:first-child
+  .collapsibleSectionTitle {
+  margin-top: 0px;
+}
+
+.screenWithOptions[search_mode] #settingsContainerSearch .optionsGroupTitle {
+  position: relative;
+  top: 0;
+}
+
+.screenWithOptions
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category:hover {
+  background: #333541;
+}
+
+.screenWithOptions #activeCategoryButtonList .pickedCategory {
+  color: #fff;
+}
+
+.screenWithOptions[displayingCategoryId="homePage"]
+  .collapsibleSection[categoryId="homePage"],
+.screenWithOptions[displayingCategoryId="homePage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="homePage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="homePage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="homePage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="navigationSidebar"]
+  .collapsibleSection[categoryId="navigationSidebar"],
+.screenWithOptions[displayingCategoryId="navigationSidebar"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="navigationSidebar"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="navigationSidebar"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="navigationSidebar"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="header"]
+  .collapsibleSection[categoryId="header"],
+.screenWithOptions[displayingCategoryId="header"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="header"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="header"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="header"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="videoPage"]
+  .collapsibleSection[categoryId="videoPage"],
+.screenWithOptions[displayingCategoryId="videoPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="videoPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="videoPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="videoPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="videoCard"]
+  .collapsibleSection[categoryId="videoCard"],
+.screenWithOptions[displayingCategoryId="videoCard"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="videoCard"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="videoCard"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="videoCard"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="searchPage"]
+  .collapsibleSection[categoryId="searchPage"],
+.screenWithOptions[displayingCategoryId="searchPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="searchPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="searchPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="searchPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="subscriptionsPage"]
+  .collapsibleSection[categoryId="subscriptionsPage"],
+.screenWithOptions[displayingCategoryId="subscriptionsPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="subscriptionsPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="subscriptionsPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="subscriptionsPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="channelPage"]
+  .collapsibleSection[categoryId="channelPage"],
+.screenWithOptions[displayingCategoryId="channelPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="channelPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="channelPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="channelPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="shortsPage"]
+  .collapsibleSection[categoryId="shortsPage"],
+.screenWithOptions[displayingCategoryId="shortsPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="shortsPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="shortsPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="shortsPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="appearance"]
+  .collapsibleSection[categoryId="appearance"],
+.screenWithOptions[displayingCategoryId="appearance"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="appearance"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="appearance"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="appearance"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="youPage"]
+  .collapsibleSection[categoryId="youPage"],
+.screenWithOptions[displayingCategoryId="youPage"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="youPage"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="youPage"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="youPage"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions[displayingCategoryId="embed"]
+  .collapsibleSection[categoryId="embed"],
+.screenWithOptions[displayingCategoryId="embed"]
+  #activeCategoryButtonList
+  .pickedCategory[categoryId="embed"] {
+  display: block;
+}
+.screenWithOptions[displayingCategoryId="embed"]
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category[categoryId="embed"] {
+  color: var(--primary-color-on-primary-background);
+}
+
+.screenWithOptions .collapsibleSection[selected] .settingsGroup {
+  display: block;
+}
+
+.screenWithOptions[search_mode] .collapsibleSection .settingsGroup {
+  display: block;
+}
+
+.screenWithOptions[search_mode] .collapsibleSectionHeader:after {
+  display: none;
+}
+
+.screenWithOptions[search_mode] .collapsibleSectionHeader:hover {
+  opacity: 1;
+  cursor: default;
+}
+
+.screenWithOptions .settingsGroupBody {
+  background-color: var(--elements-underlay-background);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.screenWithOptions .settingsGroup .optionWrapper {
+  box-sizing: border-box;
+}
+
+.screenWithOptions .settingsGroup .optionWrapper {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.screenWithOptions .settingsGroup .optionWrapper .label {
+  border-bottom: 1px solid var(--separator-color);
+  padding: 10px 15px;
+  gap: 10px;
+}
+
+.screenWithOptions .radioButtons {
+  text-align: left;
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.screenWithOptions .radioButtons label {
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  margin-left: 5px;
+}
+
+.screenWithOptions .radioButtons div {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.screenWithOptions .radioButtons div:last-child {
+  margin-right: 0;
+}
+
+.screenWithOptions .radioButtons input {
+  cursor: pointer;
+  margin-right: 5px;
+  accent-color: var(--submit-button-background);
+}
+
+.screenWithOptions .optionWrapper .label .labelSpan {
+  transition: 0.15s;
+  color: var(--primary-text-color);
+  line-height: 20px;
+}
+
+.screenWithOptions .optionWrapper:hover .label .labelSpan {
+  opacity: 0.8;
+}
+
+.screenWithOptions .optionWrapper .label {
+  font-size: 14px;
+  text-align: left;
+  transition: 0.15s;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.screenWithOptions .colorPickerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.screenWithOptions .colorPickerWrapper input {
+  cursor: pointer;
+}
+
+.screenWithOptions .switchLabel {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.screenWithOptions .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.screenWithOptions .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--action-item-background);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.screenWithOptions .slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 1.5px;
+  bottom: 1.7px;
+  background-color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.screenWithOptions .slider:hover {
+  opacity: 0.9;
+}
+
+.screenWithOptions input:checked + .slider {
+  background-color: var(--submit-button-background);
+}
+
+.screenWithOptions input:focus + .slider {
+  box-shadow: 0 0 1px var(--submit-button-background);
+}
+
+.screenWithOptions input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+.screenWithOptions .slider.round {
+  border-radius: 34px;
+}
+
+.screenWithOptions .slider.round:before {
+  border-radius: 50%;
+}
+
+.screenWithOptions #search {
+  position: relative;
+}
+
+html[disabled="true"] .screenWithOptions .firstLine .topHeaderCenter {
+  visibility: hidden;
+}
+
+html[disabled="true"] .screenWithOptions .firstLine .topHeaderLeft {
+  display: none !important;
+}
+
+.screenWithOptions #search .searchField {
+  width: 100%;
+  padding: 7px 10px;
+  padding-right: 40px;
+  padding-left: 31px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  background: var(--elements-underlay-background);
+  position: relative;
+  color: var(--primary-text-color);
+}
+
+.screenWithOptions #search:after {
+  color: var(--primary-color-on-primary-background);
+  font-family: "Font Awesome 6 Free";
+  content: "\f002";
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  pointer-events: none;
+}
+
+.screenWithOptions #clearSearch {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+  transition: 0.15s;
+}
+
+.screenWithOptions #clearSearch:after {
+  color: var(--primary-color-on-primary-background);
+  font-family: "Font Awesome 6 Free";
+  content: "\f00d";
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  left: 7.5px;
+}
+
+.screenWithOptions #clearSearch:hover:after {
+  color: var(--primary-color-on-primary-background-hover);
+}
+
+.screenWithOptions[search_mode] #clearSearch {
+  display: block;
+}
+
+.screenWithOptions #searchMessage {
+  padding: 30px 0 0 0;
+  display: none;
+  text-align: center;
+}
+
+.screenWithOptions #searchMessage .searchMessageIcon {
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+.screenWithOptions #searchMessage .searchMessageHeadline {
+  font-size: 16px;
+  color: var(--primary-color-on-primary-background);
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 24px;
+}
+
+.screenWithOptions #searchMessage .searchMessageSubhedline {
+  font-size: 14px;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 22px;
+}
+
+.screenWithOptions .optionsGroupTitle {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  padding-top: 20px;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  position: sticky;
+  padding-bottom: 10px;
+  top: -10px;
+  z-index: 20;
+  background: var(--primary-background);
+}
+
+.screenWithOptions .collapsibleSection:not(:has(.optionsGroupTitle)) {
+  padding-top: 20px;
+}
+
+.screenWithOptions input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--action-item-background);
+  margin: 0;
+  font: inherit;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+  position: relative;
+  top: 1px;
+}
+
+.screenWithOptions input[type="radio"]::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: scale(0);
+  box-shadow: inset 1em 1em var(--submit-button-background);
+}
+
+.screenWithOptions input[type="radio"]:checked::before {
+  transform: scale(1);
+}
+
+.screenWithOptions .selectSelect {
+  -webkit-appearance: none;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  box-shadow: none;
+  background: 0 0 !important;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+  text-align-last: right;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.screenWithOptions .selectContainer {
+  color: var(--primary-color-on-primary-background);
+  max-width: 50%;
+  gap: 10px;
+}
+
+.screenWithOptions #rangeSlider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: var(--action-item-background);
+  outline: none;
+  border-radius: 10px;
+}
+
+.screenWithOptions #rangeSlider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #04aa6d; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.screenWithOptions .segmentedPicker {
+  width: 100%;
+  background: var(--elements-underlay-background);
+  display: flex;
+  border-radius: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.screenWithOptions .segmentedPicker .option {
+  width: 50%;
+  font-size: 14px;
+  padding: 5px 0;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+.screenWithOptions .segmentedPicker .option:not([active]):hover {
+  opacity: 0.7;
+}
+
+.screenWithOptions .segmentedPicker .option[active] {
+  background: var(--submit-button-background);
+  color: #fff;
+}
+
+.screenWithOptions .secondLine {
+  margin-top: 20px;
+  position: relative;
+  z-index: 500;
+}
+
+.screenWithOptions .subScreenHeader {
+  margin-bottom: 0px;
+}
+
+html[disabled="true"] .screenWithOptions .secondLine {
+  display: none;
+}
+
+.screenWithOptions .optionCategorySelector .activeCategory {
+  width: 100%;
+  padding: 7px 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 7px;
+  background: var(--submit-button-background);
+  position: relative;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 20;
+  transition: 0.15s;
+}
+
+.screenWithOptions .optionCategorySelector .activeCategory:hover {
+  background: var(--submit-button-background-hover);
+}
+
+.screenWithOptions .optionCategorySelector .categoryPickerPopup {
+  position: absolute;
+  top: calc(100% - 10px);
+  left: 0px;
+  width: 100%;
+  padding-top: 17px;
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  box-shadow: 0 4px 12px #1d1d20;
+  z-index: 10;
+  padding-bottom: 7px;
+  display: none;
+}
+
+.screenWithOptions[categoryPickerIsShowing="true"]
+  .optionCategorySelector
+  .categoryPickerPopup {
+  display: block;
+}
+
+.screenWithOptions .optionCategorySelector .categoryPickerPopup .category {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #fff;
+}
+
+.screenWithOptions #settingsContainerSearch {
+  display: none;
+}
+
+.screenWithOptions[search_mode] #settingsContainerDefault {
+  display: none;
+}
+
+.screenWithOptions[search_mode] #settingsContainerSearch {
+  display: block;
+}
+
+.screenWithOptions .selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.screenWithOptions .settingsGroup .optionWrapper:has(+ .childOptionsWrapper) {
+  background: var(--separator-color);
+}
+
+.screenWithOptions
+  .settingsGroupBody
+  > .optionParentWrapper:last-child:not(:has(.childOptionsWrapper))
+  .label,
+.screenWithOptions
+  .settingsGroupBody
+  > .optionParentWrapper:last-child:has(.childOptionsWrapper)
+  .optionParentWrapper:last-child
+  .label,
+.screenWithOptions
+  .settingsGroup
+  .optionWrapper:has(+ .childOptionsWrapper)
+  .label,
+.screenWithOptions
+  .settingsGroup:not(:has(.childOptionsWrapper))
+  .optionParentWrapper:last-child
+  .label {
+  border-bottom: none;
+}
+
+.screenWithOptions
+  .settingsGroup
+  .optionWrapper:has(input[type="checkbox"]:checked)
+  ~ .childOptionsWrapper.childOffOptions {
+  display: none;
+}
+
+.screenWithOptions
+  .settingsGroup
+  .optionWrapper:has(input[type="checkbox"]:not(:checked))
+  ~ .childOptionsWrapper.childOnOptions {
+  display: none;
+}
+
+.screenWithOptions .resetColorInput {
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--primary-color-on-primary-background);
+  transition: 0.1s;
+  display: none;
+}
+
+.screenWithOptions
+  .colorPickerWrapper:has(> input[type="color"][value])
+  .resetColorInput {
+  display: inline-block;
+}
+
+.screenWithOptions .resetColorInput:hover {
+  opacity: 0.8;
+}
+
+[dir="rtl"] .screenWithOptions .optionWrapper .label {
+  text-align: right;
+}
+
+[dir="rtl"] select {
+  text-align-last: left !important;
+}
+
+[dir="rtl"] .switchLabel:has(input[type="checkbox"]) {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] .screenWithOptions #search .searchField {
+  padding-left: 40px;
+  padding-right: 31px;
+}
+
+[dir="rtl"] .screenWithOptions #clearSearch {
+  right: inherit;
+  left: 5px;
+}
+
+[dir="rtl"] .screenWithOptions #search:after {
+  left: inherit;
+  right: 10px;
+}
+
+[dir="rtl"]
+  .screenWithOptions
+  .optionCategorySelector
+  .categoryPickerPopup
+  .category {
+  text-align: right;
+}
+
+#optionsScreen #showSearchButton {
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 24px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#optionsScreen #search {
+  display: none;
+}

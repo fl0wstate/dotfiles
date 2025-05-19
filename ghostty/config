@@ -43,7 +43,7 @@
 # resize-overlay-duration = 4s 200ms
 gtk-titlebar = false
 font-size = 14
-font-family = SpaceMono Nerd Font Propo
+font-family = Anka/Coder
 # copy-on-select = clipboard
 # cursor-color = RRGGBB
 cursor-style = bar
@@ -52,6 +52,6 @@ window-padding-y = 4
 window-colorspace = "display-p3" 
 mouse-hide-while-typing = true 
 mouse-scroll-multiplier = 2
-theme = Solarized Dark Higher Contrast
+theme = srcery
 background-opacity = 0.85
 font-thicken = true

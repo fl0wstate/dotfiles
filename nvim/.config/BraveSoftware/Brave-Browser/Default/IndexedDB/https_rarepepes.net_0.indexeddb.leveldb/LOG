@@ -1,0 +1,13 @@
+2025/04/11-11:59:01.747 398 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rarepepes.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-11:59:01.747 398 Recovering log #90
+2025/04/11-11:59:01.748 398 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rarepepes.net_0.indexeddb.leveldb/000090.log 
+2025/04/11-11:59:02.037 3a6 Level-0 table #95: started
+2025/04/11-11:59:02.044 3a6 Level-0 table #95: 33870 bytes OK
+2025/04/11-11:59:02.051 3a6 Delete type=0 #90
+2025/04/11-11:59:02.051 3a6 Manual compaction at level-0 from '\x00-\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00.\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/11-11:59:02.080 3a5 Compacting 1@1 + 1@2 files
+2025/04/11-11:59:02.087 3a5 Generated table #96@1: 890 keys, 57892 bytes
+2025/04/11-11:59:02.087 3a5 Compacted 1@1 + 1@2 files => 57892 bytes
+2025/04/11-11:59:02.094 3a5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-11:59:02.095 3a5 Delete type=2 #92
+2025/04/11-11:59:02.095 3a5 Delete type=2 #95

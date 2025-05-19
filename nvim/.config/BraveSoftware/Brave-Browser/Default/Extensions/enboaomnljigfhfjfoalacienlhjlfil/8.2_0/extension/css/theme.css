@@ -1,0 +1,328 @@
+/********************* Theme Colors *********************/
+
+@media (prefers-color-scheme: light) {
+  /* Light */
+
+  html[theme="light"],
+  html[theme="auto"] {
+    --primary-background: #f6f6f6;
+
+    --elements-underlay-background: #dfdfe4;
+
+    --primary-color-on-primary-background: #6f6f79;
+    --primary-color-on-primary-background-hover: #5b5b64;
+    --secondary-color-on-primary-background: #878790;
+
+    --submit-button-background: #1e64cf;
+    --submit-button-background-hover: #0f51b7;
+    --destruct-button-background: #de4639;
+    --destruct-button-background-hover: #da291a;
+    --good-button-background: #43bf35;
+    --good-button-background-hover: #2ca91e;
+
+    --separator-color: #a2a5ad;
+
+    --action-item-background: #b6b6bb;
+    --action-item-background-hover: #7a7a87;
+
+    --primary-text-color: #000;
+  }
+
+  /* Dark */
+
+  html[theme="dark"] body {
+    --primary-background: #2c2c2e;
+    --elements-underlay-background: #3c3d41;
+
+    --primary-color-on-primary-background: #b9b9bd;
+    --primary-color-on-primary-background-hover: #96969d;
+    --secondary-color-on-primary-background: #a4a4aa;
+
+    --submit-button-background: #1e64cf;
+    --submit-button-background-hover: #0f51b7;
+    --destruct-button-background: #ef6a5e;
+    --destruct-button-background-hover: #de4f42;
+    --good-button-background: #60c454;
+    --good-button-background-hover: #48b13b;
+
+    --separator-color: #57585b;
+
+    --action-item-background: #9797a1;
+    --action-item-background-hover: #7a7a87;
+
+    --primary-text-color: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Dark */
+
+  html[theme="dark"],
+  html[theme="auto"] {
+    --primary-background: #2c2c2e;
+    --elements-underlay-background: #3c3d41;
+
+    --primary-color-on-primary-background: #b9b9bd;
+    --primary-color-on-primary-background-hover: #96969d;
+    --secondary-color-on-primary-background: #a4a4aa;
+
+    --submit-button-background: #1e64cf;
+    --submit-button-background-hover: #0f51b7;
+    --destruct-button-background: #ef6a5e;
+    --destruct-button-background-hover: #de4f42;
+    --good-button-background: #60c454;
+    --good-button-background-hover: #48b13b;
+
+    --separator-color: #57585b;
+
+    --action-item-background: #92929f;
+    --action-item-background-hover: #7a7a87;
+
+    --primary-text-color: #ffffff;
+  }
+
+  /* Light */
+
+  html[theme="light"] {
+    --primary-background: #f6f6f6;
+    --elements-underlay-background: #dfdfe4;
+
+    --primary-color-on-primary-background: #6f6f79;
+    --primary-color-on-primary-background-hover: #5b5b64;
+    --secondary-color-on-primary-background: #878790;
+
+    --submit-button-background: #1e64cf;
+    --submit-button-background-hover: #0f51b7;
+    --destruct-button-background: #de4639;
+    --destruct-button-background-hover: #da291a;
+    --good-button-background: #43bf35;
+    --good-button-background-hover: #2ca91e;
+
+    --separator-color: #a2a5ad;
+
+    --action-item-background: #b6b6bb;
+    --action-item-background-hover: #7a7a87;
+
+    --primary-text-color: #000;
+  }
+}
+
+/********************* Theme Colors *********************/
+
+/********************* Elements *********************/
+
+/** Subscreen Title & Subtitle **/
+
+.subScreenNavigation {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.subScreenNavigation .subScreenTitle {
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary-text-color);
+  text-align: center;
+  width: 100%;
+  padding: 0 25px;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 24px;
+}
+
+/** Back Button **/
+
+.subScreenNavigation .backButton {
+  color: var(--primary-color-on-primary-background);
+  transition: 0.15s;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  line-height: 24px;
+}
+
+.subScreenNavigation .backButton:hover {
+  opacity: 0.8;
+}
+
+.subScreenHeader {
+  margin-bottom: 20px;
+}
+
+.subScreenNavigation .infoButton {
+  color: var(--primary-color-on-primary-background);
+  transition: 0.15s;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 24px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.subScreenNavigation .infoButton:hover {
+  opacity: 0.8;
+}
+
+.subScreenInfo {
+  font-size: 13px;
+  text-align: center;
+  line-height: 20px;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  top: 30px;
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px #1d1d20;
+  display: none;
+  z-index: 15;
+}
+
+.subScreenInfo[active] {
+  display: block;
+}
+
+/** Submit Button **/
+
+.submitButton {
+  width: 100%;
+  background: var(--submit-button-background);
+  border: none;
+  height: 40px;
+  outline: 0;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.submitButton:hover {
+  background: var(--submit-button-background-hover);
+}
+
+.submitButton:active {
+  background: var(--submit-button-background);
+}
+
+/** Destruct Button **/
+
+.destructionButton {
+  background: var(--destruct-button-background);
+}
+
+.destructionButton:hover {
+  background: var(--destruct-button-background-hover);
+}
+
+.bottomButtonsWrapper {
+  margin-top: 15px;
+}
+
+.bottomButtonsWrapper .doubled {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottomButtonsWrapper .activeState {
+  display: none;
+}
+
+.bottomButtonsWrapper[active] .activeState {
+  display: flex;
+}
+
+.bottomButtonsWrapper[active] .inactiveState {
+  display: none;
+}
+
+.bottomButtonsWrapper .doubled .submitButton {
+  width: calc(50% - 5px);
+}
+
+/** PRO Modal **/
+
+#proModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  box-shadow: 0 4px 12px #1d1d20;
+  font-size: 14px;
+  padding: 20px;
+  width: calc(100% - 60px);
+  z-index: 220;
+}
+
+#proModal .infoText {
+  font-size: 13px;
+  text-align: center;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 20px;
+}
+
+#proModal .openAppButton {
+  width: 100%;
+  background: var(--submit-button-background);
+  border: none;
+  height: 40px;
+  outline: 0;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  margin-top: 15px;
+  text-align: center;
+}
+
+#proModal .openAppButton:hover {
+  background: var(--submit-button-background-hover);
+}
+
+.proModalIsShowing #proModal {
+  display: block;
+}
+
+.proModalIsShowing {
+  min-height: 230px;
+}
+
+.instructionLabel {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--primary-color-on-primary-background);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+.instructionSubLabel {
+  font-size: 13px;
+  color: var(--secondary-color-on-primary-background);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}

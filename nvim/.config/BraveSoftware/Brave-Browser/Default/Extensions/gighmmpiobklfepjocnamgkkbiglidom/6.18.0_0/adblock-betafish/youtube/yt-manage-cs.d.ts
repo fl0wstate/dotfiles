@@ -1,0 +1,27 @@
+declare const onPageClickIconElem: DocumentFragment;
+declare const onPageClickIconStyleTextContent: string;
+declare const parseElem: HTMLTextAreaElement;
+declare function parseChannelName(channelNameToParse: any): string;
+declare function isAdsAllowed(userFilters: any, channelName: any): any;
+declare function loadIconResources(base: any, callback: any): void;
+declare function getAllSubscribedChannelNames(includeNodes?: boolean): any;
+declare function buildOverlay(): DocumentFragment | null;
+declare function addOnPageIcon(): void;
+declare function configureChildElements(parentNodeArg: any, adsAllowedArg: any): void;
+declare let openedPanels: any[];
+declare function bodyClickHandler(event: any): void;
+declare function inpageIconClickHandler(event: any): void;
+declare let addInProgress: boolean;
+declare function addInPageIcons(initialAdd: any): void;
+declare function removeInPageIcons(): void;
+declare function removeOnPageIcon(): void;
+declare function navigateFinished(): void;
+declare function addBackgroundEventListeners(): void;
+declare function addUIEventListers(toContentScriptEventName: any): void;
+declare function injectScript({ src, name, params }: {
+    src: any;
+    name?: string | undefined;
+    params?: {} | undefined;
+}): void;
+declare function addCaptureEventScripts(toContentScriptEventName: any): void;
+declare function startScript(): void;

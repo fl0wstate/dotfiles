@@ -1,0 +1,231 @@
+#mainScreen #topHeader {
+  z-index: 20;
+  position: relative;
+}
+
+#mainScreen #topHeader .firstLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mainScreen #topHeader .topHeaderLeft {
+  justify-content: flex-begin;
+  display: flex;
+  align-items: center;
+}
+
+#mainScreen #topHeader .topHeaderRight {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+#mainScreen #topHeader .topHeaderCenter {
+  width: calc(100% - 80px);
+  color: var(--primary-color-on-primary-background);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+
+#mainScreen #topHeader .topHeaderButton {
+  cursor: pointer;
+}
+
+#mainScreen #topHeader .topHeaderButton i {
+  color: var(--primary-color-on-primary-background);
+  font-size: 23px;
+  transition: 0.15s;
+}
+
+#mainScreen #topHeader .topHeaderLeft .topHeaderButton {
+  margin-left: 15px;
+}
+
+#mainScreen #topHeader .toMoreButton {
+  margin-left: 0 !important;
+}
+
+#mainScreen #topHeader .toMoreButton:hover i {
+  color: var(--primary-color-on-primary-background-hover);
+}
+
+#mainScreen #topHeader #powerButton i {
+  color: var(--destruct-button-background);
+}
+
+html[disabled="false"] #mainScreen #topHeader #powerButton i {
+  color: var(--good-button-background);
+}
+
+html[disabled="false"] #mainScreen #topHeader #powerButton:hover i {
+  color: var(--good-button-background-hover);
+}
+
+html[disabled="true"] #mainScreen #topHeader #powerButton:hover i {
+  color: var(--destruct-button-background-hover);
+}
+
+#mainScreen #disableMessage {
+  display: none;
+  padding: 0px 0 27px 0;
+  text-align: center;
+}
+
+html[disabled="true"] #mainScreen #disableMessage {
+  display: block;
+}
+
+#mainScreen #disableMessage .disableMessageIcon {
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 10px;
+  font-size: 34px;
+}
+
+#mainScreen #disableMessage .disableMessageHeadline {
+  font-size: 16px;
+  color: var(--primary-color-on-primary-background);
+  font-weight: 500;
+  margin-bottom: 5px;
+  line-height: 24px;
+}
+
+#mainScreen #disableMessage .disableMessageSubhedline {
+  font-size: 14px;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 22px;
+}
+
+#mainScreen #mainGlobalOptions .optionWrapper:last-child .label {
+  border-bottom: none;
+}
+
+#mainScreen #mainGlobalOptions #showAllButton {
+  font-size: 14px;
+  color: var(--primary-text-color);
+  border-radius: 10px;
+  background-color: var(--elements-underlay-background);
+  font-weight: 400;
+  padding: 10px 15px;
+  text-transform: capitalize;
+  position: sticky;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#mainScreen #mainGlobalOptions #showAllButton:hover {
+  opacity: 0.8;
+}
+
+html #mainScreen .contentToHide {
+  margin-top: 20px;
+}
+
+html[disabled="true"] #mainScreen .contentToHide {
+  display: none;
+}
+
+#mainScreen #mainGlobalOptions #showAllButton span:not(:first-child) {
+  margin-right: 2.5px;
+}
+
+#mainScreen .turnOffPickerPopup {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 180px;
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  box-shadow: 0 4px 12px #1d1d20;
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+}
+
+#mainScreen .turnOffPickerPopup[active] {
+  display: block;
+}
+
+#mainScreen .turnOffGroupTitle {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#mainScreen .turnOffPickerPopup .turnOffElement {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  transition: 0.15s;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+#mainScreen .turnOffPickerPopup .turnOffElement:hover {
+  background: #333541;
+}
+
+#mainScreen .turnOnPickerPopup {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 180px;
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  box-shadow: 0 4px 12px #1d1d20;
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+  z-index: 21;
+}
+
+#mainScreen .turnOnPickerPopup[active] {
+  display: block;
+}
+
+#mainScreen .turnOnGroupTitle {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#mainScreen .turnOnPickerPopup .turnOnElement {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  transition: 0.15s;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+#mainScreen .turnOnPickerPopup .turnOnElement:hover {
+  background: #333541;
+}

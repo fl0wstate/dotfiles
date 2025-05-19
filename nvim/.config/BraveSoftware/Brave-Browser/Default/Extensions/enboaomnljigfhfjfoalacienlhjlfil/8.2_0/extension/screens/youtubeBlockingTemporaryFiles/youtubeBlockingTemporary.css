@@ -1,0 +1,238 @@
+#youtubeBlockingTemporaryScreen .segmentedPicker {
+  width: 100%;
+  background: var(--elements-underlay-background);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+#youtubeBlockingTemporaryScreen .segmentedPicker .option {
+  width: 50%;
+  font-size: 14px;
+  padding: 5px 0;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#youtubeBlockingTemporaryScreen .segmentedPicker .option:not([active]):hover {
+  opacity: 0.7;
+}
+
+#youtubeBlockingTemporaryScreen .segmentedPicker .option[active] {
+  background: var(--submit-button-background);
+  color: #fff;
+}
+
+#youtubeBlockingTemporaryScreen label.label .modernFormBlockItem {
+  width: 100%;
+}
+
+#youtubeBlockingTemporaryScreen .selectField {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  background: var(--primary-background);
+  position: relative;
+  text-align-last: right;
+}
+
+#youtubeBlockingTemporaryScreen .selectField:after {
+  font-family: "Font Awesome 6 Free";
+  content: "\f002";
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+#youtubeBlockingTemporaryScreen .checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+#youtubeBlockingTemporaryScreen .checkbox span {
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+#youtubeBlockingTemporaryScreen .modernFormBlockItemsWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#youtubeBlockingTemporaryScreen .modernFormBlockItemsWrapper.nomb {
+  margin-bottom: 0;
+}
+
+#youtubeBlockingTemporaryScreen .modernFormBlockItem {
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+#youtubeBlockingTemporaryScreen .switchLabel {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+#youtubeBlockingTemporaryScreen .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--action-item-background);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#youtubeBlockingTemporaryScreen .slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 1.5px;
+  bottom: 1.7px;
+  background-color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#youtubeBlockingTemporaryScreen input:checked + .slider {
+  background-color: var(--submit-button-background);
+}
+
+#youtubeBlockingTemporaryScreen input:focus + .slider {
+  box-shadow: 0 0 1px var(--submit-button-background);
+}
+
+#youtubeBlockingTemporaryScreen input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+#youtubeBlockingTemporaryScreen .slider.round {
+  border-radius: 34px;
+}
+
+#youtubeBlockingTemporaryScreen .slider.round:before {
+  border-radius: 50%;
+}
+
+#youtubeBlockingTemporaryScreen .switchWrapper .labelSpan {
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#youtubeBlockingTemporaryScreen
+  .modernFormBlockItemsWrapper:has(.switchLabel):hover
+  .labelSpan {
+  opacity: 0.8;
+}
+
+#youtubeBlockingTemporaryScreen
+  .modernFormBlockItemsWrapper:has(.switchLabel):hover
+  .slider {
+  opacity: 0.9;
+}
+
+#youtubeBlockingTemporaryScreen .switchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#youtubeBlockingTemporaryScreen .label {
+  font-size: 14px;
+  text-align: left;
+  transition: 0.15s;
+  display: flex;
+  cursor: pointer;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+#youtubeBlockingTemporaryScreen .modernFormBlockItemsWrapper:has(select) {
+  cursor: pointer;
+}
+
+#youtubeBlockingTemporaryScreen
+  .modernFormBlockItemsWrapper:has(select):hover
+  .popUpMenuList {
+  opacity: 0.8;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList .leadingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList .trailingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--primary-color-on-primary-background);
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList i {
+  font-size: 14px;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList .leadingPart span {
+  font-size: 14px;
+  text-align: left;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList .trailingPart span {
+  font-size: 14px;
+  text-align: right;
+  margin-right: 5px;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuListWrapper {
+  padding: 8px 0;
+  box-sizing: border-box;
+}
+
+#youtubeBlockingTemporaryScreen .popUpMenuList select {
+  -webkit-appearance: none;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  padding: 0 10px;
+  box-shadow: none;
+  background: 0 0 !important;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+}

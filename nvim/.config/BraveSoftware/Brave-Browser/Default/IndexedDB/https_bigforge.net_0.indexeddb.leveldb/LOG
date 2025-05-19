@@ -1,0 +1,7 @@
+2025/04/11-20:17:31.824 381 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bigforge.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-20:17:31.825 381 Recovering log #4
+2025/04/11-20:17:31.825 381 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_bigforge.net_0.indexeddb.leveldb/000004.log 
+2025/04/11-20:17:32.139 38f Level-0 table #8: started
+2025/04/11-20:17:32.143 38f Level-0 table #8: 7107 bytes OK
+2025/04/11-20:17:32.149 38f Delete type=0 #4
+2025/04/11-20:17:32.149 381 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

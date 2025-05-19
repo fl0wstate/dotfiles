@@ -1,0 +1,227 @@
+#contentFilterScreen .segmentedPicker {
+  width: 100%;
+  background: var(--elements-underlay-background);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 3px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#contentFilterScreen .segmentedPicker .option {
+  width: 25%;
+  font-size: 14px;
+  padding: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  color: var(--primary-text-color);
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}
+
+#contentFilterScreen .segmentedPicker .option:not([active]):hover {
+  opacity: 0.7;
+}
+
+#contentFilterScreen .segmentedPicker .option[active] {
+  background: var(--submit-button-background);
+  color: #fff;
+}
+
+#contentFilterScreen .textField {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: var(--elements-underlay-background);
+  border: 1px solid var(--elements-underlay-background);
+  border-radius: 7px;
+  color: var(--primary-text-color);
+}
+
+#contentFilterScreen .textField.error {
+  border-color: var(--destruct-button-background);
+}
+
+#contentFilterScreen .filterAddWrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#contentFilterScreen .filterAddWrapper .submitButton {
+  width: 60px;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+#contentFilterScreen .filterAddWrapper {
+  gap: 10px;
+}
+
+#contentFilterScreen .filterRulesWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: scroll;
+  min-height: 250px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-size: 12px;
+}
+
+#contentFilterScreen .modernFormBlockItemsWrapper {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#contentFilterScreen .modernFormBlockItemsWrapper:has(.switchLabel) {
+  cursor: pointer;
+}
+
+#contentFilterScreen .modernFormBlockItem:has(.switchLabel):hover .labelSpan {
+  opacity: 0.8;
+}
+
+#contentFilterScreen .modernFormBlockItem:has(.switchLabel):hover .slider {
+  opacity: 0.9;
+}
+
+#contentFilterScreen .modernFormBlockItemsWrapper:has(.switchLabel),
+#contentFilterScreen .modernFormBlockItem:has(.switchLabel),
+#contentFilterScreen .modernFormBlockItem:has(.switchLabel) .optionWrapper {
+  width: 100%;
+}
+
+#contentFilterScreen
+  .modernFormBlockItemsWrapper
+  .modernFormBlockItem:has(.switchLabel) {
+  border-bottom: 1px solid var(--separator-color);
+}
+
+#contentFilterScreen
+  .modernFormBlockItemsWrapper
+  .modernFormBlockItem:has(.switchLabel).nomb {
+  margin-bottom: 0;
+  border: none;
+}
+
+#contentFilterScreen label.label .modernFormBlockItem {
+  width: 100%;
+}
+
+#contentFilterScreen .modernFormBlockItem {
+  padding: 8px 15px;
+  box-sizing: border-box;
+}
+
+#contentFilterScreen .switchLabel {
+  position: relative;
+  display: inline-block;
+  width: 43px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+#contentFilterScreen .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+#contentFilterScreen .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--action-item-background);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#contentFilterScreen .slider:before {
+  position: absolute;
+  content: "";
+  height: 21px;
+  width: 21px;
+  left: 1.5px;
+  bottom: 1.7px;
+  background-color: #fff;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+#contentFilterScreen input:checked + .slider {
+  background-color: var(--submit-button-background);
+}
+
+#contentFilterScreen input:focus + .slider {
+  box-shadow: 0 0 1px var(--submit-button-background);
+}
+
+#contentFilterScreen input:checked + .slider:before {
+  -webkit-transform: translateX(19px);
+  -ms-transform: translateX(19px);
+  transform: translateX(19px);
+}
+
+#contentFilterScreen .slider.round {
+  border-radius: 34px;
+}
+
+#contentFilterScreen .slider.round:before {
+  border-radius: 50%;
+}
+
+#contentFilterScreen .switchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#contentFilterScreen .switchWrapper .labelSpan {
+  transition: 0.15s;
+  color: var(--primary-text-color);
+}
+
+#contentFilterScreen .label {
+  font-size: 14px;
+  text-align: left;
+  transition: 0.15s;
+  display: flex;
+}
+
+#contentFilterScreen .textAreaWrapper {
+  position: relative;
+}
+
+#contentFilterScreen .saveTextareaButton {
+  position: absolute;
+  right: 10px;
+  background: var(--submit-button-background);
+  transition: 0.15s;
+  top: 10px;
+  font-size: 14px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 7.5px;
+  box-shadow: 0 4px 30px #1d1d20;
+  display: none;
+  color: #fff;
+}
+
+#contentFilterScreen .saveTextareaButton:hover {
+  background: var(--submit-button-background-hover);
+}

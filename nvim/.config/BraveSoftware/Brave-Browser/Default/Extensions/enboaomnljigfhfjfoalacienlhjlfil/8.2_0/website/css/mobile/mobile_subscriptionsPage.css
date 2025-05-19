@@ -1,0 +1,43 @@
+/* ------------------ Hide Channels List ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_channels_list="true"]
+  ytm-browse:has(div[tab-identifier="FEsubscriptions"])
+  ytm-channel-list-sub-menu-renderer {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Channels List ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_grayscale_channels_list="true"]
+  ytm-browse:has(div[tab-identifier="FEsubscriptions"])
+  ytm-channel-list-sub-menu-renderer {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Subscriptions Notifications Dots ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_subscriptions_notifications_dots="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-channel-list-sub-menu-renderer ytm-channel-list-sub-menu-avatar-renderer[status="unread"]::after,
+
+/* ------------------ Hide Subscriptions Live Dots ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_subscriptions_live_dots="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-channel-list-sub-menu-renderer ytm-channel-list-sub-menu-avatar-renderer[status="live"]::after,
+
+/* ------------------ Hide Shorts ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-item-section-renderer:has(a[href*="shorts"]),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_shorts="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-reel-shelf-renderer,
+
+/* ------------------ Hide Live & Premiere Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_live_videos="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-item-section-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"]),
+
+/* ------------------ Hide Upcoming Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_upcoming_videos="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-item-section-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="UPCOMING"]),
+
+/* ------------------ Hide Watched Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_subscriptions_hide_watched_videos="true"] ytm-browse:has(div[tab-identifier="FEsubscriptions"]) ytm-item-section-renderer:has(.thumbnail-overlay-resume-playback-progress) {
+  display: none !important;
+}

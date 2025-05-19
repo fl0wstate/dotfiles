@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="window_title"></title>
+  <link rel="stylesheet" href="dist/themes/classic.min.css"/> <!-- 'classic' theme -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header id="inspect">
+    <span data-i18n="window_inspect"></span> <b data-obj=url></b>
+  </header>
+  <div id="body">
+    <div id="new-content">
+      <div>
+        <input type="checkbox" id="color-check" checked>
+        <label for="color-check" data-i18n="window_color"></label>
+        <div class="two">
+          <span class="prop">color:</span>
+          <span data-obj=color-hex>-</span>
+          <span class="prop">color:</span>
+          <div class="center">
+            <span data-obj=color></span>
+            <div data-type=color></div>
+          </div>
+          <span class="prop">background-color:</span>
+          <span data-obj=background-color-hex>-</span>
+          <span class="prop">background-color:</span>
+          <div class="center">
+            <span data-obj=background-color></span>
+            <div data-type=color></div>
+          </div>
+        </div>
+      </div>
+      <div class="spacing"></div>
+      <div>
+        <input type="checkbox" id="font-check">
+        <label for="font-check" data-i18n="window_font"></label>
+        <div class="two">
+          <span class="prop">font-family (stack)</span>
+          <span data-obj=font-family></span></li>
+          <span class="prop">Font being Rendered</span>
+          <div data-obj=font-family-rendered></div></li>
+          <span class="prop">font-size</span>
+          <span data-obj=font-size></span></li>
+          <span class="prop">Similar Fonts</span>
+          <div>
+            <span data-obj=similar-fonts></span></li>
+            <div id="msg"></div>
+          </div>
+        </div>
+      </div>
+      <div class="spacing"></div>
+      <div>
+        <input type="checkbox" id="spacing-check" checked>
+        <label for="spacing-check" data-i18n="window_spacing"></label>
+        <div class="two">
+          <span class="prop">line-height</span>
+          <span data-obj=line-height></span>
+          <span class="prop">vertical-align</span>
+          <span data-obj=vertical-align></span>
+          <span class="prop">letter-spacing</span>
+          <span data-obj=letter-spacing></span>
+          <span class="prop">word-spacing</span>
+          <span data-obj=word-spacing></span>
+          <span class="prop">margin</span>
+          <span data-obj=margin></span>
+          <span class="prop">padding</span>
+          <span data-obj=padding></span>
+        </div>
+      </div>
+      <div class="spacing"></div>
+      <div>
+        <input type="checkbox" id="decoration-check" checked>
+        <label for="decoration-check" data-i18n="window_decoration"></label>
+        <div class="two">
+          <span class="prop">font-weight</span>
+          <span data-obj=font-weight></span>
+          <span class="prop">font-style</span>
+          <span data-obj=font-style></span>
+          <span class="prop">font-variant</span>
+          <span data-obj=font-variant></span>
+          <span class="prop">font-kerning</span>
+          <span data-obj=font-kerning></span>
+          <span class="prop">font-optical-sizing</span>
+          <span data-obj=font-optical-sizing></span>
+          <span class="prop">font-stretch</span>
+          <span data-obj=font-stretch></span>
+          <span class="prop">font-variation-settings</span>
+          <span data-obj=font-variation-settings></span>
+          <span class="prop">font-feature-settings</span>
+          <span data-obj=font-feature-settings></span>
+          <span class="prop">text-transform</span>
+          <span data-obj=text-transform></span>
+          <span class="prop">text-decoration</span>
+          <span data-obj=text-decoration></span>
+          <span class="prop">text-align</span>
+          <span data-obj=text-align></span>
+          <span class="prop">text-indent</span>
+          <span data-obj=text-indent></span>
+        </div>
+      </div>
+      <div class="spacing"></div>
+      <div>
+        <input type="checkbox" id="element-check">
+        <label for="element-check" data-i18n="window_element"></label>
+        <div class="two">
+          <span class="prop">Element Type</span>
+          <span data-obj=element-type></span>
+          <span class="prop">Element ID</span>
+          <span data-obj=element-id></span>
+          <span class="prop">Element Class</span>
+          <span data-obj=element-class></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <span data-i18n="window_footer"></span>
+    <input type="button" id="rate" value="Rate this Extension" class="hidden">
+    <input type="button" id="userFonts" value="Update Font List" class="hidden">
+  </footer>
+  <script src="dist/pickr.min.js"></script>
+  <script src="fuzzysort/fuzzysort.js"></script>
+  <script src="index.js"></script>
+  <script src="prefs.js"></script>
+  <script src="rate.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+   "action": {
+      "title": "__MSG_extensionName__"
+   },
+   "author": "Victor Azevedo and Tahoe Beetschen",
+   "background": {
+      "service_worker": "src/scripts/service-worker.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extensionDesc__",
+   "icons": {
+      "128": "src/assets/favicon-128x128.png",
+      "512": "src/assets/favicon-512x512.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjvBN8H9K39kKG3b5jn5rHpaWSDEfa69yzlNdf7FMylwWCMBd3r3rGdWeUMNK9rZoCYPLxTr077aRys5Ovch+42xNOaWUlNa0ZW2TFgtaSWsFdqWB0Ji3jj+vXiEa3FMzSyWhezsPskF/uqVrM2wR9u9iNZW9hrcBJ8B+8bkkid90ZvOG79y0jr8PkLKRgpin2oBG4EqNHuFanLIadlROPg/wPTxihEBPSBcd10EdJxkGunMnrvovWHI8iVp1yhHDjpbeuRsueAaAQjprG2rkvmpdA8rry/7e9TnzC62Cb+g/VUdijRYduyd5bsywDoM2JFlngjJLTUKRvHYso2ZXZQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extensionName__",
+   "offline_enabled": true,
+   "optional_permissions": [ "bookmarks", "search", "topSites" ],
+   "permissions": [ "storage" ],
+   "short_name": "Bonjourr",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "20.4.2"
+}

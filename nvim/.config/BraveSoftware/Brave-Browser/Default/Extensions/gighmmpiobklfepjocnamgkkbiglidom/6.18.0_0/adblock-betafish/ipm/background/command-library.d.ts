@@ -1,0 +1,11 @@
+import { Behavior, Command, CommandActor, CommandName, Content } from "./command-library.types";
+export declare function isCommandMap(candidate: unknown): candidate is Record<string, Command>;
+export declare function setCommandActor(commandName: CommandName, actor: CommandActor): void;
+export declare function dismissCommand(ipmId: string): void;
+export declare function getBehavior(ipmId: string): Behavior | null;
+export declare function getCommand(ipmId: string): Command | null;
+export declare function getStoredCommandIds(): string[];
+export declare function getContent(ipmId: string): Content | null;
+export declare function isCommandExpired(command: Command): boolean;
+export declare function executeIPMCommands(commands: unknown[], isInitialization?: boolean): Promise<void>;
+export declare function removeAllCommands(name: CommandName): Promise<void>;

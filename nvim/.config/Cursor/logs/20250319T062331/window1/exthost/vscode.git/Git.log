@@ -1,0 +1,5 @@
+2025-03-19 06:23:34.600 [info] [main] Log level: Info
+2025-03-19 06:23:34.600 [info] [main] Validating found git in: "git"
+2025-03-19 06:23:34.600 [info] [main] Using git "2.48.1" from "git"
+2025-03-19 06:23:34.600 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-19 06:23:34.600 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)

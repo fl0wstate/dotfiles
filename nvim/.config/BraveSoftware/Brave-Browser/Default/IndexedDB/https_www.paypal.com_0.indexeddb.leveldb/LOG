@@ -1,0 +1,6 @@
+2025/02/24-14:54:03.084 361c Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.paypal.com_0.indexeddb.leveldb since it was missing.
+2025/02/24-14:54:03.094 361c Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.paypal.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/24-20:06:45.654 361b Level-0 table #5: started
+2025/02/24-20:06:45.658 361b Level-0 table #5: 3112 bytes OK
+2025/02/24-20:06:45.665 361b Delete type=0 #3
+2025/02/24-20:06:45.666 361b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

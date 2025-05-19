@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Legg til en side"
+   },
+   "all_settings": {
+      "message": "Alle innstillinger"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (dag på stedet)"
+   },
+   "auto_day_time": {
+      "message": "Auto (dagtid)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (natt på stedet)"
+   },
+   "auto_night_time": {
+      "message": "Auto (natttid)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (systemet er mørkt)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (systemet er lett)"
+   },
+   "automation": {
+      "message": "Automasjon"
+   },
+   "brightness": {
+      "message": "Lysstyrke"
+   },
+   "change_browser_theme": {
+      "message": "Bytt nettleser tema"
+   },
+   "click_to_set_shortcut": {
+      "message": "Klikk for å angi snarveien"
+   },
+   "configure_automation": {
+      "message": "Konfigurer automatisering"
+   },
+   "configure_site_toggle": {
+      "message": "Konfigurer nettstedsveksling"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Standard"
+   },
+   "custom_browser_theme_on": {
+      "message": "Tilpasset"
+   },
+   "dark": {
+      "message": "Mørk"
+   },
+   "dark_theme_detected": {
+      "message": "Mørkt tema oppdaget"
+   },
+   "detect_dark_theme": {
+      "message": "Oppdag mørkt tema"
+   },
+   "detect_website_dark_theme": {
+      "message": "Oppdag nettstedets eget mørke tema"
+   },
+   "donate": {
+      "message": "Donere"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Aktivert for alle nettsteder som standard"
+   },
+   "enabled_by_default": {
+      "message": "Aktivert som standard"
+   },
+   "engine_dynamic": {
+      "message": "Dynamisk"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statisk"
+   },
+   "extension_description": {
+      "message": "Mørkt tema for alle nettsteder. Ta vare på øynene, bruk Dark Reader for nettleseren, dag og kveld."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Utvidelse av/på tastatursnarvei"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Gråtone"
+   },
+   "help": {
+      "message": "Hjelp"
+   },
+   "invert_listed_only": {
+      "message": "Inverter bare"
+   },
+   "latitude": {
+      "message": "Breddegrad"
+   },
+   "learn_more": {
+      "message": "Lær mer"
+   },
+   "light": {
+      "message": "Lys"
+   },
+   "loading_please_wait": {
+      "message": "Laster, vennligst vent"
+   },
+   "local_files_forbidden": {
+      "message": "Ikke tillatt tilgang\nlokale filer"
+   },
+   "longitude": {
+      "message": "Lengdegrad"
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader er tilgjengelig. Lære mer"
+   },
+   "mobile_text": {
+      "message": "Reduser belastningen på øynene mens du leser på telefonen eller nettbrettet.\nBare skann QR-koden for å installere."
+   },
+   "mode": {
+      "message": "Modus"
+   },
+   "more": {
+      "message": "Mer"
+   },
+   "news": {
+      "message": "Nyheter"
+   },
+   "not_invert_listed": {
+      "message": "Ikke inverter"
+   },
+   "off": {
+      "message": "Av"
+   },
+   "on": {
+      "message": "På"
+   },
+   "only_for": {
+      "message": "Bare for"
+   },
+   "only_for_description": {
+      "message": "Benytt instillingene bare for denne nettsiden"
+   },
+   "open_dev_tools": {
+      "message": "Utvikler"
+   },
+   "page_in_dark_list": {
+      "message": "Siden er i den globale\nmørk-modus listen"
+   },
+   "page_protected": {
+      "message": "Denne siden er beskyttet\nav nettleseren"
+   },
+   "pay_for_using": {
+      "message": "Betal for å bruke Dark Reader"
+   },
+   "privacy": {
+      "message": "Personvern"
+   },
+   "read_more": {
+      "message": "Les mer"
+   },
+   "select_font": {
+      "message": "Velg en skrifttype"
+   },
+   "sepia": {
+      "message": "Bruntone"
+   },
+   "set_active_hours": {
+      "message": "Angi aktivitetsperiode"
+   },
+   "set_location": {
+      "message": "Aktiver etter solnedgang på stedet"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Legg til en hurtigtast for å legge til sider"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Sett opp hurtigtast for\nå slå utvidelsen på/av"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Sett opp hurtigtast\nfor å invertere sider"
+   },
+   "site_list": {
+      "message": "Side liste"
+   },
+   "site_toggle": {
+      "message": "Bytting av nettsted"
+   },
+   "store_listing": {
+      "message": "Denne øye-beskyttelse utvidelsen aktiverer nattmodus og lager mørke temaer for nettsider. Dark Reader bytter ut lyse farger med mørke høy-kontrast farger og gjør lesing om kvelden enkelt.\n\nDu kan regulere lysstyrken, kontrasten, bruntone, nattmodus, skrifttype-instillinger og ignorer-liste.\n\nVi kan be deg om å støtte utviklingen av appen med en donasjon. Du kan se nyheter om Dark Reader i popup-vinduet for innstillinger. Det finnes utviklerverktøy for erfarne brukere.\n\nDark Reader viser ikke reklame og sender ikke ut brukerens data. Utvidelsen er åpen-kilde tilgjengelig på https://github.com/darkreader/darkreader\n\nDeaktiver lignende utvidelser før du installerer. Nyt opplevelsen!"
+   },
+   "support_out_work": {
+      "message": "Støtt vårt arbeid"
+   },
+   "system_dark_mode": {
+      "message": "Bruk systemfargevalg"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktiveres når systemet mørk modus er på"
+   },
+   "text_stroke": {
+      "message": "Tekst-tykkelse"
+   },
+   "theme_generation_mode": {
+      "message": "Tema generering modus"
+   },
+   "toggle_current_site": {
+      "message": "Inverter denne siden"
+   },
+   "toggle_extension": {
+      "message": "Slå utvidelsen på/av"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Prøv ut **eksperimentell** tema motor:\n**Filter+** bevarer fargers metning og benytter GPUen\n**Statisk tema** genererer et enkelt, raskt tema\n**Dynamisk tema** analyserer farger og bilder"
+   },
+   "version": {
+      "message": "Versjon"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader feirer 10 år.\nStøtt arbeidet vårt."
+   },
+   "website_toggle_shortcut": {
+      "message": "Bytt tastatursnarvei for nettsted"
+   }
+}

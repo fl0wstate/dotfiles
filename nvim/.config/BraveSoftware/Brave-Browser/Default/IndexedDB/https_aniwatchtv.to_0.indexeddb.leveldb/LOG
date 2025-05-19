@@ -1,0 +1,14 @@
+2025/02/19-03:28:41.630 342 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_aniwatchtv.to_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/19-03:28:41.631 342 Recovering log #4
+2025/02/19-03:28:41.631 342 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_aniwatchtv.to_0.indexeddb.leveldb/000004.log 
+2025/02/19-04:49:39.684 340 Level-0 table #7: started
+2025/02/19-04:49:39.688 340 Level-0 table #7: 209 bytes OK
+2025/02/19-04:49:39.695 340 Delete type=0 #4
+2025/02/19-04:49:39.695 340 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 63732 : 1
+2025/02/19-04:49:39.695 340 Compacting 2@0 + 0@1 files
+2025/02/19-04:49:39.716 340 Generated table #8@0: 19324 keys, 572072 bytes
+2025/02/19-04:49:39.716 340 Compacted 2@0 + 0@1 files => 572072 bytes
+2025/02/19-04:49:39.723 340 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/02/19-04:49:39.724 340 Delete type=2 #3
+2025/02/19-04:49:39.724 340 Delete type=2 #7
+2025/02/19-04:49:39.725 340 Manual compaction at level-0 from '\x00\x00\x00\x00\x06' @ 63732 : 1 .. (end); will stop at (end)

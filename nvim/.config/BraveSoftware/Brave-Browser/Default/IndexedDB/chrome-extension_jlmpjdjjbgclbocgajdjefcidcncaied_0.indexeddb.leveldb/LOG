@@ -1,0 +1,6 @@
+2025/02/03-09:48:42.050 876f Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_jlmpjdjjbgclbocgajdjefcidcncaied_0.indexeddb.leveldb since it was missing.
+2025/02/03-09:48:42.101 876f Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_jlmpjdjjbgclbocgajdjefcidcncaied_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/03-09:48:47.238 8770 Level-0 table #5: started
+2025/02/03-09:48:47.242 8770 Level-0 table #5: 1138 bytes OK
+2025/02/03-09:48:47.248 8770 Delete type=0 #3
+2025/02/03-09:48:47.248 8770 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

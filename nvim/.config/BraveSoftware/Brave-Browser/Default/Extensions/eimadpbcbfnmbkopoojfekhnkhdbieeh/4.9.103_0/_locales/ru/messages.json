@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Добавить сайт в список"
+   },
+   "all_settings": {
+      "message": "Все настройки"
+   },
+   "auto_day_at_location": {
+      "message": "Авто (день на локации)"
+   },
+   "auto_day_time": {
+      "message": "Авто (дневное время)"
+   },
+   "auto_night_at_location": {
+      "message": "Авто (ночь на локации)"
+   },
+   "auto_night_time": {
+      "message": "Авто (ночное время)"
+   },
+   "auto_system_is_dark": {
+      "message": "Авто (система темная)"
+   },
+   "auto_system_is_light": {
+      "message": "Авто (система светлая)"
+   },
+   "automation": {
+      "message": "Автоматизация"
+   },
+   "brightness": {
+      "message": "Яркость"
+   },
+   "change_browser_theme": {
+      "message": "Изменить тему браузера"
+   },
+   "click_to_set_shortcut": {
+      "message": "Нажмите, чтобы установить сочетание"
+   },
+   "configure_automation": {
+      "message": "Настроить автоматизацию"
+   },
+   "configure_site_toggle": {
+      "message": "Настроить переключение веб-сайтов"
+   },
+   "contrast": {
+      "message": "Контрастность"
+   },
+   "custom_browser_theme_off": {
+      "message": "По умолчанию"
+   },
+   "custom_browser_theme_on": {
+      "message": "Изменённая"
+   },
+   "dark": {
+      "message": "Тёмный"
+   },
+   "dark_theme_detected": {
+      "message": "Обнаружена темная тема"
+   },
+   "detect_dark_theme": {
+      "message": "Обнаружение темной темы"
+   },
+   "detect_website_dark_theme": {
+      "message": "Обнаружение собственной темной темы веб-сайта"
+   },
+   "donate": {
+      "message": "Поддержка"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Включено для всех веб-сайтов по умолчанию"
+   },
+   "enabled_by_default": {
+      "message": "Включено по умолчанию"
+   },
+   "engine_dynamic": {
+      "message": "Динам."
+   },
+   "engine_filter": {
+      "message": "Фильтр"
+   },
+   "engine_filter_plus": {
+      "message": "Фильтр+"
+   },
+   "engine_static": {
+      "message": "Стат."
+   },
+   "extension_description": {
+      "message": "Тёмная тема для каждого сайта. Берегите зрение, используйте Дарк Ридер для ночного или ежедневного просмотра веб-страниц."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Горячая клавиша включения/выключения расширения"
+   },
+   "filter": {
+      "message": "Фильтр"
+   },
+   "grayscale": {
+      "message": "Оттенки серого"
+   },
+   "help": {
+      "message": "Справка"
+   },
+   "invert_listed_only": {
+      "message": "Инверт. только эти"
+   },
+   "latitude": {
+      "message": "широта"
+   },
+   "learn_more": {
+      "message": "Узнать больше"
+   },
+   "light": {
+      "message": "Светлый"
+   },
+   "loading_please_wait": {
+      "message": "Идёт загрузка, подождите"
+   },
+   "local_files_forbidden": {
+      "message": "Нет разрешения на доступ\nк локальным файлам"
+   },
+   "longitude": {
+      "message": "Долгота"
+   },
+   "mobile": {
+      "message": "Мобильный"
+   },
+   "mobile_link": {
+      "message": "Доступен мобильный Dark Reader. Узнать больше"
+   },
+   "mobile_text": {
+      "message": "Уменьшите нагрузку на глаза при чтении на телефоне или планшете.\nПросто отсканируйте QR-код для установки."
+   },
+   "mode": {
+      "message": "Режим"
+   },
+   "more": {
+      "message": "Ещё"
+   },
+   "news": {
+      "message": "Новости"
+   },
+   "not_invert_listed": {
+      "message": "Не инвертировать"
+   },
+   "off": {
+      "message": "Откл."
+   },
+   "on": {
+      "message": "Вкл."
+   },
+   "only_for": {
+      "message": "Только для"
+   },
+   "only_for_description": {
+      "message": "Применить настройки только к тек. сайту"
+   },
+   "open_dev_tools": {
+      "message": "Разраб."
+   },
+   "page_in_dark_list": {
+      "message": "Эта страница в глоб\nсписке Тёмных Сайтов"
+   },
+   "page_protected": {
+      "message": "Эта страница защищена\nбраузером"
+   },
+   "pay_for_using": {
+      "message": "Оплатите использование Dark Reader"
+   },
+   "privacy": {
+      "message": "Согл."
+   },
+   "read_more": {
+      "message": "Читать ещё"
+   },
+   "select_font": {
+      "message": "Выберите шрифт"
+   },
+   "sepia": {
+      "message": "Сепия"
+   },
+   "set_active_hours": {
+      "message": "Установите период активности"
+   },
+   "set_location": {
+      "message": "Включить на закате"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Уст. сочет. клавиш для доб. сайта в список"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Уст. сочетание\nклавиш"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Установите сочетание\nклавиш"
+   },
+   "site_list": {
+      "message": "Список"
+   },
+   "site_toggle": {
+      "message": "Переключение сайта"
+   },
+   "store_listing": {
+      "message": "Это расширение переводит браузер в ночной режим. Дарк Ридер заменяет светлый фон тёмным, что снижает усталость глаз при долгой работе за компьютером либо при просмотре веб-страниц ночью.\n\nИмеется возможность настраивать яркость, контрастность, шрифт, режим инверсии, режим наложения жёлтого фильтра (сепия).\n\nМы можем попросить вас поддержать разработку приложения пожертвованием. Вы можете увидеть новости о Dark Reader во всплывающем окне настроек. Есть инструменты разработчика для опытных пользователей.\n\nДарк Ридер не встраивает рекламу и не собирает пользовательские данные. Весь исходный код открыт https://github.com/darkreader/darkreader\n\nПеред установкой отключите подобные расширения. Приятного просмотра!"
+   },
+   "support_out_work": {
+      "message": "Поддержите нашу работу"
+   },
+   "system_dark_mode": {
+      "message": "Использовать системную цветовую схему"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Вкл., если системный ночной режим активен"
+   },
+   "text_stroke": {
+      "message": "Обводка текста"
+   },
+   "theme_generation_mode": {
+      "message": "Режим генерации темы"
+   },
+   "toggle_current_site": {
+      "message": "Переключить тек. сайт"
+   },
+   "toggle_extension": {
+      "message": "Вкл/откл расширен."
+   },
+   "try_experimental_theme_engines": {
+      "message": "Попробуйте **экспериментальные** режимы:\n**Фильтр+** сохр. яркость цветов, использует GPU\n**Статический режим** создаёт простую тему\n**Динамический** анализирует цвета и картинки"
+   },
+   "version": {
+      "message": "Версия"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader отмечает 10-летие.\nПожалуйста, поддержите нашу работу."
+   },
+   "website_toggle_shortcut": {
+      "message": "Сочетание клавиш для переключения веб-сайтов"
+   }
+}

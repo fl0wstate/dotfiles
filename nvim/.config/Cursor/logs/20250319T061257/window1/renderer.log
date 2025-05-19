@@ -1,0 +1,250 @@
+2025-03-19 06:12:59.015 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.015 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.datawrangler' wants API proposal 'debugFocus' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-azuretools.vscode-azure-github-copilot' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.016 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'vscjava.vscode-java-pack' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'chatParticipant' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.017 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'apidev.azure-api-center' wants API proposal 'languageModels' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-03-19 06:12:59.056 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.056 [warning] Missing property "mcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.056 [warning] Missing property "availableDefaultModels2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.057 [warning] Missing property "notepadState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.057 [warning] Missing property "bugbotState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.057 [warning] Missing property "backgroundComposerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.057 [warning] Missing property "aiFeaturesCopyPasteState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.057 [warning] Missing property "shouldShowViewZoneWhenPreviewBoxIsClipped6" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "syncDevModeColorTheme" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "cppModelsState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "isLinterEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "aiSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "authenticationSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "websiteUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.058 [warning] Missing property "backendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "authClientId" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "authDomain" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "repoBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "contextBankUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "telemBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "cmdkBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "geoCppBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.059 [warning] Missing property "cppConfigBackendUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "bcProxyUrl" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "credentialsDisplayName" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "docState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "lastUpdateHiddenTimeInUnixSeconds" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "lintRules" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "bubbleTimesLeft" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "showAgentActionDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "cmdLineHookState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.060 [warning] Missing property "agentDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "showLinterDebugger" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "linterDebuggerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "cacheChatPrompts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "cmdkDiffHistoryEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "shouldOnlyImportOnAccept" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "cppAutoImportDecorationStyle" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.061 [warning] Missing property "lintSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "lastUpgradeToProNotificationTime" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "haveNotSeen" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "newUserData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "azureState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "interpreterModeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "cppFireOnEveryCursorChange" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.062 [warning] Missing property "personalDocs" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "cppInCmdF" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "cppManualTriggerWithOpToken" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "cppTriggerInComments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "cppShowWhitespaceOnlyChanges" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "fastCppEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "cppConfig" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "indexRepository" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.063 [warning] Missing property "haveNotImportedFromVSC" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "shouldAutoParseCmdKLinks" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "aiPreviewsEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "aiPreviewSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "chatFadeInAnimationEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "isFileSyncClientEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "membershipType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "useFastApplyModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.064 [warning] Missing property "fastApplyModelType" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.065 [warning] Missing property "explicitlyEnableSemanticSearch" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.065 [warning] Missing property "aiCursorHelpEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.065 [warning] Missing property "showAllCmdKContexts" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.065 [warning] Missing property "aiDocAgentEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.065 [warning] Missing property "markdownTestString" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "cppInPeek" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "fastSemanticSearchEnabled" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "preferredEmbeddingModel" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "cursorPredictionUIExperiments" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "oneTimeSettings" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.066 [warning] Missing property "indexingState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "internalAnalyticsDebugMode" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "fullContextOptions" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "shouldHideWarning" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "persistentChatMetadata" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "aiPanePosition" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "shouldRerankByDefault" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "indexingData" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.067 [warning] Missing property "composerState" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.068 [warning] Missing property "isCursorPredictionOutOfRangeIndicatorMinimized2" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.068 [warning] Missing property "needsComposerInitialOpening" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.068 [warning] Missing property "approvedProjectMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.068 [warning] Missing property "disabledMcpServers" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:12:59.128 [warning] Creation of workbench contribution 'workbench.contrib.onboarding.onStart.cursor' took 28ms.
+2025-03-19 06:12:59.359 [error] Unable to resolve nonexistent file '/home/flowy/.vscode/extensions': Error: Unable to resolve nonexistent file '/home/flowy/.vscode/extensions'
+    at b1i.resolve (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:4811:62075)
+    at async c (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5006:20191) Unable to resolve nonexistent file '/home/flowy/.vscode/extensions'
+2025-03-19 06:12:59.387 [info] Started local extension host with pid 9092.
+2025-03-19 06:12:59.426 [info] Started initializing default profile extensions in extensions installation folder. file:///home/flowy/.cursor/extensions
+2025-03-19 06:12:59.669 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/flowy/.cursor/extensions
+2025-03-19 06:13:00.211 [warning] Missing property "cppHasLoadedConfigFromCopilot" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:13:00.211 [warning] Missing property "hasDisabledErrorLensForAiLinter" in oldValue. Filling with value from initValue. Please add a migration if necessary.
+2025-03-19 06:13:02.664 [info] [perf] Render performance baseline is 22ms
+2025-03-19 06:13:03.237 [error] [unauthenticated] Error: ConnectError: [unauthenticated] Error
+    at t (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:2319:114067)
+    at async Object.availableModels (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:97:15148)
+    at async Jki.keepCppModelStateUpdated (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5044:11377)
+    at async Jki.loadCppConfigIncludingHandlingProAccess (vscode-file://vscode-app/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/workbench.desktop.main.js:5059:1027) [unauthenticated] Error
+2025-03-19 06:13:34.848 [info] Starting polling for login
+2025-03-19 06:13:35.049 [info] Beginning of Login Poll
+2025-03-19 06:13:35.249 [info] Beginning of Login Poll
+2025-03-19 06:13:35.449 [info] Beginning of Login Poll
+2025-03-19 06:13:35.544 [info] Got login result 404
+2025-03-19 06:13:35.649 [info] Beginning of Login Poll
+2025-03-19 06:13:35.793 [info] Got login result 404
+2025-03-19 06:13:35.849 [info] Beginning of Login Poll
+2025-03-19 06:13:36.038 [info] Got login result 404
+2025-03-19 06:13:36.049 [info] Beginning of Login Poll
+2025-03-19 06:13:36.212 [info] Ignoring configured affinity for 'vscodevim.vim' because extension host(s) are already running. Reload window.
+2025-03-19 06:13:36.256 [info] Beginning of Login Poll
+2025-03-19 06:13:36.283 [info] Got login result 404
+2025-03-19 06:13:36.448 [info] Beginning of Login Poll
+2025-03-19 06:13:36.526 [info] Got login result 404
+2025-03-19 06:13:36.649 [info] Beginning of Login Poll
+2025-03-19 06:13:36.772 [info] Got login result 404
+2025-03-19 06:13:36.849 [info] Beginning of Login Poll
+2025-03-19 06:13:37.014 [info] Got login result 404
+2025-03-19 06:13:37.049 [info] Beginning of Login Poll
+2025-03-19 06:13:37.249 [info] Beginning of Login Poll
+2025-03-19 06:13:37.259 [info] Got login result 404
+2025-03-19 06:13:37.381 [error] ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers' ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'
+2025-03-19 06:13:37.449 [info] Beginning of Login Poll
+2025-03-19 06:13:37.504 [info] Got login result 404
+2025-03-19 06:13:37.649 [info] Beginning of Login Poll
+2025-03-19 06:13:37.749 [info] Got login result 404
+2025-03-19 06:13:37.849 [info] Beginning of Login Poll
+2025-03-19 06:13:37.994 [info] Got login result 404
+2025-03-19 06:13:38.049 [info] Beginning of Login Poll
+2025-03-19 06:13:38.249 [info] Beginning of Login Poll
+2025-03-19 06:13:38.254 [info] Got login result 404
+2025-03-19 06:13:38.449 [info] Beginning of Login Poll
+2025-03-19 06:13:38.500 [info] Got login result 404
+2025-03-19 06:13:38.649 [info] Beginning of Login Poll
+2025-03-19 06:13:38.767 [info] Got login result 404
+2025-03-19 06:13:38.858 [info] Beginning of Login Poll
+2025-03-19 06:13:39.012 [info] Got login result 404
+2025-03-19 06:13:39.049 [info] Beginning of Login Poll
+2025-03-19 06:13:39.249 [info] Beginning of Login Poll
+2025-03-19 06:13:39.256 [info] Got login result 404
+2025-03-19 06:13:39.449 [info] Beginning of Login Poll
+2025-03-19 06:13:39.502 [info] Got login result 404
+2025-03-19 06:13:39.649 [info] Beginning of Login Poll
+2025-03-19 06:13:39.792 [info] Got login result 404
+2025-03-19 06:13:39.848 [info] Beginning of Login Poll
+2025-03-19 06:13:40.049 [info] Beginning of Login Poll
+2025-03-19 06:13:40.100 [info] Got login result 404
+2025-03-19 06:13:40.249 [info] Beginning of Login Poll
+2025-03-19 06:13:40.406 [info] Got login result 404
+2025-03-19 06:13:40.449 [info] Beginning of Login Poll
+2025-03-19 06:13:40.649 [info] Beginning of Login Poll
+2025-03-19 06:13:40.714 [info] Got login result 404
+2025-03-19 06:13:40.849 [info] Beginning of Login Poll
+2025-03-19 06:13:41.020 [info] Got login result 404
+2025-03-19 06:13:41.049 [info] Beginning of Login Poll
+2025-03-19 06:13:41.248 [info] Beginning of Login Poll
+2025-03-19 06:13:41.330 [info] Got login result 404
+2025-03-19 06:13:41.449 [info] Beginning of Login Poll
+2025-03-19 06:13:41.636 [info] Got login result 404
+2025-03-19 06:13:41.649 [info] Beginning of Login Poll
+2025-03-19 06:13:41.849 [info] Beginning of Login Poll
+2025-03-19 06:13:42.046 [info] Got login result 404
+2025-03-19 06:13:42.048 [info] Beginning of Login Poll
+2025-03-19 06:13:42.249 [info] Beginning of Login Poll
+2025-03-19 06:13:42.354 [info] Got login result 404
+2025-03-19 06:13:42.449 [info] Beginning of Login Poll
+2025-03-19 06:13:42.649 [info] Beginning of Login Poll
+2025-03-19 06:13:42.660 [info] Got login result 404
+2025-03-19 06:13:42.849 [info] Beginning of Login Poll
+2025-03-19 06:13:42.973 [info] Got login result 404
+2025-03-19 06:13:43.049 [info] Beginning of Login Poll
+2025-03-19 06:13:43.249 [info] Beginning of Login Poll
+2025-03-19 06:13:43.275 [info] Got login result 404
+2025-03-19 06:13:43.449 [info] Beginning of Login Poll
+2025-03-19 06:13:43.520 [info] Got login result 404
+2025-03-19 06:13:43.649 [info] Beginning of Login Poll
+2025-03-19 06:13:43.785 [info] Got login result 404
+2025-03-19 06:13:43.849 [info] Beginning of Login Poll
+2025-03-19 06:13:44.049 [info] Beginning of Login Poll
+2025-03-19 06:13:44.092 [info] Got login result 404
+2025-03-19 06:13:44.249 [info] Beginning of Login Poll
+2025-03-19 06:13:44.337 [info] Got login result 404
+2025-03-19 06:13:44.449 [info] Beginning of Login Poll
+2025-03-19 06:13:44.649 [info] Beginning of Login Poll
+2025-03-19 06:13:44.706 [info] Got login result 404
+2025-03-19 06:13:44.849 [info] Beginning of Login Poll
+2025-03-19 06:13:45.014 [info] Got login result 404
+2025-03-19 06:13:45.049 [info] Beginning of Login Poll
+2025-03-19 06:13:45.249 [info] Beginning of Login Poll
+2025-03-19 06:13:45.321 [info] Got login result 404
+2025-03-19 06:13:45.449 [info] Beginning of Login Poll
+2025-03-19 06:13:45.640 [info] Got login result 404
+2025-03-19 06:13:45.649 [info] Beginning of Login Poll
+2025-03-19 06:13:45.850 [info] Beginning of Login Poll
+2025-03-19 06:13:45.890 [info] Got login result 404
+2025-03-19 06:13:46.049 [info] Beginning of Login Poll
+2025-03-19 06:13:46.242 [info] Got login result 404
+2025-03-19 06:13:46.248 [info] Beginning of Login Poll
+2025-03-19 06:13:46.449 [info] Beginning of Login Poll
+2025-03-19 06:13:46.550 [info] Got login result 404
+2025-03-19 06:13:46.649 [info] Beginning of Login Poll
+2025-03-19 06:13:46.850 [info] Beginning of Login Poll
+2025-03-19 06:13:46.857 [info] Got login result 404
+2025-03-19 06:13:47.049 [info] Beginning of Login Poll
+2025-03-19 06:13:47.166 [info] Got login result 404
+2025-03-19 06:13:47.249 [info] Beginning of Login Poll
+2025-03-19 06:13:47.450 [info] Beginning of Login Poll
+2025-03-19 06:13:47.472 [info] Got login result 404
+2025-03-19 06:13:47.649 [info] Beginning of Login Poll
+2025-03-19 06:13:47.778 [info] Got login result 404
+2025-03-19 06:13:47.849 [info] Beginning of Login Poll
+2025-03-19 06:13:48.049 [info] Beginning of Login Poll
+2025-03-19 06:13:48.085 [info] Got login result 404
+2025-03-19 06:13:48.249 [info] Beginning of Login Poll
+2025-03-19 06:13:48.359 [info] Got login result 404
+2025-03-19 06:13:48.449 [info] Beginning of Login Poll
+2025-03-19 06:13:48.649 [info] Beginning of Login Poll
+2025-03-19 06:13:48.701 [info] Got login result 404
+2025-03-19 06:13:48.849 [info] Beginning of Login Poll
+2025-03-19 06:13:49.008 [info] Got login result 404
+2025-03-19 06:13:49.049 [info] Beginning of Login Poll
+2025-03-19 06:13:49.249 [info] Beginning of Login Poll
+2025-03-19 06:13:49.315 [info] Got login result 404
+2025-03-19 06:13:49.449 [info] Beginning of Login Poll
+2025-03-19 06:13:49.621 [info] Got login result 404
+2025-03-19 06:13:49.649 [info] Beginning of Login Poll
+2025-03-19 06:13:49.849 [info] Beginning of Login Poll
+2025-03-19 06:13:49.929 [info] Got login result 404
+2025-03-19 06:13:50.049 [info] Beginning of Login Poll
+2025-03-19 06:13:50.236 [info] Got login result 404
+2025-03-19 06:13:50.249 [info] Beginning of Login Poll
+2025-03-19 06:13:50.449 [info] Beginning of Login Poll
+2025-03-19 06:13:50.543 [info] Got login result 404
+2025-03-19 06:13:50.649 [info] Beginning of Login Poll
+2025-03-19 06:13:50.849 [info] Beginning of Login Poll
+2025-03-19 06:13:50.851 [info] Got login result 404
+2025-03-19 06:13:51.049 [info] Beginning of Login Poll
+2025-03-19 06:13:51.097 [info] Got login result 404
+2025-03-19 06:13:51.250 [info] Beginning of Login Poll
+2025-03-19 06:13:51.363 [info] Got login result 404

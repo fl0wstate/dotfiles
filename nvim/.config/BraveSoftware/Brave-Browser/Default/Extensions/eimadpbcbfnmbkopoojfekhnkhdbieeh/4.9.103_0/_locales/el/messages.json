@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Προσθήκη σελίδας στη λίστα"
+   },
+   "all_settings": {
+      "message": "Όλες οι ρυθμίσεις"
+   },
+   "auto_day_at_location": {
+      "message": "Αυτόματο (ημέρα στην τοποθεσία)"
+   },
+   "auto_day_time": {
+      "message": "Αυτόματο (ημέρα)"
+   },
+   "auto_night_at_location": {
+      "message": "Αυτόματο (νύχτα στην τοποθεσία)"
+   },
+   "auto_night_time": {
+      "message": "Αυτόματο (νυχτερινή ώρα)"
+   },
+   "auto_system_is_dark": {
+      "message": "Αυτόματο (το σύστημα είναι σκοτεινό)"
+   },
+   "auto_system_is_light": {
+      "message": "Αυτόματο (το σύστημα είναι ελαφρύ)"
+   },
+   "automation": {
+      "message": "Αυτοματοποίηση"
+   },
+   "brightness": {
+      "message": "Φωτεινότητα"
+   },
+   "change_browser_theme": {
+      "message": "Αλλαγή θέματος προγράμματος περιήγησης"
+   },
+   "click_to_set_shortcut": {
+      "message": "Κάντε κλικ για να ορίσετε τη συντόμευση"
+   },
+   "configure_automation": {
+      "message": "Διαμόρφωση αυτοματισμού"
+   },
+   "configure_site_toggle": {
+      "message": "Διαμόρφωση εναλλαγής ιστότοπου"
+   },
+   "contrast": {
+      "message": "Αντίθεση"
+   },
+   "custom_browser_theme_off": {
+      "message": "Προεπιλογή"
+   },
+   "custom_browser_theme_on": {
+      "message": "Προσαρμοσμένη"
+   },
+   "dark": {
+      "message": "Σκούρα"
+   },
+   "dark_theme_detected": {
+      "message": "Εντοπίστηκε σκούρο θέμα"
+   },
+   "detect_dark_theme": {
+      "message": "Εντοπισμός σκοτεινού θέματος"
+   },
+   "detect_website_dark_theme": {
+      "message": "Εντοπίστε το σκοτεινό θέμα του ιστότοπου"
+   },
+   "donate": {
+      "message": "Δωρεά"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Ενεργοποιημένο για όλους τους ιστότοπους από προεπιλογή"
+   },
+   "enabled_by_default": {
+      "message": "Ενεργοποιήθηκε από προεπιλογή"
+   },
+   "engine_dynamic": {
+      "message": "Δυναμικό"
+   },
+   "engine_filter": {
+      "message": "Φίλτρο"
+   },
+   "engine_filter_plus": {
+      "message": "Φίλτρο+"
+   },
+   "engine_static": {
+      "message": "Στατικό"
+   },
+   "extension_description": {
+      "message": "Σκούρα εμφάνιση για όλες τις ιστοσελίδες. Φροντίστε τα μάτια σας κάνοντας χρήση σκούρας εμφάνισης στο καθημερινό σας σερφάρισμα."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Επέκταση on/off συντόμευση πληκτρολογίου"
+   },
+   "filter": {
+      "message": "Φίλτρο"
+   },
+   "grayscale": {
+      "message": "Ασπρόμαυρο"
+   },
+   "help": {
+      "message": "Βοήθεια"
+   },
+   "invert_listed_only": {
+      "message": "Αντίστροφη λίστα"
+   },
+   "latitude": {
+      "message": "Γεωγραφικό πλάτος"
+   },
+   "learn_more": {
+      "message": "Μάθετε περισσότερα"
+   },
+   "light": {
+      "message": "Φωτεινή"
+   },
+   "loading_please_wait": {
+      "message": "Φόρτωση, παρακαλώ περιμένετε"
+   },
+   "local_files_forbidden": {
+      "message": "Δεν επιτρέπεται η πρόσβαση\nτοπικά αρχεία"
+   },
+   "longitude": {
+      "message": "Γεωγραφικό μήκος"
+   },
+   "mobile": {
+      "message": "Κινητός"
+   },
+   "mobile_link": {
+      "message": "Το Mobile Dark Reader είναι διαθέσιμο. Μάθε περισσότερα"
+   },
+   "mobile_text": {
+      "message": "Μειώστε την καταπόνηση των ματιών ενώ διαβάζετε στο τηλέφωνο ή το tablet σας.\nΑπλώς σαρώστε τον κωδικό QR για εγκατάσταση."
+   },
+   "mode": {
+      "message": "Εμφάνιση"
+   },
+   "more": {
+      "message": "Περισσότερα"
+   },
+   "news": {
+      "message": "Νέα"
+   },
+   "not_invert_listed": {
+      "message": "Όχι αντίστροφη"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "only_for": {
+      "message": "Μόνο για"
+   },
+   "only_for_description": {
+      "message": "Ενεργοποίηση μόνο στην τρέχουσα σελίδα"
+   },
+   "open_dev_tools": {
+      "message": "Εργαλεία"
+   },
+   "page_in_dark_list": {
+      "message": "Περιλαμβάνεται στην\nκαθολική Σκούρα Λίστα"
+   },
+   "page_protected": {
+      "message": "Η σελίδα αυτή\nπροστατεύεται"
+   },
+   "pay_for_using": {
+      "message": "Πληρώστε για τη χρήση του Dark Reader"
+   },
+   "privacy": {
+      "message": "Ιδιωτικότητα"
+   },
+   "read_more": {
+      "message": "Διαβάστε περισσότερα"
+   },
+   "select_font": {
+      "message": "Επιλογή γραμματοσειράς"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Ορισμός ενεργών ωρών"
+   },
+   "set_location": {
+      "message": "Ενεργοποιήστε μετά το ηλιοβασίλεμα στη θέση"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Ρυθμίσεις hotkey για προσθήκη σελίδας"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Ρυθμίσεις πρόσθετου\nαλλαγή hotkey"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Ρυθμίσεις τρέχουσας σελίδας\nαλλαγή hotkey"
+   },
+   "site_list": {
+      "message": "Λίστα"
+   },
+   "site_toggle": {
+      "message": "Εναλλαγή τοποθεσίας"
+   },
+   "store_listing": {
+      "message": "Αυτό το θεαματικό πρόσθετο, μετατρέπει ζωντανά τις ιστοσελίδες που επισκέπτεστε σε σκούρες. Το Dark Reader αντιστρέφει τα χρώματα δημιουργώντας έντονη αντίθεση για ευκολότερη ανάγνωση κατά τις βραδυνές ώρες.\n\nΜπορείτε να προσαρμόσετε φωτεινότητα, αντίθεση, φίλτρο sepia, σκούρα εμφάνιση και λίστα ιστσελίδων στις οποίες το πρόσθετο δεν θα παρεμβαίνει.\n\nΜπορεί να σας ζητήσουμε να υποστηρίξετε την ανάπτυξη της εφαρμογής με μια δωρεά. Μπορεί να δείτε νέα σχετικά με το Dark Reader στο αναδυόμενο παράθυρο ρυθμίσεων. Υπάρχουν Εργαλεία προγραμματιστών για έμπειρους χρήστες.\n\nΤο Dark Reader δεν εμφανίζει διαφιμήσεις ούτε κάνει οποιαδήποτε αποστολή στατιστικών/πληροφορίών του χρήστη. Είναι 100% ανοικτού κώδικά https://github.com/darkreader/darkreader\n\nΠριν εγκαταστήσετε το πρόσθετο αυτό θα πρέπει να αφαιρέσετε παρόμοια πρόσθετα. Καλό σερφάρισμα!"
+   },
+   "support_out_work": {
+      "message": "Υποστηρίξτε το έργο μας"
+   },
+   "system_dark_mode": {
+      "message": "Χρησιμοποιήστε το συνδυασμό χρωμάτων του συστήματος"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Ενεργοποιείται στη σκοτεινή λειτουργία συστήματος"
+   },
+   "text_stroke": {
+      "message": "Σκιά γραμμάτων"
+   },
+   "theme_generation_mode": {
+      "message": "Λειτουργία δημιουργίας θέματος"
+   },
+   "toggle_current_site": {
+      "message": "Αλλαγή τρέχουσας σελίδας"
+   },
+   "toggle_extension": {
+      "message": "Εναλλαγή πρόσθετου"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Δοκιμάστε τις **πειραματικές** μηχανές θεμάτων:\n**Φίλτρο+** διατήρηση κορεσμού χρωμάτων\n**Στατικό θέμα** χρήση απλού, γρήγορου θέματος\n**Δυναμικό θέμα** ανάλυση χρωμάτων και εικόνων"
+   },
+   "version": {
+      "message": "Εκδοχή"
+   },
+   "we_celebrate_10_years": {
+      "message": "Το Dark Reader γιορτάζει 10 χρόνια.\nΠαρακαλούμε υποστηρίξτε το έργο μας."
+   },
+   "website_toggle_shortcut": {
+      "message": "Συντόμευση πληκτρολογίου εναλλαγής ιστότοπου"
+   }
+}

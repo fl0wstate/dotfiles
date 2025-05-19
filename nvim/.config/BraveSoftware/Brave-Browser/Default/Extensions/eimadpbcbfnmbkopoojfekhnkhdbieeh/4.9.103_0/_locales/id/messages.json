@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Tambahkan situs ke daftar"
+   },
+   "all_settings": {
+      "message": "Semua pengaturan"
+   },
+   "auto_day_at_location": {
+      "message": "Otomatis (hari di lokasi)"
+   },
+   "auto_day_time": {
+      "message": "Otomatis (siang hari)"
+   },
+   "auto_night_at_location": {
+      "message": "Otomatis (malam di lokasi)"
+   },
+   "auto_night_time": {
+      "message": "Otomatis (waktu malam)"
+   },
+   "auto_system_is_dark": {
+      "message": "Otomatis (sistem gelap)"
+   },
+   "auto_system_is_light": {
+      "message": "Otomatis (sistem ringan)"
+   },
+   "automation": {
+      "message": "Otomatisasi"
+   },
+   "brightness": {
+      "message": "Kecerahan"
+   },
+   "change_browser_theme": {
+      "message": "Ubah tema peramban"
+   },
+   "click_to_set_shortcut": {
+      "message": "Klik untuk mengatur pintasan"
+   },
+   "configure_automation": {
+      "message": "Konfigurasi otomatisasi"
+   },
+   "configure_site_toggle": {
+      "message": "Konfigurasikan pengalihan situs web"
+   },
+   "contrast": {
+      "message": "Kontras"
+   },
+   "custom_browser_theme_off": {
+      "message": "Bawaan"
+   },
+   "custom_browser_theme_on": {
+      "message": "Khusus"
+   },
+   "dark": {
+      "message": "Malam"
+   },
+   "dark_theme_detected": {
+      "message": "Tema gelap terdeteksi"
+   },
+   "detect_dark_theme": {
+      "message": "Deteksi tema gelap"
+   },
+   "detect_website_dark_theme": {
+      "message": "Mendeteksi tema gelap situs web itu sendiri"
+   },
+   "donate": {
+      "message": "Donasi"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Diaktifkan untuk semua situs web secara default"
+   },
+   "enabled_by_default": {
+      "message": "Diaktifkan secara Default"
+   },
+   "engine_dynamic": {
+      "message": "Dinamis"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statis"
+   },
+   "extension_description": {
+      "message": "Mode malam untuk semua situs web. Menjaga mata anda, menggunakan tema gelap untuk berselancar siang dan malam hari."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Pintasan keyboard aktif/nonaktif ekstensi"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Abu-abu"
+   },
+   "help": {
+      "message": "Bantuan"
+   },
+   "invert_listed_only": {
+      "message": "Diterapkan"
+   },
+   "latitude": {
+      "message": "Garis lintang"
+   },
+   "learn_more": {
+      "message": "Pelajari lebih lanjut"
+   },
+   "light": {
+      "message": "Siang"
+   },
+   "loading_please_wait": {
+      "message": "Sedang memuat, harap menunggu"
+   },
+   "local_files_forbidden": {
+      "message": "Tidak diizinkan untuk mengakses\nfile lokal"
+   },
+   "longitude": {
+      "message": "Garis bujur"
+   },
+   "mobile": {
+      "message": "Seluler"
+   },
+   "mobile_link": {
+      "message": "Pembaca Gelap Seluler tersedia. Belajarlah lagi"
+   },
+   "mobile_text": {
+      "message": "Kurangi ketegangan mata saat membaca di ponsel atau tablet Anda.\nCukup pindai kode QR untuk menginstal."
+   },
+   "mode": {
+      "message": "Mode"
+   },
+   "more": {
+      "message": "Lainnya"
+   },
+   "news": {
+      "message": "Berita"
+   },
+   "not_invert_listed": {
+      "message": "Dikecualikan"
+   },
+   "off": {
+      "message": "Off"
+   },
+   "on": {
+      "message": "On"
+   },
+   "only_for": {
+      "message": "Hanya untuk"
+   },
+   "only_for_description": {
+      "message": "Terapkan hanya untuk situs yang terbuka"
+   },
+   "open_dev_tools": {
+      "message": "Pengembang"
+   },
+   "page_in_dark_list": {
+      "message": "Situs ini berada dalam daftar\nMode Malam"
+   },
+   "page_protected": {
+      "message": "Halaman ini dilindungi\noleh peramban"
+   },
+   "pay_for_using": {
+      "message": "Bayar untuk menggunakan Pembaca Gelap"
+   },
+   "privacy": {
+      "message": "Privasi"
+   },
+   "read_more": {
+      "message": "Baca lainnya"
+   },
+   "select_font": {
+      "message": "Pilih fon"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Ubah waktu aktif"
+   },
+   "set_location": {
+      "message": "Aktifkan setelah matahari terbenam di lokasi"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Atur pintasan untuk menambahkan situs"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Setelan ekstensi\nsaklar pintasan"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Setelan situs yang terbuka\nsaklar pintasan"
+   },
+   "site_list": {
+      "message": "Daftar situs"
+   },
+   "site_toggle": {
+      "message": "Beralih Situs"
+   },
+   "store_listing": {
+      "message": "Ekstensi ini mengaktifkan mode malam dengan membuat halaman situs web menjadi gelap. Dark Reader bekerja dengan membalik warna cerah dengan warna kontras sehingga nyaman di mata.\n\nAnda bisa mengatur kecerahan, kontras, filter sepia, mode malam, setelan fon dan pengecualian situs web.\n\nKami mungkin meminta Anda untuk mendukung pengembangan aplikasi dengan donasi. Anda mungkin melihat berita tentang Pembaca Gelap di sembulan pengaturan. Ada Alat Pengembang untuk pengguna berpengalaman.\n\nDark Reader tidak menampilkan iklan dan tidak mengirimkan data penggunan ke manapun. Sepenuhnya bersumber terbuka: https://github.com/darkreader/darkreader\n\nSebelum memasang, silakan nonaktifkan ekstensi serupa. Selamat berselancar!"
+   },
+   "support_out_work": {
+      "message": "Dukung pekerjaan kami"
+   },
+   "system_dark_mode": {
+      "message": "Gunakan skema warna sistem"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktif ketika mode gelap sistem diaktifkan"
+   },
+   "text_stroke": {
+      "message": "Tebal teks"
+   },
+   "theme_generation_mode": {
+      "message": "Mode penghasil tema"
+   },
+   "toggle_current_site": {
+      "message": "Saklar situs yang terbuka"
+   },
+   "toggle_extension": {
+      "message": "Saklar ekstensi"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Uji coba penghasil tema **eksperimental**:\n**Filter+** menjaga saturasi warna, mengggunakan GPU\n**Tema statis** menghasilkan tema cepat sederhana\n**Tema dinamis** menganalisa warna dan gambar"
+   },
+   "version": {
+      "message": "Versi: kapan"
+   },
+   "we_celebrate_10_years": {
+      "message": "Pembaca Gelap merayakan 10 tahun.\nTolong dukung pekerjaan kami."
+   },
+   "website_toggle_shortcut": {
+      "message": "Pintasan keyboard beralih situs web"
+   }
+}

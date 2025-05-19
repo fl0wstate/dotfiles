@@ -1,0 +1,10 @@
+{
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtX1QKz90eXKP2QLs0zuswDVTysSBpsRnWcdZhZqWj7+Y0J8gTTX7hGTzyvu9nGUwhqKWKSkJ11261t7TkHMMj+xlrOD4jg2iP8Uh8toVCbXjrBd8c8t1tP6Y2r9yc240XAsLgT4uUq8z+Ew2PXVATmBg6vqVJeyxcbquJYMGHdGOYRyJ7g8pIsMoCyrA31LKCp3bQU3cxGJeaL4nLb3ln/crmLujzQDuhNaub0dRH46ySj053PXMbgFdYn/8ICxwdkdM5WRrAOxd8dsbGnnSV0EqdYBeLkRBnE9Gurbay7LRvq9SWBV9RCwdgsQIJEOUm0A0On60v5W1cSoyAc/GCQIDAQAB",
+   "manifest_version": 3,
+   "name": "Nordic Homepage",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0"
+}

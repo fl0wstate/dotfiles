@@ -1,0 +1,40 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/action_16.png",
+         "32": "icons/action_32.png"
+      }
+   },
+   "background": {
+      "service_worker": "js/background.bundle.js"
+   },
+   "chrome_url_overrides": {
+      "newtab": "index.html"
+   },
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "description": "Get one personalized feed for all the knowledge you need as a developer.",
+   "differential_fingerprint": "1.56016e5c1fcdd054aab6dc9e6c4a04e3389bd5a3d366953cd9b0a1cf5eedc835",
+   "homepage_url": "https://daily.dev",
+   "host_permissions": [ "https://daily.dev/", "https://*.daily.dev/", "https://dailynow.co/", "https://*.dailynow.co/" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApCBm5ZiKOrD2RItelmnDSCySy3mbVO9ssIqYdL2mnH+LtjH/Sv4Mems5VxFWUYBNYuDbzD7y3wGcP6T917VuYe0VPLsCF6bjJ/dNwiCScS0plJBSwqBdqnkajVdfkqElftGopeqj/WqPuMUAHIOZCaunh5IgLnML1P2RH4GNKpqyy1/Uh6gcIQsnyprKq9AhL/hI27cQD6ap762T1Q1c+tvllRJHQFn7dCvNjPBDsx4Fm5dTwrF3JYRNcABNoO7p1Mie4md7Ky9Zn86mKw17YkT1bR9kx6ZmyQB2e3H8I9XAH0XEb1wLI3En/roanIti7dUExze9FwAcZUlRTvmecQIDAQAB",
+   "manifest_version": 3,
+   "name": "daily.dev | The homepage developers deserve",
+   "offline_enabled": true,
+   "optional_host_permissions": [ "*://*/*" ],
+   "optional_permissions": [ "topSites" ],
+   "permissions": [ "scripting" ],
+   "short_name": "daily.dev",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.36.22",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "index.html", "companion.html", "js/companion.bundle.js", "css/companion.css" ]
+   } ]
+}

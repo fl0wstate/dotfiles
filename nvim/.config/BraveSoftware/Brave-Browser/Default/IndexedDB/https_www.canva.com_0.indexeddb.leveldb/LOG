@@ -1,0 +1,15 @@
+2025/03/11-19:06:06.587 362 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/11-19:06:06.588 362 Recovering log #4
+2025/03/11-19:06:06.588 362 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000004.log 
+2025/03/11-19:06:18.879 363 Level-0 table #8: started
+2025/03/11-19:06:18.885 363 Level-0 table #8: 171897 bytes OK
+2025/03/11-19:06:18.893 363 Delete type=0 #4
+2025/03/11-19:06:18.893 363 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/11-19:06:18.893 363 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x09\x00\x00\xc8'\x00U\x00A\x00E\x009\x00Z\x00R\x00I\x00N\x00t\x00-\x00I\x00-\x00B\x00A\x00E\x009\x00Z\x00Q\x003\x003\x00s\x00P\x00k\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00_\x00d\x00e\x00s\x00i\x00g\x00n\x00s' @ 31553 : 1
+2025/03/11-19:06:18.893 363 Compacting 1@1 + 1@2 files
+2025/03/11-19:06:18.901 363 Generated table #9@1: 176 keys, 18185 bytes
+2025/03/11-19:06:18.901 363 Compacted 1@1 + 1@2 files => 18185 bytes
+2025/03/11-19:06:18.908 363 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/11-19:06:18.908 363 Delete type=2 #5
+2025/03/11-19:06:18.908 363 Delete type=2 #8
+2025/03/11-19:06:18.909 363 Manual compaction at level-1 from '\x00\x09\x00\x00\xc8'\x00U\x00A\x00E\x009\x00Z\x00R\x00I\x00N\x00t\x00-\x00I\x00-\x00B\x00A\x00E\x009\x00Z\x00Q\x003\x003\x00s\x00P\x00k\x00-\x00o\x00f\x00f\x00l\x00i\x00n\x00e\x00_\x00d\x00e\x00s\x00i\x00g\x00n\x00s' @ 31553 : 1 .. (end); will stop at (end)

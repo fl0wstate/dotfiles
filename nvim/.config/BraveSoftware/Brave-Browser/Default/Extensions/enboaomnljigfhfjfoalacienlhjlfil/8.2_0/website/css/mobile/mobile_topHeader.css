@@ -1,0 +1,97 @@
+/* ------------------ Search Bar - Hide Suggestions ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_bar_hide_suggestions="true"] yt-searchbox .yt-searchbox-suggestions-container,
+
+/* ------------------ Search Bar - Hide Previous Searches ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_bar_hide_previous_searches="true"] yt-searchbox .YtSuggestionComponentSuggestion:has(a.YtSuggestionComponentRemoveLink),
+
+/* ------------------ Hide Top Header ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_top_header="true"] ytm-mobile-topbar-renderer#header-bar {
+  display: none !important;
+}
+
+/* ------------------ Hide Search Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_mobile_hide_search_button="true"]
+  ytm-mobile-topbar-renderer
+  button:has(
+    path[d*="M17.5 11a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0Zm-1.594 6.32a8 8 0 111.414-1.414l3.887 3.887a1 1 0 01-1.414 1.414l-3.887-3.887Z"]
+  ),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_mobile_hide_search_button="true"]
+  ytm-mobile-topbar-renderer
+  .YtSearchboxComponentInputBox {
+  display: none !important;
+}
+
+/* ------------------ Disable Logo Link ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_disable_logo_link="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo {
+  pointer-events: none !important;
+}
+
+/* ------------------ Hide Logo ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo {
+  display: none !important;
+}
+
+/* ------------------ GrayscaleLogo ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_grayscale_logo="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Logo Wordmark ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo
+  path:nth-child(3),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo
+  path:nth-child(4),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-home-logo
+  path:nth-child(5) {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Filter ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_filter_button="true"] ytm-mobile-topbar-renderer .search-filter-icon:has(path[d*="17h6v1h"]),
+
+/* ------------------ Hide Button - Menu ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_menu_button="true"] ytm-mobile-topbar-renderer ytm-menu,
+
+/* ------------------ Hide Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_button_avatar="true"] ytm-mobile-topbar-renderer ytm-topbar-menu-button-renderer {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_grayscale_button_avatar="true"]
+  ytm-mobile-topbar-renderer#header-bar
+  ytm-profile-icon
+  img {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Voice Search Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_header_hide_voice_search_button="true"]
+  .YtSearchboxComponentVoiceSearchWrapper {
+  display: none !important;
+}

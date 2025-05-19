@@ -1,0 +1,1135 @@
+2025-03-19 06:29:02.680 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.
+2025-03-19 06:32:55.441 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:55.441 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:55.443 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:55.566 [info] Doing a startup handshake.
+2025-03-19 06:32:55.608 [info] Finished computing merkle tree in 18.663796999986516 ms.
+2025-03-19 06:32:55.609 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:55.614 [info] Handshake start
+2025-03-19 06:32:55.616 [warning] Error reading high level folder description. Ignoring. Error: ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/workspaceStorage/546616a916ca837016bbd04525209b9b/anysphere.cursor-retrieval/high_level_folder_description.txt'
+2025-03-19 06:32:55.804 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:55.804 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:55.805 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:55.805 [info] Aborting indexing job.
+2025-03-19 06:32:55.806 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:55.806 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:55.880 [info] Doing a startup handshake.
+2025-03-19 06:32:55.891 [info] Finished computing merkle tree in 5.538211000006413 ms.
+2025-03-19 06:32:55.892 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:55.894 [info] Handshake start
+2025-03-19 06:32:56.199 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:56.199 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:56.200 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:56.200 [info] Aborting indexing job.
+2025-03-19 06:32:56.200 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:56.200 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:56.275 [info] Doing a startup handshake.
+2025-03-19 06:32:56.290 [info] Finished computing merkle tree in 9.666396999993594 ms.
+2025-03-19 06:32:56.291 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:56.292 [info] Handshake start
+2025-03-19 06:32:56.521 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:56.521 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:56.521 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:56.521 [info] Aborting indexing job.
+2025-03-19 06:32:56.522 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:56.522 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:56.593 [info] Doing a startup handshake.
+2025-03-19 06:32:56.604 [info] Finished computing merkle tree in 6.2447619999875315 ms.
+2025-03-19 06:32:56.605 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:56.606 [info] Handshake start
+2025-03-19 06:32:56.902 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:56.902 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:56.902 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:56.902 [info] Aborting indexing job.
+2025-03-19 06:32:56.903 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:56.903 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:56.955 [info] Doing a startup handshake.
+2025-03-19 06:32:56.967 [info] Finished computing merkle tree in 5.630732999998145 ms.
+2025-03-19 06:32:56.968 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:56.969 [info] Handshake start
+2025-03-19 06:32:57.248 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:57.248 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:57.249 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:57.249 [info] Aborting indexing job.
+2025-03-19 06:32:57.249 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:57.249 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:57.303 [info] Doing a startup handshake.
+2025-03-19 06:32:57.312 [info] Finished computing merkle tree in 4.081372999993619 ms.
+2025-03-19 06:32:57.313 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:57.314 [info] Handshake start
+2025-03-19 06:32:57.632 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:57.632 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:57.633 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:57.633 [info] Aborting indexing job.
+2025-03-19 06:32:57.634 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:57.634 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:57.687 [info] Doing a startup handshake.
+2025-03-19 06:32:57.698 [info] Finished computing merkle tree in 5.667455999995582 ms.
+2025-03-19 06:32:57.699 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:57.700 [info] Handshake start
+2025-03-19 06:32:58.033 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:58.033 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:58.034 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:58.034 [info] Aborting indexing job.
+2025-03-19 06:32:58.034 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:58.034 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:58.089 [info] Doing a startup handshake.
+2025-03-19 06:32:58.100 [info] Finished computing merkle tree in 4.925746000022627 ms.
+2025-03-19 06:32:58.101 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:58.102 [info] Handshake start
+2025-03-19 06:32:58.412 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:58.412 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:58.413 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:58.413 [info] Aborting indexing job.
+2025-03-19 06:32:58.413 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:58.413 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:58.471 [info] Doing a startup handshake.
+2025-03-19 06:32:58.484 [info] Finished computing merkle tree in 5.132803000014974 ms.
+2025-03-19 06:32:58.485 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:58.487 [info] Handshake start
+2025-03-19 06:32:58.800 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:58.800 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:58.801 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:58.801 [info] Aborting indexing job.
+2025-03-19 06:32:58.801 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:58.801 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:58.854 [info] Doing a startup handshake.
+2025-03-19 06:32:58.868 [info] Finished computing merkle tree in 7.451968000008492 ms.
+2025-03-19 06:32:58.869 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:58.870 [info] Handshake start
+2025-03-19 06:32:59.190 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:59.190 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:59.191 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:59.191 [info] Aborting indexing job.
+2025-03-19 06:32:59.192 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:59.192 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:59.252 [info] Doing a startup handshake.
+2025-03-19 06:32:59.266 [info] Finished computing merkle tree in 5.883670999988681 ms.
+2025-03-19 06:32:59.266 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:59.268 [info] Handshake start
+2025-03-19 06:32:59.512 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:59.512 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:59.513 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:59.513 [info] Aborting indexing job.
+2025-03-19 06:32:59.514 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:59.514 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:59.566 [info] Doing a startup handshake.
+2025-03-19 06:32:59.576 [info] Finished computing merkle tree in 4.414458999992348 ms.
+2025-03-19 06:32:59.577 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:59.578 [info] Handshake start
+2025-03-19 06:32:59.810 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:59.810 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:59.811 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:59.811 [info] Aborting indexing job.
+2025-03-19 06:32:59.811 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:59.811 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:59.866 [info] Doing a startup handshake.
+2025-03-19 06:32:59.867 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:32:59.867 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:32:59.867 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:32:59.867 [info] Aborting indexing job.
+2025-03-19 06:32:59.868 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:32:59.921 [info] Doing a startup handshake.
+2025-03-19 06:32:59.926 [info] Indexing job successfully done or aborted.
+2025-03-19 06:32:59.936 [info] Finished computing merkle tree in 5.887970000010682 ms.
+2025-03-19 06:32:59.937 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:32:59.938 [info] Handshake start
+2025-03-19 06:33:00.184 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:00.185 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:00.185 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:00.185 [info] Aborting indexing job.
+2025-03-19 06:33:00.185 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:00.186 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:00.247 [info] Doing a startup handshake.
+2025-03-19 06:33:00.259 [info] Finished computing merkle tree in 5.477731999999378 ms.
+2025-03-19 06:33:00.260 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:00.261 [info] Handshake start
+2025-03-19 06:33:00.425 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:00.425 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:00.426 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:00.426 [info] Aborting indexing job.
+2025-03-19 06:33:00.426 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:00.426 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:00.509 [info] Doing a startup handshake.
+2025-03-19 06:33:00.520 [info] Finished computing merkle tree in 5.892528999975184 ms.
+2025-03-19 06:33:00.521 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:00.522 [info] Handshake start
+2025-03-19 06:33:00.532 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:00.532 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:00.533 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:00.533 [info] Aborting indexing job.
+2025-03-19 06:33:00.533 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:00.533 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:00.585 [info] Doing a startup handshake.
+2025-03-19 06:33:00.595 [info] Finished computing merkle tree in 5.04480999999214 ms.
+2025-03-19 06:33:00.595 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:00.596 [info] Handshake start
+2025-03-19 06:33:00.862 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:00.862 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:00.862 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:00.862 [info] Aborting indexing job.
+2025-03-19 06:33:00.863 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:00.863 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:00.926 [info] Doing a startup handshake.
+2025-03-19 06:33:00.928 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:00.928 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:00.928 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:00.928 [info] Aborting indexing job.
+2025-03-19 06:33:00.928 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:00.988 [info] Doing a startup handshake.
+2025-03-19 06:33:00.998 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:01.009 [info] Finished computing merkle tree in 5.73776399999042 ms.
+2025-03-19 06:33:01.010 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:01.011 [info] Handshake start
+2025-03-19 06:33:01.250 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:01.250 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:01.251 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:01.251 [info] Aborting indexing job.
+2025-03-19 06:33:01.252 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:01.252 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:01.325 [info] Doing a startup handshake.
+2025-03-19 06:33:01.326 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:01.326 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:01.326 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:01.326 [info] Aborting indexing job.
+2025-03-19 06:33:01.327 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:01.400 [info] Doing a startup handshake.
+2025-03-19 06:33:01.412 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:01.423 [info] Finished computing merkle tree in 7.571813999995356 ms.
+2025-03-19 06:33:01.444 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:01.447 [info] Handshake start
+2025-03-19 06:33:01.739 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:01.739 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:01.744 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:01.744 [info] Aborting indexing job.
+2025-03-19 06:33:01.744 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:01.745 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:01.798 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:01.798 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:01.798 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:01.856 [info] Doing a startup handshake.
+2025-03-19 06:33:01.857 [info] Doing a startup handshake.
+2025-03-19 06:33:01.866 [info] Finished computing merkle tree in 3.8669020000088494 ms.
+2025-03-19 06:33:01.867 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:01.868 [info] Handshake start
+2025-03-19 06:33:01.874 [info] Finished computing merkle tree in 8.111185999994632 ms.
+2025-03-19 06:33:01.875 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:01.876 [info] Handshake start
+2025-03-19 06:33:02.043 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.043 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.044 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.044 [info] Aborting indexing job.
+2025-03-19 06:33:02.044 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.044 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:02.099 [info] Doing a startup handshake.
+2025-03-19 06:33:02.100 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.100 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.100 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.100 [info] Aborting indexing job.
+2025-03-19 06:33:02.100 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.158 [info] Doing a startup handshake.
+2025-03-19 06:33:02.169 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:02.185 [info] Finished computing merkle tree in 11.188372999982676 ms.
+2025-03-19 06:33:02.186 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:02.187 [info] Handshake start
+2025-03-19 06:33:02.422 [info] Handshake timing: 555.0540319999855, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"12a01337-c031-45a8-ae66-97f961b92a5d","status":"STATUS_EMPTY"}]}
+2025-03-19 06:33:02.422 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"12a01337-c031-45a8-ae66-97f961b92a5d","status":"STATUS_EMPTY"}]}
+2025-03-19 06:33:02.422 [info] Starting fast remote sync.
+2025-03-19 06:33:02.423 [info] Total num embeddable files: 26
+2025-03-19 06:33:02.424 [info] Root hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:02.424 [info] Starting repository upload from scratch.
+2025-03-19 06:33:02.425 [info] Uploading 26 files.
+2025-03-19 06:33:02.428 [info] Total number of files to embed: 26
+2025-03-19 06:33:02.428 [info] Not aborted
+2025-03-19 06:33:02.428 [info] Starting while loop.
+2025-03-19 06:33:02.428 [info] fileQueue.length: 26
+2025-03-19 06:33:02.428 [info] fileQueue.length: 25
+2025-03-19 06:33:02.428 [info] fileQueue.length: 24
+2025-03-19 06:33:02.428 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 2 fileQueue.length: 24
+2025-03-19 06:33:02.435 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.435 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.435 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.435 [info] Aborting indexing job.
+2025-03-19 06:33:02.436 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.436 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:02.496 [info] Doing a startup handshake.
+2025-03-19 06:33:02.497 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.497 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.497 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.497 [info] Aborting indexing job.
+2025-03-19 06:33:02.497 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.553 [info] Doing a startup handshake.
+2025-03-19 06:33:02.558 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:02.568 [info] Finished computing merkle tree in 6.068896000011591 ms.
+2025-03-19 06:33:02.568 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:02.570 [info] Handshake start
+2025-03-19 06:33:02.754 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.754 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.755 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.755 [info] Aborting indexing job.
+2025-03-19 06:33:02.756 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.756 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:02.813 [info] Doing a startup handshake.
+2025-03-19 06:33:02.826 [info] Finished computing merkle tree in 6.959277999994811 ms.
+2025-03-19 06:33:02.827 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:02.828 [info] Handshake start
+2025-03-19 06:33:02.962 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:02.962 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:02.962 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:02.962 [info] Aborting indexing job.
+2025-03-19 06:33:02.963 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:02.963 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.025 [info] Doing a startup handshake.
+2025-03-19 06:33:03.037 [info] Finished computing merkle tree in 5.533502000005683 ms.
+2025-03-19 06:33:03.038 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:03.039 [info] Handshake start
+2025-03-19 06:33:03.049 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:03.049 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:03.050 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:03.050 [info] Aborting indexing job.
+2025-03-19 06:33:03.050 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:03.050 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.107 [info] Doing a startup handshake.
+2025-03-19 06:33:03.117 [info] Finished computing merkle tree in 4.470128999993904 ms.
+2025-03-19 06:33:03.117 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:03.118 [info] Handshake start
+2025-03-19 06:33:03.214 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./tsconfig.json
+2025-03-19 06:33:03.214 [info] fileQueue.length: 23
+2025-03-19 06:33:03.214 [info] fileQueue.length: 22
+2025-03-19 06:33:03.214 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 3 fileQueue.length: 22
+2025-03-19 06:33:03.315 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:03.315 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:03.316 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:03.316 [info] Aborting indexing job.
+2025-03-19 06:33:03.316 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:03.316 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.377 [info] Doing a startup handshake.
+2025-03-19 06:33:03.399 [info] Finished computing merkle tree in 7.461737000005087 ms.
+2025-03-19 06:33:03.399 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:03.401 [info] Handshake start
+2025-03-19 06:33:03.557 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:03.557 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:03.558 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:03.558 [info] Aborting indexing job.
+2025-03-19 06:33:03.558 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:03.558 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.612 [info] Doing a startup handshake.
+2025-03-19 06:33:03.613 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:03.613 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:03.613 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:03.613 [info] Aborting indexing job.
+2025-03-19 06:33:03.613 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:03.673 [info] Doing a startup handshake.
+2025-03-19 06:33:03.681 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.689 [info] Finished computing merkle tree in 5.3165050000243355 ms.
+2025-03-19 06:33:03.690 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:03.691 [info] Handshake start
+2025-03-19 06:33:03.870 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:03.870 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:03.871 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:03.871 [info] Aborting indexing job.
+2025-03-19 06:33:03.871 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:03.871 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:03.925 [info] Doing a startup handshake.
+2025-03-19 06:33:03.948 [info] Finished computing merkle tree in 14.21065200000885 ms.
+2025-03-19 06:33:03.957 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:03.959 [info] Handshake start
+2025-03-19 06:33:04.132 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:04.132 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:04.133 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:04.133 [info] Aborting indexing job.
+2025-03-19 06:33:04.133 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:04.133 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:04.192 [info] Doing a startup handshake.
+2025-03-19 06:33:04.209 [info] Finished computing merkle tree in 7.4479710000159685 ms.
+2025-03-19 06:33:04.211 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:04.214 [info] Handshake start
+2025-03-19 06:33:04.329 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:04.329 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:04.330 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:04.330 [info] Aborting indexing job.
+2025-03-19 06:33:04.330 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:04.330 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:04.388 [info] Doing a startup handshake.
+2025-03-19 06:33:04.389 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:04.389 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:04.389 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:04.389 [info] Aborting indexing job.
+2025-03-19 06:33:04.389 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:04.449 [info] Doing a startup handshake.
+2025-03-19 06:33:04.457 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:04.468 [info] Finished computing merkle tree in 6.976082000008319 ms.
+2025-03-19 06:33:04.468 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:04.469 [info] Handshake start
+2025-03-19 06:33:04.659 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:04.659 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:04.659 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:04.659 [info] Aborting indexing job.
+2025-03-19 06:33:04.660 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:04.660 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:04.717 [info] Doing a startup handshake.
+2025-03-19 06:33:04.728 [info] Finished computing merkle tree in 5.799063999991631 ms.
+2025-03-19 06:33:04.729 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:04.730 [info] Handshake start
+2025-03-19 06:33:04.941 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:04.942 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:04.942 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:04.942 [info] Aborting indexing job.
+2025-03-19 06:33:04.943 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:04.943 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.001 [info] Doing a startup handshake.
+2025-03-19 06:33:05.011 [info] Finished computing merkle tree in 5.197130000015022 ms.
+2025-03-19 06:33:05.012 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:05.013 [info] Handshake start
+2025-03-19 06:33:05.144 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:05.144 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:05.144 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:05.144 [info] Aborting indexing job.
+2025-03-19 06:33:05.145 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:05.145 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.196 [info] Doing a startup handshake.
+2025-03-19 06:33:05.202 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:05.202 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:05.202 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:05.202 [info] Aborting indexing job.
+2025-03-19 06:33:05.202 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:05.254 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.262 [info] Doing a startup handshake.
+2025-03-19 06:33:05.275 [info] Finished computing merkle tree in 7.540282000001753 ms.
+2025-03-19 06:33:05.276 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:05.277 [info] Handshake start
+2025-03-19 06:33:05.472 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:05.472 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:05.472 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:05.472 [info] Aborting indexing job.
+2025-03-19 06:33:05.472 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:05.473 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.529 [info] Doing a startup handshake.
+2025-03-19 06:33:05.542 [info] Finished computing merkle tree in 5.152892999991309 ms.
+2025-03-19 06:33:05.542 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:05.543 [info] Handshake start
+2025-03-19 06:33:05.561 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./postcss.config.mjs
+2025-03-19 06:33:05.561 [info] fileQueue.length: 21
+2025-03-19 06:33:05.561 [info] fileQueue.length: 20
+2025-03-19 06:33:05.561 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 4 fileQueue.length: 20
+2025-03-19 06:33:05.577 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./next.config.ts
+2025-03-19 06:33:05.577 [info] fileQueue.length: 19
+2025-03-19 06:33:05.577 [info] fileQueue.length: 18
+2025-03-19 06:33:05.577 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 5 fileQueue.length: 18
+2025-03-19 06:33:05.726 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:05.726 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:05.727 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:05.727 [info] Aborting indexing job.
+2025-03-19 06:33:05.727 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:05.727 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.784 [info] Doing a startup handshake.
+2025-03-19 06:33:05.803 [info] Finished computing merkle tree in 6.44779199999175 ms.
+2025-03-19 06:33:05.803 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:05.804 [info] Handshake start
+2025-03-19 06:33:05.943 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:05.943 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:05.944 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:05.944 [info] Aborting indexing job.
+2025-03-19 06:33:05.944 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:05.944 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:05.996 [info] Doing a startup handshake.
+2025-03-19 06:33:06.003 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:06.003 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:06.003 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:06.003 [info] Aborting indexing job.
+2025-03-19 06:33:06.003 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:06.060 [info] Doing a startup handshake.
+2025-03-19 06:33:06.065 [info] Finished computing merkle tree in 64.29308400000446 ms.
+2025-03-19 06:33:06.069 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:06.070 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:06.080 [info] Finished computing merkle tree in 6.1077320000040345 ms.
+2025-03-19 06:33:06.080 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:06.081 [info] Handshake start
+2025-03-19 06:33:06.104 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./package.json
+2025-03-19 06:33:06.104 [info] fileQueue.length: 17
+2025-03-19 06:33:06.104 [info] fileQueue.length: 16
+2025-03-19 06:33:06.104 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 6 fileQueue.length: 16
+2025-03-19 06:33:06.309 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:06.309 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:06.310 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:06.310 [info] Aborting indexing job.
+2025-03-19 06:33:06.310 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:06.311 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:06.375 [info] Doing a startup handshake.
+2025-03-19 06:33:06.390 [info] Finished computing merkle tree in 5.224453999981051 ms.
+2025-03-19 06:33:06.390 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:06.392 [info] Handshake start
+2025-03-19 06:33:06.542 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:06.542 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:06.543 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:06.543 [info] Aborting indexing job.
+2025-03-19 06:33:06.543 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:06.543 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:06.610 [info] Doing a startup handshake.
+2025-03-19 06:33:06.613 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:06.613 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:06.613 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:06.613 [info] Aborting indexing job.
+2025-03-19 06:33:06.613 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:06.669 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./eslint.config.mjs
+2025-03-19 06:33:06.669 [info] fileQueue.length: 15
+2025-03-19 06:33:06.669 [info] fileQueue.length: 14
+2025-03-19 06:33:06.669 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 7 fileQueue.length: 14
+2025-03-19 06:33:06.671 [info] Doing a startup handshake.
+2025-03-19 06:33:06.676 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:06.684 [info] Finished computing merkle tree in 4.950505000015255 ms.
+2025-03-19 06:33:06.685 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:06.686 [info] Handshake start
+2025-03-19 06:33:06.729 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./lib/utils.ts
+2025-03-19 06:33:06.729 [info] fileQueue.length: 13
+2025-03-19 06:33:06.729 [info] fileQueue.length: 12
+2025-03-19 06:33:06.729 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 8 fileQueue.length: 12
+2025-03-19 06:33:06.836 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:06.836 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:06.836 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:06.836 [info] Aborting indexing job.
+2025-03-19 06:33:06.837 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:06.837 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:06.896 [info] Doing a startup handshake.
+2025-03-19 06:33:06.900 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/ui/button.tsx
+2025-03-19 06:33:06.901 [info] fileQueue.length: 11
+2025-03-19 06:33:06.901 [info] fileQueue.length: 10
+2025-03-19 06:33:06.901 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 9 fileQueue.length: 10
+2025-03-19 06:33:06.910 [info] Finished computing merkle tree in 5.547740999987582 ms.
+2025-03-19 06:33:06.910 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:06.911 [info] Handshake start
+2025-03-19 06:33:07.110 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:07.110 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:07.111 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:07.111 [info] Aborting indexing job.
+2025-03-19 06:33:07.111 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:07.111 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:07.169 [info] Doing a startup handshake.
+2025-03-19 06:33:07.179 [info] Finished computing merkle tree in 5.443826000002446 ms.
+2025-03-19 06:33:07.180 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:07.181 [info] Handshake start
+2025-03-19 06:33:07.201 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/ui/input.tsx
+2025-03-19 06:33:07.201 [info] fileQueue.length: 9
+2025-03-19 06:33:07.201 [info] fileQueue.length: 8
+2025-03-19 06:33:07.201 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 10 fileQueue.length: 8
+2025-03-19 06:33:07.355 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:07.355 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:07.355 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:07.355 [info] Aborting indexing job.
+2025-03-19 06:33:07.356 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:07.356 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:07.410 [info] Doing a startup handshake.
+2025-03-19 06:33:07.412 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:07.412 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:07.412 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:07.412 [info] Aborting indexing job.
+2025-03-19 06:33:07.412 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:07.476 [info] Doing a startup handshake.
+2025-03-19 06:33:07.485 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:07.494 [info] Finished computing merkle tree in 4.624092000012752 ms.
+2025-03-19 06:33:07.495 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:07.496 [info] Handshake start
+2025-03-19 06:33:07.633 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:07.633 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:07.634 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:07.634 [info] Aborting indexing job.
+2025-03-19 06:33:07.634 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:07.634 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:07.692 [info] Doing a startup handshake.
+2025-03-19 06:33:07.704 [info] Finished computing merkle tree in 4.3260060000175145 ms.
+2025-03-19 06:33:07.704 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:07.705 [info] Handshake start
+2025-03-19 06:33:07.891 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:07.891 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:07.892 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:07.892 [info] Aborting indexing job.
+2025-03-19 06:33:07.892 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:07.892 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:07.945 [info] Doing a startup handshake.
+2025-03-19 06:33:07.955 [info] Finished computing merkle tree in 5.433104000025196 ms.
+2025-03-19 06:33:07.956 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:07.957 [info] Handshake start
+2025-03-19 06:33:08.149 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:08.149 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:08.150 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:08.150 [info] Aborting indexing job.
+2025-03-19 06:33:08.150 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:08.150 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:08.204 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/ui/textarea.tsx
+2025-03-19 06:33:08.204 [info] fileQueue.length: 7
+2025-03-19 06:33:08.204 [info] fileQueue.length: 6
+2025-03-19 06:33:08.204 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 11 fileQueue.length: 6
+2025-03-19 06:33:08.210 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/theme-toggle.tsx
+2025-03-19 06:33:08.210 [info] fileQueue.length: 5
+2025-03-19 06:33:08.210 [info] fileQueue.length: 4
+2025-03-19 06:33:08.211 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 12 fileQueue.length: 4
+2025-03-19 06:33:08.211 [info] Doing a startup handshake.
+2025-03-19 06:33:08.212 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:08.213 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:08.213 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:08.213 [info] Aborting indexing job.
+2025-03-19 06:33:08.213 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:08.272 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/ui/card.tsx
+2025-03-19 06:33:08.272 [info] fileQueue.length: 3
+2025-03-19 06:33:08.272 [info] fileQueue.length: 2
+2025-03-19 06:33:08.272 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 13 fileQueue.length: 2
+2025-03-19 06:33:08.273 [info] Doing a startup handshake.
+2025-03-19 06:33:08.274 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components.json
+2025-03-19 06:33:08.274 [info] fileQueue.length: 1
+2025-03-19 06:33:08.274 [info] fileQueue.length: 0
+2025-03-19 06:33:08.274 [info] Waiting for jobs to finish. currentIndexingJobs.length: 14 concurrentUploads.current: 14 fileQueue.length: 0
+2025-03-19 06:33:08.277 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/users/page.tsx
+2025-03-19 06:33:08.277 [info] Waiting for jobs to finish. currentIndexingJobs.length: 13 concurrentUploads.current: 15 fileQueue.length: 0
+2025-03-19 06:33:08.292 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:08.304 [info] Finished computing merkle tree in 5.006072999996832 ms.
+2025-03-19 06:33:08.305 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:08.305 [info] Handshake start
+2025-03-19 06:33:08.423 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./components/theme-provider.tsx
+2025-03-19 06:33:08.423 [info] Waiting for jobs to finish. currentIndexingJobs.length: 12 concurrentUploads.current: 16 fileQueue.length: 0
+2025-03-19 06:33:08.434 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:08.434 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:08.435 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:08.435 [info] Aborting indexing job.
+2025-03-19 06:33:08.435 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:08.435 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:08.494 [info] Doing a startup handshake.
+2025-03-19 06:33:08.508 [info] Finished computing merkle tree in 5.776520999992499 ms.
+2025-03-19 06:33:08.509 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:08.509 [info] Handshake start
+2025-03-19 06:33:08.672 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/layout.tsx
+2025-03-19 06:33:08.672 [info] Waiting for jobs to finish. currentIndexingJobs.length: 11 concurrentUploads.current: 17 fileQueue.length: 0
+2025-03-19 06:33:08.677 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/globals.css
+2025-03-19 06:33:08.677 [info] Waiting for jobs to finish. currentIndexingJobs.length: 10 concurrentUploads.current: 18 fileQueue.length: 0
+2025-03-19 06:33:08.723 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:08.723 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:08.723 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:08.723 [info] Aborting indexing job.
+2025-03-19 06:33:08.724 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:08.724 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:08.778 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/page.tsx
+2025-03-19 06:33:08.778 [info] Waiting for jobs to finish. currentIndexingJobs.length: 9 concurrentUploads.current: 19 fileQueue.length: 0
+2025-03-19 06:33:08.785 [info] Doing a startup handshake.
+2025-03-19 06:33:08.796 [info] Finished computing merkle tree in 5.924812999990536 ms.
+2025-03-19 06:33:08.797 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:08.798 [info] Handshake start
+2025-03-19 06:33:08.957 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:08.957 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:08.958 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:08.958 [info] Aborting indexing job.
+2025-03-19 06:33:08.958 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:08.958 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.014 [info] Doing a startup handshake.
+2025-03-19 06:33:09.015 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:09.016 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:09.016 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:09.016 [info] Aborting indexing job.
+2025-03-19 06:33:09.016 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:09.080 [info] Doing a startup handshake.
+2025-03-19 06:33:09.086 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.096 [info] Finished computing merkle tree in 4.864204999990761 ms.
+2025-03-19 06:33:09.096 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:09.098 [info] Handshake start
+2025-03-19 06:33:09.271 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:09.271 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:09.272 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:09.272 [info] Aborting indexing job.
+2025-03-19 06:33:09.272 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:09.272 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.326 [info] Doing a startup handshake.
+2025-03-19 06:33:09.353 [info] Finished computing merkle tree in 10.167774000001373 ms.
+2025-03-19 06:33:09.353 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:09.354 [info] Handshake start
+2025-03-19 06:33:09.536 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:09.536 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:09.537 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:09.537 [info] Aborting indexing job.
+2025-03-19 06:33:09.537 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:09.538 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.590 [info] Doing a startup handshake.
+2025-03-19 06:33:09.604 [info] Finished computing merkle tree in 8.841052000003401 ms.
+2025-03-19 06:33:09.605 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:09.606 [info] Handshake start
+2025-03-19 06:33:09.785 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:09.785 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:09.785 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:09.786 [info] Aborting indexing job.
+2025-03-19 06:33:09.786 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:09.786 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.840 [info] Doing a startup handshake.
+2025-03-19 06:33:09.842 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:09.842 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:09.842 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:09.843 [info] Aborting indexing job.
+2025-03-19 06:33:09.843 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:09.895 [info] Doing a startup handshake.
+2025-03-19 06:33:09.907 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:09.920 [info] Finished computing merkle tree in 8.809421000012662 ms.
+2025-03-19 06:33:09.921 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:09.922 [info] Handshake start
+2025-03-19 06:33:10.121 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:10.121 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:10.122 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:10.122 [info] Aborting indexing job.
+2025-03-19 06:33:10.122 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:10.122 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:10.177 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/actions.ts
+2025-03-19 06:33:10.177 [info] Waiting for jobs to finish. currentIndexingJobs.length: 8 concurrentUploads.current: 20 fileQueue.length: 0
+2025-03-19 06:33:10.180 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/components/tech-stack.tsx
+2025-03-19 06:33:10.180 [info] Waiting for jobs to finish. currentIndexingJobs.length: 7 concurrentUploads.current: 21 fileQueue.length: 0
+2025-03-19 06:33:10.181 [info] Doing a startup handshake.
+2025-03-19 06:33:10.182 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/favicon.ico
+2025-03-19 06:33:10.182 [info] Waiting for jobs to finish. currentIndexingJobs.length: 6 concurrentUploads.current: 22 fileQueue.length: 0
+2025-03-19 06:33:10.183 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/components/project-card.tsx
+2025-03-19 06:33:10.183 [info] Waiting for jobs to finish. currentIndexingJobs.length: 5 concurrentUploads.current: 23 fileQueue.length: 0
+2025-03-19 06:33:10.184 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/components/contact-form.tsx
+2025-03-19 06:33:10.184 [info] Waiting for jobs to finish. currentIndexingJobs.length: 4 concurrentUploads.current: 24 fileQueue.length: 0
+2025-03-19 06:33:10.185 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./README.md
+2025-03-19 06:33:10.185 [info] Waiting for jobs to finish. currentIndexingJobs.length: 3 concurrentUploads.current: 25 fileQueue.length: 0
+2025-03-19 06:33:10.194 [info] Finished computing merkle tree in 5.411963999998989 ms.
+2025-03-19 06:33:10.194 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:10.196 [info] Handshake start
+2025-03-19 06:33:10.231 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./.gitignore
+2025-03-19 06:33:10.231 [info] Waiting for jobs to finish. currentIndexingJobs.length: 2 concurrentUploads.current: 26 fileQueue.length: 0
+2025-03-19 06:33:10.267 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/count.tsx
+2025-03-19 06:33:10.267 [info] Waiting for jobs to finish. currentIndexingJobs.length: 1 concurrentUploads.current: 27 fileQueue.length: 0
+2025-03-19 06:33:10.362 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:10.362 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:10.362 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:10.362 [info] Aborting indexing job.
+2025-03-19 06:33:10.363 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:10.363 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:10.440 [info] Completed job successfully: 12a01337-c031-45a8-ae66-97f961b92a5d ./app/components/StaySlider.tsx
+2025-03-19 06:33:10.440 [info] Waiting for jobs to finish. currentIndexingJobs.length: 0 concurrentUploads.current: 28 fileQueue.length: 0
+2025-03-19 06:33:10.446 [info] Doing a startup handshake.
+2025-03-19 06:33:10.447 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:10.447 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:10.447 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:10.447 [info] Aborting indexing job.
+2025-03-19 06:33:10.447 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:10.502 [info] Doing a startup handshake.
+2025-03-19 06:33:10.508 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:10.519 [info] Finished computing merkle tree in 7.738545999978669 ms.
+2025-03-19 06:33:10.520 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:10.521 [info] Handshake start
+2025-03-19 06:33:10.664 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:10.664 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:10.665 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:10.665 [info] Aborting indexing job.
+2025-03-19 06:33:10.665 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:10.665 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:10.720 [info] Doing a startup handshake.
+2025-03-19 06:33:10.731 [info] Finished computing merkle tree in 5.165026000002399 ms.
+2025-03-19 06:33:10.731 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:10.733 [info] Handshake start
+2025-03-19 06:33:10.938 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:10.938 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:10.939 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:10.939 [info] Aborting indexing job.
+2025-03-19 06:33:10.939 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:10.939 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:10.995 [info] Doing a startup handshake.
+2025-03-19 06:33:11.006 [info] Finished computing merkle tree in 4.784948999993503 ms.
+2025-03-19 06:33:11.006 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:11.008 [info] Handshake start
+2025-03-19 06:33:11.146 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:11.146 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:11.147 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:11.147 [info] Aborting indexing job.
+2025-03-19 06:33:11.147 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:11.147 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.198 [info] Finished indexing repository.
+2025-03-19 06:33:11.198 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.199 [info] Doing a startup handshake.
+2025-03-19 06:33:11.209 [info] Finished computing merkle tree in 4.88105500000529 ms.
+2025-03-19 06:33:11.209 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:11.210 [info] Handshake start
+2025-03-19 06:33:11.218 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:11.218 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:11.219 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:11.219 [info] Aborting indexing job.
+2025-03-19 06:33:11.219 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:11.219 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.285 [info] Doing a startup handshake.
+2025-03-19 06:33:11.306 [info] Finished computing merkle tree in 14.335959999996703 ms.
+2025-03-19 06:33:11.306 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:11.309 [info] Handshake start
+2025-03-19 06:33:11.507 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:11.507 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:11.508 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:11.508 [info] Aborting indexing job.
+2025-03-19 06:33:11.508 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:11.508 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.567 [info] Doing a startup handshake.
+2025-03-19 06:33:11.594 [info] Finished computing merkle tree in 8.756961999984924 ms.
+2025-03-19 06:33:11.594 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:11.596 [info] Handshake start
+2025-03-19 06:33:11.744 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:11.744 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:11.745 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:11.745 [info] Aborting indexing job.
+2025-03-19 06:33:11.745 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:11.745 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.797 [info] Doing a startup handshake.
+2025-03-19 06:33:11.798 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:11.798 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:11.798 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:11.798 [info] Aborting indexing job.
+2025-03-19 06:33:11.798 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:11.856 [info] Doing a startup handshake.
+2025-03-19 06:33:11.864 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:11.879 [info] Finished computing merkle tree in 8.223678000009386 ms.
+2025-03-19 06:33:11.879 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:11.880 [info] Handshake start
+2025-03-19 06:33:12.046 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:12.046 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:12.047 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:12.047 [info] Aborting indexing job.
+2025-03-19 06:33:12.047 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:12.047 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:12.106 [info] Doing a startup handshake.
+2025-03-19 06:33:12.134 [info] Finished computing merkle tree in 9.691955000016605 ms.
+2025-03-19 06:33:12.135 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:12.136 [info] Handshake start
+2025-03-19 06:33:12.303 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:12.303 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:12.303 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:12.303 [info] Aborting indexing job.
+2025-03-19 06:33:12.304 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:12.304 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:12.359 [info] Doing a startup handshake.
+2025-03-19 06:33:12.371 [info] Finished computing merkle tree in 5.072677000018302 ms.
+2025-03-19 06:33:12.371 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:12.372 [info] Handshake start
+2025-03-19 06:33:12.534 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:12.534 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:12.535 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:12.535 [info] Aborting indexing job.
+2025-03-19 06:33:12.536 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:12.536 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:12.590 [info] Doing a startup handshake.
+2025-03-19 06:33:12.591 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:12.591 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:12.591 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:12.591 [info] Aborting indexing job.
+2025-03-19 06:33:12.592 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:12.654 [info] Doing a startup handshake.
+2025-03-19 06:33:12.661 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:12.673 [info] Finished computing merkle tree in 7.82645799999591 ms.
+2025-03-19 06:33:12.673 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:12.675 [info] Handshake start
+2025-03-19 06:33:12.820 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:12.820 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:12.821 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:12.821 [info] Aborting indexing job.
+2025-03-19 06:33:12.821 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:12.821 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:12.877 [info] Doing a startup handshake.
+2025-03-19 06:33:12.893 [info] Finished computing merkle tree in 8.179382000002079 ms.
+2025-03-19 06:33:12.894 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:12.895 [info] Handshake start
+2025-03-19 06:33:13.087 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.087 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.088 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.088 [info] Aborting indexing job.
+2025-03-19 06:33:13.088 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:13.088 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:13.146 [info] Doing a startup handshake.
+2025-03-19 06:33:13.164 [info] Finished computing merkle tree in 8.122471999988193 ms.
+2025-03-19 06:33:13.165 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:13.167 [info] Handshake start
+2025-03-19 06:33:13.383 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.383 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.384 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.384 [info] Aborting indexing job.
+2025-03-19 06:33:13.384 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:13.384 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:13.450 [info] Doing a startup handshake.
+2025-03-19 06:33:13.451 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.451 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.451 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.451 [info] Aborting indexing job.
+2025-03-19 06:33:13.451 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:13.503 [info] Doing a startup handshake.
+2025-03-19 06:33:13.510 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:13.520 [info] Finished computing merkle tree in 7.047145999997156 ms.
+2025-03-19 06:33:13.521 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:13.522 [info] Handshake start
+2025-03-19 06:33:13.690 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.690 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.690 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.690 [info] Aborting indexing job.
+2025-03-19 06:33:13.691 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:13.691 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:13.753 [info] Doing a startup handshake.
+2025-03-19 06:33:13.768 [info] Finished computing merkle tree in 7.279616999992868 ms.
+2025-03-19 06:33:13.769 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:13.770 [info] Handshake start
+2025-03-19 06:33:13.933 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.933 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.934 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.934 [info] Aborting indexing job.
+2025-03-19 06:33:13.934 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:13.934 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:13.991 [info] Doing a startup handshake.
+2025-03-19 06:33:13.993 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:13.993 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:13.993 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:13.993 [info] Aborting indexing job.
+2025-03-19 06:33:13.993 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:14.049 [info] Doing a startup handshake.
+2025-03-19 06:33:14.055 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:14.077 [info] Finished computing merkle tree in 17.02618999997503 ms.
+2025-03-19 06:33:14.078 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:14.079 [info] Handshake start
+2025-03-19 06:33:14.207 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:14.207 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:14.207 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:14.207 [info] Aborting indexing job.
+2025-03-19 06:33:14.207 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:14.208 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:14.267 [info] Doing a startup handshake.
+2025-03-19 06:33:14.287 [info] Finished computing merkle tree in 8.161227000004146 ms.
+2025-03-19 06:33:14.287 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:14.288 [info] Handshake start
+2025-03-19 06:33:14.462 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:14.462 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:14.463 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:14.463 [info] Aborting indexing job.
+2025-03-19 06:33:14.463 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:14.463 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:14.516 [info] Doing a startup handshake.
+2025-03-19 06:33:14.528 [info] Finished computing merkle tree in 5.284497999993619 ms.
+2025-03-19 06:33:14.530 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:14.531 [info] Handshake start
+2025-03-19 06:33:14.729 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:14.729 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:14.730 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:14.730 [info] Aborting indexing job.
+2025-03-19 06:33:14.730 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:14.730 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:14.788 [info] Doing a startup handshake.
+2025-03-19 06:33:14.800 [info] Finished computing merkle tree in 6.581723999988753 ms.
+2025-03-19 06:33:14.801 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:14.802 [info] Handshake start
+2025-03-19 06:33:14.944 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:14.944 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:14.945 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:14.945 [info] Aborting indexing job.
+2025-03-19 06:33:14.945 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:14.945 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:14.997 [info] Doing a startup handshake.
+2025-03-19 06:33:14.997 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:14.997 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:14.998 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:14.998 [info] Aborting indexing job.
+2025-03-19 06:33:14.998 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:15.057 [info] Doing a startup handshake.
+2025-03-19 06:33:15.067 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:15.076 [info] Finished computing merkle tree in 4.396575999999186 ms.
+2025-03-19 06:33:15.077 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:15.078 [info] Handshake start
+2025-03-19 06:33:15.239 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:15.239 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:15.239 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:15.239 [info] Aborting indexing job.
+2025-03-19 06:33:15.239 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:15.240 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:15.293 [info] Doing a startup handshake.
+2025-03-19 06:33:15.309 [info] Finished computing merkle tree in 10.601450000016484 ms.
+2025-03-19 06:33:15.309 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:15.310 [info] Handshake start
+2025-03-19 06:33:15.503 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:15.503 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:15.503 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:15.503 [info] Aborting indexing job.
+2025-03-19 06:33:15.503 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:15.503 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:15.564 [info] Doing a startup handshake.
+2025-03-19 06:33:15.587 [info] Finished computing merkle tree in 9.813192000001436 ms.
+2025-03-19 06:33:15.588 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:15.589 [info] Handshake start
+2025-03-19 06:33:15.777 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:15.777 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:15.778 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:15.778 [info] Aborting indexing job.
+2025-03-19 06:33:15.778 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:15.778 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:15.839 [info] Doing a startup handshake.
+2025-03-19 06:33:15.850 [info] Finished computing merkle tree in 5.147964000003412 ms.
+2025-03-19 06:33:15.851 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:15.852 [info] Handshake start
+2025-03-19 06:33:15.935 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:15.935 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:15.935 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:15.935 [info] Aborting indexing job.
+2025-03-19 06:33:15.936 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:15.936 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:15.986 [info] Doing a startup handshake.
+2025-03-19 06:33:15.996 [info] Finished computing merkle tree in 5.147032000008039 ms.
+2025-03-19 06:33:15.996 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:15.997 [info] Handshake start
+2025-03-19 06:33:16.034 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:16.034 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:16.035 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:16.035 [info] Aborting indexing job.
+2025-03-19 06:33:16.035 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:16.035 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:16.095 [info] Doing a startup handshake.
+2025-03-19 06:33:16.119 [info] Finished computing merkle tree in 12.375882000022102 ms.
+2025-03-19 06:33:16.119 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:16.121 [info] Handshake start
+2025-03-19 06:33:16.301 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:16.301 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:16.302 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:16.302 [info] Aborting indexing job.
+2025-03-19 06:33:16.303 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:16.303 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:16.361 [info] Doing a startup handshake.
+2025-03-19 06:33:16.376 [info] Finished computing merkle tree in 9.431803000014042 ms.
+2025-03-19 06:33:16.377 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:16.377 [info] Handshake start
+2025-03-19 06:33:16.565 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:16.565 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:16.565 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:16.565 [info] Aborting indexing job.
+2025-03-19 06:33:16.566 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:16.566 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:16.618 [info] Doing a startup handshake.
+2025-03-19 06:33:16.619 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:16.619 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:16.619 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:16.619 [info] Aborting indexing job.
+2025-03-19 06:33:16.619 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:16.677 [info] Doing a startup handshake.
+2025-03-19 06:33:16.684 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:16.692 [info] Finished computing merkle tree in 4.5898420000157785 ms.
+2025-03-19 06:33:16.693 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:16.693 [info] Handshake start
+2025-03-19 06:33:16.847 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:16.847 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:16.847 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:16.847 [info] Aborting indexing job.
+2025-03-19 06:33:16.848 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:16.848 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:16.902 [info] Doing a startup handshake.
+2025-03-19 06:33:16.921 [info] Finished computing merkle tree in 8.25279599998612 ms.
+2025-03-19 06:33:16.921 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:16.922 [info] Handshake start
+2025-03-19 06:33:17.107 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:17.107 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:17.108 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:17.108 [info] Aborting indexing job.
+2025-03-19 06:33:17.109 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:17.109 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:17.165 [info] Doing a startup handshake.
+2025-03-19 06:33:17.176 [info] Finished computing merkle tree in 5.785229999979492 ms.
+2025-03-19 06:33:17.177 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:17.178 [info] Handshake start
+2025-03-19 06:33:17.330 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:17.330 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:17.330 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:17.330 [info] Aborting indexing job.
+2025-03-19 06:33:17.331 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:17.331 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:17.383 [info] Doing a startup handshake.
+2025-03-19 06:33:17.384 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:17.384 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:17.384 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:17.384 [info] Aborting indexing job.
+2025-03-19 06:33:17.384 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:17.438 [info] Doing a startup handshake.
+2025-03-19 06:33:17.443 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:17.454 [info] Finished computing merkle tree in 6.977052000002004 ms.
+2025-03-19 06:33:17.454 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:17.455 [info] Handshake start
+2025-03-19 06:33:17.626 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:17.626 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:17.627 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:17.627 [info] Aborting indexing job.
+2025-03-19 06:33:17.627 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:17.627 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:17.680 [info] Doing a startup handshake.
+2025-03-19 06:33:17.695 [info] Finished computing merkle tree in 8.863280000019586 ms.
+2025-03-19 06:33:17.695 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:17.696 [info] Handshake start
+2025-03-19 06:33:17.883 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:17.883 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:17.884 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:17.884 [info] Aborting indexing job.
+2025-03-19 06:33:17.884 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:17.884 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:17.942 [info] Doing a startup handshake.
+2025-03-19 06:33:17.954 [info] Finished computing merkle tree in 4.988455000013346 ms.
+2025-03-19 06:33:17.954 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:17.955 [info] Handshake start
+2025-03-19 06:33:18.131 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:18.131 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:18.132 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:18.132 [info] Aborting indexing job.
+2025-03-19 06:33:18.132 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:18.132 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:18.189 [info] Doing a startup handshake.
+2025-03-19 06:33:18.190 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:18.190 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:18.190 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:18.190 [info] Aborting indexing job.
+2025-03-19 06:33:18.190 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:18.248 [info] Doing a startup handshake.
+2025-03-19 06:33:18.253 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:18.262 [info] Finished computing merkle tree in 5.191128000005847 ms.
+2025-03-19 06:33:18.262 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:18.263 [info] Handshake start
+2025-03-19 06:33:18.391 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:18.391 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:18.391 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:18.391 [info] Aborting indexing job.
+2025-03-19 06:33:18.392 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:18.392 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:18.450 [info] Doing a startup handshake.
+2025-03-19 06:33:18.469 [info] Finished computing merkle tree in 8.183763000008184 ms.
+2025-03-19 06:33:18.469 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:18.470 [info] Handshake start
+2025-03-19 06:33:18.648 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:18.648 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:18.649 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:18.649 [info] Aborting indexing job.
+2025-03-19 06:33:18.649 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:18.649 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:18.704 [info] Doing a startup handshake.
+2025-03-19 06:33:18.717 [info] Finished computing merkle tree in 5.2102259999956 ms.
+2025-03-19 06:33:18.717 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:18.718 [info] Handshake start
+2025-03-19 06:33:18.916 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:18.916 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:18.917 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:18.917 [info] Aborting indexing job.
+2025-03-19 06:33:18.917 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:18.917 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:18.974 [info] Doing a startup handshake.
+2025-03-19 06:33:18.985 [info] Finished computing merkle tree in 5.621111999993445 ms.
+2025-03-19 06:33:18.986 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:18.987 [info] Handshake start
+2025-03-19 06:33:19.155 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:19.155 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:19.156 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:19.156 [info] Aborting indexing job.
+2025-03-19 06:33:19.156 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:19.156 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:19.210 [info] Doing a startup handshake.
+2025-03-19 06:33:19.211 [info] Creating Indexing Repo client:  https://repo42.cursor.sh
+2025-03-19 06:33:19.211 [info] Creating repo client with backend url: https://repo42.cursor.sh
+2025-03-19 06:33:19.211 [info] multiCodebaseIndexingJob dispose
+2025-03-19 06:33:19.211 [info] Aborting indexing job.
+2025-03-19 06:33:19.211 [info] InternalRepoInfo constructor with preferredEmbeddingModel 0
+2025-03-19 06:33:19.269 [info] Doing a startup handshake.
+2025-03-19 06:33:19.277 [info] Indexing job successfully done or aborted.
+2025-03-19 06:33:19.287 [info] Finished computing merkle tree in 5.14984899997944 ms.
+2025-03-19 06:33:19.288 [info] Doing the initial handshake with hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:19.289 [info] Handshake start
+2025-03-19 06:33:19.703 [info] Handshake timing: 414.2769350000017, response: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"12a01337-c031-45a8-ae66-97f961b92a5d","status":"STATUS_UP_TO_DATE"}]}
+2025-03-19 06:33:19.703 [info] Handshake result: {"status":"STATUS_SUCCESS","codebases":[{"codebaseId":"12a01337-c031-45a8-ae66-97f961b92a5d","status":"STATUS_UP_TO_DATE"}]}
+2025-03-19 06:33:19.703 [info] Starting fast remote sync.
+2025-03-19 06:33:19.703 [info] Total num embeddable files: 26
+2025-03-19 06:33:19.704 [info] Root hash: 9f35e191fc9fe47ffea2abd84bd83054b71a0d3193666271c0ef13339c9fb41c
+2025-03-19 06:33:20.045 [info] Finished indexing repository.
+2025-03-19 06:33:20.045 [info] Indexing job successfully done or aborted.

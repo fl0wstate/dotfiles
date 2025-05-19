@@ -1,0 +1,85 @@
+/* ------------------------------------------------------ My Info ------------------------------------------------------ */
+
+/* ------------------ Hide My Info ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_my_info="true"]:has(div[tab-identifier="FElibrary"]) yt-page-header-view-model,
+
+/* ------------------ Hide Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_account_avatar="true"]:has(div[tab-identifier="FElibrary"]) yt-decorated-avatar-view-model,
+
+/* ------------------ Hide Channel Name ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_channel_name="true"]:has(div[tab-identifier="FElibrary"]) .page-header-view-model-wiz__page-header-title,
+
+/* ------------------ Hide Cahnnel ID ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_channel_id="true"]:has(div[tab-identifier="FElibrary"]) .yt-content-metadata-view-model-wiz__metadata-row > span:nth-child(1),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_channel_id="true"]:has(div[tab-identifier="FElibrary"]) .yt-content-metadata-view-model-wiz__metadata-row > span:nth-child(2),
+
+/* ------------------ Hide 'View Cahnnel' Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_view_channel_button="true"]:has(div[tab-identifier="FElibrary"]) yt-content-metadata-view-model a,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_view_channel_button="true"]:has(div[tab-identifier="FElibrary"]) .yt-content-metadata-view-model-wiz__metadata-row > span:nth-child(2),
+
+/* ------------------ Hide 'Switch Account' Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_switch_account_button="true"]:has(div[tab-identifier="FElibrary"]) yt-flexible-actions-view-model>div:has(path[d*="20h14v1H3V6h1v14zM6"]),
+
+/* ------------------ Hide 'Google Account' Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_google_account_button="true"]:has(div[tab-identifier="FElibrary"]) yt-flexible-actions-view-model>div:has(a[href*="myaccount.google"]),
+
+/* ------------------------------------------------------ My Info ------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------ Sections ------------------------------------------------------ */
+
+/* ------------------ Hide Sections ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_all_sections="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(ytm-horizontal-card-list-renderer),
+
+/* ------------------ Hide Section - History ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_history="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(a.ytm-rich-list-header-text[href*="feed/history"]),
+
+/* ------------------ Hide Section - Playlists ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_playlists="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(ytm-playlist-card-renderer),
+
+/* ------------------------------------------------------ Sections ------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------ Buttons ------------------------------------------------------ */
+
+/* ------------------ Hide Buttons ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_footer_buttons="true"]:has(div[tab-identifier="FElibrary"]) ytm-item-section-renderer:has(ytm-compact-link-renderer),
+
+/* ------------------ Hide Button - Your Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_your_videos="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="/channel/"],
+
+/* ------------------ Hide Button - Your Movies ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_section_your_movies="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="/feed/storefront"],
+
+/* ------------------ Hide Button - Premium ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_button_premium="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="premium"],
+
+/* ------------------ Hide Button - Help ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_button_help="true"]:has(div[tab-identifier="FElibrary"]) a.compact-link-endpoint[href*="support.google"],
+
+/* ------------------ Hide Button - Feedback ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_you_page_hide_button_feedback="true"]:has(div[tab-identifier="FElibrary"]) button.compact-link-endpoint:has(path[d*="2v6h2V5zm6"]) {
+  display: none !important;
+}

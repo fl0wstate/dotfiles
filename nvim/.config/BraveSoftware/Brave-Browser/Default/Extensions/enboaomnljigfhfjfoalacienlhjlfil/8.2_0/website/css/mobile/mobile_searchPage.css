@@ -1,0 +1,30 @@
+/* ------------------ Hide Results - Shorts ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_results_shorts="true"]
+  ytm-search
+  ytm-reel-shelf-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_results_shorts="true"]
+  ytm-search
+  ytm-video-with-context-renderer:has(a[href*="shorts"]) {
+  display: none !important;
+}
+
+/* ------------------ Hide Results - Playlists ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_results_playlists="true"] ytm-search ytm-compact-radio-renderer:has(a[href*="list"]),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_results_playlists="true"] ytm-search ytm-compact-playlist-renderer:has(a[href*="list"]),
+
+/* ------------------ Hide Watched Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_watched_videos="true"] ytm-search ytm-video-with-context-renderer:has(.thumbnail-overlay-resume-playback-progress),
+
+/* ------------------ Hide Results - Channels ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_results_channels="true"] ytm-search ytm-compact-channel-renderer,
+
+/* ------------------ Hide Ads - Promoted Websites ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_search_hide_ads_promoted_websites="true"] ytm-search ad-slot-renderer {
+  display: none !important;
+}

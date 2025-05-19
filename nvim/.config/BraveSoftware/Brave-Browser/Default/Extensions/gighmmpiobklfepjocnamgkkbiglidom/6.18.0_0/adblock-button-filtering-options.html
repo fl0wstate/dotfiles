@@ -1,0 +1,62 @@
+<!doctype html>
+<!--
+  - This file is part of AdBlock <https://getadblock.com/>,
+  - Copyright (C) 2013-present  Adblock, Inc.
+  -
+  - AdBlock is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - AdBlock is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with AdBlock.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<html>
+  <head>
+    <title data-i18n="onpage_options_menu_title"></title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="button/popup.css" />
+    <link rel="stylesheet" href="button/header.css" />
+    <link rel="stylesheet" href="button/components/components.css" />
+    <link rel="stylesheet" href="button/popup-subpages.css" />
+    <script src="polyfill.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="purify.min.js"></script>
+    <script src="adblock-functions.js"></script>
+    <script src="button/filtering-options.js" type="module"></script>
+    <script src="button/header.js" type="module"></script>
+  </head>
+
+  <body id="default_theme" data-theme="default" data-extension="adblock" style="overflow: hidden">
+    <div id="wrapper" class="page-container">
+      <main class="primary_section animate-in">
+        <subsection-navigation data-title="more_options_title"></subsection-navigation>
+        <div id="separator_help" class="separator" style=""></div>
+        <div class="menu-list">
+          <menu-link-button
+            data-name="allowlistWizard"
+            data-click-handler="openAllowListWizard"
+            data-i18n="open_allowlist_wizard"
+          >
+          </menu-link-button>
+          <menu-link-button
+            data-name="hidingWizard"
+            data-click-handler="openHidingWizard"
+            data-i18n="block_an_ad_on_this_page"
+          >
+          </menu-link-button>
+          <menu-link
+            href="adblock-button-undo-allow-confirm.html"
+            data-name="undoAllowlist"
+            data-i18n="undo_last_block_site"
+          >
+          </menu-link>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

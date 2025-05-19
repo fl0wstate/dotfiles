@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Thêm trang vào danh sách"
+   },
+   "all_settings": {
+      "message": "Tất cả các thiết lập"
+   },
+   "auto_day_at_location": {
+      "message": "Tự động (ban ngày tại vị trí)"
+   },
+   "auto_day_time": {
+      "message": "Tự động (ban ngày)"
+   },
+   "auto_night_at_location": {
+      "message": "Tự động (ban đêm tại vị trí)"
+   },
+   "auto_night_time": {
+      "message": "Tự động (ban đêm)"
+   },
+   "auto_system_is_dark": {
+      "message": "Tự động (chế độ tối đang bật)"
+   },
+   "auto_system_is_light": {
+      "message": "Tự động (chế độ sáng đang bật)"
+   },
+   "automation": {
+      "message": "Tự động hóa"
+   },
+   "brightness": {
+      "message": "Độ sáng"
+   },
+   "change_browser_theme": {
+      "message": "Đổi chủ đề của trình duyệt"
+   },
+   "click_to_set_shortcut": {
+      "message": "Bấm để đặt phím tắt"
+   },
+   "configure_automation": {
+      "message": "Cài đặt tự động hóa"
+   },
+   "configure_site_toggle": {
+      "message": "Cài đặt chuyển đổi chủ đề"
+   },
+   "contrast": {
+      "message": "Độ tương phản"
+   },
+   "custom_browser_theme_off": {
+      "message": "Mặc định"
+   },
+   "custom_browser_theme_on": {
+      "message": "Tuỳ chỉnh"
+   },
+   "dark": {
+      "message": "Tối"
+   },
+   "dark_theme_detected": {
+      "message": "Đã phát hiện chủ đề tối"
+   },
+   "detect_dark_theme": {
+      "message": "Phát hiện chủ đề tối"
+   },
+   "detect_website_dark_theme": {
+      "message": "Phát hiện chủ đề tối của trang"
+   },
+   "donate": {
+      "message": "Đóng góp"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Được bật cho tất cả các trang web theo mặc định"
+   },
+   "enabled_by_default": {
+      "message": "Được bật theo mặc định"
+   },
+   "engine_dynamic": {
+      "message": "Động"
+   },
+   "engine_filter": {
+      "message": "Lọc"
+   },
+   "engine_filter_plus": {
+      "message": "Lọc+"
+   },
+   "engine_static": {
+      "message": "Tĩnh"
+   },
+   "extension_description": {
+      "message": "Chế độ tối cho mọi trang web. Bảo vệ đôi mắt của bạn, sử dụng khi duyệt web vào ban đêm và hàng ngày."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Phím tắt để bật/tắt tiện ích"
+   },
+   "filter": {
+      "message": "Bộ lọc"
+   },
+   "grayscale": {
+      "message": "Độ xám"
+   },
+   "help": {
+      "message": "Hỗ trợ"
+   },
+   "invert_listed_only": {
+      "message": "Luôn bật với"
+   },
+   "latitude": {
+      "message": "Vĩ độ"
+   },
+   "learn_more": {
+      "message": "Tìm hiểu thêm"
+   },
+   "light": {
+      "message": "Sáng"
+   },
+   "loading_please_wait": {
+      "message": "Đang tải, xin hãy đợi"
+   },
+   "local_files_forbidden": {
+      "message": "Không cho phép truy cập\ncác tệp cục bộ"
+   },
+   "longitude": {
+      "message": "Kinh độ"
+   },
+   "mobile": {
+      "message": "Điện thoại di động"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader có sẵn. Tìm hiểu thêm"
+   },
+   "mobile_text": {
+      "message": "Giảm mỏi mắt khi đọc trên điện thoại hoặc máy tính bảng.\nChỉ cần quét mã QR để cài đặt."
+   },
+   "mode": {
+      "message": "Chế độ"
+   },
+   "more": {
+      "message": "Thêm"
+   },
+   "news": {
+      "message": "Tin tức"
+   },
+   "not_invert_listed": {
+      "message": "Không bật với"
+   },
+   "off": {
+      "message": "Tắt"
+   },
+   "on": {
+      "message": "Bật"
+   },
+   "only_for": {
+      "message": "Chỉ dành cho"
+   },
+   "only_for_description": {
+      "message": "Chỉ áp dụng cài đặt cho trang này"
+   },
+   "open_dev_tools": {
+      "message": "Công cụ"
+   },
+   "page_in_dark_list": {
+      "message": "Nằm trong danh sách\nđã ở chế độ tối"
+   },
+   "page_protected": {
+      "message": "Trang này được bảo vệ\nbởi trình duyệt"
+   },
+   "pay_for_using": {
+      "message": "Trả tiền để sử dụng Dark Reader"
+   },
+   "privacy": {
+      "message": "Riêng tư"
+   },
+   "read_more": {
+      "message": "Đọc thêm"
+   },
+   "select_font": {
+      "message": "Chọn phông chữ"
+   },
+   "sepia": {
+      "message": "Độ ấm"
+   },
+   "set_active_hours": {
+      "message": "Đặt giờ hoạt động"
+   },
+   "set_location": {
+      "message": "Hoạt động sau khi mặt trời lặn tại vị trí"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Đặt phím tắt để thêm trang"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Đặt phím tắt để\nbật/tắt tiện ích"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Đặt phím tắt để\ntạo chủ đề cho trang"
+   },
+   "site_list": {
+      "message": "Danh sách"
+   },
+   "site_toggle": {
+      "message": "Đổi chủ đề của trang"
+   },
+   "store_listing": {
+      "message": "Tiện ích này bảo vệ mắt bằng cách tạo ra chế độ tối cho các trang web đang hoạt động. Dark Reader đảo ngược màu sáng, làm cho chúng có độ tương phản cao và dễ đọc vào ban đêm.\n\nBạn có thể điều chỉnh độ sáng, độ tương phản, độ ấm, chế độ tối, phông chữ và danh sách bỏ qua.\n\nChúng tôi có thể yêu cầu bạn đóng góp để hỗ trợ phát triển tiện ích. Bạn có thể đọc tin tức về Dark Reader qua giao diện chính. Có công cụ dành cho người dùng có kinh nghiệm.\n\nDark Reader không hiện quảng cáo hay gửi dữ liệu người dùng đi đâu. Nó hoàn toàn mã nguồn mở: https://github.com/darkreader/darkreader\n\nXóa các tiện ích tương tự trước khi cài đặt. Hãy tận hưởng chế độ tối tuyệt đẹp nhé!"
+   },
+   "support_out_work": {
+      "message": "Hỗ trợ công việc của chúng tôi"
+   },
+   "system_dark_mode": {
+      "message": "Sử dụng chủ đề của hệ thống"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "Tuỳ chọn có thể không hoạt động do\nlỗi trong trình duyệt"
+   },
+   "system_dark_mode_description": {
+      "message": "Hoạt động cùng chế độ tối của hệ thống"
+   },
+   "text_stroke": {
+      "message": "Viền chữ"
+   },
+   "theme_generation_mode": {
+      "message": "Các chế độ tạo chủ đề"
+   },
+   "toggle_current_site": {
+      "message": "Tạo chủ đề cho trang"
+   },
+   "toggle_extension": {
+      "message": "Bật/Tắt tiện ích"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Hãy thử công cụ chủ đề **thử nghiệm**:\n**Lọc+** giữ nguyên độ bão hòa màu, dùng GPU\n**Chủ đề tĩnh** tạo một chủ đề nhanh, đơn giản\n**Chủ đề động** phân tích màu sắc và hình ảnh"
+   },
+   "version": {
+      "message": "Phiên bản"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader kỷ niệm 10 năm.\nHãy ủng hộ công việc của chúng tôi."
+   },
+   "website_toggle_shortcut": {
+      "message": "Phím tắt đổi chủ đề của trang"
+   }
+}

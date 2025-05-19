@@ -1,0 +1,15 @@
+2025/04/09-06:20:21.344 398 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pro.x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/09-06:20:21.344 398 Recovering log #7
+2025/04/09-06:20:21.344 398 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_pro.x.com_0.indexeddb.leveldb/000007.log 
+2025/04/09-06:20:53.536 399 Level-0 table #12: started
+2025/04/09-06:20:53.540 399 Level-0 table #12: 209 bytes OK
+2025/04/09-06:20:53.546 399 Delete type=0 #7
+2025/04/09-06:20:53.546 399 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/09-06:20:53.547 399 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 5997 : 1
+2025/04/09-06:20:53.547 399 Compacting 1@1 + 1@2 files
+2025/04/09-06:20:53.550 399 Generated table #13@1: 69 keys, 58526 bytes
+2025/04/09-06:20:53.550 399 Compacted 1@1 + 1@2 files => 58526 bytes
+2025/04/09-06:20:53.556 399 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/09-06:20:53.556 399 Delete type=2 #9
+2025/04/09-06:20:53.556 399 Delete type=2 #12
+2025/04/09-06:20:53.556 399 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 5997 : 1 .. (end); will stop at (end)

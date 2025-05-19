@@ -1,4 +1,3 @@
-#
 # Flowstate Bash Config
 #
 
@@ -6,8 +5,10 @@
 [[ $- != *i* ]] && return
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+
 set -o vi
-# for xclip
+
+export TERM="xterm-256color"
 export DISPLAY=:0
 export EDITOR='nvim'
 export TERMINAL=/usr/bin/ghostty
@@ -21,9 +22,14 @@ source /usr/share/fzf/completion.bash
 #----------------------------------------
 # Bash Aliases
 alias ls='ls --color=auto'
+alias font='fc-cache -fv'
+alias tar='tar -xvzf $@'
+alias lazy='lazygit'
+alias tunnel='ssh -i ~/.ssh/id_rsa flowstate@irrotational.com -p 9102'
 alias cl='clear'
 alias tsrc='nvim ~/.config/tmux/tmux.conf'
 alias mb=access_database
+alias setup='env ~/work/c-deep-dive/chat-app/client/src/.venv'
 alias conf='cd ~/.config/nvim/'
 alias env=environment_activator
 alias grep='grep --color=auto'
@@ -105,7 +111,7 @@ multipile_files() {
 }
 
 rmv() {
-  sudo pacman -R "$@"
+  sudo pacman -Rns "$@"
 }
 
 valgrind_checker() {
@@ -249,7 +255,18 @@ else
   fi
 fi
 
+#yazi
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+    builtin cd -- "$cwd"
+  fi
+  rm -f -- "$tmp"
+}
+
 # uv
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig:$PKG_CONFIG_PATH
-# export PATH="/home/archmkk/getCracked/cmd-pamodoro/asciigen/zig-out/bin/asciigen"
+alias gl="/home/flowy/glyph-1.0.10/zig-out/bin/glyph"
+export XAUTHORITY=/home/flowy/.Xauthority
 export TERM=xterm-256color

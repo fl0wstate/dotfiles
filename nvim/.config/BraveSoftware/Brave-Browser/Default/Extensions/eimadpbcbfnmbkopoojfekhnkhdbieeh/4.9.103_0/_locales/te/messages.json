@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "జాబితాకు సైట్‌ను జోడించండి"
+   },
+   "all_settings": {
+      "message": "అన్ని సెట్టింగ్‌లు"
+   },
+   "auto_day_at_location": {
+      "message": "ఆటో (స్థానంలో రోజు)"
+   },
+   "auto_day_time": {
+      "message": "ఆటో (రోజు సమయం)"
+   },
+   "auto_night_at_location": {
+      "message": "ఆటో (స్థానంలో రాత్రి)"
+   },
+   "auto_night_time": {
+      "message": "ఆటో (రాత్రి సమయం)"
+   },
+   "auto_system_is_dark": {
+      "message": "ఆటో (సిస్టమ్ చీకటిగా ఉంది)"
+   },
+   "auto_system_is_light": {
+      "message": "ఆటో (సిస్టమ్ తేలికైనది)"
+   },
+   "automation": {
+      "message": "స్వయంచాలకంగా పూర్తయింది"
+   },
+   "brightness": {
+      "message": "ఎంత కాంతి"
+   },
+   "change_browser_theme": {
+      "message": "బ్రౌజర్ థీమ్‌ను మార్చండి"
+   },
+   "click_to_set_shortcut": {
+      "message": "సత్వరమార్గాన్ని సెట్ చేయడానికి క్లిక్ చేయండి"
+   },
+   "configure_automation": {
+      "message": "ఆటోమేషన్‌ను కాన్ఫిగర్ చేయండి"
+   },
+   "configure_site_toggle": {
+      "message": "వెబ్‌సైట్ టోగులింగ్‌ని కాన్ఫిగర్ చేయండి"
+   },
+   "contrast": {
+      "message": "విరుద్ధంగా"
+   },
+   "custom_browser_theme_off": {
+      "message": "డిఫాల్ట్"
+   },
+   "custom_browser_theme_on": {
+      "message": "ఆచారం"
+   },
+   "dark": {
+      "message": "నలుపు"
+   },
+   "dark_theme_detected": {
+      "message": "ముదురు రంగు థీమ్ కనుగొనబడింది"
+   },
+   "detect_dark_theme": {
+      "message": "చీకటి థీమ్‌ను గుర్తించండి"
+   },
+   "detect_website_dark_theme": {
+      "message": "వెబ్‌సైట్ స్వంత డార్క్ థీమ్‌ను గుర్తించండి"
+   },
+   "donate": {
+      "message": "దయచేసి దానం చేయండి"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "డిఫాల్ట్‌గా అన్ని వెబ్‌సైట్‌ల కోసం ప్రారంభించబడింది"
+   },
+   "enabled_by_default": {
+      "message": "డిఫాల్ట్‌గా ప్రారంభించబడింది"
+   },
+   "engine_dynamic": {
+      "message": "చురుకుగా"
+   },
+   "engine_filter": {
+      "message": "ఫిల్టర్"
+   },
+   "engine_filter_plus": {
+      "message": "ఫిల్టర్+"
+   },
+   "engine_static": {
+      "message": "స్థిరమైన"
+   },
+   "extension_description": {
+      "message": "ప్రతి వెబ్‌సైట్‌కి ముదురు థీమ్. మీ కళ్లను కాపాడుకోండి, రాత్రి మరియు పగలు బ్రౌజింగ్ట్‌కి ముదురు థీమ్ ఉపయోగించండి."
+   },
+   "extension_toggle_shortcut": {
+      "message": "పొడిగింపు ఆన్/ఆఫ్ కీబోర్డ్ సత్వరమార్గం"
+   },
+   "filter": {
+      "message": "ఫిల్టర్"
+   },
+   "grayscale": {
+      "message": "గ్రేస్కేల్"
+   },
+   "help": {
+      "message": "సహాయం"
+   },
+   "invert_listed_only": {
+      "message": "విలోమ జాబితా మాత్రమే"
+   },
+   "latitude": {
+      "message": "అక్షాంశం"
+   },
+   "learn_more": {
+      "message": "మరింత తెలుసుకోండి"
+   },
+   "light": {
+      "message": "కాంతి"
+   },
+   "loading_please_wait": {
+      "message": "దయచేసి వేచి ఉండండి..."
+   },
+   "local_files_forbidden": {
+      "message": "యాక్సెస్ చేయడానికి అనుమతి\nలేదు స్థానిక ఫైళ్లు"
+   },
+   "longitude": {
+      "message": "రేఖాంశం"
+   },
+   "mobile": {
+      "message": "మొబైల్"
+   },
+   "mobile_link": {
+      "message": "మొబైల్ డార్క్ రీడర్ అందుబాటులో ఉంది. ఇంకా నేర్చుకో"
+   },
+   "mobile_text": {
+      "message": "మీ ఫోన్ లేదా టాబ్లెట్‌లో చదివేటప్పుడు కంటి ఒత్తిడిని తగ్గించండి.\nఇన్‌స్టాల్ చేయడానికి QR కోడ్‌ని స్కాన్ చేయండి."
+   },
+   "mode": {
+      "message": "మోడ్"
+   },
+   "more": {
+      "message": "మరింత"
+   },
+   "news": {
+      "message": "వార్తలు"
+   },
+   "not_invert_listed": {
+      "message": "విలోమ జాబితా కాదు"
+   },
+   "off": {
+      "message": "ఆపండి"
+   },
+   "on": {
+      "message": "ఆన్"
+   },
+   "only_for": {
+      "message": "దీని కోసం మాత్రమే"
+   },
+   "only_for_description": {
+      "message": "ప్రస్తుత సైట్ కోసం మాత్రమే ఎంపికలను వర్తించండి"
+   },
+   "open_dev_tools": {
+      "message": "ఓపెన్ దేవ్ టూల్స్"
+   },
+   "page_in_dark_list": {
+      "message": "ఈ పేజీ\nచీకటి థీమ్ జాబితాలో ఉంది"
+   },
+   "page_protected": {
+      "message": "ఈ పేజీ\nబ్రౌజర్ ద్వారా రక్షించబడింది"
+   },
+   "pay_for_using": {
+      "message": "డార్క్ రీడర్‌ని ఉపయోగించడం కోసం చెల్లించండి"
+   },
+   "privacy": {
+      "message": "గోప్యత"
+   },
+   "read_more": {
+      "message": "ఇంకా చదవండి"
+   },
+   "select_font": {
+      "message": "ఫాంట్ ఎంచుకోండి"
+   },
+   "sepia": {
+      "message": "సెపియా"
+   },
+   "set_active_hours": {
+      "message": "మేల్కొనే గంటలను మార్చండి"
+   },
+   "set_location": {
+      "message": "సూర్యాస్తమయం వద్ద ప్రారంభించండి"
+   },
+   "setup_add_site_hotkey": {
+      "message": "సైట్‌ను జోడించడానికి హాట్‌కీని సెటప్ చేయండి"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "పొడిగింపు సెట్టింగులు\nహాట్‌కీని ప్రారంభించండి"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "సైట్ మార్చడానికి పొడిగింపు సెటప్\nహాట్‌కీని ప్రారంభించండి"
+   },
+   "site_list": {
+      "message": "సైట్ జాబితా"
+   },
+   "site_toggle": {
+      "message": "సైట్ టోగుల్ చేస్తోంది"
+   },
+   "store_listing": {
+      "message": "ఈ కంటి-సంరక్షణ పొడిగింపు ఫ్లైలో వెబ్‌సైట్ల కోసం చీకటి ఇతివృత్తాలను సృష్టించడం ద్వారా నైట్ మోడ్‌ను అనుమతిస్తుంది. డార్క్ రీడర్ ప్రకాశవంతమైన రంగులను విలోమం చేస్తుంది, అవి అధిక విరుద్ధంగా మరియు రాత్రి చదవడం సులభం చేస్తాడు.\n\nమీరు ప్రకాశం, కాంట్రాస్ట్, సెపియా ఫిల్టర్, డార్క్ మోడ్, ఫాంట్ సెట్టింగులు మరియు విస్మరించే-జాబితాను సర్దుబాటు చేయవచ్చు.\n\nమేము విరాళంతో యాప్ అభివృద్ధికి మద్దతు ఇవ్వమని మిమ్మల్ని అడగవచ్చు. మీరు సెట్టింగ్‌ల పాప్‌అప్‌లో డార్క్ రీడర్ గురించిన వార్తలను చూడవచ్చు. అనుభవజ్ఞులైన వినియోగదారుల కోసం డెవలపర్ సాధనాలు ఉన్నాయి.\n\nడార్క్ రీడర్ ప్రకటనలను చూపించదు మరియు వినియోగదారుల డేటాను ఎక్కడా పంపదు. ఇది పూర్తిగా ఓపెన్-సోర్స్: https://github.com/darkreader/darkreader\n\nమీరు దీన్ని ఇన్‌స్టాల్ చేయడానికి ముందు, ఇలాంటి పొడిగింపులను నిలిపివేయండి. చూడటం ఆనందించండి!"
+   },
+   "support_out_work": {
+      "message": "మా పనికి మద్దతు ఇవ్వండి"
+   },
+   "system_dark_mode": {
+      "message": "సిస్టమ్ కలర్ స్కీమ్‌ను ఉపయోగించండి"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "సిస్టమ్ కలర్ స్కీమ్ ఎనేబుల్ లో ఉంది"
+   },
+   "text_stroke": {
+      "message": "టెక్స్ట్ స్ట్రోక్"
+   },
+   "theme_generation_mode": {
+      "message": "థీమ్ యొక్క మోడ్‌ను మార్చండి"
+   },
+   "toggle_current_site": {
+      "message": "సైట్ కోసం సక్రియం చేయండి"
+   },
+   "toggle_extension": {
+      "message": "పొడిగింపును ప్రారంభించండి"
+   },
+   "try_experimental_theme_engines": {
+      "message": "ప్రయత్నించండి ** ప్రయోగాత్మక ** థీమ్ ఇంజన్లు:\n** ఫిల్టర్+** రంగుల సంతృప్తతను సంరక్షిస్తుంది, GPU ని ఉపయోగిస్తుంది\n** స్టాటిక్ థీమ్ ** సరళమైన వేగవంతమైన థీమ్‌ను ఉత్పత్తి చేస్తుంది\n** డైనమిక్ థీమ్ ** రంగులు మరియు చిత్రాలను విశ్లేషిస్తుంది"
+   },
+   "version": {
+      "message": "సంస్కరణ: Telugu"
+   },
+   "we_celebrate_10_years": {
+      "message": "డార్క్ రీడర్ 10 సంవత్సరాలు జరుపుకుంటుంది.\nదయచేసి మా పనికి మద్దతు ఇవ్వండి."
+   },
+   "website_toggle_shortcut": {
+      "message": "వెబ్‌సైట్ టోగుల్ కీబోర్డ్ సత్వరమార్గం"
+   }
+}

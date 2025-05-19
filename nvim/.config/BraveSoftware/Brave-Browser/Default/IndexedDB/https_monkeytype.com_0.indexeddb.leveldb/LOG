@@ -1,0 +1,13 @@
+2025/04/11-19:36:40.732 382 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-19:36:40.733 382 Recovering log #203
+2025/04/11-19:36:40.733 382 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_monkeytype.com_0.indexeddb.leveldb/000203.log 
+2025/04/11-19:36:40.784 382 Level-0 table #208: started
+2025/04/11-19:36:40.788 382 Level-0 table #208: 4677 bytes OK
+2025/04/11-19:36:40.794 382 Delete type=0 #203
+2025/04/11-19:36:40.794 382 Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/11-20:10:52.958 382 Compacting 1@1 + 1@2 files
+2025/04/11-20:10:52.963 382 Generated table #209@1: 42 keys, 3664 bytes
+2025/04/11-20:10:52.963 382 Compacted 1@1 + 1@2 files => 3664 bytes
+2025/04/11-20:10:52.969 382 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-20:10:52.969 382 Delete type=2 #205
+2025/04/11-20:10:52.969 382 Delete type=2 #208

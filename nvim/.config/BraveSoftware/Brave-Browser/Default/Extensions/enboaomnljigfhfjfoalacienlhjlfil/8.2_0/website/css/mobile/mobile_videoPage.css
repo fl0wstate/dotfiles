@@ -1,0 +1,374 @@
+/* ------------------ Grayscale Video Player ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_video_player="true"]:has(
+    ytm-watch
+  )
+  video {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Related Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_related_videos="true"]:has(
+    ytm-watch
+  )
+  ytm-item-section-renderer[section-identifier="related-items"] {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_related_videos="true"]:has(
+    ytm-watch
+  )
+  ytm-single-column-watch-next-results-renderer
+  ytm-item-section-renderer[section-identifier="related-items"]:nth-child(2) {
+  display: flex !important;
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Comments ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments="true"]:has(ytm-watch) ytm-item-section-renderer:has(ytm-comments-entry-point-header-renderer),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments="true"] ytm-item-section-renderer:has(> ytm-comments-header-renderer > ytm-comment-simplebox-renderer),
+
+/* ------------------ Hide Comments Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_comments_count="true"]:has(ytm-watch) ytm-comments-entry-point-header-renderer .comments-entry-point-header-count,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_comments_count="true"]:has(ytm-watch) ytm-engagement-panel-section-list-renderer .engagement-panel-section-list-title-and-context-wrapper .engagement-panel-section-list-header-context {
+  display: none !important;
+}
+
+/* ------------------ Hide Comment Usernames ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_usernames="true"]
+  .comment-content
+  .comment-title {
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Comment Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_profile_pictures="true"]
+  ytm-comment-renderer
+  .comment-icon-container,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_profile_pictures="true"]
+  ytm-comments-entry-point-header-renderer
+  img {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Comment Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_comments_profile_pictures="true"]
+  ytm-comment-renderer
+  .comment-icon-container,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_comments_profile_pictures="true"]
+  ytm-comments-entry-point-header-renderer
+  img {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Comment Published Time ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_published_time="true"]:has(ytm-watch) ytm-comment-renderer .comment-published-time,
+
+/* ------------------ Hide Button - Autoplay ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_autoplay_button="true"]:has(ytm-watch) .ytm-autonav-toggle-button-container {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Play Previous ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_play_previous_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-middle.center
+  button:has(path[d*="6H5v12h2V6z"]) {
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Button - Full Screen ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_full_screen_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  button:has(
+    path[d="M7,11H6V6h5v1H7V11z M18,6h-5v1h4v4h1V6z M18,13h-1v4h-4v1h5V13z M11,17H7v-4H6v5h5V17z"]
+  ) {
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Button - Settings ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_settings_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-content
+  button:has(
+    path[d="M12 9.5c1.38 0 2.5 1.12 2.5 2.5s-1.12 2.5-2.5 2.5-2.5-1.12-2.5-2.5 1.12-2.5 2.5-2.5m0-1c-1.93 0-3.5 1.57-3.5 3.5s1.57 3.5 3.5 3.5 3.5-1.57 3.5-3.5-1.57-3.5-3.5-3.5zM13.22 3l.55 2.2.13.51.5.18c.61.23 1.19.56 1.72.98l.4.32.5-.14 2.17-.62 1.22 2.11-1.63 1.59-.37.36.08.51c.05.32.08.64.08.98s-.03.66-.08.98l-.08.51.37.36 1.63 1.59-1.22 2.11-2.17-.62-.5-.14-.4.32c-.53.43-1.11.76-1.72.98l-.5.18-.13.51-.55 2.24h-2.44l-.55-2.2-.13-.51-.5-.18c-.6-.23-1.18-.56-1.72-.99l-.4-.32-.5.14-2.17.62-1.21-2.12 1.63-1.59.37-.36-.08-.51c-.05-.32-.08-.65-.08-.98s.03-.66.08-.98l.08-.51-.37-.36L3.6 8.56l1.22-2.11 2.17.62.5.14.4-.32c.53-.44 1.11-.77 1.72-.99l.5-.18.13-.51.54-2.21h2.44M14 2h-4l-.74 2.96c-.73.27-1.4.66-2 1.14l-2.92-.83-2 3.46 2.19 2.13c-.06.37-.09.75-.09 1.14s.03.77.09 1.14l-2.19 2.13 2 3.46 2.92-.83c.6.48 1.27.87 2 1.14L10 22h4l.74-2.96c.73-.27 1.4-.66 2-1.14l2.92.83 2-3.46-2.19-2.13c.06-.37.09-.75.09-1.14s-.03-.77-.09-1.14l2.19-2.13-2-3.46-2.92.83c-.6-.48-1.27-.87-2-1.14L14 2z"]
+  ),
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_settings_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-content
+  button:has(
+    path[d="M12,9.5c1.38,0,2.5,1.12,2.5,2.5s-1.12,2.5-2.5,2.5S9.5,13.38,9.5,12S10.62,9.5,12,9.5 M12,8.5c-1.93,0-3.5,1.57-3.5,3.5 s1.57,3.5,3.5,3.5s3.5-1.57,3.5-3.5S13.93,8.5,12,8.5L12,8.5z M13.22,3l0.55,2.2l0.13,0.51l0.5,0.18c0.61,0.23,1.19,0.56,1.72,0.98 l0.4,0.32l0.5-0.14l2.17-0.62l1.22,2.11l-1.63,1.59l-0.37,0.36l0.08,0.51c0.05,0.32,0.08,0.64,0.08,0.98s-0.03,0.66-0.08,0.98 l-0.08,0.51l0.37,0.36l1.63,1.59l-1.22,2.11l-2.17-0.62l-0.5-0.14l-0.4,0.32c-0.53,0.43-1.11,0.76-1.72,0.98l-0.5,0.18l-0.13,0.51 L13.22,21h-2.44l-0.55-2.2l-0.13-0.51l-0.5-0.18C9,17.88,8.42,17.55,7.88,17.12l-0.4-0.32l-0.5,0.14l-2.17,0.62L3.6,15.44l1.63-1.59 l0.37-0.36l-0.08-0.51C5.47,12.66,5.44,12.33,5.44,12s0.03-0.66,0.08-0.98l0.08-0.51l-0.37-0.36L3.6,8.56l1.22-2.11l2.17,0.62 l0.5,0.14l0.4-0.32C8.42,6.45,9,6.12,9.61,5.9l0.5-0.18l0.13-0.51L10.78,3H13.22 M14,2h-4L9.26,4.96c-0.73,0.27-1.4,0.66-2,1.14 L4.34,5.27l-2,3.46l2.19,2.13C4.47,11.23,4.44,11.61,4.44,12s0.03,0.77,0.09,1.14l-2.19,2.13l2,3.46l2.92-0.83 c0.6,0.48,1.27,0.87,2,1.14L10,22h4l0.74-2.96c0.73-0.27,1.4-0.66,2-1.14l2.92,0.83l2-3.46l-2.19-2.13 c0.06-0.37,0.09-0.75,0.09-1.14s-0.03-0.77-0.09-1.14l2.19-2.13l-2-3.46L16.74,6.1c-0.6-0.48-1.27-0.87-2-1.14L14,2L14,2z"]
+  ) {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Play Next ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_play_next_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-middle.center
+  button:has(path[d*="6h-2v12h2V6z"]) {
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Video Time ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_video_time="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  .ytm-time-display
+  .time-first,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_video_time="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  .ytm-time-display
+  .time-delimiter,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_video_time="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  .ytm-time-display
+  .time-second,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_video_time="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  .ytm-time-display
+  .middot {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Chapters ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_player_hide_chapters_button="true"]:has(
+    ytm-watch
+  )
+  .player-controls-bottom
+  .ytm-time-display
+  .playbar-action-button-container {
+  display: none !important;
+}
+
+/* ------------------ Hide Shorts ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_shorts_from_sidebar="true"]:has(ytm-watch) ytm-item-section-renderer[data-content-type="related"] ytm-video-with-context-renderer:has(a[href*="shorts/"]),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_shorts_from_sidebar="true"]:has(ytm-watch) ytm-item-section-renderer[data-content-type="related"] ytm-reel-shelf-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_shorts_from_sidebar="true"]:has(ytm-watch) ytm-item-section-renderer[section-identifier="related-items"]:has(ytm-reel-shelf-renderer),
+
+/* ------------------ Hide Watched Videos ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_related_watched_videos="true"]:has(ytm-watch) ytm-item-section-renderer[data-content-type="related"] ytm-video-with-context-renderer:has(div.thumbnail-overlay-resume-playback-progress),
+
+/* ------------------ Hide Playlists ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_related_playlists="true"]:has(ytm-watch) ytm-item-section-renderer[data-content-type="related"] ytm-compact-playlist-renderer,
+
+/* ------------------ Hide Video Title ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_title="true"]:has(ytm-watch) ytm-slim-video-information-renderer .slim-video-information-title,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_title="true"]:has(ytm-watch) ytm-video-description-header-renderer .title,
+
+/* ------------------ Hide Badge - Fundraiser ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_badge_fundraiser="true"]:has(ytm-watch) .metadata-badge[data-type=BADGE_STYLE_TYPE_YPC],
+
+/* ------------------ Hide Buttons Under Player ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_all_buttons_under_player="true"]:has(ytm-watch) ytm-slim-video-action-bar-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_all_buttons_under_player="true"]:has(ytm-watch) .watch-below-the-player ytm-subscribe-button-renderer,
+
+/* ------------------ Hide Includes Paid Promotion ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_includes_paid_promotion="true"]:has(ytm-watch) .YtmPaidContentOverlayHost,
+
+/* ------------------ Hide Button - Subscribe ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_button_subscribe="true"]:has(ytm-watch) .watch-below-the-player ytm-subscribe-button-renderer,
+
+/* ------------------ Hide Button - Like / Dislike ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_button_like_dislike="true"]:has(ytm-watch) .watch-below-the-player segmented-like-dislike-button-view-model,
+
+/* ------------------ Hide Button - Share ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_button_share="true"]:has(ytm-watch) .watch-below-the-player button-view-model:has(path[d*="M15 5.63 20.66 12 15 18.37V14h-1c-3.96 0-7.14 1-9.75 3.09 1.84-4.07 5.11-6.4 9.89-7.1l.86-.13V5.63M14 3v6C6.22 10.13 3.11 15.33 2 21c2.78-3.97 6.44-6 12-6v6l8-9-8-9z"]),
+
+/* ------------------ Hide Button - Save ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_button_save="true"]:has(ytm-watch) .watch-below-the-player button-view-model:has(path[d*="19.06V4h12m1-1H5v18l7"]),
+
+/* ------------------ Hide Button - Report ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_button_report="true"]:has(ytm-watch) .watch-below-the-player button-view-model:has(path[d*="m13.18 4 .24 1.2.16.8H19v7h-5.18l-.24-1.2-.16-.8H6V4h7.18M14 3H5v18h1v-9h6.6l.4 2h7V5h-5.6L14 3z"]) {
+  display: none !important;
+}
+
+/* ------------------ Hide Video Show More Button ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_show_more_button="true"]:has(
+    ytm-watch
+  )
+  .slim-video-information-show-more {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_show_more_button="true"]:has(
+    ytm-watch
+  )
+  ytm-slim-video-information-renderer {
+  pointer-events: none !important;
+}
+
+/* ------------------ Hide Shorts in Description ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_shorts_in_description="true"]:has(
+    ytm-watch
+  )
+  ytm-engagement-panel
+  ytm-reel-shelf-renderer {
+  display: none !important;
+}
+
+/* ------------------ Hide Video Description Text ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_description_text="true"]:has(ytm-watch) ytm-engagement-panel ytm-expandable-video-description-body-renderer,
+
+/* ------------------ Hide Channel Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_avatar="true"]:has(ytm-watch) ytm-watch ytm-slim-video-metadata-section-renderer ytm-profile-icon,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_avatar="true"]:has(ytm-watch) ytm-engagement-panel ytm-profile-icon,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_avatar="true"]:has(ytm-watch) ytm-video-description-infocards-section-renderer .ytm-infocards-channel-details-thumbnail {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Channel Avatar ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_creator_avatar="true"]:has(
+    ytm-watch
+  )
+  ytm-watch
+  ytm-slim-video-metadata-section-renderer
+  ytm-profile-icon,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_creator_avatar="true"]:has(
+    ytm-watch
+  )
+  ytm-engagement-panel
+  ytm-profile-icon,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_grayscale_creator_avatar="true"]:has(
+    ytm-watch
+  )
+  ytm-video-description-infocards-section-renderer
+  .ytm-infocards-channel-details-thumbnail {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Channel Name ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_username="true"]:has(ytm-watch) ytm-watch ytm-slim-owner-renderer h3,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_username="true"]:has(ytm-watch) ytm-video-description-header-renderer .reel-player-header-channel-title,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_username="true"]:has(ytm-watch) ytm-video-description-infocards-section-renderer .ytm-video-description-infocards-section-title,
+
+
+/* ------------------ Hide Add Comment Textfield ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comment_add_textfield="true"] ytm-comments-header-renderer,
+
+/* ------------------ Hide Ads - Under the Video Player ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_mobile_hide_ads_under_video_player="true"]:has(ytm-watch) ytm-promoted-sparkles-web-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_mobile_hide_ads_under_video_player="true"]:has(ytm-watch) ytm-companion-slot {
+  display: none !important;
+}
+
+/* ------------------ Hide Channel Subscribers Counter ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_subscribers_counter="true"]:has(
+    ytm-watch
+  )
+  .slim-owner-bylines
+  .subhead,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_creator_subscribers_counter="true"]:has(
+    ytm-watch
+  )
+  ytm-video-description-infocards-section-renderer
+  .ytm-video-description-infocards-section-subtitle {
+  display: none !important;
+}
+
+/* ------------------ Hide Video Views and Published Time ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_views_and_published="true"]:has(ytm-watch) ytm-slim-video-information-renderer .slim-video-information-title-and-badges .secondary-text > .yt-core-attributed-string,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_views_and_published="true"]:has(ytm-watch) ytm-video-description-header-renderer .factoids > ytm-factoid-renderer,
+
+/* ------------------ Hide Video Description Hashtags ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_description_hashtags="true"]:has(ytm-watch) ytm-slim-video-information-renderer a[href*="hashtag"],
+
+/* ------------------ Hide Video Likes Counter ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_likes_counter="true"]:has(ytm-watch) .watch-below-the-player segmented-like-dislike-button-view-model .yt-spec-button-shape-next__button-text-content,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_likes_counter="true"]:has(ytm-watch) ytm-video-description-header-renderer .factoids ytm-sentiment-factoid-renderer {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_video_likes_counter="true"]:has(
+    ytm-watch
+  )
+  .watch-below-the-player
+  segmented-like-dislike-button-view-model
+  .yt-spec-button-shape-next__icon {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/* ------------------ Hide Likes Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comment_likes_count="true"] ytm-comment-thread-renderer .comment-icons:has(path[d="M18.77,11h-4.23l1.52-4.94C16.38,5.03,15.54,4,14.38,4c-0.58,0-1.14,0.24-1.52,0.65L7,11H3v10h4h1h9.43 c1.06,0,1.98-0.67,2.19-1.61l1.34-6C21.23,12.15,20.18,11,18.77,11z M7,20H4v-8h3V20z M19.98,13.17l-1.34,6 C18.54,19.65,18.03,20,17.43,20H8v-8.61l5.6-6.06C13.79,5.12,14.08,5,14.38,5c0.26,0,0.5,0.11,0.63,0.3 c0.07,0.1,0.15,0.26,0.09,0.47l-1.52,4.94L13.18,12h1.35h4.23c0.41,0,0.8,0.17,1.03,0.46C19.92,12.61,20.05,12.86,19.98,13.17z"]) .comment-count,
+
+/* ------------------ Hide Comment Replies ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_replies="true"] ytm-comment-replies-renderer,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_replies="true"] ytm-comment-thread-renderer .comment-icons:has(path[d*="2h16v20l-5-5H4"]),
+
+/* ------------------ Hide Comment Action Buttons ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comment_action_buttons="true"] ytm-comment-renderer .comment-details,
+
+/* ------------------ Hide Comment Replies Count ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_page_hide_comments_replies_count="true"] ytm-comment-thread-renderer .comment-icons:has(path[d*="2h16v20l-5-5H4"]) .comment-count {
+  display: none !important;
+}

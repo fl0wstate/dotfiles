@@ -1,0 +1,7 @@
+2025/02/17-17:41:36.933 3be Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.theverge.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/17-17:41:36.933 3be Recovering log #4
+2025/02/17-17:41:36.933 3be Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.theverge.com_0.indexeddb.leveldb/000004.log 
+2025/02/17-17:41:36.979 3c8 Level-0 table #8: started
+2025/02/17-17:41:36.983 3c8 Level-0 table #8: 1255 bytes OK
+2025/02/17-17:41:36.989 3c8 Delete type=0 #4
+2025/02/17-17:41:36.989 3be Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

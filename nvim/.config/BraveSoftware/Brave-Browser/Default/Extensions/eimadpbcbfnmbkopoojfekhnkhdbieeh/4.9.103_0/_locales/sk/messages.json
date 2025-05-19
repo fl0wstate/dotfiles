@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Pridať stránku na zoznam"
+   },
+   "all_settings": {
+      "message": "Všetky nastavenia"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (deň na mieste)"
+   },
+   "auto_day_time": {
+      "message": "Auto (denný čas)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (noc na mieste)"
+   },
+   "auto_night_time": {
+      "message": "Auto (nočný čas)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (systém je tmavý)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (systém je svetlý)"
+   },
+   "automation": {
+      "message": "Automatizácia"
+   },
+   "brightness": {
+      "message": "Jas"
+   },
+   "change_browser_theme": {
+      "message": "Zmeniť motív prehliadača"
+   },
+   "click_to_set_shortcut": {
+      "message": "Kliknutím nastavíte skratku"
+   },
+   "configure_automation": {
+      "message": "Nakonfigurujte automatizáciu"
+   },
+   "configure_site_toggle": {
+      "message": "Nakonfigurujte prepínanie webových stránok"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Predvolený"
+   },
+   "custom_browser_theme_on": {
+      "message": "Vlastný"
+   },
+   "dark": {
+      "message": "Tmavý"
+   },
+   "dark_theme_detected": {
+      "message": "Bol rozpoznaný tmavý motív"
+   },
+   "detect_dark_theme": {
+      "message": "Rozpoznajte tmavý motív"
+   },
+   "detect_website_dark_theme": {
+      "message": "Zistite vlastnú temnú tému webovej stránky"
+   },
+   "donate": {
+      "message": "Prispejte"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Predvolene povolené pre všetky webové stránky"
+   },
+   "enabled_by_default": {
+      "message": "Predvolene povolené"
+   },
+   "engine_dynamic": {
+      "message": "Dynamický"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statický"
+   },
+   "extension_description": {
+      "message": "Tmavý režim pre každú stránku. Šetrite svoje oči a používajte tmavý motív po celý deň."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Klávesová skratka pre zapnutie/vypnutie rozšírenia"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Odtiene sivej"
+   },
+   "help": {
+      "message": "Pomocník"
+   },
+   "invert_listed_only": {
+      "message": "Invertovať len"
+   },
+   "latitude": {
+      "message": "Zemepisná šírka"
+   },
+   "learn_more": {
+      "message": "Zistite viac"
+   },
+   "light": {
+      "message": "Svetlý"
+   },
+   "loading_please_wait": {
+      "message": "Načítava sa, čakajte, prosím"
+   },
+   "local_files_forbidden": {
+      "message": "Prístup nie je povolený\nlokálne súbory"
+   },
+   "longitude": {
+      "message": "Zemepisná dĺžka"
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "mobile_link": {
+      "message": "K dispozícii je mobilná temná čítačka. Uč sa viac"
+   },
+   "mobile_text": {
+      "message": "Znížte únavu očí pri čítaní na telefóne alebo tablete.\nNa inštaláciu stačí naskenovať QR kód."
+   },
+   "mode": {
+      "message": "Režim"
+   },
+   "more": {
+      "message": "Viac"
+   },
+   "news": {
+      "message": "Novinky"
+   },
+   "not_invert_listed": {
+      "message": "Neinvertovať"
+   },
+   "off": {
+      "message": "Vyp."
+   },
+   "on": {
+      "message": "Zap."
+   },
+   "only_for": {
+      "message": "Len pre"
+   },
+   "only_for_description": {
+      "message": "Použiť nastavenia len pre aktuálnu stránku"
+   },
+   "open_dev_tools": {
+      "message": "Vývojárske nástroje"
+   },
+   "page_in_dark_list": {
+      "message": "Táto stránka má\nvlastný tmavý režim"
+   },
+   "page_protected": {
+      "message": "Táto stránka je nedostupná\npre toto rozlíšenie"
+   },
+   "pay_for_using": {
+      "message": "Zaplaťte za používanie Dark Reader"
+   },
+   "privacy": {
+      "message": "Súkromie"
+   },
+   "read_more": {
+      "message": "Viac informácií"
+   },
+   "select_font": {
+      "message": "Vybrať písmo"
+   },
+   "sepia": {
+      "message": "Sépia"
+   },
+   "set_active_hours": {
+      "message": "Nastaviť čas používania"
+   },
+   "set_location": {
+      "message": "Aktivovať po západe slnka podľa polohy"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Nastaviť klávesovú skratku pre pridanie stránky"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Nastaviť klávesovú skratku\npre prepnutie rozšírenia"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Nastaviť klávesovú skratku\npre prepnutie aktuálnej stránky"
+   },
+   "site_list": {
+      "message": "Zoznam stránok"
+   },
+   "site_toggle": {
+      "message": "Prepínanie stránok"
+   },
+   "store_listing": {
+      "message": "Toto rozšírenie je šetrné k očiam, vytvára nočný režim pre stránky za pochodu. Dark Reader invertuje jasné farby a robí ich kontrastnejšími, čím sa zlepšuje ich čitateľnosť v noci.\n\nUpravovať môžete jas, kontrast, sépiový filter, tmavý režim, nastavenia písma a zoznam ignorovaných stránok.\n\nMôžeme vás požiadať, aby ste podporili vývoj aplikácie darom. Novinky o Dark Reader môžete vidieť vo vyskakovacom okne nastavení. Pre skúsených používateľov existujú nástroje pre vývojárov.\n\nDark Reader je bez reklám a nikam neodosiela žiadne dáta užívateľov. Má plne otvorený zdrojový kód https://github.com/darkreader/darkreader\n\nPred inštaláciou zakážte podobné rozšírenia. Užite si sledovanie!"
+   },
+   "support_out_work": {
+      "message": "Podporte našu prácu"
+   },
+   "system_dark_mode": {
+      "message": "Použiť farebnú schému systému"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktivovať pri zapnutom systémovom tmavom režime"
+   },
+   "text_stroke": {
+      "message": "Obrys písma"
+   },
+   "theme_generation_mode": {
+      "message": "Generované motívy"
+   },
+   "toggle_current_site": {
+      "message": "Prepnúť aktuálnu stránku"
+   },
+   "toggle_extension": {
+      "message": "Zap./Vyp. rozšírenie"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Vyskúšajte **experimenálne**  motívy:\n**Filter+** zachováva sýtosť farieb, využíva GPU\n**Statický motív** generuje jednoduchý a rýchly motív\n**Dynamický motív** analyzuje farby a obrázky"
+   },
+   "version": {
+      "message": "Verzia"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader oslavuje 10 rokov.\nPodporte prosím našu prácu."
+   },
+   "website_toggle_shortcut": {
+      "message": "Klávesová skratka na prepínanie webových stránok"
+   }
+}

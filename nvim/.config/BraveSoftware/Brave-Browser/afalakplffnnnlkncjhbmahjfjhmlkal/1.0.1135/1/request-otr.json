@@ -1,0 +1,44 @@
+[
+  {
+    "include": [
+      "https://www.ceta.tech.cornell.edu/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://tcmujer.org/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://navegandolibres.org/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://www.tallpoppy.com/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://ipvtechbib.randhome.io/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://www.loveisrespect.org/*"
+    ],
+    "exclude": []
+  },
+  {
+    "include": [
+      "https://nnedv.org/*"
+    ],
+    "exclude": []
+  }
+]

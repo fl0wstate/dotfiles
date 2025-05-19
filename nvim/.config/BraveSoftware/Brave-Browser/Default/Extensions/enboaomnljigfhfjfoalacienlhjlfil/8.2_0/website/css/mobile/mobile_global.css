@@ -1,0 +1,89 @@
+/* ------------------ Hide All Shorts ------------------ */
+
+/*** Trending ***/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_hide_all_shorts="true"]
+  ytm-video-with-context-renderer:has(ytm-media-item.big-shorts-singleton),
+
+/*** History Page fix ***/
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_hide_all_shorts="true"] ytm-compact-video-renderer:has(a.compact-media-item-image[href*="shorts"]),  
+
+/* ------------------ Hide All Shorts ------------------ */
+
+/* ------------------ Hide All Banners Ads ------------------ */
+
+/*** Hide Ads banner on video page ***/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_hide_all_ads="true"] yt-mealbar-promo-renderer,
+
+/* ------------------ Hide All Banners Ads ------------------ */
+
+/* ------------------ Show Native Video Player ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"] ytm-custom-control
+
+/* ------------------ Show Native Video Player ------------------ */ {
+  display: none !important;
+}
+
+/* ------------------ Show Native Video Player - Fix Layout ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  .html5-video-player
+  div:not(:empty):not(.html5-video-container):not(.html5-video-player) {
+  z-index: auto !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  .html5-video-player
+  div:empty,
+.html5-video-container div:empty {
+  transform: none !important;
+  z-index: -1 !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  .html5-video-container
+  div:not(:empty):not(.html5-video-container):not(.html5-video-player) {
+  transform: none !important;
+  z-index: -1 !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  .html5-video-player {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2147483645 !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  .html5-video-container {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2147483646 !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  video {
+  cursor: auto !important;
+  pointer-events: auto !important;
+  z-index: 2147483647 !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  video::-webkit-media-controls,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  video::-webkit-media-controls-panel,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  video::-webkit-media-controls-panel-container,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  video::-webkit-media-controls-start-playback-button {
+  display: revert !important;
+  -webkit-appearance: revert !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_global_show_native_video_player="true"]
+  *,
+:host * {
+  -webkit-touch-callout: default !important;
+}

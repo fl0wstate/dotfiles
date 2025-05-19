@@ -1,0 +1,84 @@
+#proSignUpScreen .subScreenError {
+  text-align: left;
+  font-size: 14px;
+  font-weight: lighter;
+  color: var(--destruct-button-background);
+  display: none;
+  padding-left: 15px;
+  line-height: 20px;
+}
+
+#proSignUpScreen .textField {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 15px;
+  background: var(--elements-underlay-background);
+  border: 1px solid var(--elements-underlay-background);
+  border-radius: 7px;
+  color: var(--primary-text-color);
+}
+
+#proSignUpScreen .modernFormBlockItemsWrapper {
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+#proSignUpScreen .textField.error {
+  border-color: var(--destruct-button-background);
+}
+
+#proSignUpScreen .resetButtonsWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#proSignUpScreen .resetButtonsWrapper span.invisible {
+  visibility: hidden;
+  display: none !important;
+}
+
+#proSignUpScreen #passwordUnlockingPromptDisplaying {
+  display: none;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+#proSignUpScreen #passwordUnlockingResetDateDisplaying {
+  display: none;
+  font-size: 13px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+#proSignUpScreen .signUPtext {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#proSignUpScreen .signUPtext .routerButton {
+  color: var(--submit-button-background);
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+#proSignUpScreen .signUPtext .routerButton:hover {
+  color: var(--submit-button-background-hover);
+}

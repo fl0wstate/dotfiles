@@ -1,0 +1,6 @@
+2025/03/08-05:24:15.654 346 Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb since it was missing.
+2025/03/08-05:24:15.664 346 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_open.spotify.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/08-05:24:22.731 347 Level-0 table #5: started
+2025/03/08-05:24:22.735 347 Level-0 table #5: 65875 bytes OK
+2025/03/08-05:24:22.742 347 Delete type=0 #3
+2025/03/08-05:24:22.742 347 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

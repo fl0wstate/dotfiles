@@ -1,0 +1,30 @@
+declare function getSyncOutOfDateMessageDiv(id: any): string;
+declare function showNewIcon(): void;
+declare function showPFIcon(): void;
+declare function hideBothIcons(): void;
+declare function checkWindowWidth(): void;
+declare function shouldShowDCNewIcon(): void;
+declare function checkPFNewIcon(tabID: any): void;
+declare function allTabIDs(): any;
+declare function validateTabID(tabID: any): any;
+declare function loadTabPanelScript($activeTabPanel: any): void;
+declare function displayActiveTab($activeTab: any): void;
+declare function activateTab(tabHref: any): void;
+declare function loadTabPanelsHTML(): void;
+declare function activateTabOnPageLoad(): void;
+declare function getFormattedTabName(): any;
+declare const userSeenNewPFPageKey: "options_menu_pf_key";
+declare let userSeenNewPFPage: any;
+declare const syncMessageContainer: "<div class=\"sync-message-container\"></div>";
+declare const syncMessageDiv: "\n  <div class=\"sync-header-message sync-message-hidden\">\n    <div class=\"sync-message-box\">\n      <i class=\"material-icons md-24 sync-icon\" role=\"img\" aria-hidden=\"true\"></i>\n      <span class=\"sync-header-message-text\"></span>\n    </div>\n  </div>";
+declare const unsyncMessageDiv: "\n<div class=\"unsync-header sync-message-hidden\">\n  <span class=\"sync-message-error\" id=\"unsync-message-box-close\">\n    <i class=\"material-icons md-24\" role=\"img\" >close</i>\n  </span>\n  <div class=\"unsync-header-message sync-message-error\">\n    <div class=\"unsync-message-box\">\n      <i class=\"material-icons md-24\" role=\"img\" aria-hidden=\"true\">error</i>\n      &nbsp;\n      <span i18n=\"unsync_error_msg_part_1\"></span>\n      &nbsp;&nbsp;&nbsp;&nbsp;\n      <span i18n=\"unsync_error_msg_part_2\"></span>\n      &nbsp;&nbsp;\n      <span i18n=\"sync_removed_error_msg_part_2\" class=\"sync-message-link\"></span>\n    </div>\n  </div>\n</div>";
+declare const unsyncErrorMsgPart3: {
+    anchorPrefixText: any;
+    anchorText: any;
+    anchorPostfixText: any;
+} | {
+    error: string;
+};
+declare const unsyncMessageDivSyncTab: string;
+declare function displayMABFeedbackCTA(): void;
+declare function hideAdvancedOptionsWhenNeeded(): void;

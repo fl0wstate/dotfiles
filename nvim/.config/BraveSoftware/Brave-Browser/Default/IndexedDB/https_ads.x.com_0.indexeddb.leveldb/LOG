@@ -1,0 +1,6 @@
+2025/04/03-22:08:09.010 49a Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ads.x.com_0.indexeddb.leveldb since it was missing.
+2025/04/03-22:08:09.019 49a Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_ads.x.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/03-22:09:09.218 49b Level-0 table #5: started
+2025/04/03-22:09:09.221 49b Level-0 table #5: 1242 bytes OK
+2025/04/03-22:09:09.228 49b Delete type=0 #3
+2025/04/03-22:09:09.228 49b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

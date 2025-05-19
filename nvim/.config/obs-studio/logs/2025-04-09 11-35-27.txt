@@ -1,0 +1,291 @@
+11:35:27.536: Using EGL/X11
+11:35:27.536: CPU Name: AMD Ryzen 5 5500U with Radeon Graphics
+11:35:27.536: CPU Speed: 3463.626MHz
+11:35:27.536: Physical Cores: 6, Logical Cores: 12
+11:35:27.536: Physical Memory: 28971MB Total, 4824MB Free
+11:35:27.536: Kernel Version: Linux 6.13.5-arch1-1
+11:35:27.536: Distribution: "Arch Linux" Unknown
+11:35:27.536: Desktop Environment: i3 (i3)
+11:35:27.536: Session Type: x11
+11:35:27.536: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+11:35:27.537: Qt Version: 6.8.2 (runtime), 6.8.1 (compiled)
+11:35:27.537: Portable mode: false
+11:35:27.566: OBS 31.0.1 (linux)
+11:35:27.566: ---------------------------------
+11:35:27.576: ---------------------------------
+11:35:27.576: audio settings reset:
+11:35:27.576: 	samples per sec: 48000
+11:35:27.576: 	speakers:        2
+11:35:27.576: 	max buffering:   960 milliseconds
+11:35:27.576: 	buffering type:  dynamically increasing
+11:35:27.578: ---------------------------------
+11:35:27.579: Initializing OpenGL...
+11:35:27.656: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, LLVM 19.1.7, DRM 3.61, 6.13.5-arch1-1)
+11:35:27.656: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.3.4-arch1.1, shading language 4.60
+11:35:27.693: ---------------------------------
+11:35:27.693: video settings reset:
+11:35:27.693: 	base resolution:   2560x1600
+11:35:27.693: 	output resolution: 2560x1600
+11:35:27.693: 	downscale filter:  Bicubic
+11:35:27.693: 	fps:               60/1
+11:35:27.693: 	format:            NV12
+11:35:27.693: 	YUV mode:          Rec. 709/Partial
+11:35:27.693: NV12 texture support enabled
+11:35:27.693: P010 texture support not available
+11:35:27.701: Audio monitoring device:
+11:35:27.701: 	name: Default
+11:35:27.701: 	id: default
+11:35:27.702: ---------------------------------
+11:35:27.714: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:35:27.726: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:35:27.737: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+11:35:27.737: Failed to initialize module 'decklink.so'
+11:35:27.923: [pipewire] No capture sources available
+11:35:27.955: v4l2loopback not installed, virtual camera not registered
+11:35:28.066: VAAPI: API version 1.22
+11:35:28.067: FFmpeg VAAPI H264 encoding supported
+11:35:28.072: FFmpeg VAAPI AV1 encoding not supported
+11:35:28.078: FFmpeg VAAPI HEVC encoding supported
+11:35:28.122: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:35:28.122: 
+11:35:28.122: NVENC not supported
+11:35:28.122: Failed to initialize module 'obs-nvenc.so'
+11:35:28.243: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+11:35:28.243: 
+11:35:28.248: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+11:35:28.248: 
+11:35:28.248: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+11:35:28.291: ---------------------------------
+11:35:28.291:   Loaded Modules:
+11:35:28.291:     text-freetype2.so
+11:35:28.291:     rtmp-services.so
+11:35:28.291:     obs-x264.so
+11:35:28.291:     obs-webrtc.so
+11:35:28.291:     obs-vst.so
+11:35:28.291:     obs-transitions.so
+11:35:28.291:     obs-qsv11.so
+11:35:28.291:     obs-outputs.so
+11:35:28.291:     obs-libfdk.so
+11:35:28.291:     obs-filters.so
+11:35:28.291:     obs-ffmpeg.so
+11:35:28.291:     linux-v4l2.so
+11:35:28.291:     linux-pulseaudio.so
+11:35:28.291:     linux-pipewire.so
+11:35:28.291:     linux-jack.so
+11:35:28.291:     linux-capture.so
+11:35:28.291:     linux-alsa.so
+11:35:28.291:     image-source.so
+11:35:28.291:     frontend-tools.so
+11:35:28.291:     decklink-output-ui.so
+11:35:28.291:     decklink-captions.so
+11:35:28.291: ---------------------------------
+11:35:28.291: ---------------------------------
+11:35:28.291: Available Encoders:
+11:35:28.291:   Video Encoders:
+11:35:28.291: 	- ffmpeg_svt_av1 (SVT-AV1)
+11:35:28.291: 	- ffmpeg_aom_av1 (AOM AV1)
+11:35:28.291: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+11:35:28.291: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+11:35:28.291: 	- obs_x264 (x264)
+11:35:28.291:   Audio Encoders:
+11:35:28.291: 	- ffmpeg_aac (FFmpeg AAC)
+11:35:28.291: 	- ffmpeg_opus (FFmpeg Opus)
+11:35:28.291: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+11:35:28.291: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+11:35:28.291: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+11:35:28.291: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+11:35:28.291: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+11:35:28.291: 	- libfdk_aac (libfdk AAC)
+11:35:28.291: ==== Startup complete ===============================================
+11:35:28.323: All scene data cleared
+11:35:28.323: ------------------------------------------------
+11:35:28.329: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+11:35:28.329: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:35:28.329: pulse-input: Started recording from 'alsa_output.pci-0000_04_00.6.HiFi__Line2__sink.monitor' (default)
+11:35:28.329: [Loaded global audio device]: 'Desktop Audio'
+11:35:28.330: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+11:35:28.330: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:35:28.330: pulse-input: Started recording from 'alsa_input.pci-0000_04_00.6.HiFi__Mic2__source' (default)
+11:35:28.330: [Loaded global audio device]: 'Mic/Aux'
+11:35:28.330: xshm-input: Geometry 2560x1600 @ 0,0
+11:35:28.333: pulse-input: Server name: 'PulseAudio (on PipeWire 1.2.7) 15.0.0'
+11:35:28.333: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:35:28.333: pulse-input: Started recording from 'alsa_input.pci-0000_04_00.6.HiFi__Mic2__source' (default)
+11:35:28.334: Switched to scene 'Scene'
+11:35:28.334: ------------------------------------------------
+11:35:28.334: Loaded scenes:
+11:35:28.334: - scene 'Scene':
+11:35:28.334:     - source: 'Display Capture (XSHM)' (xshm_input_v2)
+11:35:28.334:     - source: 'Audio Input Capture (PulseAudio)' (pulse_input_capture)
+11:35:28.334: ------------------------------------------------
+11:35:28.878: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:35:28.878: 
+11:35:29.240: adding 64 milliseconds of audio buffering, total audio buffering is now 85 milliseconds (source: Audio Input Capture (PulseAudio))
+11:35:29.240: 
+11:35:34.578: [rtmp-services plugin] Successfully updated file 'services.json' (version 268)
+11:35:34.578: [rtmp-services plugin] Successfully updated package (version 268)
+11:35:36.631: ---------------------------------
+11:35:36.631: [x264 encoder: 'simple_video_stream'] preset: fast
+11:35:36.631: [x264 encoder: 'simple_video_stream'] settings:
+11:35:36.631: 	rate_control: CBR
+11:35:36.631: 	bitrate:      4000
+11:35:36.631: 	buffer size:  4000
+11:35:36.631: 	crf:          23
+11:35:36.631: 	fps_num:      60
+11:35:36.631: 	fps_den:      1
+11:35:36.631: 	width:        2560
+11:35:36.631: 	height:       1600
+11:35:36.631: 	keyint:       180
+11:35:36.631: 
+11:35:36.648: libfdk_aac encoder created
+11:35:36.648: libfdk_aac bitrate: 128, channels: 2
+11:35:36.649: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://fr.pscp.tv:80/x...
+11:35:38.272: [rtmp stream: 'simple_stream'] Connection to rtmp://fr.pscp.tv:80/x (13.36.2.111) successful
+11:35:38.274: ==== Streaming Start ===============================================
+11:35:41.218: [rtmp stream: 'simple_stream'] User stopped the stream
+11:35:41.218: Output 'simple_stream': stopping
+11:35:41.218: Output 'simple_stream': Total frames output: 123
+11:35:41.218: Output 'simple_stream': Total drawn frames: 255 (274 attempted)
+11:35:41.218: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 19 (6.9%)
+11:35:41.219: ==== Streaming Stop ================================================
+11:35:41.285: libfdk_aac encoder destroyed
+11:35:44.385: ---------------------------------
+11:35:44.385: [x264 encoder: 'simple_video_stream'] preset: fast
+11:35:44.385: [x264 encoder: 'simple_video_stream'] settings:
+11:35:44.385: 	rate_control: CBR
+11:35:44.385: 	bitrate:      4000
+11:35:44.385: 	buffer size:  4000
+11:35:44.385: 	crf:          23
+11:35:44.385: 	fps_num:      60
+11:35:44.385: 	fps_den:      1
+11:35:44.385: 	width:        2560
+11:35:44.385: 	height:       1600
+11:35:44.385: 	keyint:       180
+11:35:44.385: 
+11:35:44.413: libfdk_aac encoder created
+11:35:44.414: libfdk_aac bitrate: 128, channels: 2
+11:35:44.416: ==== Recording Start ===============================================
+11:35:44.416: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/flowy/2025-04-09 11-35-44.mp4'...
+11:36:29.434: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/flowy/2025-04-09 11-35-44.mp4' stopped
+11:36:29.434: Output 'simple_file_output': stopping
+11:36:29.434: Output 'simple_file_output': Total frames output: 2613
+11:36:29.434: Output 'simple_file_output': Total drawn frames: 1865 (2701 attempted)
+11:36:29.434: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 836 (31.0%)
+11:36:29.435: ==== Recording Stop ================================================
+11:36:29.442: Video stopped, number of skipped frames due to encoding lag: 1667/2700 (61.7%)
+11:36:29.513: libfdk_aac encoder destroyed
+11:42:08.733: ---------------------------------
+11:42:08.733: [x264 encoder: 'simple_video_stream'] preset: fast
+11:42:08.733: [x264 encoder: 'simple_video_stream'] settings:
+11:42:08.733: 	rate_control: CBR
+11:42:08.733: 	bitrate:      4000
+11:42:08.733: 	buffer size:  4000
+11:42:08.733: 	crf:          23
+11:42:08.733: 	fps_num:      60
+11:42:08.733: 	fps_den:      1
+11:42:08.733: 	width:        2560
+11:42:08.733: 	height:       1600
+11:42:08.733: 	keyint:       180
+11:42:08.733: 
+11:42:08.761: libfdk_aac encoder created
+11:42:08.761: libfdk_aac bitrate: 128, channels: 2
+11:42:08.762: ==== Recording Start ===============================================
+11:42:08.762: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/flowy/2025-04-09 11-42-08.mp4'...
+11:44:53.365: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/flowy/2025-04-09 11-42-08.mp4' stopped
+11:44:53.365: Output 'simple_file_output': stopping
+11:44:53.365: Output 'simple_file_output': Total frames output: 9770
+11:44:53.365: Output 'simple_file_output': Total drawn frames: 7188 (9876 attempted)
+11:44:53.365: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2688 (27.2%)
+11:44:53.365: Video stopped, number of skipped frames due to encoding lag: 4661/9874 (47.2%)
+11:44:53.381: ==== Recording Stop ================================================
+11:44:53.429: libfdk_aac encoder destroyed
+11:46:14.980: ---------------------------------
+11:46:14.980: [x264 encoder: 'simple_video_stream'] preset: fast
+11:46:14.980: [x264 encoder: 'simple_video_stream'] settings:
+11:46:14.980: 	rate_control: CBR
+11:46:14.980: 	bitrate:      4000
+11:46:14.980: 	buffer size:  4000
+11:46:14.980: 	crf:          23
+11:46:14.980: 	fps_num:      60
+11:46:14.980: 	fps_den:      1
+11:46:14.980: 	width:        2560
+11:46:14.980: 	height:       1600
+11:46:14.980: 	keyint:       180
+11:46:14.980: 
+11:46:15.008: libfdk_aac encoder created
+11:46:15.008: libfdk_aac bitrate: 128, channels: 2
+11:46:15.010: ==== Recording Start ===============================================
+11:46:15.010: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/flowy/2025-04-09 11-46-14.mp4'...
+11:46:53.926: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/flowy/2025-04-09 11-46-14.mp4' stopped
+11:46:53.926: Output 'simple_file_output': stopping
+11:46:53.926: Output 'simple_file_output': Total frames output: 2174
+11:46:53.926: Output 'simple_file_output': Total drawn frames: 1424 (2334 attempted)
+11:46:53.926: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 910 (39.0%)
+11:46:53.940: ==== Recording Stop ================================================
+11:46:54.023: Video stopped, number of skipped frames due to encoding lag: 1795/2266 (79.2%)
+11:46:54.114: libfdk_aac encoder destroyed
+11:49:15.409: Get on org.freedesktop.portal.Settings returned an invalid reply
+11:49:15.409: Get on org.freedesktop.portal.Settings returned an invalid reply
+11:49:36.469: Number of remaining views: 1
+11:49:36.469: ---------------------------------
+11:49:36.469: video settings reset:
+11:49:36.469: 	base resolution:   2560x1600
+11:49:36.469: 	output resolution: 2560x1600
+11:49:36.469: 	downscale filter:  Bicubic
+11:49:36.469: 	fps:               30/1
+11:49:36.469: 	format:            NV12
+11:49:36.469: 	YUV mode:          Rec. 709/Partial
+11:49:36.470: NV12 texture support enabled
+11:49:36.470: P010 texture support not available
+11:49:36.474: Settings changed (video)
+11:49:36.475: ------------------------------------------------
+11:49:42.525: ---------------------------------
+11:49:42.525: [x264 encoder: 'simple_video_stream'] preset: fast
+11:49:42.525: [x264 encoder: 'simple_video_stream'] settings:
+11:49:42.525: 	rate_control: CBR
+11:49:42.525: 	bitrate:      4000
+11:49:42.525: 	buffer size:  4000
+11:49:42.525: 	crf:          23
+11:49:42.525: 	fps_num:      30
+11:49:42.525: 	fps_den:      1
+11:49:42.525: 	width:        2560
+11:49:42.525: 	height:       1600
+11:49:42.525: 	keyint:       90
+11:49:42.525: 
+11:49:42.542: libfdk_aac encoder created
+11:49:42.542: libfdk_aac bitrate: 128, channels: 2
+11:49:42.544: ==== Recording Start ===============================================
+11:49:42.544: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/flowy/2025-04-09 11-49-42.mp4'...
+11:50:32.392: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/flowy/2025-04-09 11-49-42.mp4' stopped
+11:50:32.392: Output 'simple_file_output': stopping
+11:50:32.392: Output 'simple_file_output': Total frames output: 1440
+11:50:32.392: Output 'simple_file_output': Total drawn frames: 1488 (1495 attempted)
+11:50:32.392: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 7 (0.5%)
+11:50:32.392: Video stopped, number of skipped frames due to encoding lag: 3/1494 (0.2%)
+11:50:32.392: ==== Recording Stop ================================================
+11:50:32.454: libfdk_aac encoder destroyed
+11:51:55.229: ---------------------------------
+11:51:55.229: [x264 encoder: 'simple_video_stream'] preset: fast
+11:51:55.229: [x264 encoder: 'simple_video_stream'] settings:
+11:51:55.229: 	rate_control: CBR
+11:51:55.229: 	bitrate:      4000
+11:51:55.229: 	buffer size:  4000
+11:51:55.229: 	crf:          23
+11:51:55.229: 	fps_num:      30
+11:51:55.229: 	fps_den:      1
+11:51:55.229: 	width:        2560
+11:51:55.229: 	height:       1600
+11:51:55.229: 	keyint:       90
+11:51:55.229: 
+11:51:55.256: libfdk_aac encoder created
+11:51:55.256: libfdk_aac bitrate: 128, channels: 2
+11:51:55.257: ==== Recording Start ===============================================
+11:51:55.257: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/flowy/2025-04-09 11-51-55.mp4'...
+11:54:07.625: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/flowy/2025-04-09 11-51-55.mp4' stopped
+11:54:07.625: Output 'simple_file_output': stopping
+11:54:07.625: Output 'simple_file_output': Total frames output: 3914
+11:54:07.625: Output 'simple_file_output': Total drawn frames: 3943 (3971 attempted)
+11:54:07.625: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 28 (0.7%)
+11:54:07.625: Video stopped, number of skipped frames due to encoding lag: 6/3970 (0.2%)
+11:54:07.625: ==== Recording Stop ================================================
+11:54:07.687: libfdk_aac encoder destroyed

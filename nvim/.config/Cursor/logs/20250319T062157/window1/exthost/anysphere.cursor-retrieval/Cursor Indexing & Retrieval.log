@@ -1,0 +1,15 @@
+2025-03-19 06:22:01.631 [error] Git command failed: git config --get remote.origin.url Command failed: git config --get remote.origin.url
+
+2025-03-19 06:22:01.631 [error] Error getting repo info: Command failed: git config --get remote.origin.url
+
+2025-03-19 06:22:01.631 [error] Error: Command failed: git config --get remote.origin.url
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:518:28)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)
+2025-03-19 06:22:01.847 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.

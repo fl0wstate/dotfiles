@@ -1,0 +1,407 @@
+/* ------------------ Remove Corner Radius ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .rounded-thumbnail,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .collections-stack-wiz__collection-stack2,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .collections-stack-wiz__collection-stack1 {
+  border-radius: 0px !important;
+}
+
+/* ------------------ Hide Includes Paid Promotion ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_includes_paid_promotion="true"] ytm-video-preview-overlays .YtmPaidContentOverlayHost,
+
+/* ------------------  Hide Views ------------------  */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-item-byline:nth-child(3),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-separator:nth-child(4),
+
+/** Video Description **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytm-video-description-header-renderer .factoids ytm-factoid-renderer:nth-child(2),
+
+/** Channel Page **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytm-compact-video-renderer .subhead div:nth-child(1) {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"]
+  ytm-compact-video-renderer
+  .subhead
+  div:nth-child(2):before {
+  content: none;
+}
+
+/** Video Page **/
+
+/* ------------------  Hide Time Since Video Published ------------------  */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-separator:nth-child(4),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-item-byline:nth-child(5),
+
+/** Video Description **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytm-video-description-header-renderer .factoids ytm-factoid-renderer:nth-child(3),
+
+/** Channel Page **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytm-compact-video-renderer .subhead div:nth-child(2),
+
+/* ------------------ Hide Author Name ----------------- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_author_name="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-item-byline:nth-child(1),
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_author_name="true"] ytm-badge-and-byline-renderer .ytm-badge-and-byline-separator:nth-child(2),
+
+/* ------------------ Hide Title ----------------- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] ytm-compact-playlist-renderer h3,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] ytm-rich-item-renderer h3,
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] ytm-video-with-context-renderer h3 {
+  display: none !important;
+}
+
+/* ------------------ Hide Video Duration ----------------- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_video_duration="true"]
+  .video-thumbnail-overlay-left-right-group
+  ytm-thumbnail-overlay-time-status-renderer {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Action Menu ----------------- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_menu_button="true"]
+  ytm-rich-item-renderer
+  ytm-menu-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_menu_button="true"]
+  ytm-video-with-context-renderer
+  ytm-menu-renderer {
+  visibility: hidden !important;
+}
+
+/* ------------------ Avatar  ----------------- */
+
+/* ---- Hide --- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  ytm-video-with-context-renderer
+  ytm-channel-thumbnail-with-link-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  ytm-compact-playlist-renderer
+  ytm-channel-thumbnail-with-link-renderer {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  ytm-media-item
+  .media-item-info,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  .video-thumbnail-overlay-bottom-icon-text
+  c3-icon {
+  margin-left: 0px !important;
+}
+
+/* ---- Grayscale --- */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_grayscale_author_avatar="true"]
+  ytm-video-with-context-renderer
+  ytm-channel-thumbnail-with-link-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_grayscale_author_avatar="true"]
+  ytm-compact-playlist-renderer
+  ytm-channel-thumbnail-with-link-renderer {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Thumbnails ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-hero-playlist-thumbnail-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .video-thumbnail-img,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-cover
+  > span,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .video-preview-shim,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .ShortsLockupViewModelHostThumbnailContainer {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-cover {
+  overflow: inherit !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-shorts-lockup-view-model {
+  height: inherit !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-overlay-time-status-renderer {
+  display: block !important;
+  margin: 0px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .ShortsLockupViewModelHostInlineMetadata {
+  background: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-overlay-time-status-renderer,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .video-thumbnail-overlay-bottom-left-right-group,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .ShortsLockupViewModelHostInlineMetadata {
+  position: static !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-cover,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-compact-thumbnail {
+  padding-bottom: 0px !important;
+  height: inherit !important;
+  width: inherit !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-compact-thumbnail
+  .video-thumbnail-overlay-bottom-group {
+  position: static !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-overlay-time-status-renderer
+  badge-shape {
+  background-color: inherit !important;
+  padding: 0px !important;
+  line-height: inherit !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-media-item:has(ytm-thumbnail-cover) {
+  flex-direction: column !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-media-item:has(ytm-thumbnail-cover)
+  .details {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-video-preview {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-overlay-resume-playback-renderer {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-media-item {
+  padding: 12px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-media-item
+  .video-thumbnail-container-large:before {
+  padding-top: 0px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-playlist-card-renderer
+  .stacked,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-media-item
+  .stacked {
+  border: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .compact-media-item {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-compact-thumbnail {
+  justify-content: left !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .compact-media-item-metadata-content {
+  padding: 0px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .video-thumbnail-overlay-bottom-icon-text {
+  position: static !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  yt-collections-stack
+  :is(
+    .collections-stack-wiz__collection-stack2,
+    .collections-stack-wiz__collection-stack1
+  ) {
+  display: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  yt-collections-stack
+  .video-thumbnail-overlay-bottom-icon-text {
+  margin: 0 !important;
+  justify-content: left !important;
+  background: none !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .media-item-thumbnail-container.stacked {
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+}
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytm-thumbnail-cover.stacked {
+  justify-content: left !important;
+}
+
+/* ------------------ Mirror Thumbnails ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  .compact-media-item-image
+  img,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytm-compact-playlist-renderer
+  .media-item-thumbnail-container
+  img,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  .amsterdam-playlist-thumbnail-wrapper
+  img,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytm-video-with-context-renderer
+  .media-item-thumbnail-container
+  img,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytm-compact-video-renderer
+  .video-thumbnail-container-compact
+  img {
+  transform: scale(-1, 1) !important;
+}
+
+/* ------------------ Title Case ------------------ */
+
+/** Default **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  .media-item-metadata
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  ytm-slim-video-information-renderer
+  .slim-video-information-title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  ytm-video-description-header-renderer
+  .title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  ytm-compact-video-renderer
+  .compact-media-item-headline {
+  text-transform: none !important;
+}
+
+/** Lowercase **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  .media-item-metadata
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  ytm-slim-video-information-renderer
+  .slim-video-information-title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  ytm-video-description-header-renderer
+  .title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  ytm-compact-video-renderer
+  .compact-media-item-headline {
+  text-transform: lowercase !important;
+}
+
+/** Uppercase **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  .media-item-metadata
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  ytm-slim-video-information-renderer
+  .slim-video-information-title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  ytm-video-description-header-renderer
+  .title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  ytm-compact-video-renderer
+  .compact-media-item-headline {
+  text-transform: uppercase !important;
+}
+
+/** Capitalize **/
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  .media-item-metadata
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  ytm-slim-video-information-renderer
+  .slim-video-information-title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  ytm-video-description-header-renderer
+  .title,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  ytm-compact-video-renderer
+  .compact-media-item-headline {
+  text-transform: capitalize !important;
+}
+
+/* ------------------ Hide Badges - New, 4K, CC, etc. ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_badges="true"]
+  ytm-video-with-context-renderer
+  ytm-badge-and-byline-renderer
+  ytm-badge-supported-renderer {
+  display: none !important;
+}
+
+/* ------------------ Hide Badges - Live ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_hide_video_card_live_badges="true"]
+  ytm-video-with-context-renderer
+  ytm-thumbnail-overlay-time-status-renderer[data-style="LIVE"] {
+  display: none !important;
+}
+
+/* ------------------ Display Full Title ------------------ */
+
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title="full"]
+  ytm-compact-playlist-renderer
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title="full"]
+  ytm-rich-item-renderer
+  .media-item-headline,
+html[untrap_is_mobile="true"][untrap_global_enable="true"][untrap_video_card_title="full"]
+  ytm-video-with-context-renderer
+  .media-item-headline {
+  max-height: inherit !important;
+  -webkit-line-clamp: inherit !important;
+  display: block !important;
+}

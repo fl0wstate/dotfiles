@@ -1,0 +1,7 @@
+2025/03/20-15:35:41.672 3af Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/20-15:35:41.673 3af Recovering log #3
+2025/03/20-15:35:41.677 3af Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000003.log 
+2025/03/20-16:40:22.577 3b0 Level-0 table #5: started
+2025/03/20-16:40:22.586 3b0 Level-0 table #5: 1552997 bytes OK
+2025/03/20-16:40:22.593 3b0 Delete type=0 #3
+2025/03/20-16:40:22.593 3b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

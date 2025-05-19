@@ -1,0 +1,59 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "images/toolbar-icon-16.png",
+         "19": "images/toolbar-icon-19.png",
+         "32": "images/toolbar-icon-32.png",
+         "38": "images/toolbar-icon-38.png",
+         "48": "images/toolbar-icon-48.png",
+         "72": "images/toolbar-icon-72.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "extension/scripts/background.js"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "{2662ff67-b302-4363-95f3-b050218bd72c}"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "website/css/block.css" ],
+      "js": [ "global/globalHelpers.js", "global/storageConstants.js", "global/options/channelPageOptions.js", "global/options/homePageOptions.js", "global/options/navigationSidebarOptions.js", "global/options/searchPageOptions.js", "global/options/subscriptionsPageOptions.js", "global/options/shortsPageOptions.js", "global/options/topHeaderOptions.js", "global/options/videoCardOptions.js", "global/options/videoPageOptions.js", "global/options/youPageOptions.js", "global/options/appearanceOptions.js", "global/options/embedOptions.js", "global/options/options.js", "global/options/optionsMethods.js", "website/js/libs/mutation-summary.js", "website/js/override/videoElementControlsOverride.js", "website/js/Dynamic/dynamicHomePage.js", "website/js/Dynamic/dynamicChannelPage.js", "website/js/Dynamic/dynamicShortsPage.js", "website/js/Dynamic/dynamicVideoPage.js", "website/js/Dynamic/dynamicSearchPage.js", "website/js/Dynamic/dynamicOberver.js", "website/js/HideNotificationNumber/hideNotificationNumber.js", "website/js/ScriptInjection/videoQualityScriptInjection.js", "website/js/ScriptInjection/skipAdsScriptInjection.js", "website/js/web-accessible-resources/setVideoQuality.js", "website/js/ShowNativePlayer/showNativePlayer.js", "website/js/DisableVideoAutoPlay/disableVideoAutoPlay.js", "website/js/SkipVideoAds/skipVideoAds.js", "website/js/BlockExtensionObserver/blockExtensionObserver.js", "website/js/BlockExtensionObserver/enableExtensionObserver.js", "website/js/AttributesManager/htmlAtrributesManager.js", "website/js/Font/font.js", "website/js/AccentColor/accentColor.js", "website/js/ThumbnailFilter/thumbnailFilter.js", "website/js/ThumbnailFixer/thumbnailFixer.js", "website/js/YouTubeBlocking/youtubeBlockingManager.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "website/css/desktop/desktop_homePage.css", "website/css/desktop/desktop_videoPage.css", "website/css/desktop/desktop_searchPage.css", "website/css/desktop/desktop_subscriptionsPage.css", "website/css/desktop/desktop_channelPage.css", "website/css/desktop/desktop_navigationSidebar.css", "website/css/desktop/desktop_topHeader.css", "website/css/desktop/desktop_videocard.css", "website/css/desktop/desktop_shortsPage.css", "website/css/desktop/desktop_youPage.css", "website/css/desktop/desktop_embed.css", "website/css/desktop/desktop_global.css" ],
+      "js": [ "website/js/ContentFilter/Desktop/contentFilterDesktop_helpers.js", "website/js/ContentFilter/Desktop/contentFilterDesktop_blocker.js", "website/js/ContentFilter/Desktop/contentFilterDesktop_contextButtons.js", "website/js/Shortcuts/shortcutsListener.js", "website/js/Dynamic/dynamicLeftBar.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "css": [ "website/css/mobile/mobile_homePage.css", "website/css/mobile/mobile_videoPage.css", "website/css/mobile/mobile_searchPage.css", "website/css/mobile/mobile_subscriptionsPage.css", "website/css/mobile/mobile_channelPage.css", "website/css/mobile/mobile_navigationSidebar.css", "website/css/mobile/mobile_topHeader.css", "website/css/mobile/mobile_videocard.css", "website/css/mobile/mobile_shortsPage.css", "website/css/mobile/mobile_youPage.css", "website/css/mobile/mobile_global.css" ],
+      "js": [ "website/js/ContentFilter/Mobile/contentFilterMobile_helpers.js", "website/js/ContentFilter/Mobile/contentFilterMobile_blocker.js", "website/js/ContentFilter/Mobile/contentFilterMobile_contextButtons.js" ],
+      "matches": [ "*://m.youtube.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "images/icon-128.png",
+      "256": "images/icon-256.png",
+      "48": "images/icon-48.png",
+      "512": "images/icon-512.png",
+      "96": "images/icon-96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjiz9o0ELq1xUDaWX6aA6liCpy0qbcis9SPfJthl+px9b+53YOFYWWs1eky0jDB2DYJoEEpGoZr04j6fpwx40ZL+iZUlkMjyRKDZzQ1rVPS+Fg5ooPzmWUVZAYdIF0aabOCeRnxK9eZNZyn5YnEZIcy9KwDm6D3fQqqpj5e3aURt++QNs/SbQqaAOUmW6LD9F2HZ6PYVU6bFHfwlFooD2IHGgL3uHeVlycYww4vJ3gSjGiKpvOeVo0Fm9XDPYIkGxEuy7D9BUfqID9HVGYZfxroaA7sBKktVFqNKxs8VWlDpo6ePhxxlnjKhuxIYjy6mdPLiq63luHPEvDgiu4fWzuwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extension_name__",
+   "permissions": [ "storage", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "8.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "website/js/web-accessible-resources/setVideoQuality.js", "website/js/web-accessible-resources/skipAdsOverrideClickEvent.js" ]
+   } ]
+}

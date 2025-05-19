@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Site aan lijst toevoegen"
+   },
+   "all_settings": {
+      "message": "Alle instellingen"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (dag op locatie)"
+   },
+   "auto_day_time": {
+      "message": "Automatisch (dagtijd)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (nacht op locatie)"
+   },
+   "auto_night_time": {
+      "message": "Automatisch (nacht)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (systeem is donker)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (systeem is licht)"
+   },
+   "automation": {
+      "message": "Automatisering"
+   },
+   "brightness": {
+      "message": "Helderheid"
+   },
+   "change_browser_theme": {
+      "message": "Browserthema wijzigen"
+   },
+   "click_to_set_shortcut": {
+      "message": "Klik om de snelkoppeling in te stellen"
+   },
+   "configure_automation": {
+      "message": "Automatisering configureren"
+   },
+   "configure_site_toggle": {
+      "message": "Configureer schakelen tussen websites"
+   },
+   "contrast": {
+      "message": "Contrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Standaard"
+   },
+   "custom_browser_theme_on": {
+      "message": "Aangepast"
+   },
+   "dark": {
+      "message": "Donker"
+   },
+   "dark_theme_detected": {
+      "message": "Donker thema gedetecteerd"
+   },
+   "detect_dark_theme": {
+      "message": "Detecteer een donker thema"
+   },
+   "detect_website_dark_theme": {
+      "message": "Detecteer het eigen donkere thema van de website"
+   },
+   "donate": {
+      "message": "Doneren"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Standaard ingeschakeld voor alle websites"
+   },
+   "enabled_by_default": {
+      "message": "Standaard ingeschakeld"
+   },
+   "engine_dynamic": {
+      "message": "Dynamisch"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statisch"
+   },
+   "extension_description": {
+      "message": "Donkere modus voor elke website. Zorg goed voor je ogen, gebruik donkere modus voor gebruik in de nacht of zelfs overdag."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Extensie aan/uit sneltoets"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Grijswaarden"
+   },
+   "help": {
+      "message": "Hulp"
+   },
+   "invert_listed_only": {
+      "message": "Alleen deze omkeren"
+   },
+   "latitude": {
+      "message": "Breedtegraad"
+   },
+   "learn_more": {
+      "message": "Meer informatie"
+   },
+   "light": {
+      "message": "Licht"
+   },
+   "loading_please_wait": {
+      "message": "Laden, even geduld"
+   },
+   "local_files_forbidden": {
+      "message": "Geen toegang toegestaan\nlokale bestanden"
+   },
+   "longitude": {
+      "message": "Lengtegraad"
+   },
+   "mobile": {
+      "message": "Mobiel"
+   },
+   "mobile_link": {
+      "message": "Mobiele Dark Reader is beschikbaar. Kom meer te weten"
+   },
+   "mobile_text": {
+      "message": "Verminder vermoeide ogen tijdens het lezen op uw telefoon of tablet.\nScan eenvoudig de QR-code om te installeren."
+   },
+   "mode": {
+      "message": "Modus"
+   },
+   "more": {
+      "message": "Meer"
+   },
+   "news": {
+      "message": "Nieuws"
+   },
+   "not_invert_listed": {
+      "message": "Deze niet omkeren"
+   },
+   "off": {
+      "message": "Uit"
+   },
+   "on": {
+      "message": "Aan"
+   },
+   "only_for": {
+      "message": "Alleen op"
+   },
+   "only_for_description": {
+      "message": "Instelling alleen voor deze site opslaan"
+   },
+   "open_dev_tools": {
+      "message": "Tools"
+   },
+   "page_in_dark_list": {
+      "message": "Deze site staat op\nde globale lijst"
+   },
+   "page_protected": {
+      "message": "Deze pagina wordt beschermd\ndoor de browser"
+   },
+   "pay_for_using": {
+      "message": "Betaal voor het gebruik van Dark Reader"
+   },
+   "privacy": {
+      "message": "Privacy"
+   },
+   "read_more": {
+      "message": "Meer hierover"
+   },
+   "select_font": {
+      "message": "Lettertype selecteren"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Actieve uren instellen"
+   },
+   "set_location": {
+      "message": "Activeren na zonsondergang op locatie"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Sneltoets instellen voor site toevoegen"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Sneltoets instellen voor\nextensie schakelen"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Sneltoets instellen voor\nhuidige site schakelen"
+   },
+   "site_list": {
+      "message": "Sitelijst"
+   },
+   "site_toggle": {
+      "message": "Site wisselen"
+   },
+   "store_listing": {
+      "message": "Deze oogzorgextensie heeft een nachtstand die automatisch donkere thema's maakt voor websites. Donkere modus keert lichte kleuren om voor goede leesbaarheid 's nachts.\n\nJe kunt de helderheid, het contrast, het kleurenfilter, de donkere modus, het lettertype en de lijst van te negeren websites geheel instellen naar wens.\n\nWe kunnen je vragen om de ontwikkeling van de app te ondersteunen met een donatie. Mogelijk ziet u nieuws over Dark Reader in de pop-up met instellingen. Er zijn Developer Tools voor ervaren gebruikers.\n\nDark Reader laat nooit advertenties zien en gebruikt nooit je gegevens. Deze extensie is volledig open-source op https://github.com/darkreader/darkreader\n\nVoor de installatie is het aangeraden soortgelijke extensies eerst uit te schakelen. Veel kijkplezier!"
+   },
+   "support_out_work": {
+      "message": "Steun ons werk"
+   },
+   "system_dark_mode": {
+      "message": "Gebruik systeemkleurenschema"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Activeren bij donker systeemthema"
+   },
+   "text_stroke": {
+      "message": "Tekstomlijning"
+   },
+   "theme_generation_mode": {
+      "message": "Themageneratiemodus"
+   },
+   "toggle_current_site": {
+      "message": "Huidige site schakelen"
+   },
+   "toggle_extension": {
+      "message": "Extensie schakelen"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Probeer **experimentele** themas\n**Filter+** behoudt saturatie, videokaart vereist\n**Statisch thema** genereert snel een simpel thema\n**Dynamisch thema** analyseert kleuren en foto's"
+   },
+   "version": {
+      "message": "Versie"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader viert 10 jaar.\nSteun alstublieft ons werk."
+   },
+   "website_toggle_shortcut": {
+      "message": "Sneltoets voor het wisselen van de website"
+   }
+}

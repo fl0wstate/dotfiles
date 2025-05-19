@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Siteyi listeye ekle"
+   },
+   "all_settings": {
+      "message": "Tüm ayarlar"
+   },
+   "auto_day_at_location": {
+      "message": "Otomatik (konumda gündüz)"
+   },
+   "auto_day_time": {
+      "message": "Otomatik (gündüz)"
+   },
+   "auto_night_at_location": {
+      "message": "Otomatik (konumda gece)"
+   },
+   "auto_night_time": {
+      "message": "Otomatik (gece)"
+   },
+   "auto_system_is_dark": {
+      "message": "Otomatik (sistem koyu)"
+   },
+   "auto_system_is_light": {
+      "message": "Otomatik (sistem açık)"
+   },
+   "automation": {
+      "message": "Otomasyon"
+   },
+   "brightness": {
+      "message": "Parlaklık"
+   },
+   "change_browser_theme": {
+      "message": "Tarayıcı temasını değiştir"
+   },
+   "click_to_set_shortcut": {
+      "message": "Kısayolu ayarlamak için tıkla"
+   },
+   "configure_automation": {
+      "message": "Otomasyonu yapılandır"
+   },
+   "configure_site_toggle": {
+      "message": "Web sitesini aç/kapat yapılandır"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Varsayılan"
+   },
+   "custom_browser_theme_on": {
+      "message": "Özel"
+   },
+   "dark": {
+      "message": "Koyu"
+   },
+   "dark_theme_detected": {
+      "message": "Koyu tema algılandı"
+   },
+   "detect_dark_theme": {
+      "message": "Koyu temayı algıla"
+   },
+   "detect_website_dark_theme": {
+      "message": "Web sitesinin koyu temasını algıla"
+   },
+   "donate": {
+      "message": "Bağış yap"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Varsayılan olarak tüm web siteleri için etkindir"
+   },
+   "enabled_by_default": {
+      "message": "Varsayılan Olarak Etkin"
+   },
+   "engine_dynamic": {
+      "message": "Dinamik"
+   },
+   "engine_filter": {
+      "message": "Filtre"
+   },
+   "engine_filter_plus": {
+      "message": "Filtre+"
+   },
+   "engine_static": {
+      "message": "Statik"
+   },
+   "extension_description": {
+      "message": "Her web sitesi için koyu mod. Gözlerinize iyi bakın, gece ve günlük gezinti için koyu renk tema kullanın."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Uzantıyı aç/kapat klavye kısayolu"
+   },
+   "filter": {
+      "message": "Filtre"
+   },
+   "grayscale": {
+      "message": "Gri ton"
+   },
+   "help": {
+      "message": "Yardım"
+   },
+   "invert_listed_only": {
+      "message": "Sadece listedekiler"
+   },
+   "latitude": {
+      "message": "Enlem"
+   },
+   "learn_more": {
+      "message": "Daha fazla bilgi edin"
+   },
+   "light": {
+      "message": "Açık"
+   },
+   "loading_please_wait": {
+      "message": "Yükleniyor, lütfen bekleyin"
+   },
+   "local_files_forbidden": {
+      "message": "Yerel dosyalara erişime\nizin verilmiyor"
+   },
+   "longitude": {
+      "message": "Boylam"
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "mobile_link": {
+      "message": "Mobil Karanlık Okuyucu mevcuttur. Daha fazla bilgi edin"
+   },
+   "mobile_text": {
+      "message": "Telefonunuzda veya tabletinizde okurken göz yorgunluğunu azaltın.\nYüklemek için QR kodunu taramanız yeterlidir."
+   },
+   "mode": {
+      "message": "Mod"
+   },
+   "more": {
+      "message": "Daha fazla"
+   },
+   "news": {
+      "message": "Haberler"
+   },
+   "not_invert_listed": {
+      "message": "Hariç tutulanlar"
+   },
+   "off": {
+      "message": "Kapalı"
+   },
+   "on": {
+      "message": "Açık"
+   },
+   "only_for": {
+      "message": "Sadece:"
+   },
+   "only_for_description": {
+      "message": "Ayarları sadece şu anki site için uygula"
+   },
+   "open_dev_tools": {
+      "message": "Geliş. araçları"
+   },
+   "page_in_dark_list": {
+      "message": "Bu site genel\nKoyu Listesinde"
+   },
+   "page_protected": {
+      "message": "Bu sayfa tarayıcı\ntarafından korunuyor"
+   },
+   "pay_for_using": {
+      "message": "Dark Reader'ı kullanmak için ödeme yapın"
+   },
+   "privacy": {
+      "message": "Gizlilik"
+   },
+   "read_more": {
+      "message": "Daha fazla oku"
+   },
+   "select_font": {
+      "message": "Yazı tipi seç"
+   },
+   "sepia": {
+      "message": "Sepya"
+   },
+   "set_active_hours": {
+      "message": "Etkin saatleri ayarla"
+   },
+   "set_location": {
+      "message": "Güneş battıktan sonra etkinleştir"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Site eklemek için bir kısayol tuşu ayarla"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Eklenti aç-kapat\nkısayol tuşu ayarla"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Şu anki site için\naç-kapat kısayol tuşu ayarla"
+   },
+   "site_list": {
+      "message": "Site listesi"
+   },
+   "site_toggle": {
+      "message": "Site Açma/Kapatma"
+   },
+   "store_listing": {
+      "message": "Bu göz bakım eklentisi web siteleri için anında koyu temalar oluşturarak gece modunu etkinleştirir. Dark Reader parlak renkleri ters çevirerek yüksek kontrast oluşturur ve geceleri okumayı kolaylaştırır.\n\nParlaklığı, kontrastı, sepya filtresini, koyu modu, yazı tipi ayarlarını ve yoksayma listesini ayarlayabilirsiniz.\n\nUygulamanın gelişimini bir bağışla desteklemenizi isteyebiliriz. Ayarlar açılır penceresinde Dark Reader ile ilgili haberleri görebilirsiniz. Deneyimli kullanıcılar için Geliştirici Araçları bulunmaktadır.\n\nDark Reader, reklam göstermez ve kullanıcının verilerini hiçbir yere göndermez. Tamamen açık kaynak kodludur. https://github.com/darkreader/darkreader\n\nYüklemeden önce benzer uzantıları devre dışı bırakın. Gezintinin tadını çıkarın!"
+   },
+   "support_out_work": {
+      "message": "Çalışmalarımızı destekleyin"
+   },
+   "system_dark_mode": {
+      "message": "Sistem renk düzenini kullan"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "Bu seçenek, tarayıcınızdaki\nbir hata nedeniyle çalışmayabilir"
+   },
+   "system_dark_mode_description": {
+      "message": "Sistem koyu modu açıkken etkinleştir"
+   },
+   "text_stroke": {
+      "message": "Yazı çizgisi"
+   },
+   "theme_generation_mode": {
+      "message": "Tema oluşturma modu"
+   },
+   "toggle_current_site": {
+      "message": "Şu anki siteyi aç-kapat"
+   },
+   "toggle_extension": {
+      "message": "Eklentiyi aç-kapat"
+   },
+   "try_experimental_theme_engines": {
+      "message": "**Deneysel** tema motorlarını deneyin:\n**Filtre+** renk doygunluğunu korur, GPU kullanır\n**Statik tema** basit, hızlı bir tema oluşturur\n**Dinamik tema** renkleri ve görüntüleri analiz eder"
+   },
+   "version": {
+      "message": "Sürüm"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader 10. yılını kutluyor.\nLütfen çalışmalarımızı destekleyin."
+   },
+   "website_toggle_shortcut": {
+      "message": "Web sitesi aç/kapat klavye kısayolu"
+   }
+}

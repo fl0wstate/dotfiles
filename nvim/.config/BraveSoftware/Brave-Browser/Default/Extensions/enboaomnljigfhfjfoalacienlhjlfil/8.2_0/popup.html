@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html theme="auto" device="laptop" browser="safari" disabled="true" isPRO="false" isLogin="false">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Basic -->
+
+  <link rel="stylesheet" href="extension/css/reset.css" />
+  <link rel="stylesheet" href="extension/css/general.css" />
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="extension/css/fa/fontawesome.css" />
+  <link rel="stylesheet" href="extension/css/fa/solid.css" />
+  <link rel="stylesheet" href="extension/css/fa/brands.css" />
+  <link rel="stylesheet" href="extension/css/fa/regular.css" />
+  
+  <!-- Screens -->
+  
+  <link rel="stylesheet" href="extension/screens/mainFiles/main.css" />
+  <link rel="stylesheet" href="extension/screens/moreFiles/more.css" />
+  <link rel="stylesheet" href="extension/screens/optionsFiles/options.css" />
+
+  <link rel="stylesheet" href="extension/screens/youtubeBlockingTemporaryFiles/youtubeBlockingTemporary.css" />
+  <link rel="stylesheet" href="extension/screens/youtubeBlockingScheduleFiles/youtubeBlockingSchedule.css" />
+  <link rel="stylesheet" href="extension/screens/extensionLockedFiles/scheduleLockedFiles/scheduleLocked.css" />
+  <link rel="stylesheet" href="extension/screens/extensionLockedFiles/temporaryLockedFiles/temporaryLocked.css" />
+  <link rel="stylesheet" href="extension/screens/contentFilterFiles/contentFilter.css" />
+  <link rel="stylesheet" href="extension/screens/importExportFiles/importExport.css" />
+  <link rel="stylesheet" href="extension/screens/openingTimerFiles/openingTimer.css" />
+  <link rel="stylesheet" href="extension/screens/openingTimerWaitFiles/openingTimerWait.css" />
+  <link rel="stylesheet" href="extension/screens/shortcutsFiles/shortcuts.css" />
+
+  <link rel="stylesheet" href="extension/screens/passwordProtection/passwordLockingFiles/passwordLocking.css" />
+  <link rel="stylesheet" href="extension/screens/passwordProtection/passwordUnlockingFiles/passwordUnlocking.css" />
+  <link rel="stylesheet" href="extension/screens/passwordProtection/passwordResetFiles/passwordReset.css" />
+
+  <link rel="stylesheet" href="extension/screens/account/proLoginFiles/proLogin.css" />
+  <link rel="stylesheet" href="extension/screens/account/proSignUpFiles/proSignUp.css" />
+  <link rel="stylesheet" href="extension/screens/account/accountManageFiles/accountManage.css" />
+
+  <!-- Theme -->
+
+  <link rel="stylesheet" href="extension/css/theme.css" />
+</head>
+
+<body>
+  <div id="proModal">
+    <p class="infoText moreScreen-translate-43"></p>
+
+    <a href="untrapforyt://" target="_blank" class="openAppButton moreScreen-translate-44"></a>
+  </div>
+
+  <!-------------------------------- Main Screen -------------------------------->
+  <div class="appScreen screenWithOptions" id="mainScreen" active>
+    <!-- Top Header -->
+    <div id="topHeader">
+      <div class="firstLine">
+        <div class="topHeaderLeft">
+          <div class="topHeaderButton routerButton mainScreen-translate-6 toMoreButton" routeto="moreScreen">
+            <i class="fa-regular fa-bars"></i>
+          </div>
+        </div>
+        <div class="topHeaderCenter">UnTrap</div>
+
+        <div class="topHeaderRight">
+          <div class="turnOffPickerPopup">
+            <p class="turnOffGroupTitle powerButton-translate-turnOffTitle"></p>
+
+            <span class="turnOffElement powerButton-translate-turnOffNow" data-value="0"></span>
+            <span class="turnOffElement powerButton-translate-turnOff10minutes" data-value="10"></span>
+            <span class="turnOffElement powerButton-translate-turnOff30minutes" data-value="30"></span>
+            <span class="turnOffElement powerButton-translate-turnOff1hour" data-value="60"></span>
+            <span class="turnOffElement powerButton-translate-turnOff2hour" data-value="120"></span>
+            <span class="turnOffElement powerButton-translate-turnOff3hour" data-value="180"></span>
+          </div>
+
+          <div class="turnOnPickerPopup">
+            <p class="turnOnGroupTitle powerButton-translate-turnOnTitle"></p>
+
+            <span class="turnOnElement powerButton-translate-turnOnNow" data-value="0"></span>
+            <span class="turnOnElement powerButton-translate-turnOn10minutes" data-value="10"></span>
+            <span class="turnOnElement powerButton-translate-turnOn30minutes" data-value="30"></span>
+            <span class="turnOnElement powerButton-translate-turnOn1hour" data-value="60"></span>
+            <span class="turnOnElement powerButton-translate-turnOn2hour" data-value="120"></span>
+            <span class="turnOnElement powerButton-translate-turnOn3hour" data-value="180"></span>
+          </div>
+
+          <div id="powerButton" class="topHeaderButton mainScreen-translate-7">
+            <i class="fa-solid fa-power-off"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header -->
+
+    <div class="contentToHide">
+      <!-- Basic Options -->
+      <div id="mainGlobalOptions" class="settingsGroup">
+        <div class="settingsGroupBody">
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <label class="label" for="untrap_global_hide_all_shorts">
+                <span class="labelSpan mainGlobalOptions-translate-hideAllShorts"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="untrap_global_hide_all_shorts" />
+                  <span class="slider round"></span>
+                </label>
+              </label>
+            </div>
+          </div>
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <label class="label" for="untrap_global_hide_all_ads">
+                <span class="labelSpan mainGlobalOptions-translate-hideAllBannerAds"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="untrap_global_hide_all_ads" />
+                  <span class="slider round"></span>
+                </label>
+              </label>
+            </div>
+          </div>
+          <div class="optionWrapper">
+            <label class="label" for="untrap_global_video_quality">
+              <span class="labelSpan mainGlobalOptions-translate-videoQuality"></span>
+              <div class="selectContainer">
+                <select class="selectSelect" id="untrap_global_video_quality">
+                  <option value="auto" class="mainGlobalOptions-translate-videoQuality-defaultValue"></option>
+                  <option value="lowest" class="mainGlobalOptions-translate-videoQuality-lowest"></option>
+                  <option value="tiny">144p</option>
+                  <option value="small">240p</option>
+                  <option value="medium">360p</option>
+                  <option value="large">480p</option>
+                  <option value="hd720">720p</option>
+                  <option value="hd1080">1080p</option>
+                  <option value="hd1440">1440p</option>
+                  <option value="hd2160">2160p (4K)</option>
+                  <option value="highres">4320p (8K)</option>
+                  <option value="highest" class="mainGlobalOptions-translate-videoQuality-highest">Highest Available
+                  </option>
+                </select>
+                <i class="fa-solid fa-caret-down"></i>
+              </div>
+            </label>
+          </div>
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <label class="label" for="untrap_global_disable_video_autoplay">
+                <span class="labelSpan mainGlobalOptions-translate-disableVideoAutoplay"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="untrap_global_disable_video_autoplay" />
+                  <span class="slider round"></span>
+                </label>
+              </label>
+            </div>
+          </div>
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <label class="label" for="untrap_global_show_native_video_player">
+                <span class="labelSpan mainGlobalOptions-translate-showNativeVideoPlayer"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="untrap_global_show_native_video_player" />
+                  <span class="slider round"></span>
+                </label>
+              </label>
+            </div>
+          </div>
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <label class="label" for="untrap_global_skip_video_ads">
+                <span class="labelSpan mainGlobalOptions-translate-skipVideoAds"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="untrap_global_skip_video_ads" />
+                  <span class="slider round"></span>
+                </label>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div id="showAllButton">
+          <span class="showAllButton-translate-allSettings"> </span>
+          <span id="showAllButtonCount"></span>
+
+          <i class="fa-solid fa-chevron-right"></i>
+        </div>
+      </div>
+      <!-- Basic Options -->
+    </div>
+
+    <!-- Disable Message -->
+    <div id="disableMessage">
+      <i class="fa-solid fa-plug-circle-xmark disableMessageIcon"></i>
+      <p class="disableMessageHeadline mainScreen-translate-3"></p>
+      <p class="disableMessageSubhedline mainScreen-translate-4"></p>
+    </div>
+    <!-- Disable Message -->
+  </div>
+  <!-------------------------------- Main Screen -------------------------------->
+
+  <!-------------------------------- Options Screen -------------------------------->
+  <div class="appScreen screenWithOptions" id="optionsScreen" categoryPickerIsShowing="false" displayingCategoryId="">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="mainScreen"></i>
+        <p class="subScreenTitle mainScreen-translate-all-setings"></p>
+        <i class="fa-solid fa-magnifying-glass" id="showSearchButton"></i>
+      </div>
+    </div>
+
+    <!-- Search -->
+    <div id="search">
+      <input type="text" class="searchField mainScreen-translate-5" tabindex="-1" id="searchField" />
+      <div id="clearSearch"></div>
+    </div>
+    <!-- Search -->
+
+    <div class="secondLine">
+      <div class="optionCategorySelector">
+        <div class="activeCategory" id="activeCategoryButton">
+          <div id="activeCategoryButtonList"></div>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="categoryPickerPopup" id="categoryPickerList"></div>
+      </div>
+    </div>
+
+    <!-- Search Message -->
+    <div id="searchMessage">
+      <i class="fa-solid fa-magnifying-glass-minus searchMessageIcon"></i>
+      <p class="searchMessageHeadline mainScreen-translate-1"></p>
+      <p class="searchMessageSubhedline mainScreen-translate-2"></p>
+    </div>
+    <!-- Disable Message -->
+
+    <!-- Settings Container -->
+    <div id="settingsContainer">
+      <div id="settingsContainerDefault"></div>
+      <div id="settingsContainerSearch"></div>
+    </div>
+    <!-- Settings Container -->
+  </div>
+  <!-------------------------------- Options Screen -------------------------------->
+
+  <!-------------------------------- More Screen -------------------------------->
+  <div class="appScreen" id="moreScreen">
+    <div class="popUpHeader">
+      <div title="Close" class="routerButton closeButton" routeto="mainScreen">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+
+      <div class="headerRightLinks">
+        <a href="https://untrap.app/support" target="_blank" class="headerLink">
+          <i class="fa-solid fa-message"></i>
+          <span class="moreScreen-translate-1"></span>
+        </a>
+
+        <div class="appLinksWrapper" id="appLinksWrapper">
+          <div class="linksPickerPopup">
+            <p class="linksGroupTitle moreScreen-translate-2"></p>
+
+            <a href="" target="_blank" class="linkElement dynamic-rate-link"><i class="fa-solid fa-star"></i><span
+                class="moreScreen-translate-3"></span></a>
+
+            <a href="https://untrap.app/donate/" target="_blank" class="linkElement hideInSafari"><i
+                class="fa-solid fa-coins"></i><span class="moreScreen-translate-4"></span></a>
+
+            <p class="linksGroupTitle">
+              <span class="moreScreen-translate-8"></span>
+            </p>
+            <a class="linkElement" href="https://apps.apple.com/us/app/untrap-for-youtube/id1637438059"
+              target="_blank"><i class="fa-brands fa-safari"></i>Safari</a>
+            <a class="linkElement"
+              href="https://chrome.google.com/webstore/detail/untrap-for-youtube/enboaomnljigfhfjfoalacienlhjlfil"
+              target="_blank"><i class="fa-brands fa-chrome"></i>Chrome</a>
+            <a class="linkElement" href="https://addons.mozilla.org/ru/firefox/addon/untrap-for-youtube/"
+              target="_blank"><i class="fa-brands fa-firefox"></i>Firefox</a>
+            <a class="linkElement"
+              href="https://microsoftedge.microsoft.com/addons/detail/untrap-for-youtube/ngnefladcohhmmibccafkdbcijjoppdo"
+              target="_blank"><i class="fa-brands fa-edge"></i>Edge</a>
+            <a class="linkElement"
+              href="https://chrome.google.com/webstore/detail/untrap-for-youtube/enboaomnljigfhfjfoalacienlhjlfil"
+              target="_blank"><i class="fa-brands fa-opera"></i>Opera</a>
+          </div>
+
+          <div class="headerLink linkLink" id="extraLinksButton">
+            <i class="fa-solid fa-star"></i>
+            <span class="moreScreen-translate-9"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popUpBody">
+      <div class="popUpMenuListGroupHeader moreScreen-translate-10"></div>
+
+      <div class="segmentedPicker">
+        <div class="option moreScreen-translate-11" data-id="0" active=""></div>
+        <div class="option moreScreen-translate-12" data-id="1"></div>
+      </div>
+
+      <div class="feauturesContainer" data-id="1">
+        <div class="proLoginInfo">
+          <p class="proLoginInfo_text moreScreen-translate-13"></p>
+          <div class="proLoginInfo_buttons">
+            <button class="proLoginInfo_button routerButton moreScreen-translate-14" routeto="proLoginScreen"></button>
+            <button class="proLoginInfo_button routerButton moreScreen-translate-15" routeto="proSignUpScreen"></button>
+          </div>
+        </div>
+
+        <div class="accountLogOutBlock">
+          <p class="proLoginInfo_text" id="userLoginEmail"></p>
+          <button class="proLoginInfo_button routerButton moreScreen-translate-16"
+            routeto="accountManageScreen"></button>
+        </div>
+
+        <div class="popUpListGroupBody">
+          <div class="popUpMenuList onlySafari onlyFlex">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-cloud"></i>
+              </div>
+              <span class="moreScreen-translate-17"></span>
+            </div>
+            <div class="trailingPart">
+              <select id="iCloudSyncingSelect">
+                <option value="off" selected class="moreScreen-translate-18"></option>
+                <option value="on" class="moreScreen-translate-19"></option>
+              </select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feauturesContainer" data-id="0" active>
+        <div class="popUpListGroupBody">
+          <div class="popUpMenuList routerButton" routeto="youtubeBlockingTemporaryScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-hourglass-start"></i>
+              </div>
+              <span class="moreScreen-translate-24"></span>
+            </div>
+            <div class="trailingPart">
+              <span id="youtubeFocusBlockingStatusInfo" class="featureStatusContainer">
+                <span class="notActiveSpan moreScreen-translate-25"></span>
+                <span class="activeSpan moreScreen-translate-25-on"></span>
+              </span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton" routeto="passwordLockingScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-lock"></i>
+              </div>
+              <span class="moreScreen-translate-26"></span>
+            </div>
+            <div class="trailingPart">
+              <span id="passwordProtectionStatusInfo" class="featureStatusContainer">
+                <span class="notActiveSpan moreScreen-translate-27"></span>
+                <span class="activeSpan moreScreen-translate-27-on"></span>
+              </span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton" routeto="contentFilterScreen" id="fromMoreToContentFilter">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-filter"></i>
+              </div>
+              <span class="moreScreen-translate-28"></span>
+            </div>
+            <div class="trailingPart">
+              <span id="channelsVideosFilterCounter" class="featureStatusContainer">
+                <span class="notActiveSpan moreScreen-translate-29"></span>
+                <span class="activeSpan moreScreen-translate-29-on"></span>
+              </span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton" routeto="youtubeBlockingScheduleScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-regular fa-calendar-days"></i>
+              </div>
+              <span class="moreScreen-translate-30"></span>
+            </div>
+            <div class="trailingPart">
+              <span id="youtubeScheduleBlockingStatusInfo" class="featureStatusContainer">
+                <span class="notActiveSpan moreScreen-translate-31"></span>
+                <span class="activeSpan moreScreen-translate-31-on"></span>
+              </span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton" routeto="openingTimerScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-right-to-bracket"></i>
+              </div>
+              <span class="moreScreen-translate-32"></span>
+            </div>
+            <div class="trailingPart">
+              <span id="launchDelayState" class="featureStatusContainer">
+                <span class="notActiveSpan moreScreen-translate-33"></span>
+                <span class="activeSpan moreScreen-translate-33-on"></span>
+              </span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton" id="fromMoreToImportExport" routeto="importExportScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-file-import"></i>
+              </div>
+              <span class="moreScreen-translate-34"></span>
+            </div>
+            <div class="trailingPart">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-palette"></i>
+              </div>
+              <span class="moreScreen-translate-35"></span>
+            </div>
+            <div class="trailingPart">
+              <select id="extensionThemeSelect">
+                <option value="auto" selected class="moreScreen-translate-36"></option>
+                <option value="dark" class="moreScreen-translate-37"></option>
+                <option value="light" class="moreScreen-translate-38"></option>
+              </select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <span class="moreScreen-translate-39"></span>
+            </div>
+            <div class="trailingPart">
+              <select id="extensionLanguageSelect">
+                <option value="auto" class="moreScreen-translate-40"></option>
+                <option value="ar">العربية</option>
+                <option value="ca">Català</option>
+                <option value="zh-CN">简体中文</option>
+                <option value="zh-TW">繁體中文</option>
+                <option value="hr">Hrvatski</option>
+                <option value="cs">Čeština</option>
+                <option value="da">Dansk</option>
+                <option value="nl">Nederlands</option>
+                <option value="en">English</option>
+                <option value="fi">Suomi</option>
+                <option value="fr">Français</option>
+                <option value="de">Deutsch</option>
+                <option value="el">Ελληνικά</option>
+                <option value="he">עִברִית</option>
+                <option value="hi">हिंदी</option>
+                <option value="hu">Magyar</option>
+                <option value="id">Bahasa Indonesia</option>
+                <option value="it">Italiano</option>
+                <option value="ja">日本語</option>
+                <option value="ko">한국어</option>
+                <option value="ms">Melayu</option>
+                <option value="nb">Norsk</option>
+                <option value="pl">Polski</option>
+                <option value="pt">Português</option>
+                <option value="ro">Română</option>
+                <option value="ru">Русский</option>
+                <option value="sk">Slovenčina</option>
+                <option value="es">Español</option>
+                <option value="sv">Svenska</option>
+                <option value="th">ไทย</option>
+                <option value="tr">Türkçe</option>
+                <option value="uk">Українська</option>
+                <option value="vi">Tiếng Việt</option>
+              </select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+          <div class="popUpMenuList routerButton onlyDesktop" routeto="shortcutsScreen">
+            <div class="leadingPart">
+              <div class="iconWrapper">
+                <i class="fa-solid fa-keyboard"></i>
+              </div>
+              <span class="moreScreen-translate-20"></span>
+            </div>
+            <div class="trailingPart">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popUpMenuListGroupHeaderContainer">
+        <div class="popUpMenuListGroupHeader moreScreen-translate-41"></div>
+
+        <i class="fa-regular fa-chevron-down"></i>
+      </div>
+
+      <div class="myOtherApps">
+        <div class="popUpListGroupBody">
+          <a class="popUpMenuList dynamic-socialfocus-link" href="" target="_blank">
+            <div class="leadingPart">
+              <div class="logoWrapper">
+                <img src="extension/images/socialFocusLogo.png" class="otherAppsLogo" />
+              </div>
+
+              <div class="featureInfoWrapper">
+                <span class="headline">SocialFocus</span>
+                <span class="subheadline moreScreen-translate-42"></span>
+              </div>
+            </div>
+            <div class="trailingPart">
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- More Screen -------------------------------->
+
+  <!-------------------------------- Opening Timer Wait Screen -------------------------------->
+  <div class="appScreen" id="openingTimerWaitScreen">
+    <div class="subScreenContent">
+      <i class="fa-solid fa-hourglass-start unlockIcon"></i>
+
+      <p class="unlockHeadline" id="openingTimerLeftSeconds"></p>
+
+      <p class="unlockSubHeadline" id="openingTimerMessageDisplay"></p>
+    </div>
+  </div>
+  <!-------------------------------- Opening Timer Wait Screen -------------------------------->
+
+  <!-------------------------------- Password UnLocking Screen -------------------------------->
+  <div class="appScreen" id="passwordUnlockingScreen">
+    <div class="subScreenContent">
+      <i class="fa-solid fa-lock unlockIcon"></i>
+
+      <p class="unlockHeadline openingTimerWaitScreen-translate-1"></p>
+
+      <p class="unlockSubHeadline openingTimerWaitScreen-translate-2"></p>
+
+      <div class="modernFormBlockItemsWrapper">
+        <div class="modernFormBlockItem">
+          <div class="formBlockContent mbott">
+            <input type="password" class="textField openingTimerWaitScreen-translate-3" id="unlockPasswordTextField" />
+          </div>
+        </div>
+      </div>
+
+      <span id="passwordUnlockingResetDateDisplaying"></span>
+      <span id="passwordUnlockingPromptDisplaying"></span>
+
+      <div class="resetButtonsWrapper">
+        <span id="passwordUnlockingShowPromptButton" class="openingTimerWaitScreen-translate-4"></span>
+        <span id="passwordUnlockingResetPasswordButton" class="openingTimerWaitScreen-translate-5 routerButton"
+          routeto="passwordResetScreen"></span>
+      </div>
+
+      <p class="subScreenError openingTimerWaitScreen-translate-6" id="wrongPasswordError"></p>
+
+      <div class="bottomButtonsWrapper">
+        <button type="button" class="submitButton openingTimerWaitScreen-translate-7" id="unlockButton"></button>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Password UnLocking Screen -------------------------------->
+
+  <!-------------------------------- Password Reset Screen -------------------------------->
+  <div class="appScreen" id="passwordResetScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="passwordUnlockingScreen"></i>
+        <p class="subScreenTitle passwordResetScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo passwordResetScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <p class="instructionLabel passwordResetScreen-translate-4"></p>
+      <p class="instructionSubLabel" id="resetPeriodDisplayLabel"></p>
+
+      <p class="instructionLabel passwordResetScreen-translate-5"></p>
+      <p class="instructionSubLabel" id="resetDateDisplayLabel"></p>
+
+      <div class="bottomButtonsWrapper">
+        <button type="button" class="submitButton passwordResetScreen-translate-6"
+          id="passwordResetActivateButton"></button>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Password Reset Screen -------------------------------->
+
+  <!-------------------------------- Password Locking Screen -------------------------------->
+  <div class="appScreen" id="passwordLockingScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle passwordLockingScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo passwordLockingScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <p class="instructionLabel passwordLockingScreen-translate-4"></p>
+      <p class="instructionSubLabel passwordLockingScreen-translate-5"></p>
+
+      <div class="modernFormBlockItemsWrapper">
+        <div class="modernFormBlockItem">
+          <div class="formBlockContent mbott">
+            <input type="password" class="textField passwordLockingScreen-translate-6" id="protectPasswordTextField" />
+          </div>
+
+          <div class="formBlockContent">
+            <input type="password" class="textField passwordLockingScreen-translate-7" id="protectPassword2TextField" />
+          </div>
+        </div>
+      </div>
+
+      <p class="subScreenError passwordLockingScreen-translate-8" id="differentPasswordsError"></p>
+
+      <p class="instructionLabel passwordLockingScreen-translate-9"></p>
+      <p class="instructionSubLabel passwordLockingScreen-translate-14"></p>
+
+      <div class="modernFormBlockItemsWrapper">
+        <div class="modernFormBlockItem">
+          <div class="formBlockContent mbott">
+            <input type="text" class="textField passwordLockingScreen-translate-10" id="passwordPromptTextField" />
+          </div>
+        </div>
+      </div>
+
+      <div class="modernFormBlockItemsWrapper">
+        <div class="popUpMenuListWrapper">
+          <div class="popUpMenuList">
+            <div class="leadingPart">
+              <span class="passwordLockingScreen-translate-11"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField" id="passwordResetPeriodSelect"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottomButtonsWrapper" id="passwordLocking-bottomButtons">
+        <div class="activeState doubled">
+          <button type="button" class="submitButton destructionButton passwordLockingScreen-translate-destruct"
+            id="passwordLockingDestructButton"></button>
+
+          <button type="button" class="submitButton passwordLockingScreen-translate-update"
+            id="passwordLockingUpdateButton"></button>
+        </div>
+
+        <div class="inactiveState">
+          <button type="button" class="submitButton passwordLockingScreen-translate-submit"
+            id="passwordLockingProtectButton"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Password Locking Screen -------------------------------->
+
+  <!-------------------------------- Import Export Screen -------------------------------->
+  <div class="appScreen" id="importExportScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle importExportScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo importExportScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <div class="buttonsWrapper">
+        <p class="instructionLabel importExportScreen-translate-4"></p>
+        <p class="instructionSubLabel importExportScreen-translate-5"></p>
+
+        <button type="button" class="submitButton importExportScreen-translate-button-export"
+          id="exportSettingsButton"></button>
+
+        <p class="instructionLabel importExportScreen-translate-7"></p>
+        <p class="instructionSubLabel importExportScreen-translate-8"></p>
+
+        <div class="modernFormBlockItemsWrapper noHorizontalPadding">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent mbott">
+              <input type="text" class="textField importExportScreen-translate-9" id="importSettingsTextField" />
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="submitButton importExportScreen-translate-button-import"
+          id="importSettingsButton"></button>
+
+        <p class="instructionLabel importExportScreen-translate-10"></p>
+        <p class="instructionSubLabel importExportScreen-translate-11"></p>
+
+        <button type="button" class="submitButton importExportScreen-translate-button-reset"
+          id="resetSettingsButton"></button>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Import Export Screen -------------------------------->
+
+  <!-------------------------------- Opening Timer Screen -------------------------------->
+  <div class="appScreen" id="openingTimerScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle openingTimerScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo openingTimerScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <div class="modernFormBlockItemsWrapper">
+        <div class="popUpMenuListWrapper">
+          <div class="popUpMenuList">
+            <div class="leadingPart">
+              <span class="openingTimerScreen-translate-4"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField" id="openingTimerDurationSelect"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modernFormBlockItemsWrapper noPadding">
+        <div class="modernFormBlockItem">
+          <div class="formBlockContent mbott">
+            <input type="text" class="textField openingTimerScreen-translate-7" id="openingTimerMessage" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bottomButtonsWrapper" id="openingTimer-bottomButtons">
+        <div class="activeState doubled">
+          <button type="button" class="submitButton destructionButton openingTimerScreen-translate-destruct"
+            id="openingTimerDestructButton"></button>
+
+          <button type="button" class="submitButton openingTimerScreen-translate-update"
+            id="openingTimerUpdateButton"></button>
+        </div>
+
+        <div class="inactiveState">
+          <button type="button" class="submitButton openingTimerScreen-translate-set"
+            id="openingTimerSetButton"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Opening Timer Screen -------------------------------->
+
+  <!-------------------------------- Content Filter Screen -------------------------------->
+  <div class="appScreen" id="contentFilterScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle contentFilterScreens-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo contentFilterScreens-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <div class="modernFormBlockItemsWrapper">
+        <div class="modernFormBlockItem">
+          <label class="label" for="blocklistFilterEnableFilter">
+            <div class="optionWrapper">
+              <div class="switchWrapper">
+                <span class="labelSpan contentFilterScreens-translate-enableFiltration"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="blocklistFilterEnableFilter" checked="false" />
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <div class="modernFormBlockItem nomb">
+          <label class="label" for="blocklistFilterContextButtons">
+            <div class="optionWrapper">
+              <div class="switchWrapper">
+                <span class="labelSpan contentFilterScreens-translate-3"></span>
+                <label class="switchLabel switch">
+                  <input class="formCheckbox" type="checkbox" id="blocklistFilterContextButtons" checked="false" />
+                  <span class="slider round"></span>
+                </label>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="segmentedPicker">
+        <div class="option contentFilterScreens-translate-8 firstContenFilterTab" data-id="0" data-input="" active>
+        </div>
+        <div class="option contentFilterScreens-translate-9" data-id="1" data-input=""></div>
+        <div class="option contentFilterScreens-translate-10" data-id="2" data-input=""></div>
+        <div class="option contentFilterScreens-translate-11" data-id="3" data-input=""></div>
+      </div>
+
+      <div class="filterAddWrapper">
+        <input type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+          class="textField" id="contentFilterField" />
+        <button type="button" class="submitButton" id="contentFilterFieldAddButton">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+
+      <div class="textAreaWrapper">
+        <textarea class="filterRulesWrapper contentFilterScreens-translate-textAreaPlaceholder" autocomplete="off"
+          autocorrect="off" autocapitalize="off" spellcheck="false" placeholder=""></textarea>
+        <div class="saveTextareaButton contentFilterScreens-translate-saveButton"></div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Content Filter Screen -------------------------------->
+
+  <!-------------------------------- YouTube Blocking Schedule Screen -------------------------------->
+  <div class="appScreen" id="youtubeBlockingScheduleScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle youtubeBlockingScheduleScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo youtubeBlockingScheduleScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <p class="instructionLabel youtubeBlockingScheduleScreen-translate-4"></p>
+
+      <div class="intervalWrapper">
+        <div class="intervalRow">
+          <div class="intervalItem">
+            <div class="leadingPart">
+              <span class="youtubeBlockingScheduleScreen-translate-5"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField timeSelectField" id="scheduleTimesFirstSelectFrom"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="intervalItem">
+            <div class="leadingPart">
+              <span class="youtubeBlockingScheduleScreen-translate-6"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField timeSelectField" id="scheduleTimesFirstSelectTo"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="intervalAction">
+            <div class="action" id="addAdditionalInterval">
+              <i class="fa-solid fa-circle-plus"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="intervalRow" id="additionalIntervalRow">
+          <div class="intervalItem">
+            <div class="leadingPart">
+              <span class="youtubeBlockingScheduleScreen-translate-7"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField timeSelectField" id="scheduleTimesSecondSelectFrom"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="intervalItem">
+            <div class="leadingPart">
+              <span class="youtubeBlockingScheduleScreen-translate-8"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField timeSelectField" id="scheduleTimesSecondSelectTo"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="intervalAction">
+            <div class="action" id="deleteAdditionalInterval">
+              <i class="fa-solid fa-circle-minus"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="instructionLabel youtubeBlockingScheduleScreen-translate-9"></p>
+
+      <div class="modernFormBlockItemsWrapper">
+        <div class="scheduleDaysWrapper" id="scheduleDaysWrapper"></div>
+      </div>
+
+      <label class="label modernFormBlockItemsWrapper nomb" for="youtubeBlockingScheduleBlockExtensionCheckbox">
+        <div class="modernFormBlockItem">
+          <div class="optionWrapper">
+            <div class="switchWrapper">
+              <span class="labelSpan youtubeBlockingScheduleScreen-translate-10"></span>
+              <label class="switchLabel switch">
+                <input class="formCheckbox" type="checkbox" id="youtubeBlockingScheduleBlockExtensionCheckbox"
+                  checked="false" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </label>
+
+      <div class="bottomButtonsWrapper" id="youtubeBlockingSchedule-bottomButtons">
+        <div class="activeState doubled">
+          <button type="button" class="submitButton destructionButton youtubeBlockingScheduleScreen-translate-destruct"
+            id="youtubeBlockingScheduleDestructButton"></button>
+
+          <button type="button" class="submitButton youtubeBlockingScheduleScreen-translate-update"
+            id="youtubeBlockingScheduleUpdateButton"></button>
+        </div>
+
+        <div class="inactiveState">
+          <button type="button" class="submitButton youtubeBlockingScheduleScreen-translate-submit"
+            id="youtubeBlockingScheduleSetBlocking"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- YouTube Blocking Schedule Screen -------------------------------->
+
+  <!-------------------------------- YouTube Blocking Temporary Screen -------------------------------->
+  <div class="appScreen" id="youtubeBlockingTemporaryScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle youtubeBlockingTemporaryScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo youtubeBlockingTemporaryScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <div class="modernFormBlockItemsWrapper">
+        <div class="popUpMenuListWrapper">
+          <div class="popUpMenuList">
+            <div class="leadingPart">
+              <span class="youtubeBlockingTemporaryScreen-translate-4"></span>
+            </div>
+            <div class="trailingPart">
+              <select class="selectField" id="temporaryBlockingDuration"></select>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <label class="label modernFormBlockItemsWrapper nomb" for="youtubeBlockingTemporaryBlockExtensionCheckbox">
+        <div class="modernFormBlockItem">
+          <div class="switchWrapper">
+            <span class="labelSpan youtubeBlockingTemporaryScreen-translate-5"></span>
+            <label class="switchLabel">
+              <input class="formCheckbox" type="checkbox" id="youtubeBlockingTemporaryBlockExtensionCheckbox" checked />
+              <span class="slider round"></span>
+            </label>
+          </div>
+        </div>
+      </label>
+
+      <div class="bottomButtonsWrapper" id="youtubeBlockingTemporary-bottomButtons">
+        <div class="activeState doubled">
+          <button type="button" class="submitButton destructionButton youtubeBlockingTemporaryScreen-translate-destruct"
+            id="youtubeBlockingTemporaryDestructButton"></button>
+
+          <button type="button" class="submitButton youtubeBlockingTemporaryScreen-translate-update"
+            id="youtubeBlockingTemporaryUpdateButton"></button>
+        </div>
+
+        <div class="inactiveState">
+          <button type="button" class="submitButton youtubeBlockingTemporaryScreen-translate-submit"
+            id="startTemporaryBlockSession"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- YouTube Blocking Temporary Screen -------------------------------->
+
+  <!-------------------------------- Shortcuts Screen -------------------------------->
+  <div class="appScreen" id="shortcutsScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle shortcutsScreen-translate-2"></p>
+        <i class="fa-regular fa-circle-question infoButton"></i>
+        <p class="subScreenInfo shortcutsScreen-translate-3"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <label class="label modernFormBlockItemsWrapper nomb">
+        <div class="modernFormBlockItem">
+          <div class="switchWrapper">
+            <span class="labelSpan shortcutsScreen-translate-4"></span>
+
+            <div class="hotKeyWrapper">
+              <div class="setHotkeyWrapper shortcutsScreen-translate-5" id="setHotkeyButton"></div>
+              <i class="fa-solid fa-xmark clearHotKey" id="clearHotKey"></i>
+            </div>
+          </div>
+        </div>
+      </label>
+    </div>
+
+    <div id="shortcutsModal" class="shortcutsScreen-translate-6"></div>
+  </div>
+  <!-------------------------------- Shortcuts Screen -------------------------------->
+
+  <!-------------------------------- Temporary Locked Screen -------------------------------->
+  <div class="appScreen" id="temporaryLockedScreen">
+    <div class="subScreenContent">
+      <!-- Temporary Locked Message -->
+      <div id="temporaryLockedMessage">
+        <i class="fa-solid fa-hand temporaryLockedIcon"></i>
+        <p class="temporaryLockedHeadline temporaryLockedScreen-translate-1"></p>
+        <p class="temporaryLockedSubhedline temporaryLockedScreen-translate-2"></p>
+        <p class="temporaryLockedSubhedline" id="tempBlockingSpan"></p>
+      </div>
+      <!-- Temporary Locked Message -->
+    </div>
+  </div>
+  <!-------------------------------- Temporary Locked Screen -------------------------------->
+
+  <!-------------------------------- Schedule Locked Screen -------------------------------->
+  <div class="appScreen" id="scheduleLockedScreen">
+    <div class="subScreenContent">
+      <!-- Schedule Locked Message -->
+      <div id="scheduleLockedMessage">
+        <i class="fa-solid fa-hand scheduleLockedIcon"></i>
+        <p class="scheduleLockedHeadline scheduleLockedScreen-translate-1"></p>
+        <p class="scheduleLockedSubhedline" id="scheduleBlockingDaysSpan"></p>
+      </div>
+      <!-- Schedule Locked Message -->
+    </div>
+  </div>
+  <!-------------------------------- Schedule Locked Screen -------------------------------->
+
+  <!-------------------------------- Account Manage Screen -------------------------------->
+  <div class="appScreen" id="accountManageScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle accountManageScreen-translate-2"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <form class="updateEmailForm">
+        <p class="instructionLabel accountManageScreen-translate-3"></p>
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent">
+              <input type="email" class="textField accountManageScreen-translate-4" id="accountManageEmail" required />
+            </div>
+          </div>
+        </div>
+
+        <p class="subScreenError" id="updateLoginError"></p>
+        <p class="subScreenSucc" id="updateLoginSuccess"></p>
+
+        <div class="bottomButtonsWrapper">
+          <button type="submit" class="submitButton accountManageScreen-translate-5" id="updateEmailButton"></button>
+        </div>
+      </form>
+
+      <form class="updatePasswordForm">
+        <p class="instructionLabel accountManageScreen-translate-6 mb5"></p>
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent mbott">
+              <input type="password" class="textField accountManageScreen-translate-7" id="accountManagePassword"
+                required />
+            </div>
+          </div>
+        </div>
+
+        <p class="subScreenError" id="updatePasswordError"></p>
+        <p class="subScreenSucc" id="updatePasswordSuccess"></p>
+
+        <div class="bottomButtonsWrapper">
+          <button type="submit" class="submitButton accountManageScreen-translate-8" id="updatePasswordButton"></button>
+        </div>
+      </form>
+
+      <div class="bottomButtonsWrapper">
+        <button type="submit" class="submitButton accountManageScreen-translate-9" id="proLogOutButton"></button>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- Account Manage Screen -------------------------------->
+
+  <!-------------------------------- PRO Log In Screen -------------------------------->
+  <div class="appScreen" id="proLoginScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle proLoginScreen-translate-2"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <form class="logInForm">
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent">
+              <input type="email" class="textField proLoginScreen-translate-3" id="proLoginEmail" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent mbott">
+              <input type="password" class="textField proLoginScreen-translate-4" id="proLoginPassword" required />
+            </div>
+          </div>
+        </div>
+
+        <p class="subScreenError" id="logInError"></p>
+
+        <div class="bottomButtonsWrapper">
+          <button type="submit" class="submitButton proLoginScreen-translate-7" id="logInButton"></button>
+        </div>
+      </form>
+
+      <div class="signUPtext">
+        <span class="proLoginScreen-translate-5"></span>
+        <span class="routerButton proLoginScreen-translate-6" routeto="proSignUpScreen"></span>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- PRO Log In Screen -------------------------------->
+
+  <!-------------------------------- PRO Sign Up Screen -------------------------------->
+  <div class="appScreen" id="proSignUpScreen">
+    <div class="subScreenHeader">
+      <div class="subScreenNavigation">
+        <i class="fa-solid fa-circle-chevron-left routerButton backButton" routeto="moreScreen"></i>
+        <p class="subScreenTitle proSignUpScreen-translate-2"></p>
+      </div>
+    </div>
+
+    <div class="subScreenContent">
+      <form class="signUpForm">
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent">
+              <input type="email" class="textField proSignUpScreen-translate-3" id="proSignUpEmail" required />
+            </div>
+          </div>
+        </div>
+
+        <div class="modernFormBlockItemsWrapper">
+          <div class="modernFormBlockItem">
+            <div class="formBlockContent mbott">
+              <input type="password" class="textField proSignUpScreen-translate-4" id="proSignUpPassword" required />
+            </div>
+          </div>
+        </div>
+
+        <p class="subScreenError" id="signUpError"></p>
+
+        <div class="bottomButtonsWrapper">
+          <button type="submit" class="submitButton proSignUpScreen-translate-5" id="logInButton"></button>
+        </div>
+      </form>
+
+      <div class="signUPtext">
+        <span class="proSignUpScreen-translate-6"></span>
+        <span class="routerButton proSignUpScreen-translate-7" routeto="proLoginScreen"></span>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------- PRO Sign Up Screen -------------------------------->
+
+  <!-- Helpers -->
+
+  <script src="global/storageConstants.js"></script>
+  <script src="global/globalHelpers.js"></script>
+  <script src="extension/scripts/extensionHelpers.js"></script>
+  <script src="extension/scripts/serverMethods.js"></script>
+  <script src="extension/scripts/syncMethods.js"></script>
+  <script src="extension/scripts/screenTranslation.js"></script>
+
+  <!-- Options -->
+
+  <script src="global/options/channelPageOptions.js"></script>
+  <script src="global/options/homePageOptions.js"></script>
+  <script src="global/options/navigationSidebarOptions.js"></script>
+  <script src="global/options/searchPageOptions.js"></script>
+  <script src="global/options/shortsPageOptions.js"></script>
+  <script src="global/options/subscriptionsPageOptions.js"></script>
+  <script src="global/options/topHeaderOptions.js"></script>
+  <script src="global/options/videoCardOptions.js"></script>
+  <script src="global/options/videoPageOptions.js"></script>
+  <script src="global/options/youPageOptions.js"></script>
+  <script src="global/options/embedOptions.js"></script>
+  <script src="global/options/appearanceOptions.js"></script>
+  <script src="global/options/options.js"></script>
+
+  <script src="global/options/optionsMethods.js"></script>
+
+  <!-- Flow -->
+
+  <script src="extension/scripts/appVars.js"></script>
+  <script src="extension/scripts/setBasicAttr.js"></script>
+  <script src="extension/scripts/prepareScreensFromStorage.js"></script>
+  <script src="extension/scripts/requestProState.js"></script>
+  <script src="extension/scripts/checkIfBlocked.js"></script>
+  <script src="extension/scripts/extensionBlockTimerHandle.js"></script>
+
+  <!-- Screens -->
+
+  <script src="extension/screens/mainFiles/main.js"></script>
+  <script src="extension/screens/optionsFiles/options.js"></script>
+  <script src="extension/screens/contentFilterFiles/contentFIlter.js"></script>
+  <script src="extension/screens/moreFiles/more.js"></script>
+  <script src="extension/screens/youtubeBlockingTemporaryFiles/youtubeBlockingTemporary.js"></script>
+  <script src="extension/screens/youtubeBlockingScheduleFiles/youtubeBlockingSchedule.js"></script>
+  <script src="extension/screens/importExportFiles/importExport.js"></script>
+  <script src="extension/screens/openingTimerFiles/openingTimer.js"></script>
+  <script src="extension/screens/openingTimerWaitFiles/openingTimerWait.js"></script>
+  <script src="extension/screens/shortcutsFiles/shortcuts.js"></script>
+
+  <script src="extension/screens/passwordProtection/passwordLockingFiles/passwordLocking.js"></script>
+  <script src="extension/screens/passwordProtection/passwordUnlockingFiles/passwordUnlocking.js"></script>
+  <script src="extension/screens/passwordProtection/passwordResetFiles/passwordReset.js"></script>
+
+  <script src="extension/screens/account/proLoginFiles/proLogin.js"></script>
+  <script src="extension/screens/account/proSignUpFiles/proSignUp.js"></script>
+  <script src="extension/screens/account/accountManageFiles/accountManage.js"></script>
+</body>
+
+</html>

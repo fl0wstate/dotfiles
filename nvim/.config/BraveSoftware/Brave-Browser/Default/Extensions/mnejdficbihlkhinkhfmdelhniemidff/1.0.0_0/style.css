@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,700;1,400&family=Poppins:wght@200;300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Philosopher", sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: "NorseBold";
+  src: url("./Fonts/Norse-Bold.woff2") format("woff2"),
+    url("./Fonts/Norse-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.main-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-after-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.greeting-head h1 {
+  margin-top: 20px;
+  font-size: 4.5rem;
+  text-align: center;
+  font-family: "NorseBold", sans-serif;
+}
+
+.greeting-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#quote {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-family: "Philosopher", sans-serif;
+  max-width: 50ch;
+}
+
+#quote-source {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+  max-width: 20ch;
+}
+
+#time {
+  font-size: 7rem;
+}
+
+.name-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-head {
+  font-size: 3rem;
+}
+
+#name-input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  margin-top: 20px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#name-input:focus {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+.extra-features {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.typed-links{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.links-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-new-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.given-links {
+  margin-bottom: 10px;
+  background-color: rgb(20, 20, 20);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#shortcuts-p, #new-link-p{
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: flex;
+}

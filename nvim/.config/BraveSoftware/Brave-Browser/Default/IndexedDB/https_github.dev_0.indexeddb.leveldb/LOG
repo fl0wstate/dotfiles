@@ -1,0 +1,21 @@
+2025/04/11-18:30:03.021 440 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_github.dev_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-18:30:03.021 440 Recovering log #553
+2025/04/11-18:30:03.024 440 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_github.dev_0.indexeddb.leveldb/000553.log 
+2025/04/11-18:42:19.822 441 Level-0 table #558: started
+2025/04/11-18:42:19.834 441 Level-0 table #558: 1626260 bytes OK
+2025/04/11-18:42:19.841 441 Delete type=0 #553
+2025/04/11-18:52:25.820 441 Compacting 1@1 + 1@2 files
+2025/04/11-18:52:25.873 441 Generated table #559@1: 810 keys, 458763 bytes
+2025/04/11-18:52:25.874 441 Compacted 1@1 + 1@2 files => 458763 bytes
+2025/04/11-18:52:25.879 441 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-18:52:25.880 441 Delete type=2 #555
+2025/04/11-18:52:25.880 441 Delete type=2 #558
+2025/04/11-18:56:27.822 441 Level-0 table #561: started
+2025/04/11-18:56:27.829 441 Level-0 table #561: 549263 bytes OK
+2025/04/11-18:56:27.837 441 Delete type=0 #557
+2025/04/11-19:12:38.823 441 Compacting 1@1 + 1@2 files
+2025/04/11-19:12:38.834 441 Generated table #562@1: 810 keys, 461922 bytes
+2025/04/11-19:12:38.834 441 Compacted 1@1 + 1@2 files => 461922 bytes
+2025/04/11-19:12:38.840 441 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/11-19:12:38.841 441 Delete type=2 #559
+2025/04/11-19:12:38.841 441 Delete type=2 #561

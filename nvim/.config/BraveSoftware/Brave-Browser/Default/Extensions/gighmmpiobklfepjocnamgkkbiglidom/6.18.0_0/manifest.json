@@ -1,0 +1,268 @@
+{
+   "action": {
+      "default_icon": {
+         "16": "icons/adblock-16.png",
+         "19": "icons/adblock-19.png",
+         "20": "icons/adblock-20.png",
+         "32": "icons/adblock-32.png",
+         "38": "icons/adblock-38.png",
+         "40": "icons/adblock-40.png"
+      },
+      "default_popup": "adblock-button-popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "author": "Adblock, Inc.",
+   "background": {
+      "service_worker": "abp-background.js"
+   },
+   "commands": {
+      "toggle_pause": {
+         "description": "Toggle Pause/Resume on all sites",
+         "suggested_key": {
+            "default": "Ctrl+Period",
+            "mac": "Command+Period"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "vendor/@eyeo/webext-ad-filtering-solution/content.js", "polyfill.js", "ext/common.js", "ext/content.js", "globals-front.js", "adblock-functions.js", "contentscript-loader.js", "premium.preload.js", "adblock-picreplacement.js" ],
+      "match_about_blank": true,
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "adblock-uiscripts-rightclick_hook.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "polyfill.js", "globals-front.js", "adblock-functions.js", "adblock-getadblock.js" ],
+      "matches": [ "*://*.getadblock.com/*", "*://*.getadblockpremium.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "adblock-twitch-cs.js" ],
+      "matches": [ "*://*.twitch.tv/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "adblock-yt-cs.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "yt-auto-allowlist.preload.js" ],
+      "matches": [ "*://*.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "yt-player-controls.preload.js" ],
+      "matches": [ "*://*.youtube-nocookie.com/embed/*" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "info-injector.preload.js" ],
+      "matches": [ "https://adblockplus.org/*", "https://accounts.adblockplus.org/*", "https://new.adblockplus.org/*", "https://welcome.adblockplus.org/*", "https://getadblock.com/*", "https://vpn.getadblock.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "public-api.preload.js" ],
+      "matches": [ "https://ext-bridge.eyeo.com/" ],
+      "run_at": "document_start"
+   } ],
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": false,
+         "id": "07549D8B-F06F-4D9D-A567-929AA59E9D1D",
+         "path": "/data/rules/dnr/07549D8B-F06F-4D9D-A567-929AA59E9D1D"
+      }, {
+         "enabled": false,
+         "id": "0798B6A2-94A4-4ADF-89ED-BEC112FC4C7F",
+         "path": "/data/rules/dnr/0798B6A2-94A4-4ADF-89ED-BEC112FC4C7F"
+      }, {
+         "enabled": false,
+         "id": "0A679439-445F-4DE7-84B9-88341F6DA520",
+         "path": "/data/rules/dnr/0A679439-445F-4DE7-84B9-88341F6DA520"
+      }, {
+         "enabled": false,
+         "id": "0B0296EB-1CC5-49CD-AD38-8AF27420B7E4",
+         "path": "/data/rules/dnr/0B0296EB-1CC5-49CD-AD38-8AF27420B7E4"
+      }, {
+         "enabled": false,
+         "id": "0CD3D105-D3B3-4652-8489-94163DE9A08F",
+         "path": "/data/rules/dnr/0CD3D105-D3B3-4652-8489-94163DE9A08F"
+      }, {
+         "enabled": false,
+         "id": "14DF7BE6-9675-4E07-987A-D8A1000F9FEF",
+         "path": "/data/rules/dnr/14DF7BE6-9675-4E07-987A-D8A1000F9FEF"
+      }, {
+         "enabled": false,
+         "id": "1B5F78CA-8B30-4BDF-B0A3-451CB2202984",
+         "path": "/data/rules/dnr/1B5F78CA-8B30-4BDF-B0A3-451CB2202984"
+      }, {
+         "enabled": false,
+         "id": "1C571EC7-6E52-47CC-B04A-4B3008D0AEBE",
+         "path": "/data/rules/dnr/1C571EC7-6E52-47CC-B04A-4B3008D0AEBE"
+      }, {
+         "enabled": false,
+         "id": "2090F374-29D9-4202-B2CE-139D6492D95E",
+         "path": "/data/rules/dnr/2090F374-29D9-4202-B2CE-139D6492D95E"
+      }, {
+         "enabled": false,
+         "id": "25A31255-AB36-48A4-9086-06192DE71119",
+         "path": "/data/rules/dnr/25A31255-AB36-48A4-9086-06192DE71119"
+      }, {
+         "enabled": false,
+         "id": "2708BCB7-2E45-41BC-B517-1730CF532F89",
+         "path": "/data/rules/dnr/2708BCB7-2E45-41BC-B517-1730CF532F89"
+      }, {
+         "enabled": false,
+         "id": "2CEA1481-C29C-44F1-A084-A2A019533797",
+         "path": "/data/rules/dnr/2CEA1481-C29C-44F1-A084-A2A019533797"
+      }, {
+         "enabled": false,
+         "id": "361001BD-8F57-4736-97B1-F332C3D79E5D",
+         "path": "/data/rules/dnr/361001BD-8F57-4736-97B1-F332C3D79E5D"
+      }, {
+         "enabled": false,
+         "id": "3D2C09D0-DF1C-4C8E-9947-A23DCEAF8F8B",
+         "path": "/data/rules/dnr/3D2C09D0-DF1C-4C8E-9947-A23DCEAF8F8B"
+      }, {
+         "enabled": false,
+         "id": "4B6CE485-30AB-4213-AD17-504B3F2D2825",
+         "path": "/data/rules/dnr/4B6CE485-30AB-4213-AD17-504B3F2D2825"
+      }, {
+         "enabled": false,
+         "id": "588470E8-E163-4CD9-A909-521B2A3BE73F",
+         "path": "/data/rules/dnr/588470E8-E163-4CD9-A909-521B2A3BE73F"
+      }, {
+         "enabled": false,
+         "id": "5BD2BB73-459D-4A74-AF9D-A10157268350",
+         "path": "/data/rules/dnr/5BD2BB73-459D-4A74-AF9D-A10157268350"
+      }, {
+         "enabled": false,
+         "id": "684A25C6-6B5D-458A-8A2B-BAC0A12B0B15",
+         "path": "/data/rules/dnr/684A25C6-6B5D-458A-8A2B-BAC0A12B0B15"
+      }, {
+         "enabled": false,
+         "id": "88D3F7EA-D99E-43C6-92E0-D89C8A0E7EA9",
+         "path": "/data/rules/dnr/88D3F7EA-D99E-43C6-92E0-D89C8A0E7EA9"
+      }, {
+         "enabled": false,
+         "id": "8C13E995-8F06-4927-BEA7-6C845FB7EEBF",
+         "path": "/data/rules/dnr/8C13E995-8F06-4927-BEA7-6C845FB7EEBF"
+      }, {
+         "enabled": false,
+         "id": "950C88EA-2DD1-42E3-B2A2-2DF2ED15563A",
+         "path": "/data/rules/dnr/950C88EA-2DD1-42E3-B2A2-2DF2ED15563A"
+      }, {
+         "enabled": false,
+         "id": "96932CD9-6DDF-4D97-B92F-FDF747B6FAA2",
+         "path": "/data/rules/dnr/96932CD9-6DDF-4D97-B92F-FDF747B6FAA2"
+      }, {
+         "enabled": false,
+         "id": "9BD3EA2F-889D-4CC3-B680-CF484F2BD1B9",
+         "path": "/data/rules/dnr/9BD3EA2F-889D-4CC3-B680-CF484F2BD1B9"
+      }, {
+         "enabled": false,
+         "id": "9CC3AF4D-EB89-4100-97C6-4EEE4F8A2E82",
+         "path": "/data/rules/dnr/9CC3AF4D-EB89-4100-97C6-4EEE4F8A2E82"
+      }, {
+         "enabled": false,
+         "id": "A4B88FB6-E5E5-417F-8A49-20B8244995FD",
+         "path": "/data/rules/dnr/A4B88FB6-E5E5-417F-8A49-20B8244995FD"
+      }, {
+         "enabled": false,
+         "id": "B7D76369-DD19-4602-80E8-2E32DDB490AC",
+         "path": "/data/rules/dnr/B7D76369-DD19-4602-80E8-2E32DDB490AC"
+      }, {
+         "enabled": false,
+         "id": "BBC07C05-66F1-42EC-BD4D-7AD495FAC84B",
+         "path": "/data/rules/dnr/BBC07C05-66F1-42EC-BD4D-7AD495FAC84B"
+      }, {
+         "enabled": false,
+         "id": "C3D13A19-3E8D-41F5-AD64-0F3B36DDE128",
+         "path": "/data/rules/dnr/C3D13A19-3E8D-41F5-AD64-0F3B36DDE128"
+      }, {
+         "enabled": false,
+         "id": "CBE50FA2-DE3F-480C-B1D7-04289391C033",
+         "path": "/data/rules/dnr/CBE50FA2-DE3F-480C-B1D7-04289391C033"
+      }, {
+         "enabled": false,
+         "id": "CDAD4CF5-2706-42CB-B404-F5B9B61B8CAA",
+         "path": "/data/rules/dnr/CDAD4CF5-2706-42CB-B404-F5B9B61B8CAA"
+      }, {
+         "enabled": false,
+         "id": "D4028CDD-3D39-4624-ACC7-8140F4EC3238",
+         "path": "/data/rules/dnr/D4028CDD-3D39-4624-ACC7-8140F4EC3238"
+      }, {
+         "enabled": false,
+         "id": "D72B6F06-52B2-4FED-96A2-1BF59CDD7AEC",
+         "path": "/data/rules/dnr/D72B6F06-52B2-4FED-96A2-1BF59CDD7AEC"
+      }, {
+         "enabled": false,
+         "id": "D99D3350-7F11-43E1-87CB-FDE0C78E8CD6",
+         "path": "/data/rules/dnr/D99D3350-7F11-43E1-87CB-FDE0C78E8CD6"
+      }, {
+         "enabled": false,
+         "id": "E22C3B40-DC90-49D7-8BF5-E60904AB159A",
+         "path": "/data/rules/dnr/E22C3B40-DC90-49D7-8BF5-E60904AB159A"
+      }, {
+         "enabled": false,
+         "id": "EEEF75EC-B2B4-49F4-BC49-17B08266F334",
+         "path": "/data/rules/dnr/EEEF75EC-B2B4-49F4-BC49-17B08266F334"
+      }, {
+         "enabled": false,
+         "id": "EF6F4884-47DB-46A5-AAF8-8EB819D8D4D8",
+         "path": "/data/rules/dnr/EF6F4884-47DB-46A5-AAF8-8EB819D8D4D8"
+      }, {
+         "enabled": false,
+         "id": "F12E0801-A00B-49DE-B1E3-52C9C4F90C8C",
+         "path": "/data/rules/dnr/F12E0801-A00B-49DE-B1E3-52C9C4F90C8C"
+      } ]
+   },
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "devtools_page": "devtools.html",
+   "differential_fingerprint": "1.f7148cb5bcaaf5ea3205c66700dbd8f66bbba1594bf9047d012264b88f9dff4b",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/adblock-128.png",
+      "16": "icons/adblock-16.png",
+      "32": "icons/adblock-32.png",
+      "48": "icons/adblock-48.png",
+      "64": "icons/adblock-64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZWWNkerYNFB0SIg87WwcrcniMYkCqxLz4OB3CLNoogUUsHN+Rk9vRB7o3Jjc4shlz2LBvAbtPbrGkU+NK9Hc3ubVydzpnoRDEl1RKz3GhqKFkECvTyAxrsKainXH+4Ni2+K7bg1U0tLoQMPJ9f3ieYLIwXeHh9+lYXQi6soq0pwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "124.0",
+   "name": "__MSG_name__",
+   "optional_permissions": [ "management" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "alarms", "contextMenus", "declarativeNetRequestWithHostAccess", "idle", "notifications", "scripting", "storage", "tabs", "unlimitedStorage", "webNavigation", "webRequest" ],
+   "short_name": "__MSG_short_name__",
+   "storage": {
+      "managed_schema": "managed-storage-schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.18.0",
+   "web_accessible_resources": [ {
+      "matches": [ "http://*/*", "https://*/*" ],
+      "resources": [ "adblock-uiscripts-adblock-wizard.css", "adblock-ads-allowed-icon.svg", "adblock-ads-blocked-icon.svg", "adblock-wizard_sync_cta.svg", "adblock-yt-manage.css", "icons/icon24.png", "icons/ab-19.png", "icons/adblock-20.svg", "icons/dark_theme/logo.svg", "icons/default_theme/logo.svg", "fonts/lato-ext-italic.woff", "fonts/lato-italic.woff", "fonts/lato-ext-bolditalic.woff", "fonts/lato-bolditalic.woff", "fonts/lato-ext-regular.woff", "fonts/lato-regular.woff", "fonts/lato-ext-bold.woff", "fonts/lato-bold.woff", "fonts/font-face.css", "icons/MaterialIcons-Regular.woff2", "icons/adblock-icons.woff2", "purify.min.js", "adblock-deny-push-notifications-requests.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "adblock-yt-capture-requests.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "*://*.twitch.tv/*" ],
+      "resources": [ "adblock-twitch-capture-requests.js" ],
+      "use_dynamic_url": true
+   }, {
+      "matches": [ "*://*.youtube.com/*" ],
+      "resources": [ "adblock-yt-capture-events.js" ],
+      "use_dynamic_url": true
+   } ]
+}

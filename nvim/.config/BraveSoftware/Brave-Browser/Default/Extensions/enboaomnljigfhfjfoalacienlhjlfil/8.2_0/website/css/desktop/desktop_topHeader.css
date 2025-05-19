@@ -1,0 +1,122 @@
+/* ------------------ Hide Top Header ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_top_header="true"] #masthead-container,
+
+/* ------------------ Hide Notifications Counter ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_notifications_counter="true"] #masthead-container #end #buttons ytd-notification-topbar-button-renderer .yt-spec-icon-badge-shape__badge {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Avatar Button ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_grayscale_button_avatar="true"]
+  #avatar-btn {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Search Bar - Hide Suggestions ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_bar_hide_suggestions="true"] .gstl_50.sbdd_a,
+
+/* ------------------ Search Bar - Hide Previous Searches ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_bar_hide_previous_searches="true"] .gstl_50.sbdd_a ul li:has(.sbpqs_d),
+
+/* ------------------ Hide Logo ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_logo="true"] ytd-topbar-logo-renderer {
+  display: none !important;
+}
+
+/* ------------------ Monochrome Logo ------------------ */
+
+/* Dark Theme */
+
+html[dark][untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_logo_color="monochrome"]
+  ytd-topbar-logo-renderer
+  path[fill="#FF0033"] {
+  fill: rgb(255, 255, 255) !important;
+}
+
+html[dark][untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_logo_color="monochrome"]
+  ytd-topbar-logo-renderer
+  path[fill="white"] {
+  fill: rgb(15, 15, 15) !important;
+}
+
+/* Light Theme */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_logo_color="monochrome"]:not(
+    [dark]
+  )
+  ytd-topbar-logo-renderer
+  path[fill="#FF0033"] {
+  fill: rgb(33, 33, 33) !important;
+}
+
+/* ------------------ Grayscale Logo ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_logo_color="grayscale"]
+  ytd-topbar-logo-renderer {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Logo Wordmark ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_logo_wordmark="true"]
+  ytd-topbar-logo-renderer
+  g:nth-child(2) {
+  display: none !important;
+}
+
+/* ------------------ Hide Logo Country Code ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_logo_country_code="true"] ytd-topbar-logo-renderer #country-code,
+
+/* ------------------ Hide Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_button_avatar="true"] #avatar-btn {
+  display: none !important;
+}
+
+/* ------------------ Grayscale Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_grayscale_button_avatar="true"]
+  #avatar-btn {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Notifications Bell ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_notifications_bell="true"] #masthead-container #end #buttons ytd-notification-topbar-button-renderer,
+
+/* ------------------ Hide Create Button ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_create_button="true"] #masthead-container #end #buttons ytd-topbar-menu-button-renderer:first-child,
+
+/* ------------------ Hide Upload Button ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_upload_button="true"] #masthead-container #end #buttons ytd-button-renderer:has(a[href*="upload"]),
+
+/* ------------------ Hide Voice Search Button ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_voice_search_button="true"] #masthead-container #voice-search-button,
+
+/* ------------------ Hide Button - Sign In ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_button_sign_in="true"] #masthead-container #end ytd-button-renderer:has(a[href*="ServiceLogin"]),
+
+/* ------------------ Hide Search Bar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_hide_search_bar="true"] #masthead-container #center {
+  display: none !important;
+}
+
+/* ------------------ Disable Logo Link ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_header_disable_logo_link="true"]
+  #masthead-container
+  #logo[href="/"] {
+  pointer-events: none;
+}

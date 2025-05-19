@@ -1,0 +1,10 @@
+{
+   "extensionDesc": {
+      "description": "Beschreibung der Erweiterung",
+      "message": "Verbessere deine Web-Browsing Erfahrung mit Bonjour, einer anpassbaren und leichtgewichtigen Homepage."
+   },
+   "extensionName": {
+      "description": "Erweiterungsname",
+      "message": "Bonjourr · Minimalistische Homepage"
+   }
+}

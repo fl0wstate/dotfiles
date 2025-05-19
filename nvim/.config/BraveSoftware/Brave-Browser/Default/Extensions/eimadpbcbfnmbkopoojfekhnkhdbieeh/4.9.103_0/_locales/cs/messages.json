@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Přidat stránku do seznamu"
+   },
+   "all_settings": {
+      "message": "Všechna nastavení"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (den na místě)"
+   },
+   "auto_day_time": {
+      "message": "Auto (denní čas)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (noc na místě)"
+   },
+   "auto_night_time": {
+      "message": "Auto (noční čas)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (systém je tmavý)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (systém je lehký)"
+   },
+   "automation": {
+      "message": "Automatizace"
+   },
+   "brightness": {
+      "message": "Jas"
+   },
+   "change_browser_theme": {
+      "message": "Změnit motiv prohlížeče"
+   },
+   "click_to_set_shortcut": {
+      "message": "Kliknutím nastavíte zkratku"
+   },
+   "configure_automation": {
+      "message": "Nakonfigurujte automatizaci"
+   },
+   "configure_site_toggle": {
+      "message": "Nakonfigurujte přepínání webových stránek"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Původní nastavení"
+   },
+   "custom_browser_theme_on": {
+      "message": "Vlastní nastavení"
+   },
+   "dark": {
+      "message": "Tmavý"
+   },
+   "dark_theme_detected": {
+      "message": "Byl zjištěn tmavý motiv"
+   },
+   "detect_dark_theme": {
+      "message": "Detekce tmavého motivu"
+   },
+   "detect_website_dark_theme": {
+      "message": "Zjistěte vlastní temné téma webu"
+   },
+   "donate": {
+      "message": "Přispějte"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Ve výchozím nastavení povoleno pro všechny weby"
+   },
+   "enabled_by_default": {
+      "message": "Ve výchozím nastavení povoleno"
+   },
+   "engine_dynamic": {
+      "message": "Dynamic."
+   },
+   "engine_filter": {
+      "message": "Filtr"
+   },
+   "engine_filter_plus": {
+      "message": "Filtr+"
+   },
+   "engine_static": {
+      "message": "Statický"
+   },
+   "extension_description": {
+      "message": "Tmavý motiv pro každou stránku. Používejte Dark Reader pro celodenní prohlížení webu a šetřete tak své oči."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Klávesová zkratka pro zapnutí/vypnutí rozšíření"
+   },
+   "filter": {
+      "message": "Filtr"
+   },
+   "grayscale": {
+      "message": "Odstíny šedé"
+   },
+   "help": {
+      "message": "Nápověda"
+   },
+   "invert_listed_only": {
+      "message": "Invertovat stránky"
+   },
+   "latitude": {
+      "message": "Zeměpisná šířka"
+   },
+   "learn_more": {
+      "message": "Zjistěte více"
+   },
+   "light": {
+      "message": "Světlý"
+   },
+   "loading_please_wait": {
+      "message": "Načítání, prosím čekejte"
+   },
+   "local_files_forbidden": {
+      "message": "Není povolen přístup\nmístní soubory"
+   },
+   "longitude": {
+      "message": "Zeměpisná délka"
+   },
+   "mobile": {
+      "message": "Mobilní"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader je k dispozici. Zjistěte více"
+   },
+   "mobile_text": {
+      "message": "Snižte únavu očí při čtení na telefonu nebo tabletu.\nPro instalaci stačí naskenovat QR kód."
+   },
+   "mode": {
+      "message": "Režim"
+   },
+   "more": {
+      "message": "Více"
+   },
+   "news": {
+      "message": "Novinky"
+   },
+   "not_invert_listed": {
+      "message": "Neinvertovat"
+   },
+   "off": {
+      "message": "Vyp"
+   },
+   "on": {
+      "message": "Zap"
+   },
+   "only_for": {
+      "message": "Pouze pro"
+   },
+   "only_for_description": {
+      "message": "Aplikovat nastavení pouze pro současnou stránku"
+   },
+   "open_dev_tools": {
+      "message": "Nástroje"
+   },
+   "page_in_dark_list": {
+      "message": "Tato stránka je v seznamu\nstránek s tmavým motivem"
+   },
+   "page_protected": {
+      "message": "Tato stránka je chráněna\nprohlížečem"
+   },
+   "pay_for_using": {
+      "message": "Zaplaťte za používání Dark Reader"
+   },
+   "privacy": {
+      "message": "Soukromí"
+   },
+   "read_more": {
+      "message": "Více..."
+   },
+   "select_font": {
+      "message": "Vybrat písmo"
+   },
+   "sepia": {
+      "message": "Sépie"
+   },
+   "set_active_hours": {
+      "message": "Změňte doby aktivního používání"
+   },
+   "set_location": {
+      "message": "Aktivace po západu slunce na místě"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Nastavit klávesovou zkratku pro přidání stránky"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Nastavit klávesovou\npro přepínání rozšíř."
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Nastavit kláv. zkratku\npro přep. současné stránky"
+   },
+   "site_list": {
+      "message": "Seznam"
+   },
+   "site_toggle": {
+      "message": "Přepínání stránek"
+   },
+   "store_listing": {
+      "message": "Toto k očím šetrné rozšíření přepíná stránky do nočního režimu tím, že je samo převádí do tmavého motivu. Dark Reader invertuje jasné barvy tak, aby byly kontrastní a lehce čitelné v noci.\n\nMůžete upravit jas, kontrast, sépiový filtr, tmavý mód, nastavení písma a seznam ignorovaných stránek.\n\nMůžeme vás požádat, abyste podpořili vývoj aplikace darem. Novinky o Dark Reader můžete vidět ve vyskakovacím okně nastavení. Pro zkušené uživatele existují nástroje pro vývojáře.\n\nDark Reader neobsahuje reklamy a nikam neodesílá data uživatele. Projekt je plně open-source a repositář je možné nalézt na https://github.com/darkreader/darkreader\n\nPřed instalací vypněte všechna podobná rozšíření. Přejeme příjemné surfování!"
+   },
+   "support_out_work": {
+      "message": "Podpořte naši práci"
+   },
+   "system_dark_mode": {
+      "message": "Použít barevný systém schéma"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktivovat při zapnutém systému dark režim"
+   },
+   "text_stroke": {
+      "message": "Tloušťka písma"
+   },
+   "theme_generation_mode": {
+      "message": "Generátor motivů"
+   },
+   "toggle_current_site": {
+      "message": "Přepnout současnou stránku"
+   },
+   "toggle_extension": {
+      "message": "Přepnout rozšíření"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Vyzkoušejte **experimentální** generátory motivů:\n**Filter+** zachovává sytost barev, používá GPU\n**Statický motiv** generuje rychlý a jednoduchý motiv\n**Dynamický motiv** analyzuje barvy a obrázky"
+   },
+   "version": {
+      "message": "Verze"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader slaví 10 let.\nPodpořte prosím naši práci."
+   },
+   "website_toggle_shortcut": {
+      "message": "Klávesová zkratka pro přepínání webových stránek"
+   }
+}

@@ -1,0 +1,73 @@
+/* ------------------  Hide Search Categories ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_page_hide_search_categories="true"] #container.ytd-search #scroll-container:has(#chips),
+
+/* ------------------  Hide Search Categories ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_page_disable_infinite_scrolling="true"] #container.ytd-search ytd-continuation-item-renderer,
+
+/* ------------------ Hide Button - About These Results ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_page_hide_about_these_results="true"] #container.ytd-search #about-these-results {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Filters ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_page_hide_filters="true"]
+  #container.ytd-search
+  #filter-button {
+  visibility: hidden !important;
+}
+
+/* ------------------ Hide Results - Channels ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_channels="true"] #container.ytd-search ytd-channel-renderer,
+
+/* ------------------ Hide Results - Playlists ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_playlists="true"] #container.ytd-search ytd-playlist-renderer,
+
+/* ------------------ Hide Results - Mixes ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_mixes="true"] #container.ytd-search ytd-radio-renderer,
+
+/* ------------------ Hide Results - Shorts ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_shorts="true"] #container.ytd-search ytd-reel-shelf-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_shorts="true"] #container.ytd-search ytd-video-renderer:has(a.yt-simple-endpoint[href*="shorts"]),
+
+/* ------------------ Hide Results - For You, Trending, etc. ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_for_you="true"] #container.ytd-search ytd-shelf-renderer,
+
+/* ------------------ Hide Results - People also search for ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_results_people_also_search="true"] #container.ytd-search ytd-horizontal-card-list-renderer:not(.ytd-expandable-metadata-renderer),
+
+/* ------------------ Hide Watched Videos ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_watched_videos="true"] #container.ytd-search ytd-video-renderer:has(#progress),
+
+/* ------------------ Hide Ads - Promoted Websites ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_ads_promoted_websites="true"] #container.ytd-search ytd-promoted-sparkles-web-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_ads_promoted_websites="true"] #container.ytd-search ytd-promoted-sparkles-text-search-renderer,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_ads_promoted_websites="true"] #container.ytd-search ytd-ad-slot-renderer:not(:has(ytd-carousel-ad-renderer)),
+
+/* ------------------ Hide Ads - Promoted Videos ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_ads_promoted_videos="true"] #container.ytd-search ytd-search-pyv-renderer,
+
+/* ------------------ Hide Right Sidebar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_page_hide_right_sidebar="true"] #container.ytd-search ytd-secondary-search-container-renderer,
+
+/* ------------------ Hide Ads - Suggested Products ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_search_hide_ads_suggested_products="true"] #container.ytd-search ytd-carousel-ad-renderer {
+  display: none !important;
+}

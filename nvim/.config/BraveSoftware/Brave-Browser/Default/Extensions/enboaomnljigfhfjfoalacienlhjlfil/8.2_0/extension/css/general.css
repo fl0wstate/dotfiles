@@ -1,0 +1,94 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: system-ui;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--primary-background);
+  min-width: 375px;
+  padding: 15px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+}
+
+html[device="laptop"] body {
+  max-width: 375px;
+}
+
+html[device="phone"] .onlyDesktop {
+  display: none !important;
+}
+
+input::placeholder {
+  color: var(--secondary-color-on-primary-background);
+}
+
+/* Screens */
+
+.appScreen {
+  display: none;
+}
+
+html .appScreen[active] {
+  display: block;
+}
+
+/* Browser Special */
+
+/* Safari */
+
+html[browser="safari"] .hideInSafari {
+  display: none !important;
+}
+
+html[browser="safari"] .onlySafari {
+  display: block !important;
+}
+
+html[browser="safari"] .onlySafari.onlyFlex {
+  display: flex !important;
+}
+
+html[browser="safari"] .onlyChrome {
+  display: none !important;
+}
+
+html[browser="safari"] .onlyFirefox {
+  display: none !important;
+}
+
+/* Chrome */
+
+html[browser="chrome"] .onlyChrome {
+  display: block !important;
+}
+
+html[browser="chrome"] .onlySafari {
+  display: none !important;
+}
+
+html[browser="chrome"] .onlyFirefox {
+  display: none !important;
+}
+
+/* Firefox */
+
+html[browser="firefox"] .onlyFirefox {
+  display: block !important;
+}
+
+html[browser="firefox"] .onlySafari {
+  display: none !important;
+}
+
+html[browser="firefox"] .onlyChrome {
+  display: none !important;
+}
+
+html[myOtherApps="hide"] .myOtherApps {
+  display: none !important;
+}

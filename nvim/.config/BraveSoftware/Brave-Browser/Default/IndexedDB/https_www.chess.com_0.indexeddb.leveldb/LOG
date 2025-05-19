@@ -1,0 +1,6 @@
+2025/02/28-07:58:17.188 3db Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb since it was missing.
+2025/02/28-07:58:17.198 3db Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chess.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/28-07:59:51.792 3db Level-0 table #5: started
+2025/02/28-07:59:51.796 3db Level-0 table #5: 3733 bytes OK
+2025/02/28-07:59:51.803 3db Delete type=0 #3
+2025/02/28-07:59:51.803 3db Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,7 @@
+2025/03/07-21:44:24.816 346 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/07-21:44:24.817 346 Recovering log #3
+2025/03/07-21:44:24.817 346 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.canva.com_0.indexeddb.leveldb/000003.log 
+2025/03/07-22:52:36.103 348 Level-0 table #5: started
+2025/03/07-22:52:36.120 348 Level-0 table #5: 950237 bytes OK
+2025/03/07-22:52:36.127 348 Delete type=0 #3
+2025/03/07-22:52:36.129 348 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

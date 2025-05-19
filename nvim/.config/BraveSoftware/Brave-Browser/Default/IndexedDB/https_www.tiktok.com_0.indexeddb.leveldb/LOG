@@ -1,0 +1,7 @@
+2025/02/27-13:24:23.573 3dc Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/27-13:24:23.574 3dc Recovering log #3
+2025/02/27-13:24:23.574 3dc Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.tiktok.com_0.indexeddb.leveldb/000003.log 
+2025/02/27-15:14:10.026 3dd Level-0 table #5: started
+2025/02/27-15:14:10.030 3dd Level-0 table #5: 830 bytes OK
+2025/02/27-15:14:10.036 3dd Delete type=0 #3
+2025/02/27-15:14:10.037 3dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

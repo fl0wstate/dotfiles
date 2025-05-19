@@ -1,0 +1,6 @@
+2025/03/07-14:59:50.685 36e Creating DB /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.sarovahotels.com_0.indexeddb.leveldb since it was missing.
+2025/03/07-14:59:50.695 36e Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.sarovahotels.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/07-15:03:51.861 36e Level-0 table #5: started
+2025/03/07-15:03:51.867 36e Level-0 table #5: 2265 bytes OK
+2025/03/07-15:03:51.875 36e Delete type=0 #3
+2025/03/07-15:03:51.875 36e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

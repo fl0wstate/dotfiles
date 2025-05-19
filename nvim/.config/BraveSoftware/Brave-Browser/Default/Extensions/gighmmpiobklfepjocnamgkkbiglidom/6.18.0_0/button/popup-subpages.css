@@ -1,0 +1,52 @@
+body {
+  color: var(--popup-main-text-color);
+  background-color: var(--popup-background-color);
+}
+
+.confirm-buttons-wrapper {
+  display: flex;
+  align-items: stretch;
+  padding-bottom: 1rem;
+  gap: 0.75rem;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+main.animate-in {
+  animation: slide-in 0.45s;
+}
+
+main.animate-out {
+  animation: slide-out 0.45s;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translate(100vw);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0vw);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translate(0vw);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(100vw);
+    opacity: 0;
+  }
+}

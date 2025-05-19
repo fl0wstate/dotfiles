@@ -1,0 +1,636 @@
+/*
+ * This file is part of AdBlock  <https://getadblock.com/>,
+ * Copyright (C) 2013-present  Adblock, Inc.
+ *
+ * AdBlock is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 3 as
+ * published by the Free Software Foundation.
+ *
+ * AdBlock is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with AdBlock.  If not, see <http://www.gnu.org/licenses/>.
+ */
+#dark_theme {
+  /*
+    theme-primary: --gray2
+    theme-secondary: --gray1
+    theme-text-primary: --gray6
+    theme-text-secondary: --gray4
+    theme-link-color: --blue3
+    theme-accent-dark: --gray2
+    theme-accent-light: --gray3
+    theme-text-accent: --blue2
+  */
+
+  /* --gray2 */
+  --popup-accent-color: var(--gray2);
+  --popup-card-background-color: var(--gray2);
+  --popup-button-outline-color: var(--gray2);
+  --toggle-foreground: var(--gray2);
+  --background-color: var(--gray2);
+  --unselected-toggle-border-color: var(--gray2);
+  --ancillary-button-bg-color: var(--gray2);
+  --sync-delete-bg-color: var(--gray2);
+  --sidebar-bg-color: var(--dark-gray1); /* updating */
+  --extension-name-bg-color-hovered: var(--dark-gray1); /* updating */
+
+  /* --gray1 */
+  --popup-background-color: var(--gray1);
+  --premium-badge-bg-color: var(--popup-background-color);
+  --popup-block-ads-bg-color: var(--gray1);
+  --popup-button-disabled-text: var(--gray1);
+  --premium-badge-text-color: var(--gray1);
+  --popup-url-text-color: var(--gray1);
+  --popup-button-background-color: var(--gray1);
+  --popup-vpn-cta-hover-color: var(--gray1);
+  --mail-dialog-content-text-color: var(--gray1);
+  --mail-dialog-checkbox-color: var(--gray1);
+  --mab-feature-card-header-unlocked-bg: var(--gray1);
+  --mab-teaser-card-header-text-color: var(--gray1);
+  --mab-feature-card-text-color: var(--gray1);
+
+  /* --gray6 */
+  --main-text-color: var(--gray6);
+  --active-tab-color: var(--gray6);
+  --popup-main-text-color: var(--gray6); /* overwrites default white to fit theme */
+
+  /* --gray4 */
+  --popup-secondary-text-color: var(--gray4);
+  --mab-feature-card-body-bg: var(--gray4);
+
+  /* --blue3 */
+  --link-color: var(--blue3);
+  --toggle-active-bg: var(--blue3);
+  --options-button-complete-bg: var(--link-color);
+  --popup-link-text: var(--red4); /* updating  */
+  --mail-dialog-link-color: var(--blue3) /* overwriting to match theme  */ /* --gray3 */
+    --popup-separator-color: var(--gray3);
+  --popup-accent-hovered-color: var(--gray3);
+  --toggle-inactive-bg: var(--gray3);
+  --not-selected-checkbox-bg-color: var(--gray3);
+  --bottom-line-color: var(--gray3);
+  --help-icon-color: var(--gray3);
+  --mab-feature-card-header-locked-bg: var(--gray3);
+  --options-premium-badge: var(--gray3);
+  --mail-dialog-header-border-color: var(--gray3);
+  --mail-dialog-textfield-border-color: var(--gray3);
+
+  /* --blue2 */
+  --checkbox-bg-color: var(--blue2);
+  --link-hovered-color: var(--blue2);
+  --sidebar-link-hovered-color: var(--white); /*updating*/
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --gray5 */
+  --sync-delete-color: var(--gray5);
+
+  /* --white */
+  --popup-button-secondary-text: var(--white);
+  --popup-button-reenable-text-color: var(--white);
+  --popup-dc-cta-color: var(--white);
+  --help-icon-color-hovered: var(--white);
+  /* only overwritten here ... is that important? */
+  --customize-dropdown-menu-icon-color: var(--white);
+  --ancillary-button-text-color: var(--white);
+  --sync-delete-title-color: var(--white);
+  --email-btn-color: var(--white);
+  --pf-list-title: var(--white);
+
+  /* --red0 */
+  --popup-dc-cta-close-background-color-on-hover: var(--red0);
+
+  /* --red2 */
+  --popup-help-button-bg-color: var(--red2);
+  --popup-button-reenable-bg-color: var(--red2);
+  --popup-dc-cta-background-color: var(--red2);
+  --email-btn-bg-color: var(--red2);
+
+  /* --red3 & --red4 */
+  --block-count-color: var(--red3);
+
+  /* --yellow3 */
+  /* only overwritten here ... is that important? */
+  --standout-text-color: var(--yellow3);
+
+  /* --transparent-black */
+  --overlay-bg-color: var(--transparent-black);
+
+  /* other */
+  --select-language-border-top-width: 0px;
+}
+
+#default_theme {
+  --popup-main-text-color: var(--gray1);
+  --popup-button-text: var(--gray1);
+
+  --popup-button-secondary-text: var(--gray2);
+
+  --popup-vpn-cta-close-icon-color: var(--gray3);
+  --premium-badge-bg-color: var(--gray3);
+  --popup-button-disabled-text: var(--gray3);
+
+  --popup-vpn-cta-hover-bg-color: var(--blue1a);
+
+  --popup-vpn-cta-hover-close-bg-color: var(--blue2);
+
+  --popup-vpn-cta-hover-close-color: var(--white);
+}
+
+#solarized_theme,
+[data-theme-cta="solarized_theme"] {
+  /*
+    theme-primary: --solarized-teal2
+    theme-secondary: --solarized-teal1
+    theme-text-primary: --solarized-gray1
+    theme-text-secondary: --solarized-gray1
+    theme-link-color: --solarized-teal4
+    theme-accent-dark: --solarized-gray1
+    theme-accent-light: --solarized-teal3
+    theme-text-accent: --solarized-teal5
+  */
+
+  /* --solarized-teal1 */
+  --popup-background-color: var(--solarized-teal1);
+  --premium-badge-bg-color: var(--popup-background-color);
+  --premium-badge-text-color: var(--solarized-teal1);
+  --popup-button-background-color: var(--solarized-teal1);
+  --sidebar-bg-color: var(--solarized-teal1);
+  --not-selected-checkbox-bg-color: var(--solarized-teal1);
+  --mab-feature-card-header-locked-bg: var(--solarized-teal1);
+  --mab-feature-card-header-unlocked-bg: var(--solarized-teal1);
+  --mab-feature-card-text-color: var(--solarized-teal1);
+  --ancillary-button-bg-color: var(--solarized-teal1);
+  --extension-name-bg-color-hovered: var(--solarized-teal1);
+  --toggle-foreground: var(--popup-background-color);
+  --sync-delete-bg-color: var(--sidebar-bg-color);
+
+  /* --solarized-teal2 */
+  --popup-card-background-color: var(--solarized-teal2);
+  --background-color: var(--solarized-teal2);
+  --mail-dialog-textfield-border-color: var(--solarized-teal2);
+  --mail-dialog-background-color: var(--solarized-teal2);
+
+  /* --solarized-gray1 */
+  --popup-main-text-color: var(--solarized-gray1);
+  --popup-secondary-text-color: var(--solarized-gray1);
+  --popup-accent-color: var(--solarized-gray1);
+  --popup-url-text-color: var(--solarized-gray1);
+  --popup-button-text: var(--solarized-gray1);
+  --popup-button-secondary-text: var(--solarized-gray1);
+  --popup-button-outline-color: var(--solarized-gray1);
+  --main-text-color: var(--solarized-gray1);
+  --help-icon-color: var(--solarized-gray1);
+  --active-tab-color: var(--solarized-gray1);
+  --mab-feature-card-header-text-color: var(--solarized-gray1);
+  --mab-teaser-card-header-text-color: var(--solarized-gray1);
+  --options-premium-badge: var(--solarized-gray1);
+  --delete-icon-color-hovered: var(--solarized-gray1);
+  --sync-delete-color: var(--solarized-gray1);
+  --popup-themes-cta-text: var(--solarized-gray1);
+  --mail-dialog-header-text-color: var(--solarized-gray1);
+  --mail-dialog-header-border-color: var(--solarized-gray1);
+  --mail-dialog-content-text-color: var(--solarized-gray1);
+  --mail-dialog-textfield-text-color: var(--solarized-gray1);
+  --mail-dialog-checkbox-color: var(--solarized-gray1);
+  --pf-icon-color: var(--solarized-gray1);
+  --pf-list-title: var(--solarized-gray1);
+  --toggle-inactive-bg: var(--popup-main-text-color);
+
+  /* --solarized-teal4 */
+  --link-color: var(--solarized-teal4);
+  --checkbox-bg-color: var(--solarized-teal4);
+  --options-button-complete-bg: var(--link-color);
+  --mail-dialog-link-color: var(--solarized-teal4);
+
+  /* --solarized-teal3 */
+  --popup-separator-color: var(--solarized-teal3);
+  --bottom-line-color: var(--solarized-teal3);
+  --unselected-toggle-border-color: var(--solarized-teal3);
+  --popup-accent-hovered-color: var(--solarized-gray2); /* updating */
+
+  /* --solarized-teal5 */
+  --link-hovered-color: var(--solarized-teal5);
+  --sidebar-link-hovered-color: var(--gray6); /* updating */
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --solarized-gray0 */
+  --mab-feature-card-body-bg: var(--solarized-gray0);
+
+  /* --solarized-gray2 */
+  --ancillary-button-text-color: var(--solarized-gray2);
+  --sync-delete-title-color: var(--solarized-gray2);
+
+  /* --gray1 */
+  --popup-vpn-cta-hover-color: var(--gray1);
+
+  /* --gray6 */
+  --help-icon-color-hovered: var(--gray6);
+
+  /* --red0 */
+  --popup-dc-cta-close-background-color-on-hover: var(--red0);
+
+  /* --red2 */
+  --popup-help-button-bg-color: var(--red2);
+  --popup-button-reenable-bg-color: var(--red2);
+  --popup-dc-cta-background-color: var(--red2);
+  --options-button-bg: var(--red2);
+  --email-btn-bg-color: var(--red2);
+
+  /* --red3 */
+  --block-count-color: var(--red3);
+  --toggle-active-bg: var(--red3);
+  --popup-link-text: var(--red4);
+
+  /* --white */
+  --popup-button-reenable-text-color: var(--white);
+  --popup-dc-cta-color: var(--white);
+  --email-btn-color: var(--white);
+
+  /* --transparent-black */
+  --overlay-bg-color: var(--transparent-black);
+
+  /* */
+  --mail-dialog-drop-shadow-color: rgba(0, 0, 0, 0.15);
+
+  /* */
+  --select-language-border-top-width: 0px;
+}
+
+#solarized_light_theme,
+[data-theme-cta="solarized_light_theme"] {
+  /*
+    theme-primary: --solarized-yellow3
+    theme-secondary: --solarized-yellow2
+    theme-text-primary: --solarized-gray1l
+    theme-text-secondary: --solarized-gray2l
+    theme-link-color: --solarized-teal4
+    theme-accent-dark: --solarized-gray1l
+    theme-accent-light: --solarized-gray0l -- double check this one
+    theme-text-accent: --solarized-teal2
+  */
+
+  /* --solarized-yellow3 */
+  --popup-card-background-color: var(--solarized-yellow3);
+  --background-color: var(--solarized-yellow3);
+  --mab-feature-card-header-text-color: var(--solarized-yellow3);
+  --mab-teaser-card-header-text-color: var(--solarized-yellow3);
+  --popup-themes-cta-background: var(--solarized-yellow3);
+  --popup-themes-cta-color-on-hover: var(--solarized-yellow3);
+  --mail-dialog-background-color: var(--solarized-yellow3);
+  --toggle-foreground: var(--popup-card-background-color);
+
+  /* --solarized-yellow2 */
+  --premium-badge-bg-color: var(--popup-background-color);
+  --premium-badge-text-color: var(--solarized-yellow2);
+  --popup-background-color: var(--solarized-yellow2);
+  --popup-button-background-color: var(--solarized-yellow2);
+  --sidebar-bg-color: var(--solarized-yellow2);
+  --not-selected-checkbox-bg-color: var(--solarized-yellow2);
+  --bottom-line-color: var(--solarized-yellow2);
+  --unselected-toggle-border-color: var(--solarized-yellow2);
+  --mab-feature-card-body-bg: var(--solarized-yellow2);
+  --ancillary-button-bg-color: var(--solarized-yellow2);
+  --extension-name-bg-color-hovered: var(--solarized-yellow2);
+  --sync-delete-bg-color: var(--solarized-yellow2);
+
+  /* --solarized-gray1l */
+  --popup-accent-color: var(--solarized-gray1l);
+  --popup-url-text-color: var(--solarized-gray1l);
+  --popup-button-secondary-text: var(--solarized-gray1l);
+  --main-text-color: var(--solarized-gray1l);
+  --popup-main-text-color: var(--solarized-gray2l); /* updating */
+  --help-icon-color: var(--solarized-gray1l);
+  --active-tab-color: var(--solarized-gray1l);
+  --mab-feature-card-header-unlocked-bg: var(--solarized-gray1l);
+  --mab-feature-card-text-color: var(--solarized-gray1l);
+  --options-premium-badge: var(--solarized-gray1l);
+  --sync-delete-color: var(--solarized-gray1l);
+  --sync-delete-title-color: var(--solarized-gray1l);
+  --popup-themes-cta-text: var(--solarized-gray1l);
+  --mail-dialog-header-text-color: var(--solarized-gray1l);
+  --mail-dialog-content-text-color: var(--solarized-gray1l);
+  --mail-dialog-textfield-text-color: var(--solarized-gray1l);
+  --mail-dialog-textfield-border-color: var(--solarized-gray1l);
+  --mail-dialog-checkbox-color: var(--solarized-gray1l);
+  --pf-list-title: var(--solarized-gray1l);
+
+  /* --solarized-gray2l */
+  --popup-secondary-text-color: var(--solarized-gray2l);
+
+  /* --solarized-teal4 */
+  --link-color: var(--solarized-teal4);
+  --checkbox-bg-color: var(--solarized-teal4);
+  --mail-dialog-link-color: var(--solarized-teal4);
+  --options-button-complete-bg: var(--link-color);
+  --toggle-active-bg: var(--red2); /* updating */
+  --popup-link-text: var(--red3); /* updating */
+
+  /* --solarized-gray0l */
+  --popup-accent-hovered-color: var(--solarized-gray0l);
+  --popup-separator-color: var(--solarized-yellow2); /* updating to match semantic names */
+
+  /* --solarized-teal2 */
+  --help-icon-color-hovered: var(--solarized-teal2);
+  --link-hovered-color: var(--solarized-teal2);
+  --sidebar-link-hovered-color: var(--solarized-teal2);
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --solarized-gray2l -- get rid of?? */
+  --popup-button-text: var(--solarized-gray2l);
+  --delete-icon-color-hovered: var(--solarized-gray2l);
+
+  /* --solarized-yellow0 */
+  --mab-feature-card-header-locked-bg: var(--solarized-yellow0);
+
+  /* --solarized-yellow0a */
+  --mail-dialog-header-border-color: var(--solarized-yellow0a);
+
+  /* --solarized-yellow1 */
+  --popup-button-outline-color: var(--solarized-yellow1);
+  --toggle-inactive-bg: var(--popup-button-outline-color);
+
+  /* --red0 */
+  --popup-dc-cta-close-background-color-on-hover: var(--red0);
+
+  /* --red2 */
+  --block-count-color: var(--red2);
+  --popup-help-button-bg-color: var(--red2);
+  --popup-button-reenable-bg-color: var(--red2);
+  --popup-dc-cta-background-color: var(--red2);
+
+  /* --white */
+  --popup-button-reenable-text-color: var(--white);
+  --popup-dc-cta-color: var(--white);
+
+  /* --gray1 */
+  --popup-vpn-cta-hover-color: var(--gray1);
+
+  /* --gray2 */
+  --ancillary-button-text-color: var(--gray2);
+
+  /* --gray3 */
+  --popup-vpn-cta-close-icon-color: var(--gray3);
+}
+
+#rebecca_purple_theme {
+  /*
+    theme-primary: --purple2
+    theme-secondary: --purple1
+    theme-text-primary: --white
+    theme-text-secondary: --white
+    theme-link-color: --blue3
+    theme-accent-dark: --purple3
+    theme-accent-light: --white
+    theme-text-accent: --white
+  */
+
+  /* --purple2 */
+  --popup-card-background-color: var(--purple);
+  --toggle-foreground: var(--purple);
+
+  /* --purple1 */
+  --premium-badge-text-color: var(--purple1);
+  --popup-background-color: var(--purple1);
+  --popup-button-background-color: var(--purple1);
+  --popup-dc-cta-color: var(--purple1);
+  --premium-badge-bg-color: var(--popup-background-color);
+
+  /* --white */
+  --popup-secondary-text-color: var(--white);
+  --popup-accent-hovered-color: var(--white);
+  --popup-url-text-color: var(--white);
+  --popup-button-secondary-text: var(--white);
+
+  /* --blue3 */
+  --block-count-color: var(--blue3);
+  --popup-help-button-bg-color: var(--blue3);
+  --popup-link-text: var(--blue3);
+  --popup-button-reenable-bg-color: var(--blue3);
+  --popup-dc-cta-background-color: var(--blue3);
+  --toggle-active-bg: var(--blue3);
+
+  /* --purple3 */
+  --popup-accent-color: var(--purple3);
+  --popup-separator-color: var(--purple3);
+  --popup-button-outline-color: var(--purple3);
+  --toggle-inactive-bg: var(--popup-accent-color);
+
+  /* other, might make sense defined in theme stylesheet rather than as theme color */
+  --popup-twitch-icon-color: var(--white);
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --blue2 */
+  --popup-button-reenable-hovered-bg-color: var(--blue2);
+
+  /* --blue4 */
+  --popup-dc-cta-close-background-color-on-hover: var(--blue4);
+
+  /* --gray1 */
+  --popup-button-reenable-text-color: var(--gray1);
+  --popup-button-reenable-hovered-text-color: var(--gray1);
+  --popup-vpn-cta-hover-color: var(--gray1);
+}
+
+#watermelon_theme,
+[data-theme-cta="watermelon_theme"] {
+  /*
+    theme-primary: --red2
+    theme-secondary: --red1
+    theme-text-primary: --white
+    theme-text-secondary: --white
+    theme-link-color: --white
+    theme-accent-dark: --watermelon
+    theme-accent-light: --watermelon
+    theme-text-accent: --white
+  */
+
+  /* --red2 */
+  --popup-card-background-color: var(--red2);
+  --popup-themes-cta-background: var(--red2);
+
+  /* --red1 */
+  --premium-badge-bg-color: var(--popup-background-color);
+  --popup-background-color: var(--red1);
+  --premium-badge-text-color: var(--red1);
+  --popup-button-background-color: var(--red1);
+  --popup-button-reenable-text-color: var(--red1);
+  --toggle-foreground: var(--popup-background-color);
+
+  /* --white */
+  --popup-secondary-text-color: var(--white);
+  --popup-accent-hovered-color: var(--white);
+  --block-count-color: var(--white);
+  --popup-url-text-color: var(--white);
+  --popup-help-button-bg-color: var(--white);
+  --popup-button-secondary-text: var(--white);
+  --popup-link-text: var(--white);
+  --popup-button-reenable-bg-color: var(--white);
+  --popup-yt-icon-color: var(--white);
+  --popup-dc-cta-background-color: var(--white);
+  --toggle-active-bg: var(--white);
+  --popup-themes-cta-icon: var(--white);
+  --popup-themes-cta-text: var(--white);
+  --popup-themes-cta-color-on-hover: var(--white);
+
+  /* --watermelon */
+  --popup-accent-color: var(--watermelon);
+  --popup-separator-color: var(--watermelon);
+  --popup-button-outline-color: var(--watermelon);
+  --popup-dc-cta-close-background-color-on-hover: var(--watermelon);
+  --toggle-inactive-bg: var(--popup-separator-color);
+
+  /* other, can possibly define in root instead of as semantic class */
+  --popup-link-text-decoration: underline;
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --red3 */
+  --popup-button-reenable-hovered-bg-color: var(--red3);
+
+  /* --gray1 */
+  --popup-vpn-cta-hover-color: var(--gray1);
+  --popup-themes-cta-background-on-hover: var(--gray1);
+}
+
+#ocean_theme,
+[data-theme-cta="ocean_theme"] {
+  /*
+    theme-primary: --blue2
+    theme-secondary: --blue1
+    theme-text-primary: --white
+    theme-text-secondary: --white
+    theme-link-color: --white
+    theme-accent-dark: --ocean
+    theme-accent-light: --white
+    theme-text-accent: --blue1
+  */
+
+  /* --blue2 */
+  --popup-card-background-color: var(--blue2);
+  --toggle-foreground: var(--blue2);
+  --popup-themes-cta-background: var(--blue2);
+
+  /* --blue1a merged with blue1 */
+  --premium-badge-bg-color: var(--popup-background-color);
+  --popup-background-color: var(--blue1a);
+  --premium-badge-text-color: var(--blue1a);
+  --popup-button-background-color: var(--blue1);
+  --popup-button-reenable-text-color: var(--blue1);
+
+  /* --white */
+  --popup-secondary-text-color: var(--white);
+  --popup-accent-hovered-color: var(--white);
+  --block-count-color: var(--white);
+  --popup-url-text-color: var(--white);
+  --popup-help-button-bg-color: var(--white);
+  --popup-button-secondary-text: var(--white);
+  --popup-link-text: var(--white);
+  --popup-button-reenable-bg-color: var(--white);
+  --popup-dc-cta-background-color: var(--white);
+  --toggle-active-bg: var(--white);
+  --popup-themes-cta-icon: var(--white);
+  --popup-themes-cta-text: var(--white);
+  --popup-themes-cta-color-on-hover: var(--white);
+
+  /* --ocean */
+  --popup-accent-color: var(--ocean);
+  --popup-separator-color: var(--ocean);
+  --toggle-inactive-bg: var(--popup-accent-color);
+
+  /* other, can possibly define in root instead of as semantic class */
+  --popup-link-text-decoration: underline;
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --blue3 */
+  --popup-button-reenable-hovered-bg-color: var(--blue3);
+
+  /* --blue4 */
+  --popup-dc-cta-close-background-color-on-hover: var(--blue4);
+
+  /* --gray1 */
+  --popup-vpn-cta-hover-color: var(--gray1);
+  --popup-themes-cta-background-on-hover: var(--gray1);
+}
+
+#sunshine_theme,
+[data-theme-cta="sunshine_theme"] {
+  /*
+    theme-primary:  --yellow2
+    theme-secondary: --yellow1
+    theme-text-primary: --white
+    theme-text-secondary: --white
+    theme-link-color: --white
+    theme-accent-dark: --sunshine
+    theme-accent-light: --sunshine
+    theme-text-accent: --white
+  */
+
+  /* --yellow2 */
+  --popup-card-background-color: var(--yellow2);
+  --popup-themes-cta-background: var(--yellow2);
+
+  /* --yellow1 */
+  --premium-badge-text-color: var(--yellow1);
+  --popup-background-color: var(--yellow1);
+  --popup-button-background-color: var(--yellow1);
+  --popup-button-reenable-text-color: var(--yellow1);
+  --premium-badge-bg-color: var(--popup-background-color);
+  --toggle-foreground: var(--popup-background-color);
+
+  /* --white */
+  --popup-secondary-text-color: var(--white);
+  --popup-accent-hovered-color: var(--white);
+  --popup-url-text-color: var(--white);
+  --popup-help-button-bg-color: var(--white);
+  --popup-button-secondary-text: var(--white);
+  --popup-button-reenable-bg-color: var(--white);
+  --popup-dc-cta-background-color: var(--white);
+  --toggle-active-bg: var(--white);
+  --popup-themes-cta-color-on-hover: var(--white);
+
+  /* --sunshine */
+  --popup-accent-color: var(--sunshine);
+  --popup-separator-color: var(--sunshine);
+  --block-count-color: var(--sunshine);
+  --popup-link-text: var(--sunshine);
+  --popup-dc-cta-close-background-color-on-hover: var(--sunshine);
+  --toggle-inactive-bg: var(--popup-separator-color);
+  --popup-link-hovered: var(--block-count-color);
+
+  /* Variables below this line should be fit into the above or a new semantic group should be proposed. (For instance, button colors are still missing.) */
+
+  /* ************************************************************************ */
+
+  /* --sunshine-dark */
+  --popup-themes-cta-icon: var(--sunshine-dark);
+  --popup-themes-cta-text: var(--sunshine-dark);
+
+  /* --yellow3 */
+  --popup-button-reenable-hovered-bg-color: var(--yellow3);
+
+  /* --gray1 */
+  --popup-button-reenable-hovered-text-color: var(--gray1);
+  --popup-vpn-cta-hover-color: var(--gray1);
+  --popup-themes-cta-background-on-hover: var(--gray1);
+}

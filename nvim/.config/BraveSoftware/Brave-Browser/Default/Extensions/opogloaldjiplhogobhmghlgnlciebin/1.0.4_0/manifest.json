@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": "/logos/128.png"
+   },
+   "background": {
+      "service_worker": "js/serviceWorker.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/contentScript.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "/logos/128.png",
+      "48": "/logos/48.png",
+      "64": "/logos/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhfBCR/nbOxWgjdQh3HDUR1Ic2m0Mbu13aC4oHOC1xk1+XWTpQYIAfcyDgugcGoH0gB/mFmqnZ9NCMDPYlUn0+ALn68x32q/BUqcuOv9IfaCDYb4pQLf/WxChoKevFWvqbgrlIhss7uIjewZIFa1kIQE6wDNElU/cWIC1DfK7ML4S7pWNgYpgC+m9e+qqwWnWYrD4zBjayBbKKNKMtrBxA0JuweK5iBx6ntLnuNM/D4DZpD/g7u5LEbfKUqcnhjEmk0HRbk9aE25OGLiPjqst97VI5d1decWQGGwsAPP0MSuc3ge2Gb3bZjZUtiv4BSdIRW5UasdKOmrlNCyr1lRk3wIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_appName__",
+   "permissions": [ "tabs", "activeTab", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}

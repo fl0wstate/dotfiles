@@ -1,0 +1,15 @@
+2025-03-19 06:22:59.274 [info] Extension host with pid 10960 started
+2025-03-19 06:22:59.286 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-03-19 06:22:59.293 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-03-19 06:22:59.361 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-03-19 06:22:59.454 [info] Eager extensions activated
+2025-03-19 06:22:59.462 [info] ExtensionService#_doActivateExtension anysphere.cursor-always-local, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:22:59.620 [info] Extension host with pid 10992 started
+2025-03-19 06:22:59.620 [info] Eager extensions activated
+2025-03-19 06:22:59.620 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:22:59.629 [info] ExtensionService#_doActivateExtension anysphere.cursor-retrieval, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:22:59.820 [info] ExtensionService#_doActivateExtension anysphere.cursor-shadow-workspace, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:22:59.879 [info] ExtensionService#_doActivateExtension anysphere.cursor-tokenize, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:23:00.063 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:23:00.066 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-03-19 06:23:00.625 [error] Error: ENOENT: no such file or directory, open '/home/flowy/.config/Cursor/User/globalStorage/vscodevim.vim/.registers'

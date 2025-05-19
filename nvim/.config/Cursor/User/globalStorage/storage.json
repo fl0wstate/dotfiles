@@ -1,0 +1,65 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.macMachineId": "91f315da03d1360afad7cf5172fa3114260d3a62a25b5e760a7e20b984c9237f",
+    "telemetry.machineId": "3b15f13e1af1031e8a58e65286560219f1a1dc89c28222e056ac2d8b7f533e70",
+    "telemetry.devDeviceId": "02188d61-b137-432d-9252-a1b3573dab24",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/flowy/work/safaribookings"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/flowy/work/safaribookings": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowControlHeight": 50,
+    "theme": "vs-dark",
+    "themeBackground": "#1a1a1a",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "rgba(204, 204, 204, 0.87)",
+            "background": "#1a1a1a",
+            "editorBackground": "#1a1a1a",
+            "titleBarBackground": "#141414",
+            "titleBarBorder": "rgba(255, 255, 255, 0.05)",
+            "activityBarBackground": "#141414",
+            "sideBarBackground": "#141414",
+            "sideBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarBackground": "#141414",
+            "statusBarBorder": "rgba(255, 255, 255, 0.05)",
+            "statusBarNoFolderBackground": "#141414"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 170,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/flowy/work/safaribookings",
+            "backupPath": "/home/flowy/.config/Cursor/Backups/20fad77631e950040d87810c8572ed03",
+            "uiState": {
+                "mode": 0,
+                "x": 8,
+                "y": 8,
+                "width": 2544,
+                "height": 1584,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    }
+}

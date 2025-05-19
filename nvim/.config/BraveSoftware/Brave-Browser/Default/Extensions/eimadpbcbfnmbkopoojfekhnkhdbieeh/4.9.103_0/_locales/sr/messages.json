@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Dodajte sajt na listu"
+   },
+   "all_settings": {
+      "message": "Сва подешавања"
+   },
+   "auto_day_at_location": {
+      "message": "Ауто (дан на локацији)"
+   },
+   "auto_day_time": {
+      "message": "Аутоматски (дневно време)"
+   },
+   "auto_night_at_location": {
+      "message": "Ауто (ноћ на локацији)"
+   },
+   "auto_night_time": {
+      "message": "аутоматски (ноћно време)"
+   },
+   "auto_system_is_dark": {
+      "message": "Аутоматски (систем је таман)"
+   },
+   "auto_system_is_light": {
+      "message": "Аутоматски (систем је лаган)"
+   },
+   "automation": {
+      "message": "Automatizacija"
+   },
+   "brightness": {
+      "message": "Osvetljenje"
+   },
+   "change_browser_theme": {
+      "message": "Promenite temu pregledača"
+   },
+   "click_to_set_shortcut": {
+      "message": "Кликните да бисте поставили пречицу"
+   },
+   "configure_automation": {
+      "message": "Конфигуришите аутоматизацију"
+   },
+   "configure_site_toggle": {
+      "message": "Конфигуришите пребацивање веб локације"
+   },
+   "contrast": {
+      "message": "Kontrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Difolt"
+   },
+   "custom_browser_theme_on": {
+      "message": "Podešena"
+   },
+   "dark": {
+      "message": "Tamni"
+   },
+   "dark_theme_detected": {
+      "message": "Откривена је тамна тема"
+   },
+   "detect_dark_theme": {
+      "message": "Откријте тамну тему"
+   },
+   "detect_website_dark_theme": {
+      "message": "Откријте сопствену мрачну тему веб локације"
+   },
+   "donate": {
+      "message": "Donirajte"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Подразумевано омогућено за све веб локације"
+   },
+   "enabled_by_default": {
+      "message": "Подразумевано омогућено"
+   },
+   "engine_dynamic": {
+      "message": "Dinamično"
+   },
+   "engine_filter": {
+      "message": "Filter"
+   },
+   "engine_filter_plus": {
+      "message": "Filter+"
+   },
+   "engine_static": {
+      "message": "Statično"
+   },
+   "extension_description": {
+      "message": "Tamni mod za svaki sajt. Pazite na svoje oči, koristite tamnu temu danju i noću."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Пречица за укључивање/искључивање проширења"
+   },
+   "filter": {
+      "message": "Filter"
+   },
+   "grayscale": {
+      "message": "Sivi mod"
+   },
+   "help": {
+      "message": "Pomoć"
+   },
+   "invert_listed_only": {
+      "message": "Invertujte izlistane"
+   },
+   "latitude": {
+      "message": "Geogr. širina"
+   },
+   "learn_more": {
+      "message": "Saznajte više"
+   },
+   "light": {
+      "message": "Svetli"
+   },
+   "loading_please_wait": {
+      "message": "Učitavanje, molimo sačekajte"
+   },
+   "local_files_forbidden": {
+      "message": "Nije dozvoljen pristup\nlokalne datoteke"
+   },
+   "longitude": {
+      "message": "Geogr. dužina"
+   },
+   "mobile": {
+      "message": "Mobilni"
+   },
+   "mobile_link": {
+      "message": "Мобилни Дарк Реадер је доступан. Сазнајте више"
+   },
+   "mobile_text": {
+      "message": "Smanjite naprezanje očiju dok čitate na telefonu ili tabletu.\nJednostavno skenirajte QR kod da biste ga instalirali."
+   },
+   "mode": {
+      "message": "Mod"
+   },
+   "more": {
+      "message": "Više"
+   },
+   "news": {
+      "message": "Vesti"
+   },
+   "not_invert_listed": {
+      "message": "Ne invertujte izlistane"
+   },
+   "off": {
+      "message": "Isklj."
+   },
+   "on": {
+      "message": "Uklj."
+   },
+   "only_for": {
+      "message": "Samo za"
+   },
+   "only_for_description": {
+      "message": "Primenite podešavanja samo za trenutni sajt"
+   },
+   "open_dev_tools": {
+      "message": "Alatke za razvoj"
+   },
+   "page_in_dark_list": {
+      "message": "Ovaj sajt je u globalnoj\nlisti tamnih sajtova"
+   },
+   "page_protected": {
+      "message": "Ovu stranicu štiti\nveb pregledač"
+   },
+   "pay_for_using": {
+      "message": "Platite za korišćenje Dark Reader-a"
+   },
+   "privacy": {
+      "message": "Privatnost"
+   },
+   "read_more": {
+      "message": "Čitajte više"
+   },
+   "select_font": {
+      "message": "Izaberite font"
+   },
+   "sepia": {
+      "message": "Sepija"
+   },
+   "set_active_hours": {
+      "message": "Podesite aktivne sate"
+   },
+   "set_location": {
+      "message": "Aktivirajte po zalasku sunca"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Podesite dugme za dodavanje sajta"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Podesite ekstenziju\nuklj. dugme"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Podesite trenutni sajt\nuklj. dugme"
+   },
+   "site_list": {
+      "message": "Lista sajtova"
+   },
+   "site_toggle": {
+      "message": "Site Toggling"
+   },
+   "store_listing": {
+      "message": "Ova ekstenzija brine o vašim očima tako što omogućava tamnu temu za sajtove. Dark Reader invertuje svetle boje i pojačava kontrast, što omogućava lakše čitanje noću.\n\nMožete podesiti osvetljenje, kontrast, sepija filter, tamni mod, font i listu ignorisanih sajtova.\n\nMožemo vas zamoliti da podržite razvoj aplikacije donacijom. Možda ćete videti vesti o Dark Reader-u u iskačućem prozoru za podešavanja. Postoje alatke za programere za iskusne korisnike.\n\nDark Reader ne prikazuje reklame i nigde ne šalje podatke korisnika. Kod ekstenzije je u potpunosti otvoren: https://github.com/darkreader/darkreader\n\nPre instalacije, isključite druge slične ekstenzije. Uživajte!"
+   },
+   "support_out_work": {
+      "message": "Подржите наш рад"
+   },
+   "system_dark_mode": {
+      "message": "Koristite temu sistema"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "Ova opcija možda neće raditi zbog greške\nu vašem pregledaču"
+   },
+   "system_dark_mode_description": {
+      "message": "Aktivacija kada sistem koristi tamni mod"
+   },
+   "text_stroke": {
+      "message": "Debljina teksta"
+   },
+   "theme_generation_mode": {
+      "message": "Mod generacije tema"
+   },
+   "toggle_current_site": {
+      "message": "Uklj. trenutni sajt"
+   },
+   "toggle_extension": {
+      "message": "Uklj. ekstenziju"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Probajte **eksperimentalne** teme:\n**Filter+** čuva saturaciju boja, koristi GPU\n**Statična tema** kreira prostu brzu temu\n**Dinamična tema** analizira boje i slike"
+   },
+   "version": {
+      "message": "Верзија"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader slavi 10 godina.\nMolimo vas da podržite naš rad."
+   },
+   "website_toggle_shortcut": {
+      "message": "Пречица на тастатури за пребацивање веб локације"
+   }
+}

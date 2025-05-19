@@ -1,0 +1,6 @@
+2025/04/12-06:25:21.146 3ed Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/04/12-06:25:21.152 3ed Recovering log #4070
+2025/04/12-06:25:21.159 3ed Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/004070.log 
+2025/04/12-06:25:23.352 3ed Level-0 table #4074: started
+2025/04/12-06:25:23.358 3ed Level-0 table #4074: 86087 bytes OK
+2025/04/12-06:25:23.364 3ed Delete type=0 #4070

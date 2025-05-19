@@ -1,0 +1,22 @@
+2025-03-19 06:13:01.398 [error] Failed to initialize Puppeteer browser: Cannot find module 'puppeteer'
+Require stack:
+- /tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+2025-03-19 06:13:01.398 [error] Error: Cannot find module 'puppeteer'
+Require stack:
+- /tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js
+- /tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1232:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16068)
+	at t._resolveFilename (file:///tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:22873)
+	at Module._load (node:internal/modules/cjs/loader:1058:27)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at i._load (file:///tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:198:10963)
+	at t._load (file:///tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:190:22591)
+	at s._load (file:///tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:182:21555)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at 758 (/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2814420)
+	at i (/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:3495867)
+	at /tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2394523
+	at async A.PuppeteerService.initializeBrowser (/tmp/.mount_Cursors6Oc3Y/usr/share/cursor/resources/app/extensions/cursor-retrieval/dist/main.js:4:2394487)

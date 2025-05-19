@@ -1,0 +1,45 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "300": "icons/icon300.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "html/popup.html",
+      "default_title": "__MSG_badgeAvailable__"
+   },
+   "author": "Smart color picker",
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "commands": {
+      "activate": {
+         "description": "__MSG_shortcutCommand__",
+         "suggested_key": {
+            "default": "Alt+P"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_extShortDesc__",
+   "differential_fingerprint": "1.c22ba85b21e3592d429da266485c931a35ae0a38ed3691210203f5b068afd3a3",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "300": "icons/icon300.png",
+      "48": "icons/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnTE+0vg916yoFvgjre36xHXrDwK1jSCLbNrx6GxXxNGkYaKPfpZQybq8sCfM1ivIFeR3l2jgYC9SI/oWGuFQ+tl0uPZ10qKExWXNwfWRAzJp8h8iHxD5jzKL4Yxa1VtR+XiHyHbhb7ESJIJ/BHUM+6edTupWyqC+TzgRRIfOlyI02vbK9N1XvrnKKM2nBPL5jd0hs5WPB4/UTV1ivl79ev241JSoq25Qt3csRD/+bbKvDk1XnISvSk47sK50AF4tcZppXkNdku9JfB6aCzWEm/qWWonfjp1F4+63etZ+z08B7IB9x17y1bR/v7pVNuL+m1eTkRMrLRzS2TXVgEqBjQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage", "commands", "scripting", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.6.10",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/web_accessible_resources/*" ]
+   } ]
+}

@@ -1,0 +1,35 @@
+{
+   "cfg_hide_tab": {
+      "message": "nascondi la scheda \"shorts\""
+   },
+   "cfg_hide_video": {
+      "message": "nascondi gli shorts (sperimentale)"
+   },
+   "cfg_ver": {
+      "message": "Mostra le note di rilascio"
+   },
+   "cfg_warn_col": {
+      "message": "Attenzione!"
+   },
+   "cfg_warn_fb": {
+      "message": "Feedback"
+   },
+   "cfg_warn_msg": {
+      "message": " Potrebbe non funzionare correttamente!"
+   },
+   "cfg_warn_or": {
+      "message": "o"
+   },
+   "cfg_warn_pr": {
+      "message": "Pull request"
+   },
+   "ext_desc": {
+      "message": "Riproduci gli shorts di YouTube come fossero normali video."
+   },
+   "ui_openIn_title": {
+      "message": "Apri con il Player standard (Nuova scheda)"
+   },
+   "ui_openIn_view": {
+      "message": "Player standard"
+   }
+}

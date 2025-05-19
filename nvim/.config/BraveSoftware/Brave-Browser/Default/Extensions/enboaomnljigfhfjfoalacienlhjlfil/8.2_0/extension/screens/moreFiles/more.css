@@ -1,0 +1,457 @@
+#moreScreen .popUpHeader {
+  display: flex;
+  position: fixed;
+  background: var(--primary-background);
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 15px 10px 15px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+}
+
+#moreScreen .closeButton {
+  cursor: pointer;
+  padding: 1px 1.5px;
+}
+
+#moreScreen .closeButton i {
+  font-size: 23px;
+  color: var(--primary-color-on-primary-background);
+  transition: 0.15s;
+}
+
+#moreScreen .closeButton:hover i {
+  color: var(--primary-color-on-primary-background-hover);
+}
+
+#moreScreen .popUpBody {
+  padding-top: 35px;
+}
+
+#moreScreen .popUpMenuList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+#moreScreen .popUpMenuList:hover {
+  opacity: 0.8;
+}
+
+#moreScreen .popUpMenuList .leadingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+#moreScreen .popUpMenuList .trailingPart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--primary-color-on-primary-background);
+  gap: 10px;
+}
+
+#moreScreen .popUpMenuList i {
+  font-size: 14px;
+  transition: 0.15s;
+}
+
+#moreScreen .popUpMenuList .iconWrapper {
+  width: 20px;
+  text-align: center;
+}
+
+#moreScreen .popUpMenuList .leadingPart span {
+  font-size: 14px;
+}
+
+#moreScreen .popUpMenuList .trailingPart span {
+  font-size: 14px;
+  text-align: right;
+}
+
+#moreScreen .popUpMenuListGroupHeader {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
+
+#moreScreen .popUpListGroupBody {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 5px 0px;
+}
+
+#moreScreen .popUpListGroupBody.noMb {
+  margin-bottom: 0;
+}
+
+#moreScreen .popUpListGroupBody .popUpMenuList {
+  border-bottom: 1px solid var(--separator-color);
+  padding: 10px 15px;
+  transition: 0.15s;
+}
+
+#moreScreen .popUpListGroupBody.bottomContactButtons {
+  background: none;
+  padding: 0;
+}
+
+#moreScreen .popUpListGroupBody.bottomContactButtons .popUpMenuList {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  width: calc(50% - 5px);
+  border-bottom: none;
+}
+
+#moreScreen .bottomContactButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#moreScreen .popUpListGroupBody .popUpMenuList:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+#moreScreen .popUpMenuList .trailingPart select {
+  -webkit-appearance: none;
+  outline: 0;
+  border: none;
+  font-size: 14px;
+  box-shadow: none;
+  background: 0 0 !important;
+  color: var(--primary-color-on-primary-background);
+  cursor: pointer;
+  transition: 0.15s;
+  text-align-last: right;
+}
+
+#moreScreen .popUpMenuList .leadingPart .headline {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+#moreScreen .popUpMenuList .leadingPart .subheadline {
+  font-size: 13px;
+  text-align: left;
+  color: var(--secondary-color-on-primary-background);
+  line-height: 20px;
+}
+
+#moreScreen .headerLink {
+  text-decoration: none;
+  background: var(--elements-underlay-background);
+  padding: 5px 13px;
+  border-radius: 9px;
+  transition: 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#moreScreen .headerLink span {
+  color: var(--primary-text-color);
+  font-size: 14px;
+}
+
+#moreScreen .headerLink i {
+  color: #919191;
+}
+
+#moreScreen .rateLink i {
+  color: #ecc248;
+}
+
+#moreScreen .linkLink i {
+  color: #469ae9;
+}
+
+#moreScreen .otherAppsLogo {
+  width: 60px;
+}
+
+#moreScreen .logoWrapper {
+  display: flex;
+  align-items: center;
+}
+
+#moreScreen .headerRightLinks {
+  display: flex;
+  gap: 5px;
+}
+
+#moreScreen .appLinksWrapper {
+  position: relative;
+}
+
+#moreScreen .linksPickerPopup {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  width: 150px;
+  box-sizing: border-box;
+  background: #1d1d20;
+  border-radius: 7px;
+  border-top-right-radius: 0px;
+  box-shadow: 0 4px 12px #1d1d20;
+  z-index: 10;
+  display: none;
+  overflow: hidden;
+}
+
+#moreScreen .linksPickerPopup[active] {
+  display: block;
+}
+
+#moreScreen .linksGroupTitle {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+#moreScreen .headerLink:hover {
+  opacity: 0.8;
+}
+
+#moreScreen .linksPickerPopup .linkElement {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  box-sizing: border-box;
+  transition: 0.15s;
+  cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+#moreScreen .linksPickerPopup .linkElement:hover {
+  background: #333541;
+}
+
+html[device="laptop"] #moreScreen .headerLink.linkLink:hover,
+html[device="phone"] #moreScreen .appLinksWrapper.clicked .headerLink.linkLink {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+html[device="laptop"]
+  #moreScreen
+  .appLinksWrapper
+  .linksPickerPopup:hover
+  + .headerLink.linkLink,
+html[device="phone"] #moreScreen .appLinksWrapper.clicked .headerLink.linkLink {
+  opacity: 0.8;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#moreScreen .segmentedPicker {
+  width: 100%;
+  background: var(--elements-underlay-background);
+  display: flex;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+#moreScreen .segmentedPicker .option {
+  width: 50%;
+  font-size: 14px;
+  padding: 5px 0;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  color: var(--primary-text-color);
+  text-align: center;
+}
+
+#moreScreen .segmentedPicker .option:not([active]):hover {
+  opacity: 0.7;
+}
+
+#moreScreen .segmentedPicker .option[active] {
+  background: var(--submit-button-background);
+  color: #fff;
+}
+
+#moreScreen .feauturesContainer {
+  display: none;
+}
+
+#moreScreen .feauturesContainer[active] {
+  display: block;
+}
+
+#moreScreen .proLoginInfo,
+#moreScreen .accountLogOutBlock {
+  background: var(--elements-underlay-background);
+  border-radius: 10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#moreScreen .proLoginInfo .proLoginInfo_text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#moreScreen .accountLogOutBlock .proLoginInfo_text {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  width: calc(70% - 15px);
+}
+
+#moreScreen .accountLogOutBlock {
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+#moreScreen .proLoginInfo .proLoginInfo_buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#moreScreen .proLoginInfo .proLoginInfo_buttons .proLoginInfo_button {
+  background: var(--submit-button-background);
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  text-align: center;
+  border: none;
+  margin: 0 10px;
+}
+
+#moreScreen .accountLogOutBlock .proLoginInfo_button {
+  background: var(--submit-button-background);
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border-radius: 7.5px;
+  transition: 0.15s;
+  text-align: center;
+  border: none;
+  width: 30%;
+}
+
+#moreScreen .featureStatusContainer .activeSpan {
+  display: none;
+}
+
+#moreScreen .featureStatusContainer .notActiveSpan {
+  display: block;
+}
+
+#moreScreen .featureStatusContainer[active] .notActiveSpan {
+  display: none;
+}
+
+#moreScreen .featureStatusContainer[active] .activeSpan {
+  display: block;
+}
+
+#moreScreen #extraLinksButton {
+  cursor: pointer;
+}
+
+html[browser="safari"][isPRO="true"] #moreScreen .proLoginInfo {
+  display: block;
+}
+
+html[browser="safari"][isPRO="true"][isLogin="true"] #moreScreen .proLoginInfo {
+  display: none;
+}
+
+html[browser="safari"][isPRO="true"][isLogin="true"]
+  #moreScreen
+  .accountLogOutBlock {
+  display: flex;
+}
+
+[dir="rtl"] i.fa-chevron-right {
+  transform: rotate(180deg);
+}
+
+[dir="rtl"] #moreScreen .popUpMenuList .trailingPart select {
+  text-align-last: left;
+}
+
+[dir="rtl"] #moreScreen .linksPickerPopup {
+  right: inherit;
+  left: 0;
+}
+
+#moreScreen .myOtherApps .popUpMenuList {
+  gap: 10px;
+}
+
+#moreScreen .popUpMenuListGroupHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+#moreScreen .popUpMenuListGroupHeaderContainer .popUpMenuListGroupHeader {
+  font-size: 12px;
+  color: var(--primary-color-on-primary-background);
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+}
+
+#moreScreen .popUpMenuListGroupHeaderContainer i {
+  transition: 0.15s;
+  transform: rotate(180deg);
+  position: relative;
+  top: -3px;
+}
+
+#moreScreen[isShowMyApp="false"] .popUpMenuListGroupHeaderContainer i {
+  transform: rotate(0deg);
+}

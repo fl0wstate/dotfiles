@@ -1,0 +1,77 @@
+/* ------------------ Disable Scrolling ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_disable_exclude_scrolling="true"]
+  ytd-shorts
+  #shorts-container {
+  overflow-y: hidden !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_disable_exclude_scrolling="true"] ytd-shorts #shorts-inner-container ytd-reel-video-renderer:not([is-active]),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_disable_exclude_scrolling="true"] ytd-shorts #navigation-button-up,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_disable_exclude_scrolling="true"] ytd-shorts #navigation-button-down,
+
+/* ------------------ Hide Description ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_exclude_description="true"] ytd-shorts reel-player-header-renderer h2,
+
+/* ------------------ Hide Likes Count ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_likes_exclude_count="true"] ytd-shorts ytd-toggle-button-renderer#like-button .yt-spec-button-shape-with-label__label span,
+
+/* ------------------ Hide Dislike and Share Labels ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_share_exclude_labels="true"] ytd-shorts ytd-toggle-button-renderer#dislike-button .yt-spec-button-shape-with-label__label span,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_share_exclude_labels="true"] ytd-shorts #share-button .yt-spec-button-shape-with-label__label span,
+
+/* ------------------ Hide Channel Avatar ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_channel_exclude_avatar="true"] ytd-shorts reel-player-header-renderer #avatar,
+
+/* ------------------ Hide Channel Username ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_channel_user_exclude_name="true"] ytd-shorts reel-player-header-renderer #channel-name,
+
+/* ------------------ Hide Button - Play ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_play_exclude_button="true"] ytd-shorts ytd-shorts-player-controls #play-pause-button-shape,
+
+/* ------------------ Hide Button - Mute ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_mute_exclude_button="true"] ytd-shorts ytd-shorts-player-controls .YtdDesktopShortsVolumeControlsHost,
+
+/* ------------------ Hide Button - Subscribe ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_subscribe_exclude_button="true"] ytd-shorts #subscribe-button,
+
+/* ------------------ Hide Button - Like ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_like_exclude_button="true"] ytd-shorts #like-button.ytd-like-button-renderer,
+
+/* ------------------ Hide Button - Dislike ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_dislike_exclude_button="true"] ytd-shorts ytd-reel-player-overlay-renderer #dislike-button,
+
+/* ------------------ Hide Button - Comments ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_exclude_button="true"] ytd-shorts #comments-button,
+
+/* ------------------ Hide Button - Share ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_share_exclude_button="true"] ytd-shorts #share-button,
+
+/* ------------------ Hide Button - More ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_more_exclude_button="true"] ytd-shorts #menu-button,
+
+/* ------------------ Hide Button - Sound ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_sound_exclude_button="true"] ytd-shorts #pivot-button,
+
+/* ------------------ Hide Comments Count ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_shorts_page_hide_comments_exclude_count="true"] ytd-shorts #comments-button .yt-spec-button-shape-with-label__label span {
+  display: none !important;
+}

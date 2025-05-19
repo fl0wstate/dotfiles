@@ -1,0 +1,15 @@
+2025/03/18-06:52:03.133 4f0 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/MANIFEST-000001
+2025/03/18-06:52:03.133 4f0 Recovering log #4
+2025/03/18-06:52:03.133 4f0 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.telegram.org_0.indexeddb.leveldb/000004.log 
+2025/03/18-12:17:43.569 4f1 Level-0 table #8: started
+2025/03/18-12:17:43.574 4f1 Level-0 table #8: 135634 bytes OK
+2025/03/18-12:17:43.580 4f1 Delete type=0 #4
+2025/03/18-12:17:43.581 4f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/03/18-12:17:43.581 4f1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x03\x01\x0f\x00t\x00t\x00-\x00g\x00l\x00o\x00b\x00a\x00l\x00-\x00s\x00t\x00a\x00t\x00e' @ 11619 : 0
+2025/03/18-12:17:43.581 4f1 Compacting 1@1 + 1@2 files
+2025/03/18-12:17:43.589 4f1 Generated table #9@1: 39 keys, 47518 bytes
+2025/03/18-12:17:43.589 4f1 Compacted 1@1 + 1@2 files => 47518 bytes
+2025/03/18-12:17:43.595 4f1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/18-12:17:43.596 4f1 Delete type=2 #5
+2025/03/18-12:17:43.596 4f1 Delete type=2 #8
+2025/03/18-12:17:43.596 4f1 Manual compaction at level-1 from '\x00\x01\x01\x03\x01\x0f\x00t\x00t\x00-\x00g\x00l\x00o\x00b\x00a\x00l\x00-\x00s\x00t\x00a\x00t\x00e' @ 11619 : 0 .. (end); will stop at (end)

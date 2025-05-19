@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "97f5e358-8780-437f-9c2e-9f07528cf0ef",
+      "logo": {
+        "imageUrl": "f4297f76-db6d-461a-a99c-3fc62dc07f6d.png",
+        "destinationUrl": "https://www.guanocoin.com/",
+        "alt": "Guano - Engage in community quests, earn rewards, and contribute to building a thriving ecosystem. - guanocoin.com",
+        "companyName": "Guano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "11b2f1dc-3c05-4ab1-8f11-86b14d1a9602.jpg",
+          "creativeInstanceId": "8b3b7015-a609-41b5-a045-764985497849",
+          "focalPoint": {
+            "x": 1551,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "4e3ffcf5-5c6e-44fe-9d91-746700eacc0a.jpg",
+          "creativeInstanceId": "3785d774-bc99-4764-a651-b1fbb74849d4",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "1fefea1a-109d-4edb-8165-f8622c13bc9b.png",
+            "destinationUrl": "https://www.pudgypop.com/signup?r=BAT",
+            "alt": "Pudgy Pop - Earn bonus rewards, play the pudgy penguin themed match-3 game now! - join Now",
+            "companyName": "Pudgy Pop"
+          }
+        },
+        {
+          "imageUrl": "c34a5251-ace2-4657-b3a1-b155106187ab.jpg",
+          "creativeInstanceId": "e2fe2394-8046-47c6-9f29-07b66a856f56",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "124938ff-2d93-4685-8558-05d747277a58.png",
+            "destinationUrl": "https://mvfw.org/?utm_org=dcl&utm_source=brave&utm_medium=paid&utm_campaign=mvf25&utm_term=newtabtakeover&utm_content=mvfw25",
+            "alt": "Decentraland - Get ready for MVFW April 9-12 - Download Today",
+            "companyName": "Decentraland"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "97f5e358-8780-437f-9c2e-9f07528cf0ef",
+      "logo": {
+        "imageUrl": "f4297f76-db6d-461a-a99c-3fc62dc07f6d.png",
+        "destinationUrl": "https://www.guanocoin.com/",
+        "alt": "Guano - Engage in community quests, earn rewards, and contribute to building a thriving ecosystem. - guanocoin.com",
+        "companyName": "Guano"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "11b2f1dc-3c05-4ab1-8f11-86b14d1a9602.jpg",
+          "creativeInstanceId": "8b3b7015-a609-41b5-a045-764985497849",
+          "focalPoint": {
+            "x": 1551,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "4e3ffcf5-5c6e-44fe-9d91-746700eacc0a.jpg",
+          "creativeInstanceId": "3785d774-bc99-4764-a651-b1fbb74849d4",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "1fefea1a-109d-4edb-8165-f8622c13bc9b.png",
+            "destinationUrl": "https://www.pudgypop.com/signup?r=BAT",
+            "alt": "Pudgy Pop - Earn bonus rewards, play the pudgy penguin themed match-3 game now! - join Now",
+            "companyName": "Pudgy Pop"
+          }
+        },
+        {
+          "imageUrl": "c34a5251-ace2-4657-b3a1-b155106187ab.jpg",
+          "creativeInstanceId": "e2fe2394-8046-47c6-9f29-07b66a856f56",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "124938ff-2d93-4685-8558-05d747277a58.png",
+            "destinationUrl": "https://mvfw.org/?utm_org=dcl&utm_source=brave&utm_medium=paid&utm_campaign=mvf25&utm_term=newtabtakeover&utm_content=mvfw25",
+            "alt": "Decentraland - Get ready for MVFW April 9-12 - Download Today",
+            "companyName": "Decentraland"
+          }
+        }
+      ]
+    }
+  ]
+}

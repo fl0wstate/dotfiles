@@ -1,0 +1,15 @@
+2025-03-19 06:22:03.557 [info] Getting Manifest... vscodevim.vim
+2025-03-19 06:22:05.382 [info] Installing extension: vscodevim.vim {"productVersion":{"version":"0.47.8","date":"2025-03-18T05:39:44.386Z","vscodeVersion":"1.96.2"},"donotVerifySignature":true,"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/flowy/.cursor/extensions/extensions.json","path":"/home/flowy/.cursor/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-03-19 06:22:05.416 [info] Started downloading extension: vscodevim.vim 1.29.0 file:///home/flowy/.config/Cursor/CachedExtensionVSIXs/cursor-vscodevim.vim-1.29.0
+2025-03-19 06:22:05.829 [info] Extracted extension to file:///home/flowy/.cursor/extensions/vscodevim.vim-1.29.0: vscodevim.vim
+2025-03-19 06:22:05.835 [info] Renamed to /home/flowy/.cursor/extensions/vscodevim.vim-1.29.0
+2025-03-19 06:22:05.848 [info] Marked extension as uninstalled vscodevim.vim-1.29.0-universal
+2025-03-19 06:22:05.851 [info] Extension installed successfully: vscodevim.vim vscode-userdata:/home/flowy/.cursor/extensions/extensions.json
+2025-03-19 06:22:05.919 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/flowy/.cursor/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/flowy/.cursor/extensions/extensions.json.vsctmp'
+    at Sy.create (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40378)
+    at As (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:48:40485)
+    at oo.ib (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:22778)
+    at oo.stat (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:91:16010)
+    at async ou.stat (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:86652)
+    at async tu.Ab (file:///tmp/.mount_cursorpMIi5I/usr/share/cursor/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:90:68187)
+2025-03-19 06:22:05.927 [info] Extensions added from another source vscodevim.vim vscode-userdata:/home/flowy/.cursor/extensions/extensions.json

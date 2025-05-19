@@ -1,0 +1,1 @@
+2025-03-19 06:28:29.551 [error] accessToken is undefined. User is not logged in. We shouldn't do any indexing.

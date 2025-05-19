@@ -1,0 +1,5 @@
+2025/04/04-11:47:29.781 4f4 Reusing MANIFEST /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rarepepes.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/04-11:47:29.781 4f4 Recovering log #90
+2025/04/04-11:47:29.782 4f4 Reusing old log /home/flowy/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_rarepepes.net_0.indexeddb.leveldb/000090.log 
+2025/04/04-11:47:30.065 500 Manual compaction at level-0 from '\x00+\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00,\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/04-11:49:09.951 4f4 Manual compaction at level-0 from '\x00,\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00-\x00\x00\x00' @ 0 : 0; will stop at (end)

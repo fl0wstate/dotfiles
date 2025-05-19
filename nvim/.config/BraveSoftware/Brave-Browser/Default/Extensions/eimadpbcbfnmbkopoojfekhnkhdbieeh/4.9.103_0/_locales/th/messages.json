@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "เพิ่มเว็บลงในรายการ"
+   },
+   "all_settings": {
+      "message": "การตั้งค่าทั้งหมด"
+   },
+   "auto_day_at_location": {
+      "message": "อัตโนมัติ (วันที่สถานที่)"
+   },
+   "auto_day_time": {
+      "message": "อัตโนมัติ (เวลากลางวัน)"
+   },
+   "auto_night_at_location": {
+      "message": "อัตโนมัติ (คืนที่สถานที่)"
+   },
+   "auto_night_time": {
+      "message": "อัตโนมัติ (เวลากลางคืน)"
+   },
+   "auto_system_is_dark": {
+      "message": "อัตโนมัติ (ระบบมืด)"
+   },
+   "auto_system_is_light": {
+      "message": "อัตโนมัติ (ระบบเบา)"
+   },
+   "automation": {
+      "message": "การทำงานอัตโนมัติ"
+   },
+   "brightness": {
+      "message": "ความสว่าง"
+   },
+   "change_browser_theme": {
+      "message": "เปลี่ยนธีมชองเบราเซอร์"
+   },
+   "click_to_set_shortcut": {
+      "message": "คลิกเพื่อตั้งค่าทางลัด"
+   },
+   "configure_automation": {
+      "message": "กำหนดค่าการทำงานอัตโนมัติ"
+   },
+   "configure_site_toggle": {
+      "message": "กำหนดค่าการสลับเว็บไซต์"
+   },
+   "contrast": {
+      "message": "คอนทราสต์"
+   },
+   "custom_browser_theme_off": {
+      "message": "ค่าเริ่มต้น"
+   },
+   "custom_browser_theme_on": {
+      "message": "ปรับเอง"
+   },
+   "dark": {
+      "message": "มืด"
+   },
+   "dark_theme_detected": {
+      "message": "ตรวจพบธีมมืด"
+   },
+   "detect_dark_theme": {
+      "message": "ตรวจหาธีมมืด"
+   },
+   "detect_website_dark_theme": {
+      "message": "ตรวจหาธีมมืดของเว็บไซต์"
+   },
+   "donate": {
+      "message": "สนับสนุน"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "เปิดใช้งานสำหรับทุกเว็บไซต์ตามค่าเริ่มต้น"
+   },
+   "enabled_by_default": {
+      "message": "เปิดใช้งานโดยค่าเริ่มต้น"
+   },
+   "engine_dynamic": {
+      "message": "ไดนามิค"
+   },
+   "engine_filter": {
+      "message": "ฟิลเตอร์"
+   },
+   "engine_filter_plus": {
+      "message": "ฟิลเตอร์+"
+   },
+   "engine_static": {
+      "message": "คงที่"
+   },
+   "extension_description": {
+      "message": "เปลี่ยนเป็นโหมดมืดให้กับทุกๆเว็บเพื่อปกป้องสายตาของคุณ ใช้ธีมสีมืดสำหรับตอนกลางคืนและการท่องเว็บในชีวิตประจำวัน"
+   },
+   "extension_toggle_shortcut": {
+      "message": "แป้นพิมพ์ลัดส่วนขยายเปิด/ปิด"
+   },
+   "filter": {
+      "message": "ฟิลเตอร์"
+   },
+   "grayscale": {
+      "message": "สีเทา"
+   },
+   "help": {
+      "message": "ช่วยเหลือ"
+   },
+   "invert_listed_only": {
+      "message": "เว็บที่จะสลับสี"
+   },
+   "latitude": {
+      "message": "ละติจูด"
+   },
+   "learn_more": {
+      "message": "เรียนรู้เพิ่มเติม"
+   },
+   "light": {
+      "message": "สว่าง"
+   },
+   "loading_please_wait": {
+      "message": "กำลังโหลด กรุณารอสักครู่"
+   },
+   "local_files_forbidden": {
+      "message": "ไม่อนุญาตให้เข้าถึง\nไฟล์ในเครื่อง"
+   },
+   "longitude": {
+      "message": "ลองจิจูด"
+   },
+   "mobile": {
+      "message": "มือถือ"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader พร้อมใช้งานแล้ว เรียนรู้เพิ่มเติม"
+   },
+   "mobile_text": {
+      "message": "ลดอาการปวดตาขณะอ่านหนังสือบนโทรศัพท์หรือแท็บเล็ต\nเพียงสแกนรหัส QR เพื่อติดตั้ง"
+   },
+   "mode": {
+      "message": "โหมด"
+   },
+   "more": {
+      "message": "อื่นๆ"
+   },
+   "news": {
+      "message": "ข่าว"
+   },
+   "not_invert_listed": {
+      "message": "เว็บที่ไม่อยากสลับสี"
+   },
+   "off": {
+      "message": "ปิด"
+   },
+   "on": {
+      "message": "เปิด"
+   },
+   "only_for": {
+      "message": "เฉพาะสำหรับ"
+   },
+   "only_for_description": {
+      "message": "ใช้การตั้งค่ากับเว็บปัจจุบันเท่านั้น"
+   },
+   "open_dev_tools": {
+      "message": "เครื่องมือนักพัฒนา"
+   },
+   "page_in_dark_list": {
+      "message": "เว็บนี้อยู่ในรายชื่อ\nที่มีธีมมืดให้ใช้"
+   },
+   "page_protected": {
+      "message": "หน้านี้ถูกป้องกัน\nโดยเว็บเบราเซอร์"
+   },
+   "pay_for_using": {
+      "message": "ชำระค่าใช้ Dark Reader"
+   },
+   "privacy": {
+      "message": "ความเป็นส่วนตัว"
+   },
+   "read_more": {
+      "message": "อ่านเพิ่มเติม"
+   },
+   "select_font": {
+      "message": "เลือกฟอนต์"
+   },
+   "sepia": {
+      "message": "สีซีเปีย"
+   },
+   "set_active_hours": {
+      "message": "ตั้งเวลาที่เริ่มทำงาน"
+   },
+   "set_location": {
+      "message": "เปิดใช้งานหลังจากพระอาทิตย์ตกดินที่สถานที่"
+   },
+   "setup_add_site_hotkey": {
+      "message": "ตั้งค่าคีย์ลัดเพื่อเพิ่มเว็บ"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "ตั้งค่าคีย์ลัดสำหรับ\nสลับโหมดเปิด-ปิด"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "ตั้งค่าคีย์ลัดสำหรับ\nสลับโหมดเว็บนี้"
+   },
+   "site_list": {
+      "message": "รายชื่อเว็บ"
+   },
+   "site_toggle": {
+      "message": "การสลับไซต์"
+   },
+   "store_listing": {
+      "message": "นี้เป็นส่วนเสริมที่คอยดูแลสายตาของคุณด้วยการเปิดโหมดกลางคืน และสร้างธีมมืดให้กับทุกๆเว็บ Dark Reader จะสลับสีสว่างๆให้เป็นสีดำหรือสีมืด และทำให้ง่ายต่อการอ่านตอนกลางคืน\n\nคุณสามารถปรับแต่งความสว่าง, คอนทราสต์, สีซีเปีย, โหมดมืด, ตั้งค่าฟอนต์ และทำรายการยกเว้นได้\n\nเราอาจขอให้คุณสนับสนุนการพัฒนาแอพด้วยการบริจาค คุณอาจเห็นข่าวเกี่ยวกับ Dark Reader ในป๊อปอัปการตั้งค่า มีเครื่องมือสำหรับนักพัฒนาสำหรับผู้ใช้ที่มีประสบการณ์\n\nDark Reader ไม่แสดงโฆษณา และไม่ส่งข้อมูลของผู้ใช้เด็ดขาด ตัวส่วนเสริมเป็นโอเพนซอร์สโดยสมบูรณ์ดูได้ที่ https://github.com/darkreader/darkreader\n\nก่อนที่จะติดตั้ง ปิดส่วนเสริมที่ทำหน้าที่เหมือนๆกันก่อนนะ ขอให้สนุกกับธีมสีมืดนะ!"
+   },
+   "support_out_work": {
+      "message": "สนับสนุนผลงานของเรา"
+   },
+   "system_dark_mode": {
+      "message": "ใช้โทนสีระบบ"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "เปิดใช้งานเมื่อระบบโหมดมืดอยู่บน"
+   },
+   "text_stroke": {
+      "message": "ขอบตัวหนังสือ"
+   },
+   "theme_generation_mode": {
+      "message": "โหมดการสร้างธีม"
+   },
+   "toggle_current_site": {
+      "message": "สลับโหมดในเว็บนี้"
+   },
+   "toggle_extension": {
+      "message": "สลับโหมดเปิด-ปิด"
+   },
+   "try_experimental_theme_engines": {
+      "message": "ลองใช้ธีมที่**อยู่ในระหว่างพัฒนา**:\n**ฟิลเตอร์+** เพิ่มความเข้มของสี มีการใช้ GPU\n**ธีมแบบคงที่** สร้างธีมสีได้ง่ายและรวดเร็ว\n**ธีมแบบไดนามิค** วิเคราะห์สีและภาพ"
+   },
+   "version": {
+      "message": "เวอร์ชัน"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader ฉลองครบรอบ 10 ปี\nกรุณาสนับสนุนการทำงานของเรา"
+   },
+   "website_toggle_shortcut": {
+      "message": "แป้นพิมพ์ลัดสลับเว็บไซต์"
+   }
+}

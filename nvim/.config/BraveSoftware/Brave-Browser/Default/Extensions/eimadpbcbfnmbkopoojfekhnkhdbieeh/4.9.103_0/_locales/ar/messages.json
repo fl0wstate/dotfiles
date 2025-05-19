@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "إضافة موقع إلى القائمة"
+   },
+   "all_settings": {
+      "message": "جميع الإعدادات"
+   },
+   "auto_day_at_location": {
+      "message": "تلقائي (اليوم في الموقع)"
+   },
+   "auto_day_time": {
+      "message": "تلقائي (وقت النهار)"
+   },
+   "auto_night_at_location": {
+      "message": "تلقائي (ليلاً في الموقع)"
+   },
+   "auto_night_time": {
+      "message": "تلقائي (وقت الليل)"
+   },
+   "auto_system_is_dark": {
+      "message": "تلقائي (النظام مظلم)"
+   },
+   "auto_system_is_light": {
+      "message": "تلقائي (النظام خفيف)"
+   },
+   "automation": {
+      "message": "التلقائية"
+   },
+   "brightness": {
+      "message": "السطوع"
+   },
+   "change_browser_theme": {
+      "message": "تغيير تنسيق المتصفح"
+   },
+   "click_to_set_shortcut": {
+      "message": "انقر لتعيين الاختصار"
+   },
+   "configure_automation": {
+      "message": "تكوين الأتمتة"
+   },
+   "configure_site_toggle": {
+      "message": "تكوين تبديل موقع الويب"
+   },
+   "contrast": {
+      "message": "التباين"
+   },
+   "custom_browser_theme_off": {
+      "message": "الافتراضي"
+   },
+   "custom_browser_theme_on": {
+      "message": "مخصص"
+   },
+   "dark": {
+      "message": "مظلم"
+   },
+   "dark_theme_detected": {
+      "message": "تم اكتشاف مظهر داكن"
+   },
+   "detect_dark_theme": {
+      "message": "كشف المظهر الداكن"
+   },
+   "detect_website_dark_theme": {
+      "message": "اكتشف المظهر المظلم لموقع الويب"
+   },
+   "donate": {
+      "message": "التبرع"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "ممكّن لجميع مواقع الويب بشكل افتراضي"
+   },
+   "enabled_by_default": {
+      "message": "ممكّن افتراضيًا"
+   },
+   "engine_dynamic": {
+      "message": "ديناميكي"
+   },
+   "engine_filter": {
+      "message": "فلتر"
+   },
+   "engine_filter_plus": {
+      "message": "فلتر+"
+   },
+   "engine_static": {
+      "message": "ثابت"
+   },
+   "extension_description": {
+      "message": "الوضع المظلم لجميع المواقع. اعتن بعينيك، استعمل التنسيق الداكن للتصفح اليومي في الليل."
+   },
+   "extension_toggle_shortcut": {
+      "message": "تمديد تشغيل / إيقاف اختصار لوحة المفاتيح"
+   },
+   "filter": {
+      "message": "الفلتر"
+   },
+   "grayscale": {
+      "message": "التدرج الرمادي"
+   },
+   "help": {
+      "message": "المساعدة"
+   },
+   "invert_listed_only": {
+      "message": "عكس المدرجة فقط"
+   },
+   "latitude": {
+      "message": "خط العرض"
+   },
+   "learn_more": {
+      "message": "يتعلم أكثر"
+   },
+   "light": {
+      "message": "فاتح"
+   },
+   "loading_please_wait": {
+      "message": "جار التحميل، يرجى الانتظار"
+   },
+   "local_files_forbidden": {
+      "message": "لا يسمح بالوصول\nملفات محلية"
+   },
+   "longitude": {
+      "message": "خط الطول"
+   },
+   "mobile": {
+      "message": "متحرك"
+   },
+   "mobile_link": {
+      "message": "يتوفر قارئ الظلام المحمول. يتعلم أكثر"
+   },
+   "mobile_text": {
+      "message": "قلل من إجهاد العين أثناء القراءة على هاتفك أو جهازك اللوحي.\nما عليك سوى مسح رمز الاستجابة السريعة للتثبيت."
+   },
+   "mode": {
+      "message": "الوضع"
+   },
+   "more": {
+      "message": "المزيد"
+   },
+   "news": {
+      "message": "الأخبار"
+   },
+   "not_invert_listed": {
+      "message": "عدم عكس المدرجة"
+   },
+   "off": {
+      "message": "معطّل"
+   },
+   "on": {
+      "message": "مفعّل"
+   },
+   "only_for": {
+      "message": "فقط لـ"
+   },
+   "only_for_description": {
+      "message": "تطبيق الإعدادات للموقع الحالي فقط"
+   },
+   "open_dev_tools": {
+      "message": "أدوات المطور"
+   },
+   "page_in_dark_list": {
+      "message": "هذه الصفحة موجودة في قائمة\nالمواقع المظلمة العامة"
+   },
+   "page_protected": {
+      "message": "هذه الصفحة محمية\nمن قبل المتصفح"
+   },
+   "pay_for_using": {
+      "message": "ادفع مقابل استخدام Dark Reader"
+   },
+   "privacy": {
+      "message": "الخصوصية"
+   },
+   "read_more": {
+      "message": "قراءة المزيد"
+   },
+   "select_font": {
+      "message": "اختر الخط"
+   },
+   "sepia": {
+      "message": "البني"
+   },
+   "set_active_hours": {
+      "message": "تعيين الساعات النشطة"
+   },
+   "set_location": {
+      "message": "تفعيل بعد غروب الشمس في الموقع"
+   },
+   "setup_add_site_hotkey": {
+      "message": "تعيين مفتاح اختصار لإضافة المواقع"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "إعداد الإضافة\nمفتاح اختصار التبديل"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "إعداد الموقع الحالي\nمفتاح اختصار التبديل"
+   },
+   "site_list": {
+      "message": "قائمة المواقع"
+   },
+   "site_toggle": {
+      "message": "تبديل الموقع"
+   },
+   "store_listing": {
+      "message": "تقوم هذه الإضافة بتفعيل الوضع الليلي عن طريق إنشاء تنسيقات مظلمة للمواقع أثناء التنقل. يقوم Dark Reader بعكس الألوان الساطعة لجعلها عالية التباين وسهلة القراءة في الليل.\n\nبإمكانك ضبط السطوع، التباين، الفلتر البني، الوضع المظلم، إعدادات الخط وقائمة التجاهل.\n\nقد نطلب منك دعم تطوير التطبيق من خلال تبرع. قد ترى أخبارًا حول Dark Reader في قائمة الإعدادات المنبثقة. هناك أدوات المطور للمستخدمين ذوي الخبرة.\n\nلا يقوم Dark Reader بعرض إعلانات ولا يقوم بإرسال بيانات المستخدم إلى أي مكان. الإضافة مفتوحة المصدر بالكامل https://github.com/darkreader/darkreader\n\nقبل التثبيت قم بتعطيل الإضافات المماثلة. استمتع بالمشاهدة!"
+   },
+   "support_out_work": {
+      "message": "ادعم عملنا"
+   },
+   "system_dark_mode": {
+      "message": "استعمال نظام ألوان النظام"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "تفعيل عندما يكون الوضع المظلم للنظام مفعّلاً"
+   },
+   "text_stroke": {
+      "message": "عرض النص"
+   },
+   "theme_generation_mode": {
+      "message": "وضع توليد التنسيق"
+   },
+   "toggle_current_site": {
+      "message": "تبديل الموقع الحالي"
+   },
+   "toggle_extension": {
+      "message": "تبديل الإضافة"
+   },
+   "try_experimental_theme_engines": {
+      "message": "قم بتجربة محركات التنسيقات **التجريبية**:\n**فلتر+** يحتفظ بتشبع الألوان، يستعمل GPU\n**التنسيق الثابت** يقوم بتوليد تنسيق بسيط وسريع\n**التنسيق الديناميكي** يقوم بتحليل الألوان والصور"
+   },
+   "version": {
+      "message": "إصدار"
+   },
+   "we_celebrate_10_years": {
+      "message": "يحتفل Dark Reader بمرور 10 سنوات.\nيرجى دعم عملنا."
+   },
+   "website_toggle_shortcut": {
+      "message": "موقع ويب تبديل اختصار لوحة المفاتيح"
+   }
+}

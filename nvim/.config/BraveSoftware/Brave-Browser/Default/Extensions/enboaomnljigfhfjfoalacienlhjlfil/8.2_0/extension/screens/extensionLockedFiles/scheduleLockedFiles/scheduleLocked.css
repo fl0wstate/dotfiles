@@ -1,0 +1,23 @@
+#scheduleLockedScreen #scheduleLockedMessage {
+  padding: 20px 0 20px 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-color-on-primary-background);
+}
+
+#scheduleLockedScreen #scheduleLockedMessage .scheduleLockedIcon {
+  color: var(--secondary-color-on-primary-background);
+  margin-bottom: 10px;
+  font-size: 42px;
+}
+
+#scheduleLockedScreen #scheduleLockedMessage .scheduleLockedHeadline {
+  font-size: 18px;
+  color: var(--primary-color-on-primary-background);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#scheduleLockedScreen #scheduleLockedMessage .scheduleLockedSubhedline {
+  font-size: 14px;
+}

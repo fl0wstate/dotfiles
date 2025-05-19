@@ -1,0 +1,20 @@
+.header-button {
+  border-width: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.no-shadow:hover {
+  box-shadow: unset;
+}

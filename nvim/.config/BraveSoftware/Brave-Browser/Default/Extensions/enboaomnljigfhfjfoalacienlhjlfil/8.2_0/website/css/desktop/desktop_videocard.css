@@ -1,0 +1,429 @@
+/* ------------------ Hide Includes Paid Promotion ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_includes_paid_promotion="true"] .YtInlinePlayerControlsTopLeftControls,
+
+/* ------------------ Disable Play on Hover ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_disable_play_on_hover="true"] #video-preview,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_disable_play_on_hover="true"] ytd-thumbnail-overlay-loading-preview-renderer[is-preview-loading] {
+  display: none !important;
+}
+
+/* ------------------ Remove Corner Radius ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  #thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  ytd-thumbnail:before,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .rich-thumbnail.ytd-ghost-grid-renderer,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .collections-stack-wiz__collection-stack1--medium,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .collections-stack-wiz__collection-stack2,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  .collections-stack-wiz__collection-stack1--large,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  #home-page-skeleton
+  .rich-thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_remove_corner_radius="true"]
+  #media-container.ytd-display-ad-renderer {
+  border-radius: 0px !important;
+}
+
+/* ------------------ Hide Views ------------------ */
+
+/** Other Video **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] #dismissible #metadata-line .inline-metadata-item:nth-child(3),
+
+/** Subscriptions **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] #dismissible #metadata-line span:nth-child(1),
+
+/** Playlist **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytd-playlist-video-renderer #video-info span:nth-child(1),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytd-playlist-video-renderer #video-info span:nth-child(2),
+
+/** Video Preview **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] #video-preview-container #metadata-line span:nth-child(3) {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"]
+  #metadata-line.ytd-video-meta-block
+  > .ytd-video-meta-block:not(:first-of-type):before {
+  display: none !important;
+}
+
+/** Channel **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_views="true"] ytd-channel-video-player-renderer #metadata-line .inline-metadata-item:nth-child(3),
+
+/* ------------------ Hide Time Since Video Published ------------------ */
+
+/** Other Video **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] #dismissible #metadata-line .inline-metadata-item:nth-child(4),
+
+/** Subscriptions **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] #dismissible #metadata-line span:nth-child(2),
+
+/** Playlist **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytd-playlist-video-renderer #video-info span:nth-child(3),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytd-playlist-video-renderer #video-info span:nth-child(2),
+
+/** Video Preview **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] #video-preview-container #metadata-line span:nth-child(4),
+
+/** Channel **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_metrics_hide_time_since_video_published="true"] ytd-channel-video-player-renderer #metadata-line .inline-metadata-item:nth-child(4) {
+  display: none !important;
+}
+
+/* ------------------ Hide Button - Menu ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_menu_button="true"]
+  #dismissible
+  ytd-menu-renderer {
+  display: none !important;
+}
+
+/* ------------------ Avatar  ----------------- */
+
+/* ---- Hide --- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  #dismissible
+  #avatar-container,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_hide_author_avatar="true"]
+  #dismissible
+  #channel-thumbnail {
+  display: none !important;
+}
+
+/* ---- Grayscale --- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_grayscale_author_avatar="true"]
+  #dismissible
+  #avatar-link,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_grayscale_author_avatar="true"]
+  #dismissible
+  #channel-thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_grayscale_author_avatar="true"]
+  #dismissible
+  #avatar {
+  filter: grayscale(1) !important;
+}
+
+/* ------------------ Hide Author Name ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_author_name="true"]
+  #dismissible
+  .ytd-channel-name,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_author_name="true"]
+  ytd-playlist-video-renderer
+  #channel-name,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_author_name="true"]
+  ytd-playlist-video-renderer
+  #separator {
+  display: none !important;
+}
+
+/* ------------------ Mirror Thumbnails ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  yt-thumbnail-view-model,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytd-thumbnail
+  img,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  #thumbnail-container
+  img,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytd-playlist-thumbnail
+  img,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_mirror_thumbnail="true"]
+  ytd-hero-playlist-thumbnail-renderer
+  img {
+  transform: scale(-1, 1) !important;
+}
+
+/* ------------------ Hide Badges - New, 4K, CC, etc.  ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_badges="true"] #dismissible ytd-badge-supported-renderer .badge-style-type-simple,
+
+/* ------------------ Hide Badges - Fundraiser  ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_fundraiser_badges="true"] #dismissible ytd-badge-supported-renderer .badge-style-type-ypc,
+
+/* ------------------ Hide Badges - Verified  ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_verified_badges="true"] #dismissible ytd-badge-supported-renderer .badge-style-type-verified,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_verified_badges="true"] #dismissible ytd-badge-supported-renderer .badge-style-type-verified-artist,
+
+/* ------------------ Hide Badges - Live  ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_live_badges="true"] #dismissible ytd-badge-supported-renderer .badge:has(path[d="M9 8c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1Zm1.11 2.13.71.71C11.55 10.11 12 9.11 12 8c0-1.11-.45-2.11-1.18-2.84l-.71.71c.55.55.89 1.3.89 2.13 0 .83-.34 1.58-.89 2.13Zm-4.93.71.71-.71C5.34 9.58 5 8.83 5 8c0-.83.34-1.58.89-2.13l-.71-.71C4.45 5.89 4 6.89 4 8c0 1.11.45 2.11 1.18 2.84Zm7.05 1.41.71.71C14.21 11.69 15 9.94 15 8s-.79-3.69-2.06-4.96l-.71.71C13.32 4.84 14 6.34 14 8c0 1.66-.68 3.16-1.77 4.25Zm-9.17.71.71-.71C2.68 11.16 2 9.66 2 8c0-1.66.68-3.16 1.77-4.25l-.71-.71C1.79 4.31 1 6.06 1 8s.79 3.69 2.06 4.96Z"]),
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_live_badges="true"] #dismissible ytd-thumbnail-overlay-time-status-renderer[overlay-style=LIVE] #time-status.ytd-thumbnail-overlay-time-status-renderer,
+
+/* ------------------ Hide Description ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_description="true"] #dismissible .metadata-snippet-container,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_description="true"] #dismissible .metadata-snippet-container-one-line,
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_description="true"] #dismissible #description-text,
+
+/* ------------------ Hide Chapters ----------------- */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_hide_video_card_chapters="true"] #dismissible #expandable-metadata {
+  display: none !important;
+}
+
+/* ------------------ Hide Video Duration ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_video_duration="true"] #dismissible .ytd-thumbnail-overlay-time-status-renderer,
+
+/* ------------------ Hide Title ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] #dismissible #video-title-link,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] #dismissible #video-title,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_title="true"] #dismissible #title-wrapper,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_title="hide"] ytd-playlist-video-renderer h3 {
+  display: none !important;
+}
+
+/* ------------------ Title Case ------------------ */
+
+/** Default **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  #video-title,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="default"]
+  #above-the-fold
+  h1 {
+  text-transform: none !important;
+}
+
+/** Lowercase **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  #video-title,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="lowerCase"]
+  #above-the-fold
+  h1 {
+  text-transform: lowercase !important;
+}
+
+/** Uppercase **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  #video-title,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="upperCase"]
+  #above-the-fold
+  h1 {
+  text-transform: uppercase !important;
+}
+
+/** Capitalize **/
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  #video-title,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_title_case="capitalize"]
+  #above-the-fold
+  h1 {
+  text-transform: capitalize !important;
+}
+
+/* ------------------ Display Full Title ------------------ */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_display_full_title="true"]
+  #video-title {
+  max-height: unset !important;
+  -webkit-line-clamp: unset !important;
+}
+
+/* ------------------ Hide Thumbnails ------------------ */
+
+/* Hide Ads Thumbnail */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"] ytd-ad-slot-renderer #media-container,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"] ytd-ad-slot-renderer #thumbnail-container,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"] ytd-ad-slot-renderer #text-image-container,
+
+/* Disable Play on Hover */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"] #video-preview,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"] ytd-thumbnail-overlay-loading-preview-renderer[is-preview-loading] {
+  display: none !important;
+}
+
+/* To normalize video duration */
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-hero-playlist-thumbnail-renderer,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  yt-collections-stack,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-playlist-thumbnail
+  #playlist-thumbnails {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-playlist-thumbnail {
+  height: inherit !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #dismissible.ytd-compact-video-renderer {
+  display: block !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail-overlay-resume-playback-renderer,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #mouseover-overlay.ytd-thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #hover-overlays:is(.ytd-thumbnail, .ytd-playlist-thumbnail),
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail
+  yt-image {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail {
+  max-width: inherit !important;
+  min-width: inherit !important;
+  height: inherit !important;
+  width: inherit !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #thumbnail-container.ytd-playlist-panel-video-renderer {
+  height: inherit !important;
+  width: inherit !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-compact-radio-renderer[collections]
+  .details.ytd-compact-radio-renderer {
+  margin-left: 0px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail-overlay-bottom-panel-renderer {
+  justify-content: start !important;
+  height: inherit !important;
+  margin-bottom: 0px !important;
+  background: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail-overlay-bottom-panel-renderer,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail-overlay-time-status-renderer {
+  position: static !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail-overlay-bottom-panel-renderer
+  yt-icon {
+  margin-left: 0px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #overlays.ytd-thumbnail,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #dismissible:has(a[href*="watch"]) {
+  display: block !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  yt-collection-thumbnail-view-model {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #thumbnail-container.ytd-playlist-panel-video-renderer
+  > ytd-thumbnail.ytd-playlist-panel-video-renderer {
+  position: static !important;
+  transform: inherit !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #thumbnail-container.ytd-playlist-panel-video-renderer {
+  overflow: inherit !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-playlist-panel-video-renderer
+  #index-container {
+  display: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #container.ytd-playlist-panel-video-renderer {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #thumbnail-container.ytd-playlist-panel-video-renderer {
+  margin-left: 0px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #meta.ytd-playlist-panel-video-renderer {
+  padding: 0px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-playlist-panel-video-renderer {
+  padding: 16px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #overlays.ytd-thumbnail
+  ytd-thumbnail-overlay-time-status-renderer,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .thumbnail-overlay-badge-shape.ytd-thumbnail-overlay-time-status-renderer {
+  margin: 0px !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-thumbnail:before,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-playlist-thumbnail:before,
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  .thumbnail-overlay-badge-shape.ytd-thumbnail-overlay-time-status-renderer
+  badge-shape {
+  padding: 0px !important;
+  background: none !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  #container.ytd-playlist-video-renderer {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+html[untrap_is_desktop="true"][untrap_global_enable="true"][untrap_video_card_hide_thumbnail="true"]
+  ytd-watch-next-secondary-results-renderer
+  ytd-compact-video-renderer {
+  margin-bottom: 20px !important;
+}

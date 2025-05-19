@@ -1,0 +1,49 @@
+<!doctype html>
+<!--
+  - This file is part of AdBlock <https://getadblock.com/>,
+  - Copyright (C) 2013-present  Adblock, Inc.
+  -
+  - AdBlock is free software: you can redistribute it and/or modify
+  - it under the terms of the GNU General Public License version 3 as
+  - published by the Free Software Foundation.
+  -
+  - AdBlock is distributed in the hope that it will be useful,
+  - but WITHOUT ANY WARRANTY; without even the implied warranty of
+  - MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  - GNU General Public License for more details.
+  -
+  - You should have received a copy of the GNU General Public License
+  - along with AdBlock.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+<html>
+  <head>
+    <title data-i18n="onpage_options_cookie_confirm_page_title"></title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="button/popup.css" />
+    <link rel="stylesheet" href="button/header.css" />
+    <link rel="stylesheet" href="button/components/components.css" />
+    <link rel="stylesheet" href="button/popup-subpages.css" />
+    <script src="polyfill.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="purify.min.js"></script>
+    <script src="adblock-functions.js"></script>
+    <script src="button/header.js" type="module"></script>
+    <script src="button/confirmation-page.js" type="module"></script>
+  </head>
+  <body id="default_theme" data-theme="default" data-extension="adblock" style="overflow: hidden">
+    <div id="wrapper">
+      <main class="primary_section animate-in">
+        <subsection-navigation data-title="cookie_consent_cutter_title"></subsection-navigation>
+        <div id="separator_help" class="separator"></div>
+        <confirm-text data-i18n="cookie_confirm_text"></confirm-text>
+        <div class="confirm-buttons-wrapper">
+          <cancel-action-button></cancel-action-button>
+          <action-button
+            data-action="confirmCookie"
+            data-label="confirm_cookie_enable"
+          ></action-button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

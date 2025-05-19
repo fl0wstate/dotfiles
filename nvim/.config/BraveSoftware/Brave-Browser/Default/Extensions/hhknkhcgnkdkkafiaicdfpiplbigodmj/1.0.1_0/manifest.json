@@ -1,0 +1,22 @@
+{
+   "action": {
+      "default_popup": "views/index/index.html"
+   },
+   "background": {
+      "service_worker": "service_worker/background.js",
+      "type": "module"
+   },
+   "description": "Technology Lookup is a tool that you can use to identify what technology was used to build a website by simply entering its URL.",
+   "icons": {
+      "128": "assets/images/icon-technology-lookup.png",
+      "16": "assets/images/icon-technology-lookup.png",
+      "32": "assets/images/icon-technology-lookup.png",
+      "48": "assets/images/icon-technology-lookup.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy9HclnUsRmRAvfAAX3dhCN+mS56ZJ5PRkxYId8MPXJXmrVkTGEqG0B3K5M0yn2AoZo9T+xrFPpKUICKq1DDn52+lin30GdOCba8X13fKi8O09cJ14hQVkvnNcac9HCJo4zuvsj6kOTHjtdkdf0AThicQBaOEGzn7R+TRFY3oc/9nbSFLgKTqHr7ScCJsntQLjnu1m7qx6tpZCgBfe9cOnj6ImwD2pLjTAVZYZYOd58VczyN2/dWerWHPcDvVFpWJ6AYUXcn4ITMbvK4wt6+D47dMaJS8gflTWxU4z6tcYBH+JSDSjxbIA3//97PCeHfz7MSNaF/NbmsYdZ1eGyrEHQIDAQAB",
+   "manifest_version": 3,
+   "name": "Technology Lookup - cmlabs SEO Tools",
+   "permissions": [ "storage", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

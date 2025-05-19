@@ -1,0 +1,239 @@
+{
+   "add_site_to_list": {
+      "message": "Adaugă siteul la listă"
+   },
+   "all_settings": {
+      "message": "Toate setările"
+   },
+   "auto_day_at_location": {
+      "message": "Auto (zi la locație)"
+   },
+   "auto_day_time": {
+      "message": "Auto (zi)"
+   },
+   "auto_night_at_location": {
+      "message": "Auto (noapte la locație)"
+   },
+   "auto_night_time": {
+      "message": "Auto (noapte)"
+   },
+   "auto_system_is_dark": {
+      "message": "Auto (sistemul este întunecat)"
+   },
+   "auto_system_is_light": {
+      "message": "Auto (sistemul este ușor)"
+   },
+   "automation": {
+      "message": "Automatizare"
+   },
+   "brightness": {
+      "message": "Luminozitate"
+   },
+   "change_browser_theme": {
+      "message": "Schimbă tema navigatorului"
+   },
+   "click_to_set_shortcut": {
+      "message": "Faceți clic pentru a seta comanda rapidă"
+   },
+   "configure_automation": {
+      "message": "Configurați automatizarea"
+   },
+   "configure_site_toggle": {
+      "message": "Configurați comutarea site-ului web"
+   },
+   "contrast": {
+      "message": "Contrast"
+   },
+   "custom_browser_theme_off": {
+      "message": "Implicită"
+   },
+   "custom_browser_theme_on": {
+      "message": "Particularizată"
+   },
+   "dark": {
+      "message": "Întunecat"
+   },
+   "dark_theme_detected": {
+      "message": "Temă întunecată detectată"
+   },
+   "detect_dark_theme": {
+      "message": "Detectează tema întunecată"
+   },
+   "detect_website_dark_theme": {
+      "message": "Detectați propria temă întunecată a site-ului"
+   },
+   "donate": {
+      "message": "Donează"
+   },
+   "enable_for_all_sites_by_default": {
+      "message": "Activat pentru toate site-urile web în mod implicit"
+   },
+   "enabled_by_default": {
+      "message": "Activat implicit"
+   },
+   "engine_dynamic": {
+      "message": "Dinamic"
+   },
+   "engine_filter": {
+      "message": "Filtru"
+   },
+   "engine_filter_plus": {
+      "message": "Filtru+"
+   },
+   "engine_static": {
+      "message": "Static"
+   },
+   "extension_description": {
+      "message": "Temă întunecată pentru orice site. Ai grijă de ochii tăi, folosește Dark Reader pentru cititul noaptea și de zi cu zi."
+   },
+   "extension_toggle_shortcut": {
+      "message": "Comandă rapidă de la tastatură activată/dezactivată pentru extensie"
+   },
+   "filter": {
+      "message": "Filtru"
+   },
+   "grayscale": {
+      "message": "Scară de gri"
+   },
+   "help": {
+      "message": "Ajutor"
+   },
+   "invert_listed_only": {
+      "message": "Inversez doar lista"
+   },
+   "latitude": {
+      "message": "Latitudine"
+   },
+   "learn_more": {
+      "message": "Află mai multe"
+   },
+   "light": {
+      "message": "Luminos"
+   },
+   "loading_please_wait": {
+      "message": "Se încarcă, vă rog așteptați"
+   },
+   "local_files_forbidden": {
+      "message": "Nu este permis accesul\nfisiere locale"
+   },
+   "longitude": {
+      "message": "Longitudine"
+   },
+   "mobile": {
+      "message": "Mobil"
+   },
+   "mobile_link": {
+      "message": "Mobile Dark Reader este disponibil. Află mai multe"
+   },
+   "mobile_text": {
+      "message": "Reduceți oboseala ochilor în timp ce citiți pe telefon sau tabletă.\nPur și simplu scanați codul QR pentru a instala."
+   },
+   "mode": {
+      "message": "Mod"
+   },
+   "more": {
+      "message": "Mai mult"
+   },
+   "news": {
+      "message": "Știri"
+   },
+   "not_invert_listed": {
+      "message": "Nu inversez lista"
+   },
+   "off": {
+      "message": "Oprit"
+   },
+   "on": {
+      "message": "Pornit"
+   },
+   "only_for": {
+      "message": "Doar pentru"
+   },
+   "only_for_description": {
+      "message": "Aplică setările doar pentru siteul curent"
+   },
+   "open_dev_tools": {
+      "message": "Instrumente"
+   },
+   "page_in_dark_list": {
+      "message": "Acest site este în\nLista Întunecată globală"
+   },
+   "page_protected": {
+      "message": "Această pagină este protejată\nde navigator"
+   },
+   "pay_for_using": {
+      "message": "Plătiți pentru utilizarea Dark Reader"
+   },
+   "privacy": {
+      "message": "Confidenț."
+   },
+   "read_more": {
+      "message": "Citește mai mult"
+   },
+   "select_font": {
+      "message": "Selectează un font"
+   },
+   "sepia": {
+      "message": "Sepia"
+   },
+   "set_active_hours": {
+      "message": "Setați orele de activitate"
+   },
+   "set_location": {
+      "message": "Activați după apusul soarelui în locația"
+   },
+   "setup_add_site_hotkey": {
+      "message": "Setează scurtătura pentru adăugare site"
+   },
+   "setup_hotkey_toggle_extension": {
+      "message": "Setează extensia\nscurtătură comutare"
+   },
+   "setup_hotkey_toggle_site": {
+      "message": "Setează siteul curent\nscurtătura de comutare"
+   },
+   "site_list": {
+      "message": "Listă siteuri"
+   },
+   "site_toggle": {
+      "message": "Comutarea site-ului"
+   },
+   "store_listing": {
+      "message": "Această extensie, care se îngrijește de ochii tăi, permite activarea modului de noapte creând pe loc o temă întunecată pentru siteuri. Dark Reader inversează culorile luminoase mărindu-le contrastul și făcându-le ușor de citit noptea.\n\nPoți ajusta luminozitatea, contrastul, filtrul sepia, modul întunecat, setările fontului si lista siteurilor de ignorat.\n\nVă putem cere să susțineți dezvoltarea aplicației printr-o donație. Este posibil să vedeți știri despre Dark Reader în fereastra pop-up de setări. Există instrumente pentru dezvoltatori pentru utilizatorii experimentați.\n\nDark Reader nu afișează reclame și nu trimite datele utilizatorului nicăieri. Este în întregime open-source https://github.com/darkreader/darkreader\n\nÎnainte de instalare dezactivează extensile similare. Vizionare plăcută!"
+   },
+   "support_out_work": {
+      "message": "Sprijină-ne munca"
+   },
+   "system_dark_mode": {
+      "message": "Utilizați schema de culori sistem"
+   },
+   "system_dark_mode_chromium_warning": {
+      "message": "This option might not work due to\na bug in your browser"
+   },
+   "system_dark_mode_description": {
+      "message": "Activați când modul întunecat sistem este pornit"
+   },
+   "text_stroke": {
+      "message": "Contur text"
+   },
+   "theme_generation_mode": {
+      "message": "Modul de generare teme"
+   },
+   "toggle_current_site": {
+      "message": "Comută siteul curent"
+   },
+   "toggle_extension": {
+      "message": "Comută extensia"
+   },
+   "try_experimental_theme_engines": {
+      "message": "Încearcă motoarele cu teme **experimentale**:\n**Filtru+** păstrează saturația culorilor, folosește GPU\n**Tema statică** generează o temă simplă si rapidă\n**Tema dinamică** analizeză culorile si imamginile"
+   },
+   "version": {
+      "message": "Versiune"
+   },
+   "we_celebrate_10_years": {
+      "message": "Dark Reader aniversează 10 ani.\nVă rugăm să ne susțineți munca."
+   },
+   "website_toggle_shortcut": {
+      "message": "Comandă rapidă de la tastatură pentru comutarea site-ului"
+   }
+}

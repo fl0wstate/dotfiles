@@ -1,0 +1,88 @@
+2/26/2025, 8:14:46 AM UTC 0: 
+
+----------------------------------------------
+2/26/2025, 8:14:46 AM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+2/26/2025, 8:14:46 AM UTC 2: ✅ webContents.created web1 ""
+2/26/2025, 8:14:46 AM UTC 3: ✅ window.created win1 "discord"
+2/26/2025, 8:14:46 AM UTC 4: ✅ webContents.did-finish-load web1
+2/26/2025, 8:15:05 AM UTC 5: ✅ webContents.created web2 ""
+2/26/2025, 8:15:05 AM UTC 6: ✅ window.created win2 "Discord"
+2/26/2025, 8:15:17 AM UTC 7: ✅ webContents.did-finish-load web2
+2/26/2025, 8:15:17 AM UTC 8: window.close win1
+2/26/2025, 8:15:17 AM UTC 9: webContents.destroyed web1
+2/26/2025, 8:15:17 AM UTC 10: window.closed win1
+2/26/2025, 8:17:00 AM UTC 11: window.close win2
+2/26/2025, 11:55:16 AM UTC 12: before-quit
+2/26/2025, 11:55:16 AM UTC 13: window.close win2
+2/27/2025, 9:24:44 PM UTC 0: 
+
+----------------------------------------------
+2/27/2025, 9:24:44 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+2/27/2025, 9:24:44 PM UTC 2: ✅ webContents.created web1 ""
+2/27/2025, 9:24:44 PM UTC 3: ✅ window.created win1 "discord"
+2/27/2025, 9:24:44 PM UTC 4: ✅ webContents.did-finish-load web1
+2/27/2025, 9:24:45 PM UTC 5: ✅ webContents.created web2 ""
+2/27/2025, 9:24:45 PM UTC 6: ✅ window.created win2 "Discord"
+2/27/2025, 9:24:48 PM UTC 7: ✅ webContents.did-finish-load web2
+2/27/2025, 9:24:49 PM UTC 8: window.close win1
+2/27/2025, 9:24:49 PM UTC 9: webContents.destroyed web1
+2/27/2025, 9:24:49 PM UTC 10: window.closed win1
+2/27/2025, 9:29:09 PM UTC 11: window.close win2
+2/28/2025, 11:22:52 AM UTC 12: before-quit
+3/4/2025, 9:16:09 PM UTC 0: 
+
+----------------------------------------------
+3/4/2025, 9:16:09 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+3/4/2025, 9:16:09 PM UTC 2: ✅ webContents.created web1 ""
+3/4/2025, 9:16:09 PM UTC 3: ✅ window.created win1 "discord"
+3/4/2025, 9:16:09 PM UTC 4: ✅ webContents.did-finish-load web1
+3/4/2025, 9:16:18 PM UTC 5: ✅ webContents.created web2 ""
+3/4/2025, 9:16:18 PM UTC 6: ✅ window.created win2 "Discord"
+3/4/2025, 9:16:21 PM UTC 7: ✅ webContents.did-finish-load web2
+3/4/2025, 9:16:21 PM UTC 8: window.close win1
+3/4/2025, 9:16:21 PM UTC 9: webContents.destroyed web1
+3/4/2025, 9:16:21 PM UTC 10: window.closed win1
+3/4/2025, 11:49:57 PM UTC 11: window.close win2
+3/5/2025, 12:29:03 AM UTC 12: before-quit
+3/5/2025, 12:29:03 AM UTC 13: window.close win2
+3/6/2025, 11:48:58 AM UTC 0: 
+
+----------------------------------------------
+3/6/2025, 11:48:58 AM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+3/6/2025, 11:48:58 AM UTC 2: ✅ webContents.created web1 ""
+3/6/2025, 11:48:58 AM UTC 3: ✅ window.created win1 "discord"
+3/6/2025, 11:48:58 AM UTC 4: ✅ webContents.did-finish-load web1
+3/6/2025, 11:49:09 AM UTC 5: ✅ webContents.created web2 ""
+3/6/2025, 11:49:09 AM UTC 6: ✅ window.created win2 "Discord"
+3/6/2025, 11:49:13 AM UTC 7: ✅ webContents.did-finish-load web2
+3/6/2025, 11:49:13 AM UTC 8: window.close win1
+3/6/2025, 11:49:13 AM UTC 9: webContents.destroyed web1
+3/6/2025, 11:49:13 AM UTC 10: window.closed win1
+3/6/2025, 11:53:16 PM UTC 11: before-quit
+3/6/2025, 11:53:16 PM UTC 12: window.close win2
+3/6/2025, 11:53:16 PM UTC 13: ❌ child-process-gone {
+  type: 'Utility',
+  reason: 'killed',
+  exitCode: 15,
+  serviceName: 'audio.mojom.AudioService',
+  name: 'Audio Service'
+}
+3/7/2025, 7:34:00 PM UTC 0: 
+
+----------------------------------------------
+3/7/2025, 7:34:00 PM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+3/7/2025, 7:34:00 PM UTC 2: ✅ webContents.created web1 ""
+3/7/2025, 7:34:00 PM UTC 3: ✅ window.created win1 "discord"
+3/7/2025, 7:34:00 PM UTC 4: ✅ webContents.did-finish-load web1
+3/7/2025, 7:34:01 PM UTC 5: ✅ webContents.created web2 ""
+3/7/2025, 7:34:01 PM UTC 6: ✅ window.created win2 "Discord"
+3/7/2025, 7:34:05 PM UTC 7: ✅ webContents.did-finish-load web2
+3/7/2025, 7:34:05 PM UTC 8: window.close win1
+3/7/2025, 7:34:05 PM UTC 9: webContents.destroyed web1
+3/7/2025, 7:34:05 PM UTC 10: window.closed win1
+3/7/2025, 10:46:23 PM UTC 11: window.close win2
+3/8/2025, 3:14:25 AM UTC 0: 
+
+----------------------------------------------
+3/8/2025, 3:14:25 AM UTC 1: Discord starting: {"releaseChannel":"stable","version":"0.0.87"}, modulepath: /home/flowy/.config/discord/0.0.87/modules
+3/8/2025, 10:14:32 AM UTC 12: before-quit

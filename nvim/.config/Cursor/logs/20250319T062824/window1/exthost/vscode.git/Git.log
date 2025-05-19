@@ -1,0 +1,36 @@
+2025-03-19 06:28:28.622 [info] [main] Log level: Info
+2025-03-19 06:28:28.622 [info] [main] Validating found git in: "git"
+2025-03-19 06:28:28.622 [info] [main] Using git "2.48.1" from "git"
+2025-03-19 06:28:28.622 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-19 06:28:28.622 [info] > git rev-parse --show-toplevel [7ms]
+2025-03-19 06:28:28.622 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2025-03-19 06:28:28.622 [info] [Model][openRepository] Opened repository: /home/flowy/work/safaribookings
+2025-03-19 06:28:29.245 [info] > git rev-parse --show-toplevel [595ms]
+2025-03-19 06:28:29.245 [info] > git config --get commit.template [605ms]
+2025-03-19 06:28:29.333 [info] > git rev-parse --show-toplevel [31ms]
+2025-03-19 06:28:29.357 [info] > git rev-parse --show-toplevel [12ms]
+2025-03-19 06:28:29.358 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mk refs/remotes/mk [26ms]
+2025-03-19 06:28:29.379 [info] > git rev-parse --show-toplevel [8ms]
+2025-03-19 06:28:29.420 [info] > git status -z -uall [28ms]
+2025-03-19 06:28:29.421 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2025-03-19 06:28:29.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mk refs/remotes/mk [14ms]
+2025-03-19 06:28:29.461 [info] > git rev-parse --show-toplevel [43ms]
+2025-03-19 06:28:29.464 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-19 06:28:29.468 [info] > git config --local branch.mk.vscode-merge-base [7ms]
+2025-03-19 06:28:29.468 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-19 06:28:29.480 [info] > git config --get commit.template [32ms]
+2025-03-19 06:28:29.483 [info] > git reflog mk --grep-reflog=branch: Created from *. [4ms]
+2025-03-19 06:28:29.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mk refs/remotes/mk [36ms]
+2025-03-19 06:28:29.541 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main [47ms]
+2025-03-19 06:28:29.568 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/remotes/origin/main [17ms]
+2025-03-19 06:28:29.622 [info] > git config --local branch.mk.vscode-merge-base origin/main [44ms]
+2025-03-19 06:28:29.657 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mk refs/remotes/mk [3ms]
+2025-03-19 06:28:29.667 [info] > git config --get commit.template [24ms]
+2025-03-19 06:28:29.680 [info] > git config --local branch.mk.vscode-merge-base [14ms]
+2025-03-19 06:28:29.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/mk refs/remotes/mk [14ms]
+2025-03-19 06:28:29.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-03-19 06:28:29.709 [info] > git merge-base refs/heads/mk refs/remotes/origin/mk [6ms]
+2025-03-19 06:28:29.794 [info] > git status -z -uall [12ms]
+2025-03-19 06:28:29.795 [info] > git diff --name-status -z --diff-filter=ADMR e8858b07befe23d82cf4379ec6ded6b2304424b9...refs/remotes/origin/mk [76ms]
+2025-03-19 06:28:29.883 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [90ms]
+2025-03-19 06:28:29.886 [info] > git check-ignore -v -z --stdin [80ms]
