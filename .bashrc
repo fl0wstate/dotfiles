@@ -9,10 +9,10 @@ alias grep='grep --color=auto'
 set -o vi
 
 export TERM="xterm-256color"
-export DISPLAY=:0
+# export DISPLAY=:0
 export EDITOR='nvim'
 export TERMINAL=/usr/bin/ghostty
-export LIBGL_ALWAYS_INDIRECT=1
+# export LIBGL_ALWAYS_INDIRECT=1
 
 # Utils ---------------------------------
 source ~/.bash_utils
@@ -21,7 +21,8 @@ source /usr/share/fzf/completion.bash
 
 #----------------------------------------
 # Bash Aliases
-alias ls='ls --color=auto'
+alias ls='fd -a'
+alias connect=connect
 alias font='fc-cache -fv'
 alias tar='tar -xvzf $@'
 alias lazy='lazygit'
@@ -43,6 +44,7 @@ alias nconf='nvim ~/.config/neofetch/config.conf'
 alias vconf='nvim ~/.config/nvim/lua'
 alias ll='ls -la'
 alias l="ls -Gha"
+alias wifi=reconnect
 alias vb='nvim ~/.bashrc'
 alias nv='nvim'
 alias rd=readmefile
@@ -58,7 +60,7 @@ alias lgit='exa --long --header --inode --git'
 alias ls='exa --icons'
 alias gbc=git_checkout_braches
 alias vm=multipile_files
-alias ds='rm -vr ~/.local/state/nvim/swap//%home%archmk%"$1".swp'
+alias ds='rm -vr ~/.local/state/nvim/swap//%home%flowy%*.swp'
 alias gt='ghostty +list-themes'
 alias val=valgrind_checker
 alias fl=create_open_executable_file
@@ -82,6 +84,12 @@ alias ginit="git init"
 alias remote="git remote add origin"
 #----------------------------GIT_COMMANDS-------------------------------------------#
 
+# -------------------------Docker Commands -----------------------------------------#
+alias run-app='docker-compose up'
+alias kill-app='docker-compose down'
+alias dps='docker ps'
+# -------------------------Docker Commands -----------------------------------------#
+
 # Functions
 # this will happen when you have a maraidb server running
 access_database() {
@@ -99,7 +107,7 @@ fun() {
 }
 
 function level_deep {
-  exa --long --tree --level="${1:-1}"
+  exa --long --tree --level="${1:-1}" --color=always --no-permissions --no-filesize --no-time --no-user
 }
 
 git_checkout_braches() {
@@ -117,7 +125,7 @@ rmv() {
 valgrind_checker() {
   # still more better ways to implement this
   # only checkout for the definetly lost memory, and possibly lost memory
-  valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all -v "$@"
+  valgrind --leak-check=full --track-origins=yes --show-leak-kinds=all "$@"
 }
 
 # Prompt Style ----------------------------------------------
@@ -132,7 +140,7 @@ export RANDOM=$(date +%s)
 export ignition=${PROMPTS[$((RANDOM % ${#PROMPTS[@]}))]}
 
 # Profile ---------------------------------------------------
-export PS1="\[\e[0;32m\]${YELLOW}\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\]\n${blue}${ignition}${reset}${white}"
+export PS1="${red}フローイ${reset}\[\e[0;32m\]${YELLOW}\W\[\e[m\]\[\e[32m\]\`parse_git_branch\`\[\e[m\]\n${blue}${ignition}${reset}${white}"
 
 function parse_git_branch() {
   BRANCH=$(git branch 2>/dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
@@ -161,12 +169,12 @@ function parse_git_dirty {
 
   # Print status with counts
   printf " {"
-  if [[ $RENAMED_COUNT -gt 0 ]]; then printf " ":$RENAMED_COUNT; fi                              # File renamed
-  if [[ $AHEAD_COUNT -gt 0 ]]; then printf " :$AHEAD_COUNT"; fi                                  # Branch is ahead
-  if [[ $NEW_FILE_COUNT -gt 0 ]]; then printf " ${tan}$NEW_FILE_COUNT New${reset}"; fi            # New file added
-  if [[ $UNTRACKED_COUNT -gt 0 ]]; then printf " ${purple}$UNTRACKED_COUNT Untracked${reset}"; fi # Untracked files
-  if [[ $MODIFIED_COUNT -gt 0 ]]; then printf " ${blue}$MODIFIED_COUNT Modified${reset}"; fi      # File modified
-  if [[ $DELETED_COUNT -gt 0 ]]; then printf " ${red}💀 $DELETED_COUNT Deleted${reset}"; fi        # File deleted
+  if [[ $RENAMED_COUNT -gt 0 ]]; then printf " ":$RENAMED_COUNT; fi                          # File renamed
+  if [[ $AHEAD_COUNT -gt 0 ]]; then printf " :$AHEAD_COUNT"; fi                              # Branch is ahead
+  if [[ $NEW_FILE_COUNT -gt 0 ]]; then printf " ${tan}$NEW_FILE_COUNT New${reset}"; fi        # New file added
+  if [[ $UNTRACKED_COUNT -gt 0 ]]; then printf " ${purple}$UNTRACKED_COUNT みついせき${reset}"; fi # Untracked files
+  if [[ $MODIFIED_COUNT -gt 0 ]]; then printf " ${blue}$MODIFIED_COUNT へんこうあり${reset}"; fi    # File modified
+  if [[ $DELETED_COUNT -gt 0 ]]; then printf " ${red}💀 $DELETED_COUNT さくじょ${reset}"; fi       # File deleted
   printf " }"
   # Clean Working Tree
   if [[ $RENAMED_COUNT -eq 0 && $AHEAD_COUNT -eq 0 && $NEW_FILE_COUNT -eq 0 && $UNTRACKED_COUNT -eq 0 && $MODIFIED_COUNT -eq 0 && $DELETED_COUNT -eq 0 ]]; then
@@ -180,8 +188,58 @@ function nonzero_return() {
 }
 #--------------------------------------------------------------------------------
 
-function environment_activator {
-  source "$1"/bin/activate
+function environment_activator() {
+  # Default environment directory name if none provided
+  local env_dir="${1:-env}"
+
+  # Check if directory argument is provided and not empty
+  if [ -z "$env_dir" ]; then
+    echo "Using default environment directory: 'env'"
+  fi
+
+  # Check if the environment directory exists
+  if [ ! -d "$env_dir" ]; then
+    echo "Virtual environment directory '$env_dir' not found."
+    echo "Creating new virtual environment..."
+
+    # Check if python3 is available
+    if ! command -v python3 &>/dev/null; then
+      echo "Error: python3 is not installed. Please install Python first."
+      return 1
+    fi
+
+    # Create new virtual environment
+    python3 -m venv "$env_dir"
+
+    if [ $? -eq 0 ]; then
+      echo "Virtual environment created successfully!"
+    else
+      echo "Error: Failed to create virtual environment."
+      return 1
+    fi
+  fi
+
+  # Check for activation script based on OS
+  if [ -f "$env_dir/bin/activate" ]; then
+    # Linux/MacOS
+    source "$env_dir/bin/activate"
+  elif [ -f "$env_dir/Scripts/activate" ]; then
+    # Windows
+    source "$env_dir/Scripts/activate"
+  else
+    echo "Error: Could not find activation script in $env_dir"
+    return 1
+  fi
+
+  if [ $? -eq 0 ]; then
+    echo "Virtual environment '$env_dir' activated successfully!"
+    # Show Python version and path for confirmation
+    python --version
+    which python
+  else
+    echo "Error: Failed to activate virtual environment."
+    return 1
+  fi
 }
 
 function create_open_executable_file {
@@ -265,8 +323,35 @@ function y() {
   rm -f -- "$tmp"
 }
 
+function reconnect {
+  echo "Recoonecting to the network"
+  read -p "Paste the wifi connection uuid: " uuid
+  nmcli c up $uuid && echo "Ping google.com...."
+}
+
+# get it done with
+function connect {
+  echo "Setting up a wifi connection..."
+  read -p "Enter your network name: " net
+  read -p "Enter the network pwd: " pwd
+  echo $net
+  echo $pwd
+  nmcli dev connect $net -p $pwd
+  x=5
+  echo -n "Connecting"
+  while [[ $x -ne 0 ]]; do
+    ((x--))
+    echo -n "."
+    sleep 0.5
+  done
+  echo
+}
+
 # uv
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig:$PKG_CONFIG_PATH
 alias gl="/home/flowy/glyph-1.0.10/zig-out/bin/glyph"
-export XAUTHORITY=/home/flowy/.Xauthority
 export TERM=xterm-256color
+. "/home/flowy/.deno/env"
+export PATH=$PATH:$(go env GOPATH)/bin
+export PATH="/home/flowy/Downloads/WebStorm-252.23892.411/bin:$PATH"
+. "$HOME/.cargo/env"

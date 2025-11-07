@@ -1,9 +1,7 @@
+
 configuration {
 /*	modes: "window,drun,run,ssh";*/
-	font: "ComicShannsMono Nerd Font 16";
-  window {
-    transparency: "real";
-    }
+	font: "Iosevka Term 18";
 /*	location: 0;*/
 /*	yoffset: 0;*/
 /*	xoffset: 0;*/
@@ -160,43 +158,43 @@ configuration {
 }
 
 * {
-    foreground:                  #a0a0a0;
-    background:                  #0d0d0d;
-    border-color:                #404040;
-    separatorcolor:              #404040;
+    foreground:                  #c1c1c1;
+    background:                  #202020;
+    border-color:                #444444;
+    separatorcolor:              #444444;
 
-    normal-foreground:           #a0a0a0;
-    normal-background:           #0d0d0d;
+    normal-foreground:           #c1c1c1;
+    normal-background:           #202020;
     
-    active-foreground:           #0d0d0d;
-    active-background:           #0d0d0d;
+    active-foreground:           #202020;
+    active-background:           #202020;
     
-    urgent-foreground:           #8a4a4a;
-    urgent-background:           #0d0d0d;
+    urgent-foreground:           #5f8787;
+    urgent-background:           #202020;
 
-    selected-normal-foreground:  #a0a0a0;
-    selected-normal-background:  #0d0d0d;
+    selected-normal-foreground:  #c1c1c1;
+    selected-normal-background:  #202020;
     
-    selected-active-foreground:  #0d0d0d;
-    selected-active-background:  #808080;
+    selected-active-foreground:  #202020;
+    selected-active-background:  #888888;
     
-    selected-urgent-foreground:  #0d0d0d;
-    selected-urgent-background:  #8a4a4a;
+    selected-urgent-foreground:  #202020;
+    selected-urgent-background:  #5f8787;
 
-    alternate-normal-foreground: #a0a0a0;
-    alternate-normal-background: #000000;
+    alternate-normal-foreground: #c1c1c1;
+    alternate-normal-background: #121212;
 
-    alternate-active-foreground: #808080;
-    alternate-active-background: #0d0d0d;
+    alternate-active-foreground: #999999;
+    alternate-active-background: #202020;
 
-    alternate-urgent-foreground: #8a4a4a;
-    alternate-urgent-background: #000000;
+    alternate-urgent-foreground: #5f8787;
+    alternate-urgent-background: #121212;
 
     spacing:                     2;
 }
 
 window {
-    background-color: rgba(13,13,13,0.8);
+    background-color: #202020;
     border:           0;
     padding:          0px;
 }
@@ -212,7 +210,7 @@ message {
 }
 
 textbox {
-    text-color:       #808080;
+    text-color:       #c1c1c1;
 }
 
 listview {
@@ -269,13 +267,13 @@ element alternate.active {
 }
 
 element-text {
-  highlight: underline #808080;
+  highlight: underline #9b8d7f;
 }
 
 scrollbar {
     width:            4px;
     border:           0;
-    handle-color:     #404040;
+    handle-color:     #444444;
     handle-width:     8px;
     padding:          0;
 }

@@ -11,7 +11,7 @@
 
 set $mod Mod4
 # FONT
-font pango:ibm plex mono 14
+font pango:Anka/Coder 18
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
@@ -19,6 +19,7 @@ font pango:ibm plex mono 14
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
+
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -113,16 +114,20 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
+set $ws1 "1:  ghostty"
+set $ws2 "2:  chrome"
+set $ws3 "3:  brave"
 set $ws4 "4"
-set $ws5 "5"
+set $ws5 "5:  servers"
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+
+# setting up default applications on different workspaces
+exec --no-startup-id i3-msg 'workspaces 1: ghostty; exec /usr/bin/ghostty'
+
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -234,13 +239,42 @@ client.placeholder       $surface1   $surface0 $surface1  $subtext0  $surface0
 client.background        $base
 
 # Start i3bar to display a workspace bar (plus the system information i3status
+bar {
+  status_command i3blocks
+  position bottom
+  separator_symbol "::"
+colors {
+  background #0d0d0d
+  statusline #a0a0a0
+  separator #4a4a4a
+
+  focused_workspace #0d0d0d #0d0d0d #a0a0a0
+  inactive_workspace #0d0d0d #0d0d0d #404040
+  active_workspace #0d0d0d #0d0d0d #a0a0a0
+  urgent_workspace #0d0d0d #0d0d0d #8a4a4a
+  binding_mode #0d0d0d #0d0d0d #a08080
+}
+  font pango:Anka/Coder 12
+  tray_output eDP
+}
+
+workspace 5 gaps horizontal 150
+workspace 5 gaps vertical 50
+workspace 5 gaps inner 10
+
+workspace 1 gaps horizontal 100
+workspace 1 gaps vertical 20
+workspace 1 gaps inner 10
 # finds out, if available)
 exec_always nitrogen --restore
 exec_always --no-startup-id picom
 
-
 # flameshot keybindings
 bindsym Print exec flameshot gui
+bindsym Pause exec "    \
+      maim  -s --hidecursor --highlight -b 3 --color=0.0,0.0,0.0,0.7 ~/Downloads/ScreentShots/$(date +%Y-%b-%d--%H-%M-%S_maim | tr A-Z a-z).png;\
+      i3-nagbar --message 'Screenshot created' --type warning &     sleep 3;\
+      pkill i3-nagbar"
 
 #set $app_picker App picker (f) flameshot
 
