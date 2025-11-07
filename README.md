@@ -19,11 +19,13 @@ My personal configuration files for various tools and applications i run on arch
 
 ## Home
 
-![image](https://github.com/user-attachments/assets/a6641e83-e54d-46b2-8a71-7401f357a230)
+![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-14-06_maim.png)
+
+![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-14-51_maim.png)
 
 ## Browser
 
-![image](https://github.com/user-attachments/assets/6f762c25-f040-4866-b5e2-ed6c20412136)
+![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-20-09_maim.png)
 
 ## 📦 Included Configurations
 
@@ -43,3 +45,7 @@ My personal configuration files for various tools and applications i run on arch
    ```
 
 2. Run the copy command to copy all the configurations to your `.config` folder
+
+   ```
+   cp -r ./dofiles  $HOME/.config
+   ```
