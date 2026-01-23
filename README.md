@@ -19,13 +19,16 @@ My personal configuration files for various tools and applications i run on arch
 
 ## Home
 
-![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-14-06_maim.png)
+![image](https://github.com/fl0wstate/dotfiles/blob/main/assets/2025-nov-07--07-32-40_maim.png)
 
-![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-14-51_maim.png)
+![image](https://github.com/fl0wstate/dotfiles/blob/main/assets/2025-nov-07--07-14-51_maim.png)
+
+![image](https://github.com/fl0wstate/dotfiles/blob/main/assets/2025-nov-07--07-12-41_maim.png)
+
 
 ## Browser
 
-![image](https://github.com/fl0wstate/dotfiles/blob/main/wallpapers/2025-nov-07--07-20-09_maim.png)
+![image](https://github.com/fl0wstate/dotfiles/blob/main/assets/2025-nov-07--07-20-09_maim.png)
 
 ## 📦 Included Configurations
 
