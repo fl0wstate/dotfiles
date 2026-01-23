@@ -55,6 +55,7 @@ return {
             },
         },
     },
+    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
     {
         "craftzdog/solarized-osaka.nvim",
         lazy = false,
@@ -64,7 +65,8 @@ return {
         {
             "LazyVim/LazyVim",
             opts = {
-                colorscheme = "solarized-osaka",
+                variant = "dark",
+                colorscheme = "gruvbox",
             },
         },
     },
@@ -102,11 +104,11 @@ return {
         priority = 1000,
         config = function()
             require("black-metal").setup({
-                theme = "venom",
+                theme = "black-metal",
                 variant = "dark",
-                transparent = true,
+                transparent = false,
             })
-            require("black-metal").load()
+            -- require("black-metal").load()
         end,
     },
 }
